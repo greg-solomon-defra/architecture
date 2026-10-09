@@ -22,7 +22,7 @@ These guardrails are a **draft** proposal. Comment on them by [opening an issue]
 
 <hr>
 
-## Narrative
+## Overview
 
 These guardrails help services create, acquire, use and share trusted data as an asset for the whole Defra group and its data users, by advising the following
 
