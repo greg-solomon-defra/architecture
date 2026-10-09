@@ -1256,7 +1256,7 @@
     },
     {
       "id": "GR-DATA-12",
-      "title": "DESIGN: Align with the enterprise data model",
+      "title": "CONTEXT: Align with the enterprise data model",
       "level": "should",
       "statement": "Design should begin with the enterprise data model, to ensure that an enterprise view of stakeholders, IT systems, and data designs is taken into sufficient consideration.",
       "area": "Data",

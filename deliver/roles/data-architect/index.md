@@ -21,7 +21,7 @@ You lead **12 guardrails**, often with other roles. Leading means making sure th
 | --- | --- | --- |
 | [GR-DATA-06](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) PROTECT: Protect sensitive data by design | Must | DPIA screening completed, showing whether personal data is involved |
 | [GR-SEC-03](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-03) Classify information | Must | Security classification and the types of data the service will handle identified |
-| [GR-DATA-12](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) DESIGN: Align with the enterprise data model | Should | Data model which complies with the data modelling standards |
+| [GR-DATA-12](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) CONTEXT: Align with the enterprise data model | Should | Data model which complies with the data modelling standards |
 | [GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Should | Shared entities the service needs identified, with their authoritative sources |
 
 More on the [discovery page](https://greg-solomon-defra.github.io/architecture/deliver/discovery/).
@@ -33,7 +33,7 @@ More on the [discovery page](https://greg-solomon-defra.github.io/architecture/d
 | [GR-DATA-06](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) PROTECT: Protect sensitive data by design | Must | Draft DPIA, with data minimisation and retention designed in |
 | [GR-SEC-03](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-03) Classify information | Must | Controls in the design that match the classification |
 | [GR-AI-05](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-05) Evaluate, monitor and threat model | Should | Evaluation plan for accuracy, bias and safety, and AI-specific threats in the threat model |
-| [GR-DATA-12](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) DESIGN: Align with the enterprise data model | Should | Data model which complies with the data modelling standards |
+| [GR-DATA-12](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) CONTEXT: Align with the enterprise data model | Should | Data model which complies with the data modelling standards |
 | [GR-DATA-01](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | Should | Each data set the service will create or hold identified, with a proposed information asset owner |
 | [GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Should | Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed |
 | [GR-DATA-03](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) STANDARDS: Use data standards identifiers | Should | Data model using the agreed data standards and identifiers |
@@ -48,7 +48,7 @@ More on the [alpha page](https://greg-solomon-defra.github.io/architecture/deliv
 | [GR-DATA-06](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) PROTECT: Protect sensitive data by design | Must | Approved DPIA, and retention and deletion built and tested |
 | [GR-DATA-09](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09) DISPOSAL: Retain and dispose of records properly | Must | Retention schedule identified for each type of record, and disposal built in |
 | [GR-AI-05](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-05) Evaluate, monitor and threat model | Should | Evaluation results for accuracy, bias and safety before release, and mitigations for AI threats tested |
-| [GR-DATA-12](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) DESIGN: Align with the enterprise data model | Should | Data model which complies with the data modelling standards |
+| [GR-DATA-12](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) CONTEXT: Align with the enterprise data model | Should | Data model which complies with the data modelling standards |
 | [GR-DATA-01](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | Should | Information asset register entries with a named owner for each data set |
 | [GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Should | The service reads from the authoritative sources as designed, tested with the source owners |
 | [GR-DATA-03](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) STANDARDS: Use data standards identifiers | Should | Data stored and exchanged using the agreed standards, checked in testing |
@@ -66,7 +66,7 @@ More on the [beta page](https://greg-solomon-defra.github.io/architecture/delive
 | [GR-DATA-06](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) PROTECT: Protect sensitive data by design | Must | DPIA reviewed when processing changes, and deletion running as designed |
 | [GR-DATA-09](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09) DISPOSAL: Retain and dispose of records properly | Must | Retention applied and records of permanent value identified for The National Archives |
 | [GR-AI-05](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-05) Evaluate, monitor and threat model | Should | Monitoring of model performance and drift in live, with evaluation repeated when the model or data changes |
-| [GR-DATA-12](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) DESIGN: Align with the enterprise data model | Should | Data model which complies with the data modelling standards |
+| [GR-DATA-12](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) CONTEXT: Align with the enterprise data model | Should | Data model which complies with the data modelling standards |
 | [GR-DATA-01](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | Should | Register entries and owners kept current |
 | [GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Should | Copies and refresh arrangements reviewed when sources change |
 | [GR-DATA-07](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) PUBLISH: Make your data open by default | Should | Link to the published open data and its licence |

@@ -24,7 +24,7 @@ These guardrails are a **draft** proposal. Comment on them by [opening an issue]
 
 ## Narrative
 
-Data architecture begins with a [DESIGN](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) phase, and with agreeing [OWNERSHIP](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) of the proposed data assets.
+Data architecture begins with defining the [CONTEXT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) and [OWNERSHIP](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) of the proposed data assets.
 
 Bring data into the solution architecture through [RE-USE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) of authoritative data sources (customers, organisations, land parcels, etc) and ensure [COMPLIANCE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) in the acquisition of any new data. Seek to [SHARE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04) data wherever it is appropriate to do so, but to classify and [PROTECT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) all sensitive data.
 
@@ -44,7 +44,7 @@ Each guardrail has an identifier, a level, a short rationale and a way to show y
 | <span class="rfc rfc--should">Should</span> | The strong default. There may be good reasons to differ. | Record why in an [architecture decision record](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/) and share it with your solution design authority. |
 | <span class="rfc rfc--could">Could</span> | Recommended good practice. | No action needed, but we would like to know what worked better. |
 
-## GR-DATA-12 DESIGN: Align with the enterprise data model {#gr-data-12}
+## GR-DATA-12 CONTEXT: Align with the enterprise data model {#gr-data-12}
 
 <span class="rfc rfc--should">Should</span> Design should begin with the enterprise data model, to ensure that an enterprise view of stakeholders, IT systems, and data designs is taken into sufficient consideration.
 

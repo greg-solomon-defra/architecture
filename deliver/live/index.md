@@ -66,7 +66,7 @@ These guardrails apply in live, taken from each guardrail's metadata. Meet every
     | [GR-API-05](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-05) No integration through shared databases | Integrations reviewed when the service or its dependencies change |
     | [GR-API-08](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-08) Make APIs discoverable | Entry in the platform API catalogue |
     | [GR-TECH-03](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-03) Plan your exit before you enter | Exit plan reviewed at contract renewal, with switching cost estimated |
-    | [GR-DATA-12](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) DESIGN: Align with the enterprise data model | Data model which complies with the data modelling standards |
+    | [GR-DATA-12](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) CONTEXT: Align with the enterprise data model | Data model which complies with the data modelling standards |
     | [GR-DATA-01](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | Register entries and owners kept current |
     | [GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Copies and refresh arrangements reviewed when sources change |
     | [GR-DATA-10](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) COMPLIANCE: Acquire new data safely | Research data handled the same way for ongoing research, and deletion checked |
