@@ -412,7 +412,7 @@
           This site is an alpha version and is still being developed in the open -
           your <a href="https://github.com/DEFRA/architecture/issues">feedback</a> will help us improve it.
           See the <a href="../../../about/roadmap/">roadmap</a>.
-          Last updated: <strong>6 October 2026</strong>.
+          Last updated: <strong>8 October 2026</strong>.
         </p>
         <p class="da-phase__text da-phase__version">
           Version in force:
@@ -5323,7 +5323,7 @@
 <p>This section is an early prototype that we are testing with users. It may change a lot, and some of it may be wrong. Check with your solution design authority before relying on it, and tell us what works and what does not through the feedback link above.</p>
 </div>
 <p>You make sure the data the service creates and uses is owned, standard, trustworthy and reusable across Defra.</p>
-<p>You lead <strong>10 guardrails</strong>, often with other roles. Leading means making sure the team meets them and can show it, not doing all the work. See them all in the <a href="../../../guardrails/library/#role=data-architect">guardrail library, filtered to your role</a>.</p>
+<p>You lead <strong>12 guardrails</strong>, often with other roles. Leading means making sure the team meets them and can show it, not doing all the work. See them all in the <a href="../../../guardrails/library/#role=data-architect">guardrail library, filtered to your role</a>.</p>
 <h2 id="your-guardrails-phase-by-phase">Your guardrails, phase by phase<a class="headerlink" href="#your-guardrails-phase-by-phase" title="Permanent link">&para;</a></h2>
 <h3 id="discovery">Discovery<a class="headerlink" href="#discovery" title="Permanent link">&para;</a></h3>
 <table>
@@ -5336,7 +5336,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> Protect personal data by design</td>
+<td><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> PROTECT: Protect sensitive data by design</td>
 <td>Must</td>
 <td><abbr title="Data protection impact assessment">DPIA</abbr> screening completed, showing whether personal data is involved</td>
 </tr>
@@ -5346,7 +5346,12 @@
 <td>Security classification and the types of data the service will handle identified</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> Use authoritative sources</td>
+<td><a href="../../../guardrails/data/#gr-data-12">GR-DATA-12</a> DESIGN: Align with the enterprise data model</td>
+<td>Should</td>
+<td>Data model which complies with the data modelling standards</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
 <td>Should</td>
 <td>Shared entities the service needs identified, with their authoritative sources</td>
 </tr>
@@ -5364,7 +5369,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> Protect personal data by design</td>
+<td><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> PROTECT: Protect sensitive data by design</td>
 <td>Must</td>
 <td>Draft <abbr title="Data protection impact assessment">DPIA</abbr>, with data minimisation and retention designed in</td>
 </tr>
@@ -5379,19 +5384,29 @@
 <td>Evaluation plan for accuracy, bias and safety, and AI-specific threats in the threat model</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> Every data set has an owner</td>
+<td><a href="../../../guardrails/data/#gr-data-12">GR-DATA-12</a> DESIGN: Align with the enterprise data model</td>
+<td>Should</td>
+<td>Data model which complies with the data modelling standards</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> OWNERSHIP: Assign an accountable owner to your data assets</td>
 <td>Should</td>
 <td>Each data set the service will create or hold identified, with a proposed information asset owner</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> Use authoritative sources</td>
+<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
 <td>Should</td>
 <td>Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-03">GR-DATA-03</a> Use agreed data standards and identifiers</td>
+<td><a href="../../../guardrails/data/#gr-data-03">GR-DATA-03</a> STANDARDS: Use data standards identifiers</td>
 <td>Should</td>
 <td>Data model using the agreed data standards and identifiers</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-13">GR-DATA-13</a> LINEAGE: Trace decisions to trusted data</td>
+<td>Should</td>
+<td>Decisions the service makes or supports identified, with the data each one depends on and its authoritative source</td>
 </tr>
 </tbody>
 </table>
@@ -5407,12 +5422,12 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> Protect personal data by design</td>
+<td><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> PROTECT: Protect sensitive data by design</td>
 <td>Must</td>
 <td>Approved <abbr title="Data protection impact assessment">DPIA</abbr>, and retention and deletion built and tested</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-09">GR-DATA-09</a> Retain and dispose of records properly</td>
+<td><a href="../../../guardrails/data/#gr-data-09">GR-DATA-09</a> DISPOSAL: Retain and dispose of records properly</td>
 <td>Must</td>
 <td>Retention schedule identified for each type of record, and disposal built in</td>
 </tr>
@@ -5422,34 +5437,44 @@
 <td>Evaluation results for accuracy, bias and safety before release, and mitigations for AI threats tested</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> Every data set has an owner</td>
+<td><a href="../../../guardrails/data/#gr-data-12">GR-DATA-12</a> DESIGN: Align with the enterprise data model</td>
+<td>Should</td>
+<td>Data model which complies with the data modelling standards</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> OWNERSHIP: Assign an accountable owner to your data assets</td>
 <td>Should</td>
 <td>Information asset register entries with a named owner for each data set</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> Use authoritative sources</td>
+<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
 <td>Should</td>
 <td>The service reads from the authoritative sources as designed, tested with the source owners</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-03">GR-DATA-03</a> Use agreed data standards and identifiers</td>
+<td><a href="../../../guardrails/data/#gr-data-03">GR-DATA-03</a> STANDARDS: Use data standards identifiers</td>
 <td>Should</td>
 <td>Data stored and exchanged using the agreed standards, checked in testing</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-05">GR-DATA-05</a> Describe your data</td>
-<td>Should</td>
-<td>Published metadata records in UK GEMINI or DCAT</td>
-</tr>
-<tr>
-<td><a href="../../../guardrails/data/#gr-data-07">GR-DATA-07</a> Open by default</td>
+<td><a href="../../../guardrails/data/#gr-data-07">GR-DATA-07</a> PUBLISH: Make your data open by default</td>
 <td>Should</td>
 <td>Link to the published open data and its licence</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-08">GR-DATA-08</a> Manage data quality</td>
+<td><a href="../../../guardrails/data/#gr-data-05">GR-DATA-05</a> DESCRIBE: Explain your data to users</td>
+<td>Should</td>
+<td>Published metadata records in UK GEMINI or DCAT</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-08">GR-DATA-08</a> QUALITY: Define, measure &amp; manage data quality</td>
 <td>Should</td>
 <td>Data quality measures and regular reports</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-13">GR-DATA-13</a> LINEAGE: Trace decisions to trusted data</td>
+<td>Should</td>
+<td>Lineage captured automatically from source to decision, including transformations, rules and model versions</td>
 </tr>
 </tbody>
 </table>
@@ -5465,12 +5490,12 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> Protect personal data by design</td>
+<td><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> PROTECT: Protect sensitive data by design</td>
 <td>Must</td>
 <td><abbr title="Data protection impact assessment">DPIA</abbr> reviewed when processing changes, and deletion running as designed</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-09">GR-DATA-09</a> Retain and dispose of records properly</td>
+<td><a href="../../../guardrails/data/#gr-data-09">GR-DATA-09</a> DISPOSAL: Retain and dispose of records properly</td>
 <td>Must</td>
 <td>Retention applied and records of permanent value identified for The National Archives</td>
 </tr>
@@ -5480,29 +5505,39 @@
 <td>Monitoring of model performance and drift in live, with evaluation repeated when the model or data changes</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> Every data set has an owner</td>
+<td><a href="../../../guardrails/data/#gr-data-12">GR-DATA-12</a> DESIGN: Align with the enterprise data model</td>
+<td>Should</td>
+<td>Data model which complies with the data modelling standards</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> OWNERSHIP: Assign an accountable owner to your data assets</td>
 <td>Should</td>
 <td>Register entries and owners kept current</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> Use authoritative sources</td>
+<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
 <td>Should</td>
 <td>Copies and refresh arrangements reviewed when sources change</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-05">GR-DATA-05</a> Describe your data</td>
-<td>Should</td>
-<td>Published metadata records in UK GEMINI or DCAT</td>
-</tr>
-<tr>
-<td><a href="../../../guardrails/data/#gr-data-07">GR-DATA-07</a> Open by default</td>
+<td><a href="../../../guardrails/data/#gr-data-07">GR-DATA-07</a> PUBLISH: Make your data open by default</td>
 <td>Should</td>
 <td>Link to the published open data and its licence</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-08">GR-DATA-08</a> Manage data quality</td>
+<td><a href="../../../guardrails/data/#gr-data-05">GR-DATA-05</a> DESCRIBE: Explain your data to users</td>
+<td>Should</td>
+<td>Published metadata records in UK GEMINI or DCAT</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-08">GR-DATA-08</a> QUALITY: Define, measure &amp; manage data quality</td>
 <td>Should</td>
 <td>Data quality measures and regular reports</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-13">GR-DATA-13</a> LINEAGE: Trace decisions to trusted data</td>
+<td>Should</td>
+<td>Lineage kept current when sources, rules or models change, and used to explain or reproduce past decisions</td>
 </tr>
 </tbody>
 </table>
@@ -5518,7 +5553,7 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> Protect personal data by design</td>
+<td><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> PROTECT: Protect sensitive data by design</td>
 <td>Must</td>
 <td><abbr title="Data protection impact assessment">DPIA</abbr> updated for any change in how personal data is processed</td>
 </tr>
@@ -5536,17 +5571,17 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-09">GR-DATA-09</a> Retain and dispose of records properly</td>
+<td><a href="../../../guardrails/data/#gr-data-09">GR-DATA-09</a> DISPOSAL: Retain and dispose of records properly</td>
 <td>Must</td>
 <td>Records kept, transferred to The National Archives or destroyed, as agreed with the information asset owner</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> Protect personal data by design</td>
+<td><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> PROTECT: Protect sensitive data by design</td>
 <td>Must</td>
 <td>Personal data deleted or transferred lawfully, as set out in the <abbr title="Data protection impact assessment">DPIA</abbr></td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> Every data set has an owner</td>
+<td><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> OWNERSHIP: Assign an accountable owner to your data assets</td>
 <td>Should</td>
 <td>Information asset register updated to show what happened to each data set</td>
 </tr>

@@ -29,7 +29,7 @@ These guardrails apply in alpha, taken from each guardrail's metadata. Meet ever
 | [GR-API-07](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-07) Secure every API | Authentication, authorisation, input validation and rate limiting designed for each API |
 | [GR-TECH-01](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-01) Look for something to reuse first | ADR recording the reuse options considered and why they did or did not fit |
 | [GR-TECH-04](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-04) Assess SaaS before you adopt it | Security, data protection, data location, accessibility and single sign-on assessed before contract |
-| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) Protect personal data by design | Draft DPIA, with data minimisation and retention designed in |
+| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) PROTECT: Protect sensitive data by design | Draft DPIA, with data minimisation and retention designed in |
 | [GR-FE-01](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-01) Meet WCAG 2.2 AA | Prototypes built with accessible components, and a plan for an accessibility audit and assistive technology testing |
 | [GR-FE-02](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-02) Use the GOV.UK Design System | Prototypes built with the GOV.UK Design System, with departures recorded and researched |
 | [GR-FE-06](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-06) Support Welsh where required | Whether the Welsh Language Standards apply decided, and the service designed for translation |
@@ -43,7 +43,7 @@ These guardrails apply in alpha, taken from each guardrail's metadata. Meet ever
 | [GR-SEC-09](https://defra.github.io/architecture/guardrails/security/#gr-sec-09) Manage risk explicitly | Risks from controls that cannot be met recorded, with an owner |
 | [GR-DEV-02](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-02) All code in Defra source control | All code, including prototypes and infrastructure code written by suppliers, in a Defra-owned GitHub organisation from the first commit |
 
-??? note "Should (52)"
+??? note "Should (54)"
 
     | Guardrail | What to show |
     | --- | --- |
@@ -62,12 +62,14 @@ These guardrails apply in alpha, taken from each guardrail's metadata. Meet ever
     | [GR-TECH-02](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-02) Buy commodity, build differentiating | Buy or build options appraisal in the ADR or business case |
     | [GR-TECH-03](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-03) Plan your exit before you enter | Draft exit plan for each new product, platform or significant supplier |
     | [GR-TECH-05](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-05) Prefer open standards and portable technology | ADR noting the open standards used and how portable the choice is |
-    | [GR-DATA-01](https://defra.github.io/architecture/guardrails/data/#gr-data-01) Every data set has an owner | Each data set the service will create or hold identified, with a proposed information asset owner |
-    | [GR-DATA-02](https://defra.github.io/architecture/guardrails/data/#gr-data-02) Use authoritative sources | Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed |
-    | [GR-DATA-03](https://defra.github.io/architecture/guardrails/data/#gr-data-03) Use agreed data standards and identifiers | Data model using the agreed data standards and identifiers |
-    | [GR-DATA-04](https://defra.github.io/architecture/guardrails/data/#gr-data-04) Collect once, share safely | Journey design showing users are not asked for information Defra already holds, and data sharing agreements where required |
-    | [GR-DATA-10](https://defra.github.io/architecture/guardrails/data/#gr-data-10) Handle research data safely | The same for alpha research, with DPIA screening done for the research and any new research tool assessed |
-    | [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) No real personal data in prototypes | Prototypes and research materials use made-up data, including data a participant types in during a session |
+    | [GR-DATA-12](https://defra.github.io/architecture/guardrails/data/#gr-data-12) DESIGN: Align with the enterprise data model | Data model which complies with the data modelling standards |
+    | [GR-DATA-01](https://defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | Each data set the service will create or hold identified, with a proposed information asset owner |
+    | [GR-DATA-02](https://defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed |
+    | [GR-DATA-10](https://defra.github.io/architecture/guardrails/data/#gr-data-10) COMPLIANCE: Acquire new data safely | The same for alpha research, with DPIA screening done for the research and any new research tool assessed |
+    | [GR-DATA-04](https://defra.github.io/architecture/guardrails/data/#gr-data-04) SHARE: Collect once, share safely | Journey design showing users are not asked for information Defra already holds, and data sharing agreements where required |
+    | [GR-DATA-03](https://defra.github.io/architecture/guardrails/data/#gr-data-03) STANDARDS: Use data standards identifiers | Data model using the agreed data standards and identifiers |
+    | [GR-DATA-13](https://defra.github.io/architecture/guardrails/data/#gr-data-13) LINEAGE: Trace decisions to trusted data | Decisions the service makes or supports identified, with the data each one depends on and its authoritative source |
+    | [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) ANONYMITY: No real personal data in prototypes | Prototypes and research materials use made-up data, including data a participant types in during a session |
     | [GR-DIG-01](https://defra.github.io/architecture/guardrails/digital-first/#gr-dig-01) Challenge paper and manual processes | Discovery findings showing paper, email and manual steps in the current process and how the new design removes or justifies each one |
     | [GR-DIG-02](https://defra.github.io/architecture/guardrails/digital-first/#gr-dig-02) Design across organisational boundaries | A map of the whole service, including the parts other teams and organisations deliver, and agreed hand-offs between them |
     | [GR-DIG-03](https://defra.github.io/architecture/guardrails/digital-first/#gr-dig-03) Provide assisted digital and offline routes | Assisted digital and offline routes designed and tested with users who need them |

@@ -22,7 +22,7 @@ Roles use the names in the [DDaT Capability Framework](https://ddat-capability-f
 | [Developer](https://defra.github.io/architecture/deliver/roles/developer/) | 41 | 11 |
 | [Technical architect](https://defra.github.io/architecture/deliver/roles/technical-architect/) | 32 | 6 |
 | [Security architect](https://defra.github.io/architecture/deliver/roles/security-architect/) | 20 | 12 |
-| [Data architect](https://defra.github.io/architecture/deliver/roles/data-architect/) | 10 | 3 |
+| [Data architect](https://defra.github.io/architecture/deliver/roles/data-architect/) | 12 | 3 |
 | [Performance analyst](https://defra.github.io/architecture/deliver/roles/performance-analyst/) | 4 | 0 |
 
 

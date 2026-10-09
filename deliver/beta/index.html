@@ -412,7 +412,7 @@
           This site is an alpha version and is still being developed in the open -
           your <a href="https://github.com/DEFRA/architecture/issues">feedback</a> will help us improve it.
           See the <a href="../../about/roadmap/">roadmap</a>.
-          Last updated: <strong>6 October 2026</strong>.
+          Last updated: <strong>8 October 2026</strong>.
         </p>
         <p class="da-phase__text da-phase__version">
           Version in force:
@@ -5289,11 +5289,11 @@
 <td>These controls built and covered by security testing</td>
 </tr>
 <tr>
-<td><a href="../../guardrails/data/#gr-data-06">GR-DATA-06</a> Protect personal data by design</td>
+<td><a href="../../guardrails/data/#gr-data-06">GR-DATA-06</a> PROTECT: Protect sensitive data by design</td>
 <td>Approved <abbr title="Data protection impact assessment">DPIA</abbr>, and retention and deletion built and tested</td>
 </tr>
 <tr>
-<td><a href="../../guardrails/data/#gr-data-09">GR-DATA-09</a> Retain and dispose of records properly</td>
+<td><a href="../../guardrails/data/#gr-data-09">GR-DATA-09</a> DISPOSAL: Retain and dispose of records properly</td>
 <td>Retention schedule identified for each type of record, and disposal built in</td>
 </tr>
 <tr>
@@ -5375,7 +5375,7 @@
 </tbody>
 </table>
 <details class="note">
-<summary>Should (58)</summary>
+<summary>Should (60)</summary>
 <table>
 <thead>
 <tr>
@@ -5441,39 +5441,47 @@
 <td>Exit plan agreed, with contracts giving Defra its data and the right to export it in open formats</td>
 </tr>
 <tr>
-<td><a href="../../guardrails/data/#gr-data-01">GR-DATA-01</a> Every data set has an owner</td>
+<td><a href="../../guardrails/data/#gr-data-12">GR-DATA-12</a> DESIGN: Align with the enterprise data model</td>
+<td>Data model which complies with the data modelling standards</td>
+</tr>
+<tr>
+<td><a href="../../guardrails/data/#gr-data-01">GR-DATA-01</a> OWNERSHIP: Assign an accountable owner to your data assets</td>
 <td>Information asset register entries with a named owner for each data set</td>
 </tr>
 <tr>
-<td><a href="../../guardrails/data/#gr-data-02">GR-DATA-02</a> Use authoritative sources</td>
+<td><a href="../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
 <td>The service reads from the authoritative sources as designed, tested with the source owners</td>
 </tr>
 <tr>
-<td><a href="../../guardrails/data/#gr-data-03">GR-DATA-03</a> Use agreed data standards and identifiers</td>
-<td>Data stored and exchanged using the agreed standards, checked in testing</td>
-</tr>
-<tr>
-<td><a href="../../guardrails/data/#gr-data-04">GR-DATA-04</a> Collect once, share safely</td>
-<td>Journey design showing users are not asked for information Defra already holds, and data sharing agreements where required</td>
-</tr>
-<tr>
-<td><a href="../../guardrails/data/#gr-data-05">GR-DATA-05</a> Describe your data</td>
-<td>Published metadata records in UK GEMINI or DCAT</td>
-</tr>
-<tr>
-<td><a href="../../guardrails/data/#gr-data-07">GR-DATA-07</a> Open by default</td>
-<td>Link to the published open data and its licence</td>
-</tr>
-<tr>
-<td><a href="../../guardrails/data/#gr-data-08">GR-DATA-08</a> Manage data quality</td>
-<td>Data quality measures and regular reports</td>
-</tr>
-<tr>
-<td><a href="../../guardrails/data/#gr-data-10">GR-DATA-10</a> Handle research data safely</td>
+<td><a href="../../guardrails/data/#gr-data-10">GR-DATA-10</a> COMPLIANCE: Acquire new data safely</td>
 <td>Research data from earlier phases deleted on schedule, and the same controls for beta research</td>
 </tr>
 <tr>
-<td><a href="../../guardrails/data/#gr-data-11">GR-DATA-11</a> No real personal data in prototypes</td>
+<td><a href="../../guardrails/data/#gr-data-04">GR-DATA-04</a> SHARE: Collect once, share safely</td>
+<td>Journey design showing users are not asked for information Defra already holds, and data sharing agreements where required</td>
+</tr>
+<tr>
+<td><a href="../../guardrails/data/#gr-data-03">GR-DATA-03</a> STANDARDS: Use data standards identifiers</td>
+<td>Data stored and exchanged using the agreed standards, checked in testing</td>
+</tr>
+<tr>
+<td><a href="../../guardrails/data/#gr-data-07">GR-DATA-07</a> PUBLISH: Make your data open by default</td>
+<td>Link to the published open data and its licence</td>
+</tr>
+<tr>
+<td><a href="../../guardrails/data/#gr-data-05">GR-DATA-05</a> DESCRIBE: Explain your data to users</td>
+<td>Published metadata records in UK GEMINI or DCAT</td>
+</tr>
+<tr>
+<td><a href="../../guardrails/data/#gr-data-08">GR-DATA-08</a> QUALITY: Define, measure &amp; manage data quality</td>
+<td>Data quality measures and regular reports</td>
+</tr>
+<tr>
+<td><a href="../../guardrails/data/#gr-data-13">GR-DATA-13</a> LINEAGE: Trace decisions to trusted data</td>
+<td>Lineage captured automatically from source to decision, including transformations, rules and model versions</td>
+</tr>
+<tr>
+<td><a href="../../guardrails/data/#gr-data-11">GR-DATA-11</a> ANONYMITY: No real personal data in prototypes</td>
 <td>Test and research environments use synthetic or anonymised data; any exception agreed through a <abbr title="Data protection impact assessment">DPIA</abbr></td>
 </tr>
 <tr>

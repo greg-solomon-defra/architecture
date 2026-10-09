@@ -26,7 +26,7 @@ These guardrails need particular attention when you significant change. The guar
 | [GR-SEC-01](https://defra.github.io/architecture/guardrails/security/#gr-sec-01) Follow Secure by Design | Secure by Design activities repeated for the change, with the risk owner involved |
 | [GR-SEC-02](https://defra.github.io/architecture/guardrails/security/#gr-sec-02) Keep a current threat model | Threat model revisited for the change before it is built |
 | [GR-SEC-06](https://defra.github.io/architecture/guardrails/security/#gr-sec-06) Test before go-live and after major change | IT health check scoped and booked for the change where it is significant |
-| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) Protect personal data by design | DPIA updated for any change in how personal data is processed |
+| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) PROTECT: Protect sensitive data by design | DPIA updated for any change in how personal data is processed |
 | [GR-TECH-01](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-01) Look for something to reuse first | ADR showing reuse options considered for any new component |
 | [GR-TECH-06](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-06) Get spend approval early | Architecture team consulted before new procurement for the change |
 | [GR-OPS-05](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-05) Be ready for live before you go live | Runbooks and support arrangements updated before the change goes live |

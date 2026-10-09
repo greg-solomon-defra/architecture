@@ -19,7 +19,7 @@ You lead **9 guardrails**, often with other roles. Leading means making sure the
 
 | Guardrail | Level | What to show |
 | --- | --- | --- |
-| [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) No real personal data in prototypes | Should | Any prototype uses made-up data |
+| [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) ANONYMITY: No real personal data in prototypes | Should | Any prototype uses made-up data |
 
 More on the [discovery page](https://defra.github.io/architecture/deliver/discovery/).
 
@@ -29,7 +29,7 @@ More on the [discovery page](https://defra.github.io/architecture/deliver/discov
 | --- | --- | --- |
 | [GR-FE-01](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-01) Meet WCAG 2.2 AA | Must | Prototypes built with accessible components, and a plan for an accessibility audit and assistive technology testing |
 | [GR-FE-02](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-02) Use the GOV.UK Design System | Must | Prototypes built with the GOV.UK Design System, with departures recorded and researched |
-| [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) No real personal data in prototypes | Should | Prototypes and research materials use made-up data, including data a participant types in during a session |
+| [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) ANONYMITY: No real personal data in prototypes | Should | Prototypes and research materials use made-up data, including data a participant types in during a session |
 | [GR-FIELD-02](https://defra.github.io/architecture/guardrails/field-working-and-devices/#gr-field-02) Design field tools to work offline | Should | Field journeys tested with no connection, including sync after reconnecting and conflict handling |
 | [GR-FE-03](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-03) Progressive enhancement | Should | Core journeys tested with JavaScript turned off |
 | [GR-FE-07](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-07) Tell users what is happening when things fail or are slow | Should | Each dependency that can fail or be slow identified with the developers, and what users see in each case designed and tested in the prototype |
@@ -44,7 +44,7 @@ More on the [alpha page](https://defra.github.io/architecture/deliver/alpha/).
 | [GR-AI-04](https://defra.github.io/architecture/guardrails/ai/#gr-ai-04) Be transparent | Must | Draft Algorithmic Transparency Recording Standard record, and the notice telling users about AI tested with them |
 | [GR-FE-01](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-01) Meet WCAG 2.2 AA | Must | Accessibility audit and assistive technology testing completed, issues fixed, and an accessibility statement published |
 | [GR-FE-02](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-02) Use the GOV.UK Design System | Must | The service uses GOV.UK Frontend, with design decisions recording any departures |
-| [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) No real personal data in prototypes | Should | Test and research environments use synthetic or anonymised data; any exception agreed through a DPIA |
+| [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) ANONYMITY: No real personal data in prototypes | Should | Test and research environments use synthetic or anonymised data; any exception agreed through a DPIA |
 | [GR-FIELD-02](https://defra.github.io/architecture/guardrails/field-working-and-devices/#gr-field-02) Design field tools to work offline | Should | Field journeys tested with no connection, including sync after reconnecting and conflict handling |
 | [GR-FE-03](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-03) Progressive enhancement | Should | Core journeys tested with JavaScript turned off |
 | [GR-FE-07](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-07) Tell users what is happening when things fail or are slow | Should | The front end shows the designed content when a dependency fails or is slow, tested by switching dependencies off |

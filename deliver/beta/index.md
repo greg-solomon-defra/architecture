@@ -28,8 +28,8 @@ These guardrails apply in beta, taken from each guardrail's metadata. Meet every
 | [GR-AI-03](https://defra.github.io/architecture/guardrails/ai/#gr-ai-03) Keep a human accountable | Human review and challenge built into the service and tested with users and staff |
 | [GR-AI-04](https://defra.github.io/architecture/guardrails/ai/#gr-ai-04) Be transparent | Draft Algorithmic Transparency Recording Standard record, and the notice telling users about AI tested with them |
 | [GR-API-07](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-07) Secure every API | These controls built and covered by security testing |
-| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) Protect personal data by design | Approved DPIA, and retention and deletion built and tested |
-| [GR-DATA-09](https://defra.github.io/architecture/guardrails/data/#gr-data-09) Retain and dispose of records properly | Retention schedule identified for each type of record, and disposal built in |
+| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) PROTECT: Protect sensitive data by design | Approved DPIA, and retention and deletion built and tested |
+| [GR-DATA-09](https://defra.github.io/architecture/guardrails/data/#gr-data-09) DISPOSAL: Retain and dispose of records properly | Retention schedule identified for each type of record, and disposal built in |
 | [GR-FE-01](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-01) Meet WCAG 2.2 AA | Accessibility audit and assistive technology testing completed, issues fixed, and an accessibility statement published |
 | [GR-FE-02](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-02) Use the GOV.UK Design System | The service uses GOV.UK Frontend, with design decisions recording any departures |
 | [GR-FE-06](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-06) Support Welsh where required | Welsh content and journeys built and tested where the standards apply |
@@ -50,7 +50,7 @@ These guardrails apply in beta, taken from each guardrail's metadata. Meet every
 | [GR-SEC-09](https://defra.github.io/architecture/guardrails/security/#gr-sec-09) Manage risk explicitly | Residual risks accepted by the right owner through the security exception process, each with an expiry date |
 | [GR-DEV-02](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-02) All code in Defra source control | All source, infrastructure and pipeline code in the Defra GitHub organisation, with nothing held only by a supplier |
 
-??? note "Should (58)"
+??? note "Should (60)"
 
     | Guardrail | What to show |
     | --- | --- |
@@ -68,15 +68,17 @@ These guardrails apply in beta, taken from each guardrail's metadata. Meet every
     | [GR-API-06](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-06) Use events for change notifications | Event and message definitions described in AsyncAPI |
     | [GR-API-08](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-08) Make APIs discoverable | Entry in the platform API catalogue |
     | [GR-TECH-03](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-03) Plan your exit before you enter | Exit plan agreed, with contracts giving Defra its data and the right to export it in open formats |
-    | [GR-DATA-01](https://defra.github.io/architecture/guardrails/data/#gr-data-01) Every data set has an owner | Information asset register entries with a named owner for each data set |
-    | [GR-DATA-02](https://defra.github.io/architecture/guardrails/data/#gr-data-02) Use authoritative sources | The service reads from the authoritative sources as designed, tested with the source owners |
-    | [GR-DATA-03](https://defra.github.io/architecture/guardrails/data/#gr-data-03) Use agreed data standards and identifiers | Data stored and exchanged using the agreed standards, checked in testing |
-    | [GR-DATA-04](https://defra.github.io/architecture/guardrails/data/#gr-data-04) Collect once, share safely | Journey design showing users are not asked for information Defra already holds, and data sharing agreements where required |
-    | [GR-DATA-05](https://defra.github.io/architecture/guardrails/data/#gr-data-05) Describe your data | Published metadata records in UK GEMINI or DCAT |
-    | [GR-DATA-07](https://defra.github.io/architecture/guardrails/data/#gr-data-07) Open by default | Link to the published open data and its licence |
-    | [GR-DATA-08](https://defra.github.io/architecture/guardrails/data/#gr-data-08) Manage data quality | Data quality measures and regular reports |
-    | [GR-DATA-10](https://defra.github.io/architecture/guardrails/data/#gr-data-10) Handle research data safely | Research data from earlier phases deleted on schedule, and the same controls for beta research |
-    | [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) No real personal data in prototypes | Test and research environments use synthetic or anonymised data; any exception agreed through a DPIA |
+    | [GR-DATA-12](https://defra.github.io/architecture/guardrails/data/#gr-data-12) DESIGN: Align with the enterprise data model | Data model which complies with the data modelling standards |
+    | [GR-DATA-01](https://defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | Information asset register entries with a named owner for each data set |
+    | [GR-DATA-02](https://defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | The service reads from the authoritative sources as designed, tested with the source owners |
+    | [GR-DATA-10](https://defra.github.io/architecture/guardrails/data/#gr-data-10) COMPLIANCE: Acquire new data safely | Research data from earlier phases deleted on schedule, and the same controls for beta research |
+    | [GR-DATA-04](https://defra.github.io/architecture/guardrails/data/#gr-data-04) SHARE: Collect once, share safely | Journey design showing users are not asked for information Defra already holds, and data sharing agreements where required |
+    | [GR-DATA-03](https://defra.github.io/architecture/guardrails/data/#gr-data-03) STANDARDS: Use data standards identifiers | Data stored and exchanged using the agreed standards, checked in testing |
+    | [GR-DATA-07](https://defra.github.io/architecture/guardrails/data/#gr-data-07) PUBLISH: Make your data open by default | Link to the published open data and its licence |
+    | [GR-DATA-05](https://defra.github.io/architecture/guardrails/data/#gr-data-05) DESCRIBE: Explain your data to users | Published metadata records in UK GEMINI or DCAT |
+    | [GR-DATA-08](https://defra.github.io/architecture/guardrails/data/#gr-data-08) QUALITY: Define, measure & manage data quality | Data quality measures and regular reports |
+    | [GR-DATA-13](https://defra.github.io/architecture/guardrails/data/#gr-data-13) LINEAGE: Trace decisions to trusted data | Lineage captured automatically from source to decision, including transformations, rules and model versions |
+    | [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) ANONYMITY: No real personal data in prototypes | Test and research environments use synthetic or anonymised data; any exception agreed through a DPIA |
     | [GR-DIG-02](https://defra.github.io/architecture/guardrails/digital-first/#gr-dig-02) Design across organisational boundaries | A map of the whole service, including the parts other teams and organisations deliver, and agreed hand-offs between them |
     | [GR-DIG-03](https://defra.github.io/architecture/guardrails/digital-first/#gr-dig-03) Provide assisted digital and offline routes | Assisted digital and offline routes designed and tested with users who need them |
     | [GR-FIELD-02](https://defra.github.io/architecture/guardrails/field-working-and-devices/#gr-field-02) Design field tools to work offline | Field journeys tested with no connection, including sync after reconnecting and conflict handling |

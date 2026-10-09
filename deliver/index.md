@@ -37,10 +37,10 @@ flowchart LR
 
 | Phase | Guardrails | Must | Key artefacts | Checklist |
 | --- | ---: | ---: | --- | --- |
-| [Discovery](https://defra.github.io/architecture/deliver/discovery/) | 24 | 9 | Architecture decision record (ADR) log, C4 system context diagram, Service tier, Data protection impact assessment (DPIA) | [Checklist](https://defra.github.io/architecture/deliver/checklists/discovery/) |
-| [Alpha](https://defra.github.io/architecture/deliver/alpha/) | 73 | 18 | Architecture decision record (ADR) log, C4 system context diagram, C4 container diagram, Threat model | [Checklist](https://defra.github.io/architecture/deliver/checklists/alpha/) |
-| [Beta](https://defra.github.io/architecture/deliver/beta/) | 84 | 25 | Architecture decision record (ADR) log, C4 container diagram, Threat model, Data protection impact assessment (DPIA) | [Checklist](https://defra.github.io/architecture/deliver/checklists/beta/) |
-| [Live](https://defra.github.io/architecture/deliver/live/) | 77 | 25 | Architecture decision record (ADR) log, C4 container diagram, Threat model, Runbooks and support model | [Checklist](https://defra.github.io/architecture/deliver/checklists/live/) |
+| [Discovery](https://defra.github.io/architecture/deliver/discovery/) | 25 | 9 | Architecture decision record (ADR) log, C4 system context diagram, Service tier, Data protection impact assessment (DPIA) | [Checklist](https://defra.github.io/architecture/deliver/checklists/discovery/) |
+| [Alpha](https://defra.github.io/architecture/deliver/alpha/) | 75 | 18 | Architecture decision record (ADR) log, C4 system context diagram, C4 container diagram, Threat model | [Checklist](https://defra.github.io/architecture/deliver/checklists/alpha/) |
+| [Beta](https://defra.github.io/architecture/deliver/beta/) | 86 | 25 | Architecture decision record (ADR) log, C4 container diagram, Threat model, Data protection impact assessment (DPIA) | [Checklist](https://defra.github.io/architecture/deliver/checklists/beta/) |
+| [Live](https://defra.github.io/architecture/deliver/live/) | 79 | 25 | Architecture decision record (ADR) log, C4 container diagram, Threat model, Runbooks and support model | [Checklist](https://defra.github.io/architecture/deliver/checklists/live/) |
 | [Significant change](https://defra.github.io/architecture/deliver/significant-change/) | 12 | 7 | Architecture decision record (ADR) log, C4 container diagram, Threat model, Data protection impact assessment (DPIA) | [Checklist](https://defra.github.io/architecture/deliver/checklists/significant-change/) |
 | [Retire a service](https://defra.github.io/architecture/deliver/retire/) | 9 | 5 | Architecture decision record (ADR) log, Exit plan, Runbooks and support model, Data protection impact assessment (DPIA) | [Checklist](https://defra.github.io/architecture/deliver/checklists/retire/) |
 

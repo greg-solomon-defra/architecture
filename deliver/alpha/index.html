@@ -412,7 +412,7 @@
           This site is an alpha version and is still being developed in the open -
           your <a href="https://github.com/DEFRA/architecture/issues">feedback</a> will help us improve it.
           See the <a href="../../about/roadmap/">roadmap</a>.
-          Last updated: <strong>6 October 2026</strong>.
+          Last updated: <strong>8 October 2026</strong>.
         </p>
         <p class="da-phase__text da-phase__version">
           Version in force:
@@ -5293,7 +5293,7 @@
 <td>Security, data protection, data location, accessibility and single sign-on assessed before contract</td>
 </tr>
 <tr>
-<td><a href="../../guardrails/data/#gr-data-06">GR-DATA-06</a> Protect personal data by design</td>
+<td><a href="../../guardrails/data/#gr-data-06">GR-DATA-06</a> PROTECT: Protect sensitive data by design</td>
 <td>Draft <abbr title="Data protection impact assessment">DPIA</abbr>, with data minimisation and retention designed in</td>
 </tr>
 <tr>
@@ -5347,7 +5347,7 @@
 </tbody>
 </table>
 <details class="note">
-<summary>Should (52)</summary>
+<summary>Should (54)</summary>
 <table>
 <thead>
 <tr>
@@ -5417,27 +5417,35 @@
 <td><abbr title="Architecture decision record">ADR</abbr> noting the open standards used and how portable the choice is</td>
 </tr>
 <tr>
-<td><a href="../../guardrails/data/#gr-data-01">GR-DATA-01</a> Every data set has an owner</td>
+<td><a href="../../guardrails/data/#gr-data-12">GR-DATA-12</a> DESIGN: Align with the enterprise data model</td>
+<td>Data model which complies with the data modelling standards</td>
+</tr>
+<tr>
+<td><a href="../../guardrails/data/#gr-data-01">GR-DATA-01</a> OWNERSHIP: Assign an accountable owner to your data assets</td>
 <td>Each data set the service will create or hold identified, with a proposed information asset owner</td>
 </tr>
 <tr>
-<td><a href="../../guardrails/data/#gr-data-02">GR-DATA-02</a> Use authoritative sources</td>
+<td><a href="../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
 <td>Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed</td>
 </tr>
 <tr>
-<td><a href="../../guardrails/data/#gr-data-03">GR-DATA-03</a> Use agreed data standards and identifiers</td>
-<td>Data model using the agreed data standards and identifiers</td>
-</tr>
-<tr>
-<td><a href="../../guardrails/data/#gr-data-04">GR-DATA-04</a> Collect once, share safely</td>
-<td>Journey design showing users are not asked for information Defra already holds, and data sharing agreements where required</td>
-</tr>
-<tr>
-<td><a href="../../guardrails/data/#gr-data-10">GR-DATA-10</a> Handle research data safely</td>
+<td><a href="../../guardrails/data/#gr-data-10">GR-DATA-10</a> COMPLIANCE: Acquire new data safely</td>
 <td>The same for alpha research, with <abbr title="Data protection impact assessment">DPIA</abbr> screening done for the research and any new research tool assessed</td>
 </tr>
 <tr>
-<td><a href="../../guardrails/data/#gr-data-11">GR-DATA-11</a> No real personal data in prototypes</td>
+<td><a href="../../guardrails/data/#gr-data-04">GR-DATA-04</a> SHARE: Collect once, share safely</td>
+<td>Journey design showing users are not asked for information Defra already holds, and data sharing agreements where required</td>
+</tr>
+<tr>
+<td><a href="../../guardrails/data/#gr-data-03">GR-DATA-03</a> STANDARDS: Use data standards identifiers</td>
+<td>Data model using the agreed data standards and identifiers</td>
+</tr>
+<tr>
+<td><a href="../../guardrails/data/#gr-data-13">GR-DATA-13</a> LINEAGE: Trace decisions to trusted data</td>
+<td>Decisions the service makes or supports identified, with the data each one depends on and its authoritative source</td>
+</tr>
+<tr>
+<td><a href="../../guardrails/data/#gr-data-11">GR-DATA-11</a> ANONYMITY: No real personal data in prototypes</td>
 <td>Prototypes and research materials use made-up data, including data a participant types in during a session</td>
 </tr>
 <tr>

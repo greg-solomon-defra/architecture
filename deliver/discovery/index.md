@@ -29,22 +29,23 @@ These guardrails apply in discovery, taken from each guardrail's metadata. Meet 
 | [GR-TECH-01](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-01) Look for something to reuse first | Existing Defra and cross-government options for the need identified from the technology capability catalogue |
 | [GR-TECH-04](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-04) Assess SaaS before you adopt it | SaaS and third-party products under consideration listed, with the assessments they will need |
 | [GR-TECH-06](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-06) Get spend approval early | Architecture team consulted before any procurement under spend control starts |
-| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) Protect personal data by design | DPIA screening completed, showing whether personal data is involved |
+| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) PROTECT: Protect sensitive data by design | DPIA screening completed, showing whether personal data is involved |
 | [GR-HOST-01](https://defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-01) Use Defra's strategic delivery platform by default | Platform team engaged, and any hosting needs the Core Delivery Platform might not meet identified |
 | [GR-IAM-01](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-01) Use the strategic customer identity services | Identity team engaged about the level of identity assurance needed and how users act for organisations |
 | [GR-SEC-01](https://defra.github.io/architecture/guardrails/security/#gr-sec-01) Follow Secure by Design | Named risk owner, and the information and threats the service is likely to face identified |
 | [GR-SEC-03](https://defra.github.io/architecture/guardrails/security/#gr-sec-03) Classify information | Security classification and the types of data the service will handle identified |
 
-??? note "Should (13)"
+??? note "Should (14)"
 
     | Guardrail | What to show |
     | --- | --- |
     | [GR-AI-01](https://defra.github.io/architecture/guardrails/ai/#gr-ai-01) Consider AI first | ADR recording the AI options considered and why they were or were not used |
     | [GR-AI-06](https://defra.github.io/architecture/guardrails/ai/#gr-ai-06) Talk to the TDA about novel use | Novel or generative AI use in decision making identified, and a conversation with the Technical Design Authority booked |
     | [GR-TECH-02](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-02) Buy commodity, build differentiating | Buy or build options appraisal in the ADR or business case |
-    | [GR-DATA-02](https://defra.github.io/architecture/guardrails/data/#gr-data-02) Use authoritative sources | Shared entities the service needs identified, with their authoritative sources |
-    | [GR-DATA-10](https://defra.github.io/architecture/guardrails/data/#gr-data-10) Handle research data safely | Consent forms and privacy notice in use, recordings and notes stored only in approved places, and a deletion date set |
-    | [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) No real personal data in prototypes | Any prototype uses made-up data |
+    | [GR-DATA-12](https://defra.github.io/architecture/guardrails/data/#gr-data-12) DESIGN: Align with the enterprise data model | Data model which complies with the data modelling standards |
+    | [GR-DATA-02](https://defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Shared entities the service needs identified, with their authoritative sources |
+    | [GR-DATA-10](https://defra.github.io/architecture/guardrails/data/#gr-data-10) COMPLIANCE: Acquire new data safely | Consent forms and privacy notice in use, recordings and notes stored only in approved places, and a deletion date set |
+    | [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) ANONYMITY: No real personal data in prototypes | Any prototype uses made-up data |
     | [GR-DIG-01](https://defra.github.io/architecture/guardrails/digital-first/#gr-dig-01) Challenge paper and manual processes | Discovery findings showing paper, email and manual steps in the current process and how the new design removes or justifies each one |
     | [GR-DIG-02](https://defra.github.io/architecture/guardrails/digital-first/#gr-dig-02) Design across organisational boundaries | A map of the whole service, including the parts other teams and organisations deliver, and agreed hand-offs between them |
     | [GR-FIELD-01](https://defra.github.io/architecture/guardrails/field-working-and-devices/#gr-field-01) Choose devices that suit the job | User research on the working environment, and the device choice recorded in an ADR |

@@ -28,8 +28,8 @@ These guardrails apply in live, taken from each guardrail's metadata. Meet every
 | [GR-AI-03](https://defra.github.io/architecture/guardrails/ai/#gr-ai-03) Keep a human accountable | Records of human review, challenges raised and their outcomes, reviewed regularly |
 | [GR-AI-04](https://defra.github.io/architecture/guardrails/ai/#gr-ai-04) Be transparent | Link to the published Algorithmic Transparency Recording Standard record, kept current |
 | [GR-API-07](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-07) Secure every API | API access reviewed, and controls re-tested after significant change |
-| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) Protect personal data by design | DPIA reviewed when processing changes, and deletion running as designed |
-| [GR-DATA-09](https://defra.github.io/architecture/guardrails/data/#gr-data-09) Retain and dispose of records properly | Retention applied and records of permanent value identified for The National Archives |
+| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) PROTECT: Protect sensitive data by design | DPIA reviewed when processing changes, and deletion running as designed |
+| [GR-DATA-09](https://defra.github.io/architecture/guardrails/data/#gr-data-09) DISPOSAL: Retain and dispose of records properly | Retention applied and records of permanent value identified for The National Archives |
 | [GR-FE-01](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-01) Meet WCAG 2.2 AA | Accessibility statement kept current, and accessibility re-tested after significant change |
 | [GR-FE-02](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-02) Use the GOV.UK Design System | GOV.UK Frontend kept up to date |
 | [GR-FE-06](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-06) Support Welsh where required | Welsh content kept in step with English content |
@@ -50,7 +50,7 @@ These guardrails apply in live, taken from each guardrail's metadata. Meet every
 | [GR-SEC-09](https://defra.github.io/architecture/guardrails/security/#gr-sec-09) Manage risk explicitly | Accepted risks reviewed before they expire |
 | [GR-DEV-02](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-02) All code in Defra source control | All changes made in the Defra GitHub organisation |
 
-??? note "Should (50)"
+??? note "Should (52)"
 
     | Guardrail | What to show |
     | --- | --- |
@@ -66,12 +66,14 @@ These guardrails apply in live, taken from each guardrail's metadata. Meet every
     | [GR-API-05](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-05) No integration through shared databases | Integrations reviewed when the service or its dependencies change |
     | [GR-API-08](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-08) Make APIs discoverable | Entry in the platform API catalogue |
     | [GR-TECH-03](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-03) Plan your exit before you enter | Exit plan reviewed at contract renewal, with switching cost estimated |
-    | [GR-DATA-01](https://defra.github.io/architecture/guardrails/data/#gr-data-01) Every data set has an owner | Register entries and owners kept current |
-    | [GR-DATA-02](https://defra.github.io/architecture/guardrails/data/#gr-data-02) Use authoritative sources | Copies and refresh arrangements reviewed when sources change |
-    | [GR-DATA-05](https://defra.github.io/architecture/guardrails/data/#gr-data-05) Describe your data | Published metadata records in UK GEMINI or DCAT |
-    | [GR-DATA-07](https://defra.github.io/architecture/guardrails/data/#gr-data-07) Open by default | Link to the published open data and its licence |
-    | [GR-DATA-08](https://defra.github.io/architecture/guardrails/data/#gr-data-08) Manage data quality | Data quality measures and regular reports |
-    | [GR-DATA-10](https://defra.github.io/architecture/guardrails/data/#gr-data-10) Handle research data safely | Research data handled the same way for ongoing research, and deletion checked |
+    | [GR-DATA-12](https://defra.github.io/architecture/guardrails/data/#gr-data-12) DESIGN: Align with the enterprise data model | Data model which complies with the data modelling standards |
+    | [GR-DATA-01](https://defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | Register entries and owners kept current |
+    | [GR-DATA-02](https://defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Copies and refresh arrangements reviewed when sources change |
+    | [GR-DATA-10](https://defra.github.io/architecture/guardrails/data/#gr-data-10) COMPLIANCE: Acquire new data safely | Research data handled the same way for ongoing research, and deletion checked |
+    | [GR-DATA-07](https://defra.github.io/architecture/guardrails/data/#gr-data-07) PUBLISH: Make your data open by default | Link to the published open data and its licence |
+    | [GR-DATA-05](https://defra.github.io/architecture/guardrails/data/#gr-data-05) DESCRIBE: Explain your data to users | Published metadata records in UK GEMINI or DCAT |
+    | [GR-DATA-08](https://defra.github.io/architecture/guardrails/data/#gr-data-08) QUALITY: Define, measure & manage data quality | Data quality measures and regular reports |
+    | [GR-DATA-13](https://defra.github.io/architecture/guardrails/data/#gr-data-13) LINEAGE: Trace decisions to trusted data | Lineage kept current when sources, rules or models change, and used to explain or reproduce past decisions |
     | [GR-DIG-03](https://defra.github.io/architecture/guardrails/digital-first/#gr-dig-03) Provide assisted digital and offline routes | Assisted digital and offline routes designed and tested with users who need them |
     | [GR-FIELD-02](https://defra.github.io/architecture/guardrails/field-working-and-devices/#gr-field-02) Design field tools to work offline | Field journeys tested with no connection, including sync after reconnecting and conflict handling |
     | [GR-FIELD-03](https://defra.github.io/architecture/guardrails/field-working-and-devices/#gr-field-03) Manage and secure every device | Device compliance monitored, and lost devices wiped |

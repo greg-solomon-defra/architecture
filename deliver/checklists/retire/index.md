@@ -25,8 +25,8 @@ Tick what you have, link to where it lives, and bring it to your solution design
 ## Must guardrails
 
 <ul class="dl-checklist">
-<li><input type="checkbox" id="ck-5"><label for="ck-5"><a href="../../../guardrails/data/#gr-data-09">GR-DATA-09</a> <strong>Retain and dispose of records properly</strong> - Records kept, transferred to The National Archives or destroyed, as agreed with the information asset owner</label></li>
-<li><input type="checkbox" id="ck-6"><label for="ck-6"><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> <strong>Protect personal data by design</strong> - Personal data deleted or transferred lawfully, as set out in the DPIA</label></li>
+<li><input type="checkbox" id="ck-5"><label for="ck-5"><a href="../../../guardrails/data/#gr-data-09">GR-DATA-09</a> <strong>DISPOSAL: Retain and dispose of records properly</strong> - Records kept, transferred to The National Archives or destroyed, as agreed with the information asset owner</label></li>
+<li><input type="checkbox" id="ck-6"><label for="ck-6"><a href="../../../guardrails/data/#gr-data-06">GR-DATA-06</a> <strong>PROTECT: Protect sensitive data by design</strong> - Personal data deleted or transferred lawfully, as set out in the DPIA</label></li>
 <li><input type="checkbox" id="ck-7"><label for="ck-7"><a href="../../../guardrails/identity-and-access/#gr-iam-03">GR-IAM-03</a> <strong>Authorise on least privilege</strong> - All access to the service&#x27;s systems and data removed</label></li>
 <li><input type="checkbox" id="ck-8"><label for="ck-8"><a href="../../../guardrails/identity-and-access/#gr-iam-05">GR-IAM-05</a> <strong>No secrets in code</strong> - Secrets, keys and credentials revoked</label></li>
 <li><input type="checkbox" id="ck-9"><label for="ck-9"><a href="../../../guardrails/open-source/#gr-open-01">GR-OPEN-01</a> <strong>Code in the open</strong> - Repositories archived, not deleted, so the code and decisions stay available</label></li>
@@ -35,7 +35,7 @@ Tick what you have, link to where it lives, and bring it to your solution design
 ## Should guardrails
 
 <ul class="dl-checklist">
-<li><input type="checkbox" id="ck-10"><label for="ck-10"><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> <strong>Every data set has an owner</strong> - Information asset register updated to show what happened to each data set</label></li>
+<li><input type="checkbox" id="ck-10"><label for="ck-10"><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> <strong>OWNERSHIP: Assign an accountable owner to your data assets</strong> - Information asset register updated to show what happened to each data set</label></li>
 <li><input type="checkbox" id="ck-11"><label for="ck-11"><a href="../../../guardrails/apis-and-integration/#gr-api-04">GR-API-04</a> <strong>Version and deprecate deliberately</strong> - Consumers told the retirement date in advance, and moved to a replacement</label></li>
 <li><input type="checkbox" id="ck-12"><label for="ck-12"><a href="../../../guardrails/choosing-technology/#gr-tech-03">GR-TECH-03</a> <strong>Plan your exit before you enter</strong> - Exit plan carried out - data exported in open formats and contracts ended</label></li>
 <li><input type="checkbox" id="ck-13"><label for="ck-13"><a href="../../../guardrails/sustainability/#gr-sus-02">GR-SUS-02</a> <strong>Right-size and switch off</strong> - Autoscaling and out-of-hours schedules for non-production environments</label></li>

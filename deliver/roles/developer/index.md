@@ -19,7 +19,7 @@ You lead **41 guardrails**, often with other roles. Leading means making sure th
 
 | Guardrail | Level | What to show |
 | --- | --- | --- |
-| [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) No real personal data in prototypes | Should | Any prototype uses made-up data |
+| [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) ANONYMITY: No real personal data in prototypes | Should | Any prototype uses made-up data |
 
 More on the [discovery page](https://defra.github.io/architecture/deliver/discovery/).
 
@@ -39,7 +39,7 @@ More on the [discovery page](https://defra.github.io/architecture/deliver/discov
 | [GR-API-02](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-02) Describe APIs with open specifications | Should | Draft OpenAPI 3 or AsyncAPI documents for the interfaces you are prototyping |
 | [GR-API-03](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-03) Follow government API standards | Should | API design reviewed against the GDS API technical and data standards |
 | [GR-API-06](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-06) Use events for change notifications | Should | Event and message definitions described in AsyncAPI |
-| [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) No real personal data in prototypes | Should | Prototypes and research materials use made-up data, including data a participant types in during a session |
+| [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) ANONYMITY: No real personal data in prototypes | Should | Prototypes and research materials use made-up data, including data a participant types in during a session |
 | [GR-FIELD-02](https://defra.github.io/architecture/guardrails/field-working-and-devices/#gr-field-02) Design field tools to work offline | Should | Field journeys tested with no connection, including sync after reconnecting and conflict handling |
 | [GR-FE-03](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-03) Progressive enhancement | Should | Core journeys tested with JavaScript turned off |
 | [GR-FE-07](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-07) Tell users what is happening when things fail or are slow | Should | Each dependency that can fail or be slow identified with the developers, and what users see in each case designed and tested in the prototype |
@@ -80,7 +80,7 @@ More on the [alpha page](https://defra.github.io/architecture/deliver/alpha/).
 | [GR-API-02](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-02) Describe APIs with open specifications | Should | OpenAPI 3 or AsyncAPI documents in the repository, checked in the pipeline against the running API |
 | [GR-API-03](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-03) Follow government API standards | Should | API design reviewed against the GDS API technical and data standards |
 | [GR-API-06](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-06) Use events for change notifications | Should | Event and message definitions described in AsyncAPI |
-| [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) No real personal data in prototypes | Should | Test and research environments use synthetic or anonymised data; any exception agreed through a DPIA |
+| [GR-DATA-11](https://defra.github.io/architecture/guardrails/data/#gr-data-11) ANONYMITY: No real personal data in prototypes | Should | Test and research environments use synthetic or anonymised data; any exception agreed through a DPIA |
 | [GR-FIELD-02](https://defra.github.io/architecture/guardrails/field-working-and-devices/#gr-field-02) Design field tools to work offline | Should | Field journeys tested with no connection, including sync after reconnecting and conflict handling |
 | [GR-FE-03](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-03) Progressive enhancement | Should | Core journeys tested with JavaScript turned off |
 | [GR-FE-07](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-07) Tell users what is happening when things fail or are slow | Should | The front end shows the designed content when a dependency fails or is slow, tested by switching dependencies off |

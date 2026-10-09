@@ -19,7 +19,7 @@ You lead **4 guardrails**, often with other roles. Leading means making sure the
 
 | Guardrail | Level | What to show |
 | --- | --- | --- |
-| [GR-DATA-08](https://defra.github.io/architecture/guardrails/data/#gr-data-08) Manage data quality | Should | Data quality measures and regular reports |
+| [GR-DATA-08](https://defra.github.io/architecture/guardrails/data/#gr-data-08) QUALITY: Define, measure & manage data quality | Should | Data quality measures and regular reports |
 | [GR-OPS-03](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-03) Define and measure service levels | Should | Agreed service level objectives with monitoring and alerts |
 | [GR-OPS-07](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-07) Measure performance and cost | Should | Published key performance indicators and cost tags on cloud resources |
 
@@ -29,7 +29,7 @@ More on the [beta page](https://defra.github.io/architecture/deliver/beta/).
 
 | Guardrail | Level | What to show |
 | --- | --- | --- |
-| [GR-DATA-08](https://defra.github.io/architecture/guardrails/data/#gr-data-08) Manage data quality | Should | Data quality measures and regular reports |
+| [GR-DATA-08](https://defra.github.io/architecture/guardrails/data/#gr-data-08) QUALITY: Define, measure & manage data quality | Should | Data quality measures and regular reports |
 | [GR-OPS-03](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-03) Define and measure service levels | Should | Agreed service level objectives with monitoring and alerts |
 | [GR-OPS-07](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-07) Measure performance and cost | Should | Published key performance indicators and cost tags on cloud resources |
 | [GR-SUS-05](https://defra.github.io/architecture/guardrails/sustainability/#gr-sus-05) Measure and report | Could | Carbon footprint reported alongside cost |

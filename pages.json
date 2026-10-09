@@ -665,7 +665,7 @@
       "url": "https://defra.github.io/architecture/guardrails/data/",
       "markdown": "https://defra.github.io/architecture/guardrails/data/index.md",
       "maturity": "published",
-      "description": "Defra's science, regulation and payments all depend on trusted data. These guardrails make sure the data each service creates is an asset for the whole department.",
+      "description": "Defra's science, regulation and payments all depend on trusted data. These guardrails make sure that the data each service creates is an asset for the whole of Defra group, and any other appropriate data users.",
       "source": "guardrails/data.md"
     },
     {

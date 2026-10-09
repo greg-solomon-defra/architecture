@@ -414,7 +414,7 @@
           This site is an alpha version and is still being developed in the open -
           your <a href="https://github.com/DEFRA/architecture/issues">feedback</a> will help us improve it.
           See the <a href="../../about/roadmap/">roadmap</a>.
-          Last updated: <strong>6 October 2026</strong>.
+          Last updated: <strong>8 October 2026</strong>.
         </p>
         <p class="da-phase__text da-phase__version">
           Version in force:
@@ -2584,10 +2584,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#narrative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Narrative
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-read-a-guardrail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to read a guardrail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-12 DESIGN: Align with the enterprise data model
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#gr-data-01" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GR-DATA-01 Every data set has an owner
+        GR-DATA-01 OWNERSHIP: Assign an accountable owner to your data assets
       
     </span>
   </a>
@@ -2598,95 +2631,7 @@
   <a href="#gr-data-02" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GR-DATA-02 Use authoritative sources
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-03" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-03 Use agreed data standards and identifiers
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-04" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-04 Collect once, share safely
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-05" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-05 Describe your data
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-06" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-06 Protect personal data by design
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-07" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-07 Open by default
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-08" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-08 Manage data quality
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-09" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-09 Retain and dispose of records properly
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#research-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Research data
+        GR-DATA-02 DATA RE-USE: Use authoritative data sources
       
     </span>
   </a>
@@ -2697,7 +2642,106 @@
   <a href="#gr-data-10" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GR-DATA-10 Handle research data safely
+        GR-DATA-10 COMPLIANCE: Acquire new data safely
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-04" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-04 SHARE: Collect once, share safely
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-06" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-06 PROTECT: Protect sensitive data by design
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-03" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-03 STANDARDS: Use data standards identifiers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-07 PUBLISH: Make your data open by default
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-05 DESCRIBE: Explain your data to users
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-08" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-08 QUALITY: Define, measure &amp; manage data quality
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-13 LINEAGE: Trace decisions to trusted data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-09" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-09 DISPOSAL: Retain and dispose of records properly
       
     </span>
   </a>
@@ -2708,7 +2752,7 @@
   <a href="#gr-data-11" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GR-DATA-11 No real personal data in prototypes
+        GR-DATA-11 ANONYMITY: No real personal data in prototypes
       
     </span>
   </a>
@@ -5218,10 +5262,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#narrative" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Narrative
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-read-a-guardrail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to read a guardrail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-12" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-12 DESIGN: Align with the enterprise data model
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#gr-data-01" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GR-DATA-01 Every data set has an owner
+        GR-DATA-01 OWNERSHIP: Assign an accountable owner to your data assets
       
     </span>
   </a>
@@ -5232,95 +5309,7 @@
   <a href="#gr-data-02" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GR-DATA-02 Use authoritative sources
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-03" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-03 Use agreed data standards and identifiers
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-04" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-04 Collect once, share safely
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-05" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-05 Describe your data
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-06" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-06 Protect personal data by design
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-07" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-07 Open by default
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-08" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-08 Manage data quality
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#gr-data-09" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-09 Retain and dispose of records properly
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#research-data" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Research data
+        GR-DATA-02 DATA RE-USE: Use authoritative data sources
       
     </span>
   </a>
@@ -5331,7 +5320,106 @@
   <a href="#gr-data-10" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GR-DATA-10 Handle research data safely
+        GR-DATA-10 COMPLIANCE: Acquire new data safely
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-04" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-04 SHARE: Collect once, share safely
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-06" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-06 PROTECT: Protect sensitive data by design
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-03" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-03 STANDARDS: Use data standards identifiers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-07" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-07 PUBLISH: Make your data open by default
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-05 DESCRIBE: Explain your data to users
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-08" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-08 QUALITY: Define, measure &amp; manage data quality
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-13" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-13 LINEAGE: Trace decisions to trusted data
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gr-data-09" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-09 DISPOSAL: Retain and dispose of records properly
       
     </span>
   </a>
@@ -5342,7 +5430,7 @@
   <a href="#gr-data-11" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GR-DATA-11 No real personal data in prototypes
+        GR-DATA-11 ANONYMITY: No real personal data in prototypes
       
     </span>
   </a>
@@ -5375,7 +5463,7 @@
 
 
 <h1 id="data">Data<a class="headerlink" href="#data" title="Permanent link">&para;</a></h1>
-<p class="lead">Defra's science, regulation and payments all depend on trusted data. These guardrails make sure the data each service creates is an asset for the whole department.</p>
+<p class="lead">Defra's science, regulation and payments all depend on trusted data. These guardrails make sure that the data each service creates is an asset for the whole of Defra group, and any other appropriate data users.</p>
 
 <div class="da-trace">
 <p><strong>Doctrine:</strong> <a href="../../principles/doctrine/#ddts-04">4. Data is an enterprise asset</a>, <a href="../../principles/doctrine/#ddts-05">5. Assume AI until proven otherwise</a><br />
@@ -5386,49 +5474,60 @@
 <p>The core department. Whether the data guardrails also apply to Defra's arm's length bodies is <a href="../#arms-length-bodies">still to be confirmed</a>.</p>
 </div>
 <p>See also <a href="../../data/">enterprise data architecture</a>.</p>
-<h2 id="gr-data-01">GR-DATA-01 Every data set has an owner<a class="headerlink" href="#gr-data-01" title="Permanent link">&para;</a></h2>
+<hr>
+
+<h2 id="narrative">Narrative<a class="headerlink" href="#narrative" title="Permanent link">&para;</a></h2>
+<p>Data architecture begins with a <a href="#gr-data-12">DESIGN</a> phase, and with agreeing <a href="#gr-data-01">OWNERSHIP</a> of the proposed data assets.</p>
+<p>Bring data into the solution architecture through <a href="#gr-data-02">RE-USE</a> of authoritative data sources (customers, organisations, land parcels, etc) and ensure <a href="#gr-data-10">COMPLIANCE</a> in the acquisition of any new data. Seek to <a href="#gr-data-04">SHARE</a> data wherever it is appropriate to do so, but to classify and <a href="#gr-data-06">PROTECT</a> all sensitive data.</p>
+<p>Create data assets that comply with agreed <a href="#gr-data-03">STANDARDS</a>, so that you can <a href="#gr-data-07">PUBLISH</a> and <a href="#gr-data-05">DESCRIBE</a> datasets of known <a href="#gr-data-08">QUALITY</a>. Be open about the <a href="#gr-data-13">LINEAGE</a> of your data, and ensure <a href="#gr-data-09">DISPOSAL</a> of it in line with regulation, policy and guidance.</p>
+<p>Protect <a href="#gr-data-11">ANONYMITY</a> by avoiding the use of real personal data in any non-production systems.</p>
+<hr>
+
+<h2 id="how-to-read-a-guardrail">How to read a guardrail<a class="headerlink" href="#how-to-read-a-guardrail" title="Permanent link">&para;</a></h2>
+<p>Each guardrail has an identifier, a level, a short rationale and a way to show you meet it.</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Means</th>
+<th>If you cannot meet it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="rfc rfc--must">Must</span></td>
+<td>A requirement from law or mandatory government policy, a baseline security control, or a <a href="../../principles/doctrine/">DDTS doctrine</a> non-negotiable. We keep these few.</td>
+<td>You need an approved <a href="../../governance/exceptions/">exception</a> from the Technical Design Authority.</td>
+</tr>
+<tr>
+<td><span class="rfc rfc--should">Should</span></td>
+<td>The strong default. There may be good reasons to differ.</td>
+<td>Record why in an <a href="../../governance/architecture-decision-records/">architecture decision record</a> and share it with your solution design authority.</td>
+</tr>
+<tr>
+<td><span class="rfc rfc--could">Could</span></td>
+<td>Recommended good practice.</td>
+<td>No action needed, but we would like to know what worked better.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="gr-data-12">GR-DATA-12 DESIGN: Align with the enterprise data model<a class="headerlink" href="#gr-data-12" title="Permanent link">&para;</a></h2>
+<p><span class="rfc rfc--should">Should</span> Design should begin with the enterprise data model, to ensure that an enterprise view of stakeholders, IT systems, and data designs is taken into sufficient consideration.</p>
+<p><strong>Why:</strong> All of the data guardrails apply to the enterprise context, and the enterprise data model ensures a written record of that can be used in common across Defra.</p>
+<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-12</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd>Data model which complies with the data modelling standards</dd><dt>Automated check</dt><dd>Manual</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
+
+<h2 id="gr-data-01">GR-DATA-01 OWNERSHIP: Assign an accountable owner to your data assets<a class="headerlink" href="#gr-data-01" title="Permanent link">&para;</a></h2>
 <p><span class="rfc rfc--should">Should</span> Each data set a service creates or holds has a named business owner (information asset owner) and is recorded in the information asset register.</p>
 <p><strong>Why:</strong> Data without an owner is not maintained, not trusted and not deleted when it should be.</p>
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-01</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Alpha:</strong> Each data set the service will create or hold identified, with a proposed information asset owner</li><li><strong>Beta:</strong> Information asset register entries with a named owner for each data set</li><li><strong>Live:</strong> Register entries and owners kept current</li><li><strong>Retire:</strong> Information asset register updated to show what happened to each data set</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
-<h2 id="gr-data-02">GR-DATA-02 Use authoritative sources<a class="headerlink" href="#gr-data-02" title="Permanent link">&para;</a></h2>
+<h2 id="gr-data-02">GR-DATA-02 DATA RE-USE: Use authoritative data sources<a class="headerlink" href="#gr-data-02" title="Permanent link">&para;</a></h2>
 <p><span class="rfc rfc--should">Should</span> Use the authoritative source for shared entities - customers, organisations, land parcels, holdings, locations, species - rather than creating local copies that drift. See <a href="../../data/defra-on-a-page/">Defra on a page</a>.</p>
 <p><strong>How to meet it:</strong> If you must cache or replicate, record the source, refresh frequency and how you handle changes.</p>
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-02</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Shared entities the service needs identified, with their authoritative sources</li><li><strong>Alpha:</strong> Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed</li><li><strong>Beta:</strong> The service reads from the authoritative sources as designed, tested with the source owners</li><li><strong>Live:</strong> Copies and refresh arrangements reviewed when sources change</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
-<h2 id="gr-data-03">GR-DATA-03 Use agreed data standards and identifiers<a class="headerlink" href="#gr-data-03" title="Permanent link">&para;</a></h2>
-<p><span class="rfc rfc--should">Should</span> Use the <a href="../../data/data-standards/">data standards</a> for dates, addresses, locations, identifiers and code lists, so data can be joined across services.</p>
-<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-03</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Alpha:</strong> Data model using the agreed data standards and identifiers</li><li><strong>Beta:</strong> Data stored and exchanged using the agreed standards, checked in testing</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Use and contribute to open standards, common components and patterns">13</abbr>; <a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make use of open standards">4</abbr>, <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
-
-<h2 id="gr-data-04">GR-DATA-04 Collect once, share safely<a class="headerlink" href="#gr-data-04" title="Permanent link">&para;</a></h2>
-<p><span class="rfc rfc--should">Should</span> Do not ask users for information Defra already holds. Share data between services through APIs or governed data products, with data sharing agreements where required.</p>
-<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-04</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta</dd><dt>Led by</dt><dd><a href="../../deliver/roles/service-designer/">Service designer</a></dd><dt>Evidence</dt><dd>Journey design showing users are not asked for information Defra already holds, and data sharing agreements where required</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Share, reuse and collaborate">8</abbr>, <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
-
-<h2 id="gr-data-05">GR-DATA-05 Describe your data<a class="headerlink" href="#gr-data-05" title="Permanent link">&para;</a></h2>
-<p><span class="rfc rfc--should">Should</span> Publish metadata for data sets so they can be found and understood - <a href="https://www.agi.org.uk/why-uk-gemini/">UK GEMINI</a> for geospatial data and DCAT for other data sets.</p>
-<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-05</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd>Published metadata records in UK GEMINI or DCAT</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
-
-<h2 id="gr-data-06">GR-DATA-06 Protect personal data by design<a class="headerlink" href="#gr-data-06" title="Permanent link">&para;</a></h2>
-<p><span class="rfc rfc--must">Must</span> Complete a data protection impact assessment (DPIA) before processing personal data, minimise what you collect, and apply retention and deletion automatically.</p>
-<p><strong>Why:</strong> UK GDPR and the Data Protection Act 2018; <abbr title="Technology Code of Practice">TCoP</abbr> point 7.</p>
-<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-06</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> DPIA screening completed, showing whether personal data is involved</li><li><strong>Alpha:</strong> Draft DPIA, with data minimisation and retention designed in</li><li><strong>Beta:</strong> Approved DPIA, and retention and deletion built and tested</li><li><strong>Live:</strong> DPIA reviewed when processing changes, and deletion running as designed</li><li><strong>Significant change:</strong> DPIA updated for any change in how personal data is processed</li><li><strong>Retire:</strong> Personal data deleted or transferred lawfully, as set out in the DPIA</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Create a secure service which protects users&#x27; privacy">9</abbr>; <a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make privacy integral">7</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
-
-<h2 id="gr-data-07">GR-DATA-07 Open by default<a class="headerlink" href="#gr-data-07" title="Permanent link">&para;</a></h2>
-<p><span class="rfc rfc--should">Should</span> Publish non-personal, non-sensitive data as open data under the Open Government Licence, through the <a href="https://environment.data.gov.uk/">Defra Data Services Platform</a> or <a href="https://www.data.gov.uk/">data.gov.uk</a>.</p>
-<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-07</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd>Link to the published open data and its licence</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
-
-<h2 id="gr-data-08">GR-DATA-08 Manage data quality<a class="headerlink" href="#gr-data-08" title="Permanent link">&para;</a></h2>
-<p><span class="rfc rfc--should">Should</span> Define, measure and report data quality using the <a href="https://www.gov.uk/government/publications/the-government-data-quality-framework">Government Data Quality Framework</a>, especially for data that feeds payments, regulatory decisions or official statistics.</p>
-<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-08</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/performance-analyst/">Performance analyst</a></dd><dt>Evidence</dt><dd>Data quality measures and regular reports</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
-
-<h2 id="gr-data-09">GR-DATA-09 Retain and dispose of records properly<a class="headerlink" href="#gr-data-09" title="Permanent link">&para;</a></h2>
-<p><span class="rfc rfc--must">Must</span> Apply Defra's retention schedules. Records of permanent value are identified for transfer to The National Archives.</p>
-<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-09</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Beta:</strong> Retention schedule identified for each type of record, and disposal built in</li><li><strong>Live:</strong> Retention applied and records of permanent value identified for The National Archives</li><li><strong>Retire:</strong> Records kept, transferred to The National Archives or destroyed, as agreed with the information asset owner</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
-
-<h2 id="research-data">Research data<a class="headerlink" href="#research-data" title="Permanent link">&para;</a></h2>
-<p>User research often collects personal data: recordings, notes, contact details and what participants type into prototypes. How to do this is set out in the user research <a href="https://digital.defra.gov.uk/user-research/standards-and-guidance">standards and guidance</a> (consent, participant data handling, and storage and retention) and <a href="https://digital.defra.gov.uk/user-research/tools">tools</a> in the Defra Digital Service Manual. These guardrails cover the architecture side.</p>
-<h2 id="gr-data-10">GR-DATA-10 Handle research data safely<a class="headerlink" href="#gr-data-10" title="Permanent link">&para;</a></h2>
-<p><span class="rfc rfc--should">Should</span> Collect research data only with informed consent, store recordings and notes only in Defra-approved places, delete them when they are no longer needed, use only Defra-approved research tools, and screen research for a <abbr title="Data protection impact assessment">DPIA</abbr>.</p>
+<h2 id="gr-data-10">GR-DATA-10 COMPLIANCE: Acquire new data safely<a class="headerlink" href="#gr-data-10" title="Permanent link">&para;</a></h2>
+<p><span class="rfc rfc--should">Should</span> User research often collects personal data: recordings, notes, contact details and what participants type into prototypes. How to do this is set out in the user research <a href="https://digital.defra.gov.uk/user-research/standards-and-guidance">standards and guidance</a> (consent, participant data handling, and storage and retention) and <a href="https://digital.defra.gov.uk/user-research/tools">tools</a> in the Defra Digital Service Manual. These guardrails cover the architecture side. Collect research data only with informed consent, store recordings and notes only in Defra-approved places, delete them when they are no longer needed, use only Defra-approved research tools, and screen research for a <abbr title="Data protection impact assessment">DPIA</abbr>.</p>
 <p><strong>Why:</strong> Research recordings and notes are personal data about real people. Keeping them in personal accounts, unapproved tools or for longer than needed puts participants at risk and breaks data protection law.</p>
 <p><strong>How to meet it:</strong></p>
 <ul>
@@ -5441,7 +5540,50 @@
 <p>This guardrail is a <strong>draft</strong> proposal. Comment on it by <a href="https://github.com/DEFRA/architecture/issues">opening an issue</a>.</p>
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-10</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/user-researcher/">User researcher</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Consent forms and privacy notice in use, recordings and notes stored only in approved places, and a deletion date set</li><li><strong>Alpha:</strong> The same for alpha research, with DPIA screening done for the research and any new research tool assessed</li><li><strong>Beta:</strong> Research data from earlier phases deleted on schedule, and the same controls for beta research</li><li><strong>Live:</strong> Research data handled the same way for ongoing research, and deletion checked</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.3.0</dd></dl></details>
 
-<h2 id="gr-data-11">GR-DATA-11 No real personal data in prototypes<a class="headerlink" href="#gr-data-11" title="Permanent link">&para;</a></h2>
+<h2 id="gr-data-04">GR-DATA-04 SHARE: Collect once, share safely<a class="headerlink" href="#gr-data-04" title="Permanent link">&para;</a></h2>
+<p><span class="rfc rfc--should">Should</span> Do not ask users for information Defra already holds. Share data between services through APIs or governed data products, with data sharing agreements where required.</p>
+<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-04</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta</dd><dt>Led by</dt><dd><a href="../../deliver/roles/service-designer/">Service designer</a></dd><dt>Evidence</dt><dd>Journey design showing users are not asked for information Defra already holds, and data sharing agreements where required</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Share, reuse and collaborate">8</abbr>, <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
+
+<h2 id="gr-data-06">GR-DATA-06 PROTECT: Protect sensitive data by design<a class="headerlink" href="#gr-data-06" title="Permanent link">&para;</a></h2>
+<p><span class="rfc rfc--must">Must</span> Complete a data protection impact assessment (DPIA) before processing personal data, minimise what you collect, and apply retention and deletion automatically.</p>
+<p><strong>Why:</strong> UK GDPR and the Data Protection Act 2018; <abbr title="Technology Code of Practice">TCoP</abbr> point 7.</p>
+<h2 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-06</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> DPIA screening completed, showing whether personal data is involved</li><li><strong>Alpha:</strong> Draft DPIA, with data minimisation and retention designed in</li><li><strong>Beta:</strong> Approved DPIA, and retention and deletion built and tested</li><li><strong>Live:</strong> DPIA reviewed when processing changes, and deletion running as designed</li><li><strong>Significant change:</strong> DPIA updated for any change in how personal data is processed</li><li><strong>Retire:</strong> Personal data deleted or transferred lawfully, as set out in the DPIA</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Create a secure service which protects users&#x27; privacy">9</abbr>; <a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make privacy integral">7</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
+
+<h2 id="gr-data-03">GR-DATA-03 STANDARDS: Use data standards identifiers<a class="headerlink" href="#gr-data-03" title="Permanent link">&para;</a></h2>
+<p><span class="rfc rfc--should">Should</span> Use the <a href="../../data/data-standards/">data standards</a> for dates, addresses, locations, identifiers and code lists, so data can be joined across services.</p>
+<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-03</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Alpha:</strong> Data model using the agreed data standards and identifiers</li><li><strong>Beta:</strong> Data stored and exchanged using the agreed standards, checked in testing</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Use and contribute to open standards, common components and patterns">13</abbr>; <a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make use of open standards">4</abbr>, <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
+
+<h2 id="gr-data-07">GR-DATA-07 PUBLISH: Make your data open by default<a class="headerlink" href="#gr-data-07" title="Permanent link">&para;</a></h2>
+<p><span class="rfc rfc--should">Should</span> Publish non-personal, non-sensitive data as open data under the Open Government Licence, through the <a href="https://environment.data.gov.uk/">Defra Data Services Platform</a> or <a href="https://www.data.gov.uk/">data.gov.uk</a>.</p>
+<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-07</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd>Link to the published open data and its licence</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
+
+<h2 id="gr-data-05">GR-DATA-05 DESCRIBE: Explain your data to users<a class="headerlink" href="#gr-data-05" title="Permanent link">&para;</a></h2>
+<p><span class="rfc rfc--should">Should</span> Publish metadata for data sets so they can be found and understood - <a href="https://www.agi.org.uk/why-uk-gemini/">UK GEMINI</a> for geospatial data and <a href="https://www.w3.org/TR/vocab-dcat-3/">DCAT</a> for other data sets.</p>
+<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-05</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd>Published metadata records in UK GEMINI or DCAT</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
+
+<h2 id="gr-data-08">GR-DATA-08 QUALITY: Define, measure &amp; manage data quality<a class="headerlink" href="#gr-data-08" title="Permanent link">&para;</a></h2>
+<p><span class="rfc rfc--should">Should</span> Define, measure and report data quality using the <a href="https://www.gov.uk/government/publications/the-government-data-quality-framework">Government Data Quality Framework</a>, especially for data that feeds payments, regulatory decisions or official statistics.</p>
+<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-08</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/performance-analyst/">Performance analyst</a></dd><dt>Evidence</dt><dd>Data quality measures and regular reports</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
+
+<h2 id="gr-data-13">GR-DATA-13 LINEAGE: Trace decisions to trusted data<a class="headerlink" href="#gr-data-13" title="Permanent link">&para;</a></h2>
+<p><span class="rfc rfc--should">Should</span> Record where the data behind each decision comes from, how it was transformed and which rules or models were applied, so any decision can be traced back to trusted sources.</p>
+<p><strong>Why:</strong> Payments, regulatory decisions and official statistics must be explainable and open to challenge. Without lineage you cannot show why a decision was made, correct it when a source turns out to be wrong, or reproduce it later.</p>
+<p><strong>How to meet it:</strong></p>
+<ul>
+<li>Identify the decisions the service makes or supports, and the data each one depends on.</li>
+<li>Take that data from authoritative sources (<a href="#gr-data-02">GR-DATA-02</a>) and record the version or time of each extract.</li>
+<li>Capture lineage automatically in pipelines rather than in documents written by hand.</li>
+<li>Record the rule or model version used for each decision, alongside the data quality measures for its inputs (<a href="#gr-data-08">GR-DATA-08</a>).</li>
+<li>Keep lineage records for as long as the decision records they support (<a href="#gr-data-09">GR-DATA-09</a>).</li>
+</ul>
+<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-13</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Alpha:</strong> Decisions the service makes or supports identified, with the data each one depends on and its authoritative source</li><li><strong>Beta:</strong> Lineage captured automatically from source to decision, including transformations, rules and model versions</li><li><strong>Live:</strong> Lineage kept current when sources, rules or models change, and used to explain or reproduce past decisions</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.4.0</dd></dl></details>
+
+<h2 id="gr-data-09">GR-DATA-09 DISPOSAL: Retain and dispose of records properly<a class="headerlink" href="#gr-data-09" title="Permanent link">&para;</a></h2>
+<p><span class="rfc rfc--must">Must</span> Apply Defra's retention schedules. Records of permanent value are identified for transfer to The National Archives.</p>
+<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-09</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Beta:</strong> Retention schedule identified for each type of record, and disposal built in</li><li><strong>Live:</strong> Retention applied and records of permanent value identified for The National Archives</li><li><strong>Retire:</strong> Records kept, transferred to The National Archives or destroyed, as agreed with the information asset owner</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
+
+<h2 id="gr-data-11">GR-DATA-11 ANONYMITY: No real personal data in prototypes<a class="headerlink" href="#gr-data-11" title="Permanent link">&para;</a></h2>
 <p><span class="rfc rfc--should">Should</span> Prototypes, research materials and test environments use made-up or anonymised data, never real personal data copied from a live service or spreadsheet.</p>
 <p><strong>Why:</strong> Prototypes are shared widely, hosted on less protected platforms and shown to participants. Real data in them can be seen by people who should not see it.</p>
 <p><strong>How to meet it:</strong> make up realistic names, addresses, holdings and reference numbers. Tell participants not to enter their own real details into a prototype unless the research plan allows it and the data is handled under <a href="#gr-data-10">GR-DATA-10</a>. If a test genuinely needs real data, agree it through a <abbr title="Data protection impact assessment">DPIA</abbr> first.</p>

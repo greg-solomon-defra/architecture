@@ -24,8 +24,8 @@ These guardrails need particular attention when you retire a service. The guardr
 
 | Guardrail | What to show |
 | --- | --- |
-| [GR-DATA-09](https://defra.github.io/architecture/guardrails/data/#gr-data-09) Retain and dispose of records properly | Records kept, transferred to The National Archives or destroyed, as agreed with the information asset owner |
-| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) Protect personal data by design | Personal data deleted or transferred lawfully, as set out in the DPIA |
+| [GR-DATA-09](https://defra.github.io/architecture/guardrails/data/#gr-data-09) DISPOSAL: Retain and dispose of records properly | Records kept, transferred to The National Archives or destroyed, as agreed with the information asset owner |
+| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) PROTECT: Protect sensitive data by design | Personal data deleted or transferred lawfully, as set out in the DPIA |
 | [GR-IAM-03](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-03) Authorise on least privilege | All access to the service's systems and data removed |
 | [GR-IAM-05](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-05) No secrets in code | Secrets, keys and credentials revoked |
 | [GR-OPEN-01](https://defra.github.io/architecture/guardrails/open-source/#gr-open-01) Code in the open | Repositories archived, not deleted, so the code and decisions stay available |
@@ -34,7 +34,7 @@ These guardrails need particular attention when you retire a service. The guardr
 
     | Guardrail | What to show |
     | --- | --- |
-    | [GR-DATA-01](https://defra.github.io/architecture/guardrails/data/#gr-data-01) Every data set has an owner | Information asset register updated to show what happened to each data set |
+    | [GR-DATA-01](https://defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | Information asset register updated to show what happened to each data set |
     | [GR-API-04](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-04) Version and deprecate deliberately | Consumers told the retirement date in advance, and moved to a replacement |
     | [GR-TECH-03](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-03) Plan your exit before you enter | Exit plan carried out - data exported in open formats and contracts ended |
     | [GR-SUS-02](https://defra.github.io/architecture/guardrails/sustainability/#gr-sus-02) Right-size and switch off | Autoscaling and out-of-hours schedules for non-production environments |
