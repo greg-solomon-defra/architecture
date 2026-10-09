@@ -5484,54 +5484,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#gr-data-02" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-02 DATA RE-USE: Use authoritative data sources
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gr-data-10" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-10 COMPLIANCE: Acquire new data safely
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gr-data-04" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-04 SHARE: Collect once, share safely
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#gr-data-06" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        GR-DATA-06 PROTECT: Protect sensitive data by design
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#gr-data-03" class="md-nav__link">
     <span class="md-ellipsis">
       
         GR-DATA-03 STANDARDS: Use data standards identifiers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gr-data-08" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-08 QUALITY: Define, measure &amp; manage data quality
       
     </span>
   </a>
@@ -5561,10 +5528,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#gr-data-08" class="md-nav__link">
+  <a href="#gr-data-04" class="md-nav__link">
     <span class="md-ellipsis">
       
-        GR-DATA-08 QUALITY: Define, measure &amp; manage data quality
+        GR-DATA-04 SHARE: Collect once, share safely
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gr-data-06" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-06 PROTECT: Protect sensitive data by design
       
     </span>
   </a>
@@ -5598,6 +5576,28 @@
     <span class="md-ellipsis">
       
         GR-DATA-11 ANONYMITY: No real personal data in prototypes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gr-data-02" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-02 DATA RE-USE: Use authoritative data sources
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gr-data-10" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GR-DATA-10 COMPLIANCE: Acquire new data safely
       
     </span>
   </a>
@@ -6900,37 +6900,26 @@
 <em>Evidence in live:</em> Register entries and owners kept current<br />
 <em>Evidence in retire:</em> Information asset register updated to show what happened to each data set<br />
 <em>Automated check:</em> Manual</p>
-<h3 id="gr-data-02">GR-DATA-02 DATA RE-USE: Use authoritative data sources<a class="headerlink" href="#gr-data-02" title="Permanent link">&para;</a></h3>
-<p><span class="rfc rfc--should">Should</span> Use the authoritative source for shared entities - customers, organisations, land parcels, holdings, locations, species - rather than creating local copies that drift. See <a href="../../data/defra-on-a-page/">Defra on a page</a>.</p>
-<details>
-<summary>The why and how of GR-DATA-02</summary>
-<p><strong>How to meet it:</strong> If you must cache or replicate, record the source, refresh frequency and how you handle changes.</p>
-</details>
-<p><em>Status:</em> Draft · <em>Phases:</em> Discovery, Alpha, Beta, Live · <em>Since:</em> 0.1.0 · <em>Led by:</em> Data architect<br />
-<em>Evidence in discovery:</em> Shared entities the service needs identified, with their authoritative sources<br />
-<em>Evidence in alpha:</em> Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed<br />
-<em>Evidence in beta:</em> The service reads from the authoritative sources as designed, tested with the source owners<br />
-<em>Evidence in live:</em> Copies and refresh arrangements reviewed when sources change<br />
+<h3 id="gr-data-03">GR-DATA-03 STANDARDS: Use data standards identifiers<a class="headerlink" href="#gr-data-03" title="Permanent link">&para;</a></h3>
+<p><span class="rfc rfc--should">Should</span> Use the <a href="../../data/data-standards/">data standards</a> for dates, addresses, locations, identifiers and code lists, so data can be joined across services.</p>
+<p><em>Status:</em> Draft · <em>Phases:</em> Alpha, Beta · <em>Since:</em> 0.1.0 · <em>Led by:</em> Data architect<br />
+<em>Evidence in alpha:</em> Data model using the agreed data standards and identifiers<br />
+<em>Evidence in beta:</em> Data stored and exchanged using the agreed standards, checked in testing<br />
 <em>Automated check:</em> Manual</p>
-<h3 id="gr-data-10">GR-DATA-10 COMPLIANCE: Acquire new data safely<a class="headerlink" href="#gr-data-10" title="Permanent link">&para;</a></h3>
-<p><span class="rfc rfc--should">Should</span> Collect research data only with informed consent, store recordings and notes only in Defra-approved places, delete them when they are no longer needed, use only Defra-approved research tools, and screen research for a <abbr title="Data protection impact assessment">DPIA</abbr>.</p>
-<details>
-<summary>The why and how of GR-DATA-10</summary>
-<p><strong>Why:</strong> User research often collects personal data: recordings, notes, contact details and what participants type into prototypes. How to do this is set out in the user research <a href="https://digital.defra.gov.uk/user-research/standards-and-guidance">standards and guidance</a> (consent, participant data handling, and storage and retention) and <a href="https://digital.defra.gov.uk/user-research/tools">tools</a> in the Defra Digital Service Manual. Research recordings and notes are personal data about real people. Keeping them in personal accounts, unapproved tools or for longer than needed puts participants at risk and breaks data protection law.</p>
-<p><strong>How to meet it:</strong></p>
-<ul>
-<li>Get informed consent before each session, using the templates in the manual's <a href="https://digital.defra.gov.uk/user-research/standards-and-guidance">standards and guidance</a>.</li>
-<li>Store recordings and notes only where the manual's participant data storage and retention guidance says, and set a deletion date when you collect them.</li>
-<li>Use only the manual's <a href="https://digital.defra.gov.uk/user-research/tools">approved research tools</a>, and check a tool can hold the data you plan to collect. Assess any new tool before using it (<a href="../../guardrails/choosing-technology/#gr-tech-04">GR-TECH-04</a>).</li>
-<li>Screen the research for a <abbr title="Data protection impact assessment">DPIA</abbr> (<a href="#gr-data-06">GR-DATA-06</a>), especially for new tools, sensitive topics or recordings of people's homes or farms.</li>
-<li>Do not put recordings or transcripts into AI tools except as the <a href="https://digital.defra.gov.uk/ai-toolkit/guidance/keeping-data-safe">AI digital toolkit</a> allows.</li>
-</ul>
-</details>
-<p><em>Status:</em> Draft · <em>Phases:</em> Discovery, Alpha, Beta, Live · <em>Since:</em> 0.3.0 · <em>Led by:</em> User researcher<br />
-<em>Evidence in discovery:</em> Consent forms and privacy notice in use, recordings and notes stored only in approved places, and a deletion date set<br />
-<em>Evidence in alpha:</em> The same for alpha research, with <abbr title="Data protection impact assessment">DPIA</abbr> screening done for the research and any new research tool assessed<br />
-<em>Evidence in beta:</em> Research data from earlier phases deleted on schedule, and the same controls for beta research<br />
-<em>Evidence in live:</em> Research data handled the same way for ongoing research, and deletion checked<br />
+<h3 id="gr-data-08">GR-DATA-08 QUALITY: Define, measure &amp; manage data quality<a class="headerlink" href="#gr-data-08" title="Permanent link">&para;</a></h3>
+<p><span class="rfc rfc--should">Should</span> Define, measure and report data quality using the <a href="https://www.gov.uk/government/publications/the-government-data-quality-framework">Government Data Quality Framework</a>, especially for data that feeds payments, regulatory decisions or official statistics.</p>
+<p><em>Status:</em> Draft · <em>Phases:</em> Beta, Live · <em>Since:</em> 0.1.0 · <em>Led by:</em> Data architect, Performance analyst<br />
+<em>Evidence:</em> Data quality measures and regular reports<br />
+<em>Automated check:</em> Manual</p>
+<h3 id="gr-data-07">GR-DATA-07 PUBLISH: Make your data open by default<a class="headerlink" href="#gr-data-07" title="Permanent link">&para;</a></h3>
+<p><span class="rfc rfc--should">Should</span> Publish non-personal, non-sensitive data as open data under the Open Government Licence, through the <a href="https://environment.data.gov.uk/">Defra Data Services Platform</a> or <a href="https://www.data.gov.uk/">data.gov.uk</a>.</p>
+<p><em>Status:</em> Draft · <em>Phases:</em> Beta, Live · <em>Since:</em> 0.1.0 · <em>Led by:</em> Data architect, Product manager<br />
+<em>Evidence:</em> Link to the published open data and its licence<br />
+<em>Automated check:</em> Manual</p>
+<h3 id="gr-data-05">GR-DATA-05 DESCRIBE: Explain your data to users<a class="headerlink" href="#gr-data-05" title="Permanent link">&para;</a></h3>
+<p><span class="rfc rfc--should">Should</span> Publish metadata for data sets so they can be found and understood - <a href="https://www.agi.org.uk/why-uk-gemini/">UK GEMINI</a> for geospatial data and <a href="https://www.w3.org/TR/vocab-dcat-3/">DCAT</a> for other data sets.</p>
+<p><em>Status:</em> Draft · <em>Phases:</em> Beta, Live · <em>Since:</em> 0.1.0 · <em>Led by:</em> Data architect<br />
+<em>Evidence:</em> Published metadata records in UK GEMINI or DCAT<br />
 <em>Automated check:</em> Manual</p>
 <h3 id="gr-data-04">GR-DATA-04 SHARE: Collect once, share safely<a class="headerlink" href="#gr-data-04" title="Permanent link">&para;</a></h3>
 <p><span class="rfc rfc--should">Should</span> Do not ask users for information Defra already holds. Share data between services through APIs or governed data products, with data sharing agreements where required.</p>
@@ -6950,27 +6939,6 @@
 <em>Evidence in live:</em> <abbr title="Data protection impact assessment">DPIA</abbr> reviewed when processing changes, and deletion running as designed<br />
 <em>Evidence in significant change:</em> <abbr title="Data protection impact assessment">DPIA</abbr> updated for any change in how personal data is processed<br />
 <em>Evidence in retire:</em> Personal data deleted or transferred lawfully, as set out in the <abbr title="Data protection impact assessment">DPIA</abbr><br />
-<em>Automated check:</em> Manual</p>
-<h3 id="gr-data-03">GR-DATA-03 STANDARDS: Use data standards identifiers<a class="headerlink" href="#gr-data-03" title="Permanent link">&para;</a></h3>
-<p><span class="rfc rfc--should">Should</span> Use the <a href="../../data/data-standards/">data standards</a> for dates, addresses, locations, identifiers and code lists, so data can be joined across services.</p>
-<p><em>Status:</em> Draft · <em>Phases:</em> Alpha, Beta · <em>Since:</em> 0.1.0 · <em>Led by:</em> Data architect<br />
-<em>Evidence in alpha:</em> Data model using the agreed data standards and identifiers<br />
-<em>Evidence in beta:</em> Data stored and exchanged using the agreed standards, checked in testing<br />
-<em>Automated check:</em> Manual</p>
-<h3 id="gr-data-07">GR-DATA-07 PUBLISH: Make your data open by default<a class="headerlink" href="#gr-data-07" title="Permanent link">&para;</a></h3>
-<p><span class="rfc rfc--should">Should</span> Publish non-personal, non-sensitive data as open data under the Open Government Licence, through the <a href="https://environment.data.gov.uk/">Defra Data Services Platform</a> or <a href="https://www.data.gov.uk/">data.gov.uk</a>.</p>
-<p><em>Status:</em> Draft · <em>Phases:</em> Beta, Live · <em>Since:</em> 0.1.0 · <em>Led by:</em> Data architect, Product manager<br />
-<em>Evidence:</em> Link to the published open data and its licence<br />
-<em>Automated check:</em> Manual</p>
-<h3 id="gr-data-05">GR-DATA-05 DESCRIBE: Explain your data to users<a class="headerlink" href="#gr-data-05" title="Permanent link">&para;</a></h3>
-<p><span class="rfc rfc--should">Should</span> Publish metadata for data sets so they can be found and understood - <a href="https://www.agi.org.uk/why-uk-gemini/">UK GEMINI</a> for geospatial data and <a href="https://www.w3.org/TR/vocab-dcat-3/">DCAT</a> for other data sets.</p>
-<p><em>Status:</em> Draft · <em>Phases:</em> Beta, Live · <em>Since:</em> 0.1.0 · <em>Led by:</em> Data architect<br />
-<em>Evidence:</em> Published metadata records in UK GEMINI or DCAT<br />
-<em>Automated check:</em> Manual</p>
-<h3 id="gr-data-08">GR-DATA-08 QUALITY: Define, measure &amp; manage data quality<a class="headerlink" href="#gr-data-08" title="Permanent link">&para;</a></h3>
-<p><span class="rfc rfc--should">Should</span> Define, measure and report data quality using the <a href="https://www.gov.uk/government/publications/the-government-data-quality-framework">Government Data Quality Framework</a>, especially for data that feeds payments, regulatory decisions or official statistics.</p>
-<p><em>Status:</em> Draft · <em>Phases:</em> Beta, Live · <em>Since:</em> 0.1.0 · <em>Led by:</em> Data architect, Performance analyst<br />
-<em>Evidence:</em> Data quality measures and regular reports<br />
 <em>Automated check:</em> Manual</p>
 <h3 id="gr-data-13">GR-DATA-13 LINEAGE: Trace decisions to trusted data<a class="headerlink" href="#gr-data-13" title="Permanent link">&para;</a></h3>
 <p><span class="rfc rfc--should">Should</span> Record where the data behind each decision comes from, how it was transformed and which rules or models were applied, so any decision can be traced back to trusted sources.</p>
@@ -7009,6 +6977,38 @@
 <em>Evidence in discovery:</em> Any prototype uses made-up data<br />
 <em>Evidence in alpha:</em> Prototypes and research materials use made-up data, including data a participant types in during a session<br />
 <em>Evidence in beta:</em> Test and research environments use synthetic or anonymised data; any exception agreed through a <abbr title="Data protection impact assessment">DPIA</abbr><br />
+<em>Automated check:</em> Manual</p>
+<h3 id="gr-data-02">GR-DATA-02 DATA RE-USE: Use authoritative data sources<a class="headerlink" href="#gr-data-02" title="Permanent link">&para;</a></h3>
+<p><span class="rfc rfc--should">Should</span> Use the authoritative source for shared entities - customers, organisations, land parcels, holdings, locations, species - rather than creating local copies that drift. See <a href="../../data/defra-on-a-page/">Defra on a page</a>.</p>
+<details>
+<summary>The why and how of GR-DATA-02</summary>
+<p><strong>How to meet it:</strong> If you must cache or replicate, record the source, refresh frequency and how you handle changes.</p>
+</details>
+<p><em>Status:</em> Draft · <em>Phases:</em> Discovery, Alpha, Beta, Live · <em>Since:</em> 0.1.0 · <em>Led by:</em> Data architect<br />
+<em>Evidence in discovery:</em> Shared entities the service needs identified, with their authoritative sources<br />
+<em>Evidence in alpha:</em> Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed<br />
+<em>Evidence in beta:</em> The service reads from the authoritative sources as designed, tested with the source owners<br />
+<em>Evidence in live:</em> Copies and refresh arrangements reviewed when sources change<br />
+<em>Automated check:</em> Manual</p>
+<h3 id="gr-data-10">GR-DATA-10 COMPLIANCE: Acquire new data safely<a class="headerlink" href="#gr-data-10" title="Permanent link">&para;</a></h3>
+<p><span class="rfc rfc--should">Should</span> Collect research data only with informed consent, store recordings and notes only in Defra-approved places, delete them when they are no longer needed, use only Defra-approved research tools, and screen research for a <abbr title="Data protection impact assessment">DPIA</abbr>.</p>
+<details>
+<summary>The why and how of GR-DATA-10</summary>
+<p><strong>Why:</strong> User research often collects personal data: recordings, notes, contact details and what participants type into prototypes. How to do this is set out in the user research <a href="https://digital.defra.gov.uk/user-research/standards-and-guidance">standards and guidance</a> (consent, participant data handling, and storage and retention) and <a href="https://digital.defra.gov.uk/user-research/tools">tools</a> in the Defra Digital Service Manual. Research recordings and notes are personal data about real people. Keeping them in personal accounts, unapproved tools or for longer than needed puts participants at risk and breaks data protection law.</p>
+<p><strong>How to meet it:</strong></p>
+<ul>
+<li>Get informed consent before each session, using the templates in the manual's <a href="https://digital.defra.gov.uk/user-research/standards-and-guidance">standards and guidance</a>.</li>
+<li>Store recordings and notes only where the manual's participant data storage and retention guidance says, and set a deletion date when you collect them.</li>
+<li>Use only the manual's <a href="https://digital.defra.gov.uk/user-research/tools">approved research tools</a>, and check a tool can hold the data you plan to collect. Assess any new tool before using it (<a href="../../guardrails/choosing-technology/#gr-tech-04">GR-TECH-04</a>).</li>
+<li>Screen the research for a <abbr title="Data protection impact assessment">DPIA</abbr> (<a href="#gr-data-06">GR-DATA-06</a>), especially for new tools, sensitive topics or recordings of people's homes or farms.</li>
+<li>Do not put recordings or transcripts into AI tools except as the <a href="https://digital.defra.gov.uk/ai-toolkit/guidance/keeping-data-safe">AI digital toolkit</a> allows.</li>
+</ul>
+</details>
+<p><em>Status:</em> Draft · <em>Phases:</em> Discovery, Alpha, Beta, Live · <em>Since:</em> 0.3.0 · <em>Led by:</em> User researcher<br />
+<em>Evidence in discovery:</em> Consent forms and privacy notice in use, recordings and notes stored only in approved places, and a deletion date set<br />
+<em>Evidence in alpha:</em> The same for alpha research, with <abbr title="Data protection impact assessment">DPIA</abbr> screening done for the research and any new research tool assessed<br />
+<em>Evidence in beta:</em> Research data from earlier phases deleted on schedule, and the same controls for beta research<br />
+<em>Evidence in live:</em> Research data handled the same way for ongoing research, and deletion checked<br />
 <em>Automated check:</em> Manual</p>
 <h2 id="digital-first-and-end-to-end-services">Digital first and end-to-end services<a class="headerlink" href="#digital-first-and-end-to-end-services" title="Permanent link">&para;</a></h2>
 <h3 id="gr-dig-01">GR-DIG-01 Challenge paper and manual processes<a class="headerlink" href="#gr-dig-01" title="Permanent link">&para;</a></h3>
