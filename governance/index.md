@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/governance/ | maturity: published | site version 0.3.0 | generated from governance/index.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/governance/ | maturity: published | site version 0.3.0 | generated from governance/index.md -->
 
 # Governance
 
@@ -7,9 +7,9 @@
 ## Our approach
 
 - **Delegate by default.** Most decisions should be made by delivery teams and their solution design authority. Central boards look only at what genuinely needs them.
-- **Guardrails earn autonomy.** The closer a design is to the [guardrails](https://defra.github.io/architecture/guardrails/) and the [handrail](https://defra.github.io/architecture/handrail/), the less governance it needs.
+- **Guardrails earn autonomy.** The closer a design is to the [guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/) and the [handrail](https://greg-solomon-defra.github.io/architecture/handrail/), the less governance it needs.
 - **Engage early, not at the end.** A 30-minute conversation in discovery saves weeks of rework at a gate.
-- **Decide in the open.** Decisions are recorded as [ADRs](https://defra.github.io/architecture/governance/architecture-decision-records/), published wherever possible, and reusable by other teams.
+- **Decide in the open.** Decisions are recorded as [ADRs](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/), published wherever possible, and reusable by other teams.
 - **Proportionate to risk.** The route depends on novelty, reach and risk - not on the size of the team or the supplier.
 
 ## Seek advice, not permission
@@ -18,9 +18,9 @@ Most architecture decisions do not need a board. They need the right conversatio
 
 1. **Asks for advice** from the people with relevant expertise - an architect, the platform team, security - and from the people who will be affected by it.
 2. **Decides** - the team remains accountable for the decision and its outcome.
-3. **Records** the decision and the advice it received as an [ADR](https://defra.github.io/architecture/governance/architecture-decision-records/), in the open.
+3. **Records** the decision and the advice it received as an [ADR](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/), in the open.
 
-This keeps decisions close to the work and fast enough to learn from, while making sure no one is surprised. It reflects the [DDTS doctrine](https://defra.github.io/architecture/principles/doctrine/) - teams decide without escalating every choice - and the government [lightweight architecture](https://technology.blog.gov.uk/2026/08/28/lightweight-architecture-for-learning-at-pace/) approach. The boards below are for the minority of decisions that are novel, cross-cutting or outside the guardrails.
+This keeps decisions close to the work and fast enough to learn from, while making sure no one is surprised. It reflects the [DDTS doctrine](https://greg-solomon-defra.github.io/architecture/principles/doctrine/) - teams decide without escalating every choice - and the government [lightweight architecture](https://technology.blog.gov.uk/2026/08/28/lightweight-architecture-for-learning-at-pace/) approach. The boards below are for the minority of decisions that are novel, cross-cutting or outside the guardrails.
 
 ## Three tiers
 
@@ -42,40 +42,40 @@ flowchart TB
 
 | Tier | Decides | Typical items |
 | --- | --- | --- |
-| [Technology Governance Board](https://defra.github.io/architecture/governance/tgb/) | Strategy, standards, guardrails, significant investment | Technology strategy, cloud strategy, new strategic platforms, retiring a capability |
-| [Technical Design Authority](https://defra.github.io/architecture/governance/tda/) | Cross-cutting and novel designs, exceptions to Must guardrails | A new shared component, a new hosting model, novel AI use, a design affecting several services |
-| [Solution design authorities](https://defra.github.io/architecture/governance/solution-design-authorities/) | Designs inside the guardrails, and Should-level deviations | Service designs at phase gates, technology choices within the supported stack |
+| [Technology Governance Board](https://greg-solomon-defra.github.io/architecture/governance/tgb/) | Strategy, standards, guardrails, significant investment | Technology strategy, cloud strategy, new strategic platforms, retiring a capability |
+| [Technical Design Authority](https://greg-solomon-defra.github.io/architecture/governance/tda/) | Cross-cutting and novel designs, exceptions to Must guardrails | A new shared component, a new hosting model, novel AI use, a design affecting several services |
+| [Solution design authorities](https://greg-solomon-defra.github.io/architecture/governance/solution-design-authorities/) | Designs inside the guardrails, and Should-level deviations | Service designs at phase gates, technology choices within the supported stack |
 | Delivery teams | Day-to-day design decisions | Libraries, data models, API design, implementation choices |
 
 ## Where to start
 
 <div class="grid cards" markdown>
 
--   **[Check a decision](https://defra.github.io/architecture/governance/decision-check/)**
+-   **[Check a decision](https://greg-solomon-defra.github.io/architecture/governance/decision-check/)**
 
     ---
 
     An interactive check that suggests your route and drafts a decision record.
 
--   **[Which route do I take?](https://defra.github.io/architecture/governance/triage/)**
+-   **[Which route do I take?](https://greg-solomon-defra.github.io/architecture/governance/triage/)**
 
     ---
 
     How triage works, and when you can self-assure or need a board.
 
--   **[Record a decision](https://defra.github.io/architecture/governance/architecture-decision-records/)**
+-   **[Record a decision](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/)**
 
     ---
 
     How to write a good ADR, with a template.
 
--   **[Request an exception](https://defra.github.io/architecture/governance/exceptions/)**
+-   **[Request an exception](https://greg-solomon-defra.github.io/architecture/governance/exceptions/)**
 
     ---
 
     When you cannot meet a guardrail, and how to get a quick answer.
 
--   **[Templates](https://defra.github.io/architecture/governance/templates/)**
+-   **[Templates](https://greg-solomon-defra.github.io/architecture/governance/templates/)**
 
     ---
 
@@ -90,13 +90,13 @@ Architecture governance works alongside, not instead of:
 - **Service assessments** against the [Service Standard](https://www.gov.uk/service-manual/service-standard) - see [service assessments](https://digital.defra.gov.uk/service-assessments) in the Defra Digital Service Manual
 - **Operational service readiness**, including the operational service design review board at the start of beta - see [operational service readiness](https://digital.defra.gov.uk/delivery-groups/follow-delivery-governance/assurance/operational-service-readiness)
 - **Spend control** under the Portfolio Assurance Board (PAB)
-- **Security assurance** through [Secure by Design](https://defra.github.io/architecture/security/secure-by-design/)
+- **Security assurance** through [Secure by Design](https://greg-solomon-defra.github.io/architecture/security/secure-by-design/)
 - **Data protection** through DPIAs and the Data Protection Officer
 - **Investment approvals** through the department's business case process (InvestCo)
 
 Delivery groups have their own [governance model](https://digital.defra.gov.uk/delivery-groups/follow-delivery-governance/governance-model), in which principal architects set the technology guardrails for the group in line with the enterprise architecture principles. The Delivery Architecture team handles exceptions to the [Defra software development standards](https://defra.github.io/software-development-standards/) - see [architecture](https://digital.defra.gov.uk/architecture) in the Defra Digital Service Manual.
 
-The TGB agrees strategies, the TDA is the technical decision-making authority, and in each [solution design authority](https://defra.github.io/architecture/governance/solution-design-authorities/#delivery-groups-and-principal-architects) the principal architect is accountable for decisions within a roadmap agreed at the TDA. How exceptions on this site relate to the Delivery Architecture team's is [still being agreed](https://defra.github.io/architecture/governance/exceptions/#exceptions-to-the-software-development-standards).
+The TGB agrees strategies, the TDA is the technical decision-making authority, and in each [solution design authority](https://greg-solomon-defra.github.io/architecture/governance/solution-design-authorities/#delivery-groups-and-principal-architects) the principal architect is accountable for decisions within a roadmap agreed at the TDA. How exceptions on this site relate to the Delivery Architecture team's is [still being agreed](https://greg-solomon-defra.github.io/architecture/governance/exceptions/#exceptions-to-the-software-development-standards).
 
 We aim to reuse evidence across these: an ADR log, threat model and architecture diagram prepared for one should satisfy the others.
 

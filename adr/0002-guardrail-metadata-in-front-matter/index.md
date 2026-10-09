@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/adr/0002-guardrail-metadata-in-front-matter/ | maturity: published | site version 0.3.0 | generated from adr/0002-guardrail-metadata-in-front-matter.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/adr/0002-guardrail-metadata-in-front-matter/ | maturity: published | site version 0.3.0 | generated from adr/0002-guardrail-metadata-in-front-matter.md -->
 
 # 0002. Keep guardrail metadata in each page's front matter
 

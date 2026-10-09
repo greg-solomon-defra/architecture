@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/deliver/guardrail-check/ | maturity: prototype | site version 0.3.0 | generated from deliver/guardrail-check.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/deliver/guardrail-check/ | maturity: prototype | site version 0.3.0 | generated from deliver/guardrail-check.md -->
 
 # Check your repository automatically
 
@@ -13,17 +13,17 @@
 
 | Guardrail | Check |
 | --- | --- |
-| [GR-OPEN-02 Licence clearly](https://defra.github.io/architecture/guardrails/open-source/#gr-open-02) | A `LICENCE` file with the Open Government Licence or MIT licence |
-| [GR-DEV-08 Document as you go](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-08) | The README explains how to run, test and deploy the service, and links to its ADRs |
-| [GR-API-02 Describe APIs with open specifications](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-02) | OpenAPI 3 and AsyncAPI documents in the repository are well formed |
-| [GR-OPEN-03 Publish safely](https://defra.github.io/architecture/guardrails/open-source/#gr-open-03) | Secret scanning and push protection are on |
-| [GR-DEV-03 Protect the main branch](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-03) | The default branch is protected |
-| [GR-DEV-06 Manage dependencies actively](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-06) | Dependabot or Renovate is configured |
-| [GR-DEV-09 Record significant decisions as ADRs](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-09) | Decision records in `docs/adr` |
+| [GR-OPEN-02 Licence clearly](https://greg-solomon-defra.github.io/architecture/guardrails/open-source/#gr-open-02) | A `LICENCE` file with the Open Government Licence or MIT licence |
+| [GR-DEV-08 Document as you go](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-08) | The README explains how to run, test and deploy the service, and links to its ADRs |
+| [GR-API-02 Describe APIs with open specifications](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-02) | OpenAPI 3 and AsyncAPI documents in the repository are well formed |
+| [GR-OPEN-03 Publish safely](https://greg-solomon-defra.github.io/architecture/guardrails/open-source/#gr-open-03) | Secret scanning and push protection are on |
+| [GR-DEV-03 Protect the main branch](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-03) | The default branch is protected |
+| [GR-DEV-06 Manage dependencies actively](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-06) | Dependabot or Renovate is configured |
+| [GR-DEV-09 Record significant decisions as ADRs](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-09) | Decision records in `docs/adr` |
 
 Each check passes, fails or is unknown - for example when the token cannot read a repository setting, or the repository has no API. The report goes in the job summary, and the step fails only when a check fails.
 
-The same checks are listed as the **automated check** for each guardrail in the [guardrail library](https://defra.github.io/architecture/guardrails/library/).
+The same checks are listed as the **automated check** for each guardrail in the [guardrail library](https://greg-solomon-defra.github.io/architecture/guardrails/library/).
 
 !!! note "Passing is not the same as meeting the guardrails"
     Most guardrails need a person to judge them - whether an API is secure, or a design suits its users. The check catches the basics so that conversations with your solution design authority can focus on what matters.

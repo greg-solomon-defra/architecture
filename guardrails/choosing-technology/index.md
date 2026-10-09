@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/choosing-technology/ | maturity: published | site version 0.3.0 | generated from guardrails/choosing-technology.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/ | maturity: published | site version 0.3.0 | generated from guardrails/choosing-technology.md -->
 
 # Choosing technology
 
@@ -6,19 +6,19 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [1. Platforms before projects. Built as products](https://defra.github.io/architecture/principles/doctrine/#ddts-01), [2. Standards and guardrails before exceptions](https://defra.github.io/architecture/principles/doctrine/#ddts-02), [3. Reuse before buy](https://defra.github.io/architecture/principles/doctrine/#ddts-03)  
-**Principles:** [3. Maximise value, minimise waste](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-03), [1. Delivery-focused architecture](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-01)
+**Doctrine:** [1. Platforms before projects. Built as products](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-01), [2. Standards and guardrails before exceptions](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-02), [3. Reuse before buy](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-03)  
+**Principles:** [3. Maximise value, minimise waste](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-03), [1. Delivery-focused architecture](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-01)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the choosing technology guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the choosing technology guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
 ## GR-TECH-01 Look for something to reuse first {#gr-tech-01}
 
-<span class="rfc rfc--must">Must</span> Before buying or building, check the [technology capability catalogue](https://defra.github.io/architecture/handrail/technology-capabilities/) and cross-government components for something that already meets the need.
+<span class="rfc rfc--must">Must</span> Before buying or building, check the [technology capability catalogue](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/) and cross-government components for something that already meets the need.
 
 **Why:** Duplicate capabilities multiply cost, security risk and support effort.
 
@@ -55,7 +55,7 @@
 
 **Why:** Supply chain risk is one of the biggest sources of security incidents in government.
 
-**How to meet it:** Use the [Secure by Design](https://defra.github.io/architecture/security/secure-by-design/) supplier assurance activities, complete a DPIA if personal data is involved and confirm the product supports single sign-on with Microsoft Entra ID for staff ([GR-IAM-02](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-02)).
+**How to meet it:** Use the [Secure by Design](https://greg-solomon-defra.github.io/architecture/security/secure-by-design/) supplier assurance activities, complete a DPIA if personal data is involved and confirm the product supports single sign-on with Microsoft Entra ID for staff ([GR-IAM-02](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-02)).
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-TECH-04</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha</dd><dt>Led by</dt><dd><a href="../../deliver/roles/security-architect/">Security architect</a>, <a href="../../deliver/roles/technical-architect/">Technical architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> SaaS and third-party products under consideration listed, with the assessments they will need</li><li><strong>Alpha:</strong> Security, data protection, data location, accessibility and single sign-on assessed before contract</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Create a secure service which protects users&#x27; privacy">9</abbr>; <a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make things secure">6</abbr>, <abbr title="Make privacy integral">7</abbr>, <abbr title="Define your purchasing strategy">11</abbr>; <a href="https://www.security.gov.uk/policy-and-guidance/secure-by-design/principles/">Secure by Design principles</a> <abbr title="Source secure technology products">2</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-01">1</a>, <a href="../../principles/doctrine/#ddts-02">2</a>, <a href="../../principles/doctrine/#ddts-03">3</a></dd><dt>Owner</dt><dd>Architecture team, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>

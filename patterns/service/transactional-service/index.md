@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/patterns/service/transactional-service/ | maturity: draft | site version 0.3.0 | generated from patterns/service/transactional-service.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/patterns/service/transactional-service/ | maturity: draft | site version 0.3.0 | generated from patterns/service/transactional-service.md -->
 
 # Transactional digital service
 
@@ -9,7 +9,7 @@
 
 
 
-**Typical business capabilities:** [04 Engage with citizens and organisations](https://defra.github.io/architecture/handrail/business-capabilities/#bc04), [05 Issue licences and permits](https://defra.github.io/architecture/handrail/business-capabilities/#bc05), [07 Administer funds and grants](https://defra.github.io/architecture/handrail/business-capabilities/#bc07).
+**Typical business capabilities:** [04 Engage with citizens and organisations](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/#bc04), [05 Issue licences and permits](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/#bc05), [07 Administer funds and grants](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/#bc07).
 
 !!! info "Part of the government picture"
     This service pattern is Defra's detailed view of one part of the cross-government [Citizen Facing Reference Architecture](https://architecture.cddo.cabinetoffice.gov.uk/citizen-architecture/CF.html). That model lists Defra Grants in its business logic layer and the GOV.UK components used here - One Login, Pay, Notify and Forms - in its interaction and channel layers.
@@ -48,14 +48,14 @@ flowchart LR
 
 | Concern | Default | Guardrails |
 | --- | --- | --- |
-| Hosting | Core Delivery Platform | [GR-HOST-01](https://defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-01) |
-| Front end | Node.js, hapi, Nunjucks, GOV.UK Frontend; or the forms capability for simple form-based services | [GR-FE-02](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-02), [GR-FE-04](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-04) |
-| Sign in | Defra Customer Identity (Defra ID), which uses GOV.UK One Login and Government Gateway | [GR-IAM-01](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-01) |
-| Payments | GOV.UK Pay | [Finance](https://defra.github.io/architecture/handrail/technology-capabilities/#finance) |
-| Notifications | GOV.UK Notify | [Customer Service](https://defra.github.io/architecture/handrail/technology-capabilities/#customer-service) |
-| Hand-off to back office | Publish an event or call a documented API; never share a database | [GR-API-05](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-05), [GR-API-06](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-06) |
-| Data | Own your service data; use authoritative sources for customers, holdings and locations | [GR-DATA-02](https://defra.github.io/architecture/guardrails/data/#gr-data-02) |
-| Observability | Platform logging, metrics and tracing | [GR-OPS-01](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-01) |
+| Hosting | Core Delivery Platform | [GR-HOST-01](https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-01) |
+| Front end | Node.js, hapi, Nunjucks, GOV.UK Frontend; or the forms capability for simple form-based services | [GR-FE-02](https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-02), [GR-FE-04](https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-04) |
+| Sign in | Defra Customer Identity (Defra ID), which uses GOV.UK One Login and Government Gateway | [GR-IAM-01](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-01) |
+| Payments | GOV.UK Pay | [Finance](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#finance) |
+| Notifications | GOV.UK Notify | [Customer Service](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#customer-service) |
+| Hand-off to back office | Publish an event or call a documented API; never share a database | [GR-API-05](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-05), [GR-API-06](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-06) |
+| Data | Own your service data; use authoritative sources for customers, holdings and locations | [GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) |
+| Observability | Platform logging, metrics and tracing | [GR-OPS-01](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-01) |
 
 ## Key decisions to record
 

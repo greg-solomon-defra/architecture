@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/partners/contracting/ | maturity: published | site version 0.3.0 | generated from partners/contracting.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/partners/contracting/ | maturity: published | site version 0.3.0 | generated from partners/contracting.md -->
 
 # Contracting with this site
 
@@ -20,7 +20,7 @@ Each release of the site is:
 - numbered using [semantic versioning](https://semver.org/), for example `0.2.0`
 - tagged in the [repository](https://github.com/DEFRA/architecture/tags), for example as `v0.3.0`
 - published as a [GitHub release](https://github.com/DEFRA/architecture/releases) with a PDF of every guardrail attached, as an archived copy
-- listed in [what's new](https://defra.github.io/architecture/about/changelog/)
+- listed in [what's new](https://greg-solomon-defra.github.io/architecture/about/changelog/)
 
 Cite it like this:
 
@@ -56,31 +56,31 @@ Use or adapt these in a statement of requirements or statement of work. Text in 
 
 ### 1. Guardrails
 
-> The Supplier shall meet every Must guardrail in the Defra architecture guardrails, version [X.Y.Z] (Annex A), unless the Authority has approved an exception through the published [exception process](https://defra.github.io/architecture/governance/exceptions/). Where the Supplier departs from a Should guardrail, it shall record the reason in an architecture decision record and share it with the Authority's solution design authority.
+> The Supplier shall meet every Must guardrail in the Defra architecture guardrails, version [X.Y.Z] (Annex A), unless the Authority has approved an exception through the published [exception process](https://greg-solomon-defra.github.io/architecture/governance/exceptions/). Where the Supplier departs from a Should guardrail, it shall record the reason in an architecture decision record and share it with the Authority's solution design authority.
 
 ### 2. Non-functional requirements for the service tier
 
-> The Service is service tier [T1 / T2 / T3 / T4], as defined in the Defra [service tiers](https://defra.github.io/architecture/nfrs/service-tiers/), version [X.Y.Z]. The Supplier shall meet the targets for that tier in the Defra [NFR catalogue](https://defra.github.io/architecture/nfrs/catalogue/), version [X.Y.Z], and evidence them through automated testing before each release to production.
+> The Service is service tier [T1 / T2 / T3 / T4], as defined in the Defra [service tiers](https://greg-solomon-defra.github.io/architecture/nfrs/service-tiers/), version [X.Y.Z]. The Supplier shall meet the targets for that tier in the Defra [NFR catalogue](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/), version [X.Y.Z], and evidence them through automated testing before each release to production.
 
 ### 3. Code and repositories
 
-> All source code, infrastructure code, pipeline definitions and documentation shall be held in a Defra-owned GitHub organisation from the first commit ([GR-DEV-02](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-02)), public unless the Authority agrees a recorded reason ([GR-OPEN-01](https://defra.github.io/architecture/guardrails/open-source/#gr-open-01)), and licensed as required by [GR-OPEN-02](https://defra.github.io/architecture/guardrails/open-source/#gr-open-02). The Authority owns all code and intellectual property created under this contract.
+> All source code, infrastructure code, pipeline definitions and documentation shall be held in a Defra-owned GitHub organisation from the first commit ([GR-DEV-02](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-02)), public unless the Authority agrees a recorded reason ([GR-OPEN-01](https://greg-solomon-defra.github.io/architecture/guardrails/open-source/#gr-open-01)), and licensed as required by [GR-OPEN-02](https://greg-solomon-defra.github.io/architecture/guardrails/open-source/#gr-open-02). The Authority owns all code and intellectual property created under this contract.
 
 ### 4. Architecture decision records
 
-> The Supplier shall record significant architecture decisions as architecture decision records in the service repository ([GR-DEV-09](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-09)), using the Authority's [ADR template](https://defra.github.io/architecture/governance/templates/adr/), from the start of the engagement.
+> The Supplier shall record significant architecture decisions as architecture decision records in the service repository ([GR-DEV-09](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-09)), using the Authority's [ADR template](https://greg-solomon-defra.github.io/architecture/governance/templates/adr/), from the start of the engagement.
 
 ### 5. Secure by Design
 
-> The Supplier shall carry out the [Secure by Design](https://defra.github.io/architecture/security/secure-by-design/) activities for each phase, and provide and keep current the threat model ([GR-SEC-02](https://defra.github.io/architecture/guardrails/security/#gr-sec-02)), security risk records ([GR-SEC-09](https://defra.github.io/architecture/guardrails/security/#gr-sec-09)) and IT health check remediation ([GR-SEC-06](https://defra.github.io/architecture/guardrails/security/#gr-sec-06)). The Supplier shall support the Authority's named risk owner.
+> The Supplier shall carry out the [Secure by Design](https://greg-solomon-defra.github.io/architecture/security/secure-by-design/) activities for each phase, and provide and keep current the threat model ([GR-SEC-02](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-02)), security risk records ([GR-SEC-09](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-09)) and IT health check remediation ([GR-SEC-06](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-06)). The Supplier shall support the Authority's named risk owner.
 
 ### 6. AI coding assistants
 
-> The Supplier shall use AI coding assistants on the Authority's work only as set out in [GR-AI-07](https://defra.github.io/architecture/guardrails/ai/#gr-ai-07), and only tools that meet [GR-AI-02](https://defra.github.io/architecture/guardrails/ai/#gr-ai-02).
+> The Supplier shall use AI coding assistants on the Authority's work only as set out in [GR-AI-07](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-07), and only tools that meet [GR-AI-02](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-02).
 
 ### 7. Exit and handover
 
-> The Supplier shall maintain an exit plan ([GR-TECH-03](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-03)) and, at the end of the contract or on request, hand over the Service so that it meets the Authority's [handover definition of done](https://defra.github.io/architecture/partners/handover-and-exit/). The Supplier shall co-operate with any incoming supplier during transition.
+> The Supplier shall maintain an exit plan ([GR-TECH-03](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-03)) and, at the end of the contract or on request, hand over the Service so that it meets the Authority's [handover definition of done](https://greg-solomon-defra.github.io/architecture/partners/handover-and-exit/). The Supplier shall co-operate with any incoming supplier during transition.
 
 ## Annex A: Must guardrails
 

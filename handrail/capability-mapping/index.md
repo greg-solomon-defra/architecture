@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/handrail/capability-mapping/ | maturity: published | site version 0.3.0 | generated from handrail/capability-mapping.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/handrail/capability-mapping/ | maturity: published | site version 0.3.0 | generated from handrail/capability-mapping.md -->
 
 # Capability mapping
 
@@ -31,7 +31,7 @@ The architecture team uses this map with portfolio data to:
 
 1. assess the maturity of each technology capability against the business capabilities it serves
 2. identify duplicated products supporting the same capability
-3. shape the technology roadmap presented to the [Technology Governance Board](https://defra.github.io/architecture/governance/tgb/)
+3. shape the technology roadmap presented to the [Technology Governance Board](https://greg-solomon-defra.github.io/architecture/governance/tgb/)
 
-If you are a portfolio or product lead and would like to map your services to capabilities, [get in touch](https://defra.github.io/architecture/about/team/).
+If you are a portfolio or product lead and would like to map your services to capabilities, [get in touch](https://greg-solomon-defra.github.io/architecture/about/team/).
 

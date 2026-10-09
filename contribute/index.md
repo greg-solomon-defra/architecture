@@ -1,26 +1,26 @@
-<!-- https://defra.github.io/architecture/contribute/ | maturity: published | site version 0.3.0 | generated from contribute/index.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/contribute/ | maturity: published | site version 0.3.0 | generated from contribute/index.md -->
 
 # Contribute
 
 <p class="lead">This site is built in the open and improves when the people who use it change it. Defra staff and delivery partners are equally welcome to contribute.</p>
 
-New to updating the site? Read the [guide for the team](https://defra.github.io/architecture/contribute/team-guide/) first. It explains how the site is built, the rules every change follows and which file to edit.
+New to updating the site? Read the [guide for the team](https://greg-solomon-defra.github.io/architecture/contribute/team-guide/) first. It explains how the site is built, the rules every change follows and which file to edit.
 
 ## Ways to contribute
 
 - **Spotted a mistake or something unclear?** Select **Edit this page** (the pencil icon at the top of each page) to propose a change on GitHub.
 - **Have a question or an idea?** [Open an issue](https://github.com/DEFRA/architecture/issues). There are forms to report a content error, propose a guardrail change or an architecture pattern, answer an open question, and give feedback on how the site works for your role.
-- **Want to change a guardrail?** Open a pull request explaining what and why. See [how guardrails change](https://defra.github.io/architecture/guardrails/#how-guardrails-change).
+- **Want to change a guardrail?** Open a pull request explaining what and why. See [how guardrails change](https://greg-solomon-defra.github.io/architecture/guardrails/#how-guardrails-change).
 - **Improving the capability model?** Edit the YAML in [`capabilities/`](https://github.com/DEFRA/architecture/tree/main/capabilities). The site build checks your change.
 
 ## Writing style
 
-We follow the [GOV.UK style guide](https://www.gov.uk/guidance/style-guide). The [content style](https://defra.github.io/architecture/contribute/content-style/) page has the house rules, how to write a guardrail and a pattern, diagrams and a glossary. In short:
+We follow the [GOV.UK style guide](https://www.gov.uk/guidance/style-guide). The [content style](https://greg-solomon-defra.github.io/architecture/contribute/content-style/) page has the house rules, how to write a guardrail and a pattern, diagrams and a glossary. In short:
 
 - plain English, short sentences, active voice
 - write for a busy delivery team: lead with what they need to do
 - explain *why*, not just *what*
-- name capabilities and products consistently with the [handrail](https://defra.github.io/architecture/handrail/)
+- name capabilities and products consistently with the [handrail](https://greg-solomon-defra.github.io/architecture/handrail/)
 - avoid acronyms, or explain them the first time
 
 ## How the repository is organised
@@ -86,10 +86,10 @@ guardrails:
 
 | Field | What it holds |
 | --- | --- |
-| `status` | `draft`, `endorsed` or `deprecated`. Endorsed means approved by the [Technology Governance Board](https://defra.github.io/architecture/governance/tgb/). |
+| `status` | `draft`, `endorsed` or `deprecated`. Endorsed means approved by the [Technology Governance Board](https://greg-solomon-defra.github.io/architecture/governance/tgb/). |
 | `phases` | When the guardrail applies: any of `discovery`, `alpha`, `beta`, `live` |
 | `evidence` | What a team shows to prove they meet it, in general. **Required for every Must** - the build fails without it. Used wherever no phase-specific evidence is given. |
-| `lead_roles` | The roles that lead the guardrail - one or more of the DDaT role ids in `delivery/roles.yaml`, such as `content-designer` or `technical-architect`. **Required for every guardrail.** Each role has a page under [By role](https://defra.github.io/architecture/deliver/roles/). |
+| `lead_roles` | The roles that lead the guardrail - one or more of the DDaT role ids in `delivery/roles.yaml`, such as `content-designer` or `technical-architect`. **Required for every guardrail.** Each role has a page under [By role](https://greg-solomon-defra.github.io/architecture/deliver/roles/). |
 | `evidence_by_phase` | What to show in each phase or lifecycle event: `discovery` (intent or constraint identified), `alpha` (design or plan), `beta` (built and tested), `live` (operated and reviewed), `significant-change` and `retire`. **A Must needs an entry for every phase it applies in**, and for `significant-change` or `retire` if it is listed for them in `delivery/lifecycle.yaml`. Only list a phase in `phases` if a team can do or show something for the guardrail in that phase. |
 | `automated_check` | How it can be checked automatically, or `manual` |
 | `service_standard_points` | [Service Standard](https://www.gov.uk/service-manual/service-standard) points (1 to 14) it helps meet. Leave out unless the link is clear. |
@@ -98,7 +98,7 @@ guardrails:
 | `doctrine` | DDTS doctrine anchors, such as `ddts-02`. Leave out to use the doctrine the page's principles apply. |
 | `owner` | The team that maintains it |
 | `last_reviewed` | Date it was last reviewed |
-| `since_version` | Site [release](https://defra.github.io/architecture/about/changelog/) it first appeared in |
+| `since_version` | Site [release](https://greg-solomon-defra.github.io/architecture/about/changelog/) it first appeared in |
 | `replaced_by` | For deprecated guardrails, the id that replaces it |
 
 `status`, `owner`, `automated_check`, `last_reviewed` and `since_version` usually come from `guardrail_defaults` at the top of the front matter. Set them on a guardrail only where it differs.
@@ -129,11 +129,11 @@ Every guardrail page lists the principles it puts into practice in its front mat
 
 ### Release a version
 
-Move the entries under `## [Unreleased]` in `CHANGELOG.md` to a new `## [X.Y.Z] - YYYY-MM-DD` section, choosing the number with the [versioning policy](https://defra.github.io/architecture/partners/contracting/#versioning-policy), and leave an empty `## [Unreleased]` above it. When the change is merged, the release workflow tags the commit, builds the site and attaches a PDF of every guardrail to a GitHub release. Also update [what's new](https://defra.github.io/architecture/about/changelog/).
+Move the entries under `## [Unreleased]` in `CHANGELOG.md` to a new `## [X.Y.Z] - YYYY-MM-DD` section, choosing the number with the [versioning policy](https://greg-solomon-defra.github.io/architecture/partners/contracting/#versioning-policy), and leave an empty `## [Unreleased]` above it. When the change is merged, the release workflow tags the commit, builds the site and attaches a PDF of every guardrail to a GitHub release. Also update [what's new](https://greg-solomon-defra.github.io/architecture/about/changelog/).
 
 ### Record an approval or an exception
 
-Update `registers/approvals.yaml` when a section is endorsed, or add an approved exception to `registers/exceptions.yaml`. The [approval status](https://defra.github.io/architecture/about/approval-status/), [exception register](https://defra.github.io/architecture/governance/exception-register/) and [guardrails health](https://defra.github.io/architecture/governance/guardrails-health/) pages are built from them, and the build checks ids, dates and guardrails.
+Update `registers/approvals.yaml` when a section is endorsed, or add an approved exception to `registers/exceptions.yaml`. The [approval status](https://greg-solomon-defra.github.io/architecture/about/approval-status/), [exception register](https://greg-solomon-defra.github.io/architecture/governance/exception-register/) and [guardrails health](https://greg-solomon-defra.github.io/architecture/governance/guardrails-health/) pages are built from them, and the build checks ids, dates and guardrails.
 
 ### Say who guardrails apply to
 
@@ -159,7 +159,7 @@ pattern:
 
 Write the three user experience sections with a designer, a content designer and a user researcher, and link to [GOV.UK Design System](https://design-system.service.gov.uk/) patterns where they exist. If they are not written yet, set `user_experience: tbc`, put one "To be confirmed" box in "What users see", and write "To be written - see the box above." in the other two. The build fails if a section is missing, out of order or empty, or if `user_experience` does not match the sections.
 
-Keep the `<!-- patterns:guardrails -->` and `<!-- patterns:sbd -->` markers where those sections go. The build fills them in, adds the pattern to the [catalogue](https://defra.github.io/architecture/patterns/), and fails if a guardrail id is unknown. Add the page to `nav` in `mkdocs.yml`.
+Keep the `<!-- patterns:guardrails -->` and `<!-- patterns:sbd -->` markers where those sections go. The build fills them in, adds the pattern to the [catalogue](https://greg-solomon-defra.github.io/architecture/patterns/), and fails if a guardrail id is unknown. Add the page to `nav` in `mkdocs.yml`.
 
 ### Flag a fact that is not confirmed
 
@@ -170,7 +170,7 @@ Do not guess Defra facts such as names, contacts, URLs, lead times or approvals.
     **TODO:** who approves access requests, and how long it takes.
 ```
 
-Every box is listed on the [open questions](https://defra.github.io/architecture/about/open-questions/) page. Delete the box once the fact is confirmed.
+Every box is listed on the [open questions](https://greg-solomon-defra.github.io/architecture/about/open-questions/) page. Delete the box once the fact is confirmed.
 
 ### Add an abbreviation
 
@@ -203,7 +203,7 @@ Every pull request runs these checks. You can run them locally before you push:
 | Content | `pytest` | Broken references between doctrine, principles, guardrails, capabilities and NFRs; diagrams without text alternatives |
 | Build | `mkdocs build --strict` | Broken links and anchors, invalid data, missing pages |
 | Accessibility | `npm ci && npx playwright install chromium && npm test` (after a build) | WCAG 2.2 AA failures on every page in light and dark mode |
-| Prose (warnings only) | `vale docs` and `python scripts/heading_case.py` | Words to avoid, filler words, exclamation marks and headings not in sentence case - see [prose checks](https://defra.github.io/architecture/contribute/content-style/#prose-checks) |
+| Prose (warnings only) | `vale docs` and `python scripts/heading_case.py` | Words to avoid, filler words, exclamation marks and headings not in sentence case - see [prose checks](https://greg-solomon-defra.github.io/architecture/contribute/content-style/#prose-checks) |
 
 Merges to `main` are published to [defra.github.io/architecture](https://defra.github.io/architecture/) once all checks pass. A separate weekly job checks every external link and opens an issue if any are broken.
 

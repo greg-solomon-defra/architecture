@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/governance/decision-check/ | maturity: published | site version 0.3.0 | generated from governance/decision-check.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/governance/decision-check/ | maturity: published | site version 0.3.0 | generated from governance/decision-check.md -->
 
 # Check a decision
 
@@ -7,12 +7,12 @@
 <div class="dc" data-decision-check markdown>
 
 <div class="dc-links" hidden markdown>
-[TGB](https://defra.github.io/architecture/governance/tgb/){ data-route="tgb" }
-[TDA](https://defra.github.io/architecture/governance/tda/){ data-route="tda" }
-[SDA](https://defra.github.io/architecture/governance/solution-design-authorities/){ data-route="sda" }
-[Triage](https://defra.github.io/architecture/governance/triage/){ data-route="advice" }
-[ADRs](https://defra.github.io/architecture/governance/architecture-decision-records/){ data-route="team" }
-[Library](https://defra.github.io/architecture/guardrails/library/){ data-route="library" }
+[TGB](https://greg-solomon-defra.github.io/architecture/governance/tgb/){ data-route="tgb" }
+[TDA](https://greg-solomon-defra.github.io/architecture/governance/tda/){ data-route="tda" }
+[SDA](https://greg-solomon-defra.github.io/architecture/governance/solution-design-authorities/){ data-route="sda" }
+[Triage](https://greg-solomon-defra.github.io/architecture/governance/triage/){ data-route="advice" }
+[ADRs](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/){ data-route="team" }
+[Library](https://greg-solomon-defra.github.io/architecture/guardrails/library/){ data-route="library" }
 </div>
 
 <section class="dc-step" aria-labelledby="dc-step-1">
@@ -49,5 +49,5 @@
 </div>
 
 !!! note "A guide, not an approval"
-    The check suggests a route from your answers. It does not approve anything, and nothing you type leaves your browser. If the result surprises you, [read how triage works](https://defra.github.io/architecture/governance/triage/) or ask an architect.
+    The check suggests a route from your answers. It does not approve anything, and nothing you type leaves your browser. If the result surprises you, [read how triage works](https://greg-solomon-defra.github.io/architecture/governance/triage/) or ask an architect.
 

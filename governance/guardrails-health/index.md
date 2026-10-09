@@ -1,10 +1,10 @@
-<!-- https://defra.github.io/architecture/governance/guardrails-health/ | maturity: published | site version 0.3.0 | generated from governance/guardrails-health.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/governance/guardrails-health/ | maturity: published | site version 0.3.0 | generated from governance/guardrails-health.md -->
 
 # Guardrails health
 
 <p class="lead">How well the guardrails are working: where teams need exceptions, which exceptions end soon, and which guardrails are due for change. Reviewed every quarter.</p>
 
-Repeated exceptions are a signal that a guardrail is wrong, or that a platform is missing something. The [Technical Design Authority](https://defra.github.io/architecture/governance/tda/) reviews this page each quarter and proposes changes through [how guardrails change](https://defra.github.io/architecture/guardrails/#how-guardrails-change).
+Repeated exceptions are a signal that a guardrail is wrong, or that a platform is missing something. The [Technical Design Authority](https://greg-solomon-defra.github.io/architecture/governance/tda/) reviews this page each quarter and proposes changes through [how guardrails change](https://greg-solomon-defra.github.io/architecture/guardrails/#how-guardrails-change).
 
 Figures for **2026 Q4**, built on 9 October 2026.
 
@@ -29,8 +29,8 @@ No exceptions expire in this period.
 
 - **Repeated exceptions** (3 or more active): none
 - **Not reviewed for over a year**: none
-- **Still in draft**: 104 guardrails. Endorsing or changing them is the main work for the Technical Design Authority and Technology Governance Board - see the [approval status](https://defra.github.io/architecture/about/approval-status/).
+- **Still in draft**: 104 guardrails. Endorsing or changing them is the main work for the Technical Design Authority and Technology Governance Board - see the [approval status](https://greg-solomon-defra.github.io/architecture/about/approval-status/).
 
 
-Built from the [exception register](https://defra.github.io/architecture/governance/exception-register/) and the guardrail metadata each time the site is published.
+Built from the [exception register](https://greg-solomon-defra.github.io/architecture/governance/exception-register/) and the guardrail metadata each time the site is published.
 

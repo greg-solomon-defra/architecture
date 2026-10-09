@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/deliver/platforms/ | maturity: prototype | site version 0.3.0 | generated from deliver/platforms.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/deliver/platforms/ | maturity: prototype | site version 0.3.0 | generated from deliver/platforms.md -->
 
 # Getting onto Defra platforms
 
@@ -9,9 +9,9 @@
 
 
 
-Ask for access early - in discovery or early alpha - because some platforms need onboarding, approvals or security checks before you can use them. The [technology capability catalogue](https://defra.github.io/architecture/handrail/technology-capabilities/) lists every strategic option, including ones not shown here.
+Ask for access early - in discovery or early alpha - because some platforms need onboarding, approvals or security checks before you can use them. The [technology capability catalogue](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/) lists every strategic option, including ones not shown here.
 
-Where we have not yet confirmed a detail, such as a lead time or support channel, it is marked "To be confirmed" and listed on the [open questions](https://defra.github.io/architecture/about/open-questions/) page.
+Where we have not yet confirmed a detail, such as a lead time or support channel, it is marked "To be confirmed" and listed on the [open questions](https://greg-solomon-defra.github.io/architecture/about/open-questions/) page.
 
 ## Defra Core Delivery Platform (CDP) {#cdp}
 
@@ -19,12 +19,12 @@ Defra's internal development platform, with build pipelines, hosting, logging an
 
 | Detail | What we know |
 | --- | --- |
-| **How to request access** | Work with the Delivery Architecture team to decide whether CDP is right for your service - the expectation is that it will be ([GR-HOST-01](https://defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-01)). Then read the [onboarding considerations](https://portal.cdp-int.defra.cloud/documentation/onboarding/onboarding-considerations.md), [architectural overview](https://portal.cdp-int.defra.cloud/documentation/architecture/architectural-overview.md) and [how-to documentation](https://portal.cdp-int.defra.cloud/documentation/how-to/how-to.md). |
+| **How to request access** | Work with the Delivery Architecture team to decide whether CDP is right for your service - the expectation is that it will be ([GR-HOST-01](https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-01)). Then read the [onboarding considerations](https://portal.cdp-int.defra.cloud/documentation/onboarding/onboarding-considerations.md), [architectural overview](https://portal.cdp-int.defra.cloud/documentation/architecture/architectural-overview.md) and [how-to documentation](https://portal.cdp-int.defra.cloud/documentation/how-to/how-to.md). |
 | **Lead time** | To be confirmed |
 | **Support** | The cdp-support channel in the Defra Digital Team Slack |
 | **Documentation** | [https://portal.cdp-int.defra.cloud/documentation/onboarding/onboarding-considerations.md](https://portal.cdp-int.defra.cloud/documentation/onboarding/onboarding-considerations.md) - Needs a Defra device or the Defra VPN. |
 | **Defra Digital Service Manual** | [Defra Core Delivery Platform (CDP)](https://digital.defra.gov.uk/architecture-and-software-development/core-delivery-platform) |
-| **Technology capability** | [Enabling Platforms (Delivery)](https://defra.github.io/architecture/handrail/technology-capabilities/#enabling-platforms) |
+| **Technology capability** | [Enabling Platforms (Delivery)](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#enabling-platforms) |
 
 <div id="tbc-1"></div>
 
@@ -37,12 +37,12 @@ Sign-in once to many Defra services for external users and the organisations the
 
 | Detail | What we know |
 | --- | --- |
-| **How to request access** | Talk to the Delivery Architecture team in discovery about the level of identity assurance you need and how users act for organisations ([GR-IAM-01](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-01)). |
+| **How to request access** | Talk to the Delivery Architecture team in discovery about the level of identity assurance you need and how users act for organisations ([GR-IAM-01](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-01)). |
 | **Lead time** | To be confirmed |
 | **Support** | The Customer Identity team - contact details are in the Defra Digital Service Manual |
 | **Documentation** | [https://defra.sharepoint.com/sites/Community3868/SitePages/Customer%20Identity.aspx](https://defra.sharepoint.com/sites/Community3868/SitePages/Customer%20Identity.aspx) - Defra SharePoint - needs a Defra account. |
 | **Defra Digital Service Manual** | [Defra Customer Identity (also known as Defra ID or IDMv2)](https://digital.defra.gov.uk/architecture-and-software-development/defra-customer-identity) |
-| **Technology capability** | [Security & Compliance (Delivery)](https://defra.github.io/architecture/handrail/technology-capabilities/#security-and-compliance) |
+| **Technology capability** | [Security & Compliance (Delivery)](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#security-and-compliance) |
 
 <div id="tbc-2"></div>
 
@@ -51,7 +51,7 @@ Sign-in once to many Defra services for external users and the organisations the
 
 ## Defra Forms {#defra-forms}
 
-Accessible online forms that meet GOV.UK standards, through a form builder for simple forms or a plugin for custom forms in your service ([GR-FE-04](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-04)).
+Accessible online forms that meet GOV.UK standards, through a form builder for simple forms or a plugin for custom forms in your service ([GR-FE-04](https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-04)).
 
 | Detail | What we know |
 | --- | --- |
@@ -60,7 +60,7 @@ Accessible online forms that meet GOV.UK standards, through a form builder for s
 | **Support** | The Defra Forms team - contact details are in the Defra Digital Service Manual |
 | **Documentation** | [https://forms.defra.gov.uk/](https://forms.defra.gov.uk/) |
 | **Defra Digital Service Manual** | [Defra Forms](https://digital.defra.gov.uk/architecture-and-software-development/defra-forms) |
-| **Technology capability** | [Customer Service (Business)](https://defra.github.io/architecture/handrail/technology-capabilities/#customer-service) |
+| **Technology capability** | [Customer Service (Business)](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#customer-service) |
 
 <div id="tbc-3"></div>
 
@@ -78,7 +78,7 @@ An open-source, accessible mapping component for government services. It is in b
 | **Support** | The interactive-map channel in the Defra Digital Team Slack. The Defra Digital Service Manual says documentation and support are not yet available while the map is in beta. |
 | **Documentation** | [https://defra.github.io/interactive-map/](https://defra.github.io/interactive-map/) |
 | **Defra Digital Service Manual** | [Defra Interactive Map](https://digital.defra.gov.uk/architecture-and-software-development/defra-accessible-maps) |
-| **Technology capability** | [Geospatial Solutions (Defra Customisation) (Delivery)](https://defra.github.io/architecture/handrail/technology-capabilities/#geospatial-solutions) |
+| **Technology capability** | [Geospatial Solutions (Defra Customisation) (Delivery)](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#geospatial-solutions) |
 
 ## GOV.UK Notify {#notify}
 
@@ -90,7 +90,7 @@ Emails, text messages and letters to users, through an API or a web interface.
 | **Lead time** | To be confirmed |
 | **Support** | [GOV.UK Notify support](https://www.notifications.service.gov.uk/support) |
 | **Documentation** | [https://docs.notifications.service.gov.uk/](https://docs.notifications.service.gov.uk/) |
-| **Technology capability** | [Customer Service (Business)](https://defra.github.io/architecture/handrail/technology-capabilities/#customer-service) |
+| **Technology capability** | [Customer Service (Business)](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#customer-service) |
 
 <div id="tbc-4"></div>
 
@@ -107,7 +107,7 @@ Online card and digital wallet payments, with refunds and reporting.
 | **Lead time** | To be confirmed |
 | **Support** | [GOV.UK Pay support](https://www.payments.service.gov.uk/support/) |
 | **Documentation** | [https://docs.payments.service.gov.uk/](https://docs.payments.service.gov.uk/) |
-| **Technology capability** | [Finance (Shared & Corporate)](https://defra.github.io/architecture/handrail/technology-capabilities/#finance) |
+| **Technology capability** | [Finance (Shared & Corporate)](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#finance) |
 
 <div id="tbc-5"></div>
 
@@ -124,7 +124,7 @@ Shared storage, processing and analytics for Defra data, and governed data produ
 | **Lead time** | To be confirmed |
 | **Support** | To be confirmed |
 | **Documentation** | To be confirmed |
-| **Technology capability** | [Data (Infrastructure)](https://defra.github.io/architecture/handrail/technology-capabilities/#data) |
+| **Technology capability** | [Data (Infrastructure)](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#data) |
 
 <div id="tbc-6"></div>
 
@@ -141,7 +141,7 @@ Publishing, securing and managing APIs, and asynchronous messaging between servi
 | **Lead time** | To be confirmed |
 | **Support** | To be confirmed |
 | **Documentation** | To be confirmed |
-| **Technology capability** | [Enabling Platforms (Delivery)](https://defra.github.io/architecture/handrail/technology-capabilities/#enabling-platforms) |
+| **Technology capability** | [Enabling Platforms (Delivery)](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#enabling-platforms) |
 
 <div id="tbc-7"></div>
 

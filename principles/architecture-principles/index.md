@@ -1,21 +1,21 @@
-<!-- https://defra.github.io/architecture/principles/architecture-principles/ | maturity: published | site version 0.3.0 | generated from principles/architecture-principles.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/ | maturity: published | site version 0.3.0 | generated from principles/architecture-principles.md -->
 
 # Architecture principles
 
 <p class="lead">Defra's eight Strategic Architecture Principles. They make decisions consistent, reduce complexity and stop change fragmenting across services. Use them to govern technology change across Defra so that it supports Defra's strategic goals.</p>
 
-The principles apply the [DDTS doctrine](https://defra.github.io/architecture/principles/doctrine/) to technology change, and every guardrail puts one or more of them into practice - see [how they fit together](https://defra.github.io/architecture/principles/). When a guardrail does not give you a direct answer, ask: *which option best fits these principles?*
+The principles apply the [DDTS doctrine](https://greg-solomon-defra.github.io/architecture/principles/doctrine/) to technology change, and every guardrail puts one or more of them into practice - see [how they fit together](https://greg-solomon-defra.github.io/architecture/principles/). When a guardrail does not give you a direct answer, ask: *which option best fits these principles?*
 
 | # | Principle | In short |
 | --- | --- | --- |
-| 1 | [Delivery-focused architecture](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-01) | Architecture is a service to delivery teams |
-| 2 | [Design for users](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-02) | Intuitive, accessible, consistent solutions |
-| 3 | [Maximise value, minimise waste](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-03) | Reuse common capabilities; build less, deliver more |
-| 4 | [Clean data, clear decisions](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-04) | Data that is accurate, timely and accessible |
-| 5 | [Connect and collaborate](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-05) | Interoperable services, APIs and seamless data flows |
-| 6 | [Secure today, safe tomorrow](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-06) | Security proportionate to risk, built in from the start |
-| 7 | [Empower to innovate](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-07) | Safe spaces and tools to experiment |
-| 8 | [Right tools, right place](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-08) | Fit-for-purpose tools for every working context |
+| 1 | [Delivery-focused architecture](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-01) | Architecture is a service to delivery teams |
+| 2 | [Design for users](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-02) | Intuitive, accessible, consistent solutions |
+| 3 | [Maximise value, minimise waste](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-03) | Reuse common capabilities; build less, deliver more |
+| 4 | [Clean data, clear decisions](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-04) | Data that is accurate, timely and accessible |
+| 5 | [Connect and collaborate](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-05) | Interoperable services, APIs and seamless data flows |
+| 6 | [Secure today, safe tomorrow](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-06) | Security proportionate to risk, built in from the start |
+| 7 | [Empower to innovate](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-07) | Safe spaces and tools to experiment |
+| 8 | [Right tools, right place](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-08) | Fit-for-purpose tools for every working context |
 
 ## GR-PRIN-01 Delivery-focused architecture {#gr-prin-01}
 
@@ -31,12 +31,12 @@ The principles apply the [DDTS doctrine](https://defra.github.io/architecture/pr
 - Invest in automation and standardised environments.
 - Keep services loosely coupled to allow incremental changes and isolated deployments.
 
-**Applies doctrine:** [1. Platforms before projects. Built as products](https://defra.github.io/architecture/principles/doctrine/#ddts-01), [2. Standards and guardrails before exceptions](https://defra.github.io/architecture/principles/doctrine/#ddts-02)
+**Applies doctrine:** [1. Platforms before projects. Built as products](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-01), [2. Standards and guardrails before exceptions](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-02)
 
-**Guardrails:** [Choosing technology](https://defra.github.io/architecture/guardrails/choosing-technology/) (6), [Hosting and platforms](https://defra.github.io/architecture/guardrails/hosting-and-platforms/) (7), [Observability and operations](https://defra.github.io/architecture/guardrails/observability-and-operations/) (7), [Products and platforms](https://defra.github.io/architecture/guardrails/products-and-platforms/) (4), [Software development](https://defra.github.io/architecture/guardrails/software-development/) (9)
+**Guardrails:** [Choosing technology](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/) (6), [Hosting and platforms](https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/) (7), [Observability and operations](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/) (7), [Products and platforms](https://greg-solomon-defra.github.io/architecture/guardrails/products-and-platforms/) (4), [Software development](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/) (9)
 
 
-**See also:** [governance](https://defra.github.io/architecture/governance/), the [decision check](https://defra.github.io/architecture/governance/decision-check/), [software development](https://defra.github.io/architecture/guardrails/software-development/), [hosting and platforms](https://defra.github.io/architecture/guardrails/hosting-and-platforms/), [observability and operations](https://defra.github.io/architecture/guardrails/observability-and-operations/).
+**See also:** [governance](https://greg-solomon-defra.github.io/architecture/governance/), the [decision check](https://greg-solomon-defra.github.io/architecture/governance/decision-check/), [software development](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/), [hosting and platforms](https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/), [observability and operations](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/).
 
 ## GR-PRIN-02 Design for users {#gr-prin-02}
 
@@ -51,12 +51,12 @@ The principles apply the [DDTS doctrine](https://defra.github.io/architecture/pr
 - Assess off-the-shelf systems against Defra user interface standards to maximise compliance.
 - Reuse existing processes for similar user-facing tasks across Defra and its arm's length bodies - issuing permits, managing customer cases - so they feel familiar to users.
 
-**Applies doctrine:** [6. Outcomes and services over organisational structures](https://defra.github.io/architecture/principles/doctrine/#ddts-06), [7. Digital first where appropriate](https://defra.github.io/architecture/principles/doctrine/#ddts-07)
+**Applies doctrine:** [6. Outcomes and services over organisational structures](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-06), [7. Digital first where appropriate](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-07)
 
-**Guardrails:** [Digital first and end-to-end services](https://defra.github.io/architecture/guardrails/digital-first/) (3), [Front end and accessibility](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/) (7)
+**Guardrails:** [Digital first and end-to-end services](https://greg-solomon-defra.github.io/architecture/guardrails/digital-first/) (3), [Front end and accessibility](https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/) (7)
 
 
-**See also:** [front end and accessibility](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/), [identity and access](https://defra.github.io/architecture/guardrails/identity-and-access/), the [Defra Digital Service Manual](https://digital.defra.gov.uk/service-manual).
+**See also:** [front end and accessibility](https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/), [identity and access](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/), the [Defra Digital Service Manual](https://digital.defra.gov.uk/service-manual).
 
 ## GR-PRIN-03 Maximise value, minimise waste {#gr-prin-03}
 
@@ -67,18 +67,18 @@ The principles apply the [DDTS doctrine](https://defra.github.io/architecture/pr
 **How to follow it:**
 
 - Evaluate and prioritise reuse of existing platforms, APIs, components and services before starting custom development.
-- Maintain an up-to-date catalogue of approved, reusable capabilities - see [technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/).
+- Maintain an up-to-date catalogue of approved, reusable capabilities - see [technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/).
 - Make the health, compliance and ownership of reusable components visible, so teams can make informed reuse decisions.
 - Include cost-benefit analysis in architectural decisions to find high-impact, low-effort options.
 - Discourage one-off solutions and use patterns that minimise technical debt.
 - Include reuse checks in architecture reviews, and require justification for duplicating a capability.
 
-**Applies doctrine:** [1. Platforms before projects. Built as products](https://defra.github.io/architecture/principles/doctrine/#ddts-01), [3. Reuse before buy](https://defra.github.io/architecture/principles/doctrine/#ddts-03)
+**Applies doctrine:** [1. Platforms before projects. Built as products](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-01), [3. Reuse before buy](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-03)
 
-**Guardrails:** [Choosing technology](https://defra.github.io/architecture/guardrails/choosing-technology/) (6), [Hosting and platforms](https://defra.github.io/architecture/guardrails/hosting-and-platforms/) (7), [Open source and working in the open](https://defra.github.io/architecture/guardrails/open-source/) (5), [Products and platforms](https://defra.github.io/architecture/guardrails/products-and-platforms/) (4), [Software development](https://defra.github.io/architecture/guardrails/software-development/) (9), [Sustainability](https://defra.github.io/architecture/guardrails/sustainability/) (5)
+**Guardrails:** [Choosing technology](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/) (6), [Hosting and platforms](https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/) (7), [Open source and working in the open](https://greg-solomon-defra.github.io/architecture/guardrails/open-source/) (5), [Products and platforms](https://greg-solomon-defra.github.io/architecture/guardrails/products-and-platforms/) (4), [Software development](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/) (9), [Sustainability](https://greg-solomon-defra.github.io/architecture/guardrails/sustainability/) (5)
 
 
-**See also:** [choosing technology](https://defra.github.io/architecture/guardrails/choosing-technology/), the [handrail](https://defra.github.io/architecture/handrail/), [hosting and platforms](https://defra.github.io/architecture/guardrails/hosting-and-platforms/), [open source](https://defra.github.io/architecture/guardrails/open-source/), [sustainability](https://defra.github.io/architecture/guardrails/sustainability/).
+**See also:** [choosing technology](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/), the [handrail](https://greg-solomon-defra.github.io/architecture/handrail/), [hosting and platforms](https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/), [open source](https://greg-solomon-defra.github.io/architecture/guardrails/open-source/), [sustainability](https://greg-solomon-defra.github.io/architecture/guardrails/sustainability/).
 
 ## GR-PRIN-04 Clean data, clear decisions {#gr-prin-04}
 
@@ -96,12 +96,12 @@ The principles apply the [DDTS doctrine](https://defra.github.io/architecture/pr
 - Provide secure, scalable data platforms and APIs for easy, governed access.
 - Treat data quality as a prerequisite for analytical and operational decisions.
 
-**Applies doctrine:** [4. Data is an enterprise asset](https://defra.github.io/architecture/principles/doctrine/#ddts-04), [5. Assume AI until proven otherwise](https://defra.github.io/architecture/principles/doctrine/#ddts-05)
+**Applies doctrine:** [4. Data is an enterprise asset](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-04), [5. Assume AI until proven otherwise](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-05)
 
-**Guardrails:** [Artificial intelligence](https://defra.github.io/architecture/guardrails/ai/) (11), [Data](https://defra.github.io/architecture/guardrails/data/) (13)
+**Guardrails:** [Artificial intelligence](https://greg-solomon-defra.github.io/architecture/guardrails/ai/) (11), [Data](https://greg-solomon-defra.github.io/architecture/guardrails/data/) (13)
 
 
-**See also:** [data guardrails](https://defra.github.io/architecture/guardrails/data/), [Defra on a page](https://defra.github.io/architecture/data/defra-on-a-page/), [data standards](https://defra.github.io/architecture/data/data-standards/), [artificial intelligence](https://defra.github.io/architecture/guardrails/ai/).
+**See also:** [data guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/data/), [Defra on a page](https://greg-solomon-defra.github.io/architecture/data/defra-on-a-page/), [data standards](https://greg-solomon-defra.github.io/architecture/data/data-standards/), [artificial intelligence](https://greg-solomon-defra.github.io/architecture/guardrails/ai/).
 
 ## GR-PRIN-05 Connect and collaborate {#gr-prin-05}
 
@@ -112,19 +112,19 @@ The principles apply the [DDTS doctrine](https://defra.github.io/architecture/pr
 **How to follow it:**
 
 - Expose well-documented, secure, reusable APIs by default.
-- Consider how each service fits into wider workflows, data flows and [business capabilities](https://defra.github.io/architecture/handrail/business-capabilities/).
+- Consider how each service fits into wider workflows, data flows and [business capabilities](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/).
 - Use industry standards to maximise compatibility and future-proofing.
 - Invest in a robust integration platform for real-time and batch processing.
 - Support event-driven architecture and intelligent automation.
 - Enable single sign-on and consistent identity management across services.
 - Share clean, consistent, context-rich data while respecting privacy, ethics and compliance.
 
-**Applies doctrine:** [4. Data is an enterprise asset](https://defra.github.io/architecture/principles/doctrine/#ddts-04), [6. Outcomes and services over organisational structures](https://defra.github.io/architecture/principles/doctrine/#ddts-06)
+**Applies doctrine:** [4. Data is an enterprise asset](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-04), [6. Outcomes and services over organisational structures](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-06)
 
-**Guardrails:** [APIs and integration](https://defra.github.io/architecture/guardrails/apis-and-integration/) (8), [Identity and access](https://defra.github.io/architecture/guardrails/identity-and-access/) (6)
+**Guardrails:** [APIs and integration](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/) (8), [Identity and access](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/) (6)
 
 
-**See also:** [APIs and integration](https://defra.github.io/architecture/guardrails/apis-and-integration/), [identity and access](https://defra.github.io/architecture/guardrails/identity-and-access/), [data guardrails](https://defra.github.io/architecture/guardrails/data/).
+**See also:** [APIs and integration](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/), [identity and access](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/), [data guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/data/).
 
 ## GR-PRIN-06 Secure today, safe tomorrow {#gr-prin-06}
 
@@ -138,12 +138,12 @@ The principles apply the [DDTS doctrine](https://defra.github.io/architecture/pr
 - Follow the Defra group Security (DgS) strategy and recommendations.
 - Use role-based access control to manage access to system functions and data.
 
-**Applies doctrine:** [2. Standards and guardrails before exceptions](https://defra.github.io/architecture/principles/doctrine/#ddts-02)
+**Applies doctrine:** [2. Standards and guardrails before exceptions](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-02)
 
-**Guardrails:** [Identity and access](https://defra.github.io/architecture/guardrails/identity-and-access/) (6), [Security](https://defra.github.io/architecture/guardrails/security/) (9)
+**Guardrails:** [Identity and access](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/) (6), [Security](https://greg-solomon-defra.github.io/architecture/guardrails/security/) (9)
 
 
-**See also:** [security guardrails](https://defra.github.io/architecture/guardrails/security/), [Secure by Design in Defra](https://defra.github.io/architecture/security/secure-by-design/), [threat modelling](https://defra.github.io/architecture/security/threat-modelling/).
+**See also:** [security guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/security/), [Secure by Design in Defra](https://greg-solomon-defra.github.io/architecture/security/secure-by-design/), [threat modelling](https://greg-solomon-defra.github.io/architecture/security/threat-modelling/).
 
 ## GR-PRIN-07 Empower to innovate {#gr-prin-07}
 
@@ -161,12 +161,12 @@ The principles apply the [DDTS doctrine](https://defra.github.io/architecture/pr
 - Bring architects, technologists and business units together to act on innovation opportunities aligned to outcomes.
 - Track innovation by value, scalability and learning - not just technical novelty.
 
-**Applies doctrine:** [5. Assume AI until proven otherwise](https://defra.github.io/architecture/principles/doctrine/#ddts-05)
+**Applies doctrine:** [5. Assume AI until proven otherwise](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-05)
 
-**Guardrails:** [Artificial intelligence](https://defra.github.io/architecture/guardrails/ai/) (11), [Open source and working in the open](https://defra.github.io/architecture/guardrails/open-source/) (5)
+**Guardrails:** [Artificial intelligence](https://greg-solomon-defra.github.io/architecture/guardrails/ai/) (11), [Open source and working in the open](https://greg-solomon-defra.github.io/architecture/guardrails/open-source/) (5)
 
 
-**See also:** [artificial intelligence](https://defra.github.io/architecture/guardrails/ai/), the [decision check](https://defra.github.io/architecture/governance/decision-check/), [open source and working in the open](https://defra.github.io/architecture/guardrails/open-source/).
+**See also:** [artificial intelligence](https://greg-solomon-defra.github.io/architecture/guardrails/ai/), the [decision check](https://greg-solomon-defra.github.io/architecture/governance/decision-check/), [open source and working in the open](https://greg-solomon-defra.github.io/architecture/guardrails/open-source/).
 
 ## GR-PRIN-08 Right tools, right place {#gr-prin-08}
 
@@ -183,14 +183,14 @@ The principles apply the [DDTS doctrine](https://defra.github.io/architecture/pr
 - Design IT support for diverse contexts: self-service, remote diagnostics and on-site support.
 - Keep devices easy to replace or upgrade as needs change.
 
-**Applies doctrine:** [7. Digital first where appropriate](https://defra.github.io/architecture/principles/doctrine/#ddts-07)
+**Applies doctrine:** [7. Digital first where appropriate](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-07)
 
-**Guardrails:** [Field working and devices](https://defra.github.io/architecture/guardrails/field-working-and-devices/) (4), [Front end and accessibility](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/) (7)
+**Guardrails:** [Field working and devices](https://greg-solomon-defra.github.io/architecture/guardrails/field-working-and-devices/) (4), [Front end and accessibility](https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/) (7)
 
 
-**See also:** [front end and accessibility](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-05) (low bandwidth), [field work and inspection](https://defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery), [staff identity](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-02).
+**See also:** [front end and accessibility](https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-05) (low bandwidth), [field work and inspection](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery), [staff identity](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-02).
 
 ---
 
-<small>Source: Defra Strategic Architecture Principles, owned by the Strategic Architecture team. Changes to these principles are approved by the [Technology Governance Board](https://defra.github.io/architecture/governance/tgb/).</small>
+<small>Source: Defra Strategic Architecture Principles, owned by the Strategic Architecture team. Changes to these principles are approved by the [Technology Governance Board](https://greg-solomon-defra.github.io/architecture/governance/tgb/).</small>
 

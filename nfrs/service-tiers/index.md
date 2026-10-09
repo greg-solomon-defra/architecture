@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/nfrs/service-tiers/ | maturity: draft | site version 0.3.0 | generated from nfrs/service-tiers.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/nfrs/service-tiers/ | maturity: draft | site version 0.3.0 | generated from nfrs/service-tiers.md -->
 
 # Service tiers
 
@@ -20,7 +20,7 @@ Agree the tier with the service owner in discovery, and review it at each phase.
 1. Would an outage be reported in the media or raised in Parliament?
 
 
-If the answer to either of the first two questions is yes, the service is probably **T1 Critical** or **T2 Important**. If in doubt, ask your [solution design authority](https://defra.github.io/architecture/governance/solution-design-authorities/).
+If the answer to either of the first two questions is yes, the service is probably **T1 Critical** or **T2 Important**. If in doubt, ask your [solution design authority](https://greg-solomon-defra.github.io/architecture/governance/solution-design-authorities/).
 
 ## The tiers
 
@@ -37,7 +37,7 @@ If the answer to either of the first two questions is yes, the service is probab
 
 ## What the tier changes
 
-The tier sets the targets for the tiered requirements in the [NFR catalogue](https://defra.github.io/architecture/nfrs/catalogue/), such as availability, recovery time and alerting. Requirements without tier targets, such as accessibility and security testing, apply to every service whatever its tier.
+The tier sets the targets for the tiered requirements in the [NFR catalogue](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/), such as availability, recovery time and alerting. Requirements without tier targets, such as accessibility and security testing, apply to every service whatever its tier.
 
-A higher tier costs more to build and run. Choose the lowest tier that meets user and business needs, and record the choice in an [architecture decision record](https://defra.github.io/architecture/governance/architecture-decision-records/).
+A higher tier costs more to build and run. Choose the lowest tier that meets user and business needs, and record the choice in an [architecture decision record](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/).
 

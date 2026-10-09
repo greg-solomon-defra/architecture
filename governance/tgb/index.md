@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/governance/tgb/ | maturity: draft | site version 0.3.0 | generated from governance/tgb.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/governance/tgb/ | maturity: draft | site version 0.3.0 | generated from governance/tgb.md -->
 
 # Technology Governance Board (TGB)
 
@@ -11,14 +11,14 @@
 
 ## Purpose
 
-The TGB ensures Defra's digital, data and technology estate supports departmental outcomes, is secure and sustainable, and represents value for money. It is where Defra decides **what** good looks like; the [TDA](https://defra.github.io/architecture/governance/tda/) and [solution design authorities](https://defra.github.io/architecture/governance/solution-design-authorities/) make sure it happens.
+The TGB ensures Defra's digital, data and technology estate supports departmental outcomes, is secure and sustainable, and represents value for money. It is where Defra decides **what** good looks like; the [TDA](https://greg-solomon-defra.github.io/architecture/governance/tda/) and [solution design authorities](https://greg-solomon-defra.github.io/architecture/governance/solution-design-authorities/) make sure it happens.
 
 ## What the TGB decides
 
 - Digital, data and technology strategies and roadmaps
-- Architecture principles and **Must** [guardrails](https://defra.github.io/architecture/guardrails/)
-- Adoption, change or retirement of strategic platforms and [technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/)
-- Changes to level 1 [business capabilities](https://defra.github.io/architecture/handrail/business-capabilities/)
+- Architecture principles and **Must** [guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/)
+- Adoption, change or retirement of strategic platforms and [technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/)
+- Changes to level 1 [business capabilities](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/)
 - Technology aspects of significant investment cases
 - Escalations from the TDA, including risks outside Defra's appetite
 

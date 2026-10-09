@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/contribute/team-guide/ | maturity: draft | site version 0.3.0 | generated from contribute/team-guide.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/contribute/team-guide/ | maturity: draft | site version 0.3.0 | generated from contribute/team-guide.md -->
 
 # Updating the Defra architecture site: a guide for the team
 
@@ -9,7 +9,7 @@
 
 
 
-For the exact fields, templates and commands, use the [contribute](https://defra.github.io/architecture/contribute/) page. This guide gives you the overview.
+For the exact fields, templates and commands, use the [contribute](https://greg-solomon-defra.github.io/architecture/contribute/) page. This guide gives you the overview.
 
 ## How the site is built
 
@@ -49,19 +49,19 @@ Most of these are enforced by the build, so breaking one fails the pull request 
 | Rule | What it means in practice | Checked by |
 | --- | --- | --- |
 | Ids are permanent | Never renumber, rename, reuse or delete a guardrail, principle, doctrine or NFR id, because contracts cite them. To retire one, set `status: deprecated` and `replaced_by:`. A new one takes the next free number in its area and starts as `status: draft`. | Build and tests |
-| Never guess a Defra fact | Names, mailboxes, web addresses, lead times, approvals and owners come from someone who knows. If you do not know, add a "To be confirmed" box. It appears on the [open questions](https://defra.github.io/architecture/about/open-questions/) page automatically. | Review |
+| Never guess a Defra fact | Names, mailboxes, web addresses, lead times, approvals and owners come from someone who knows. If you do not know, add a "To be confirmed" box. It appears on the [open questions](https://greg-solomon-defra.github.io/architecture/about/open-questions/) page automatically. | Review |
 | Musts only where required | A Must needs a legal, policy or security reason, evidence for each phase, review by the Technical Design Authority and approval by the Technology Governance Board. Use Should by default. | Tests limit the number of Musts |
-| Link, do not repeat | Step-by-step tasks, contacts and team processes belong in the [Defra Digital Service Manual](https://digital.defra.gov.uk/). Guardrails, decisions and evidence belong here. See [where things live](https://defra.github.io/architecture/contribute/where-things-live/). | Matching links test |
-| GOV.UK style | Plain English, active voice, sentence case headings. Lead with what the team must do and explain why. Expand abbreviations the first time you use them. See [content style](https://defra.github.io/architecture/contribute/content-style/). | Prose checks (warnings) |
+| Link, do not repeat | Step-by-step tasks, contacts and team processes belong in the [Defra Digital Service Manual](https://digital.defra.gov.uk/). Guardrails, decisions and evidence belong here. See [where things live](https://greg-solomon-defra.github.io/architecture/contribute/where-things-live/). | Matching links test |
+| GOV.UK style | Plain English, active voice, sentence case headings. Lead with what the team must do and explain why. Expand abbreviations the first time you use them. See [content style](https://greg-solomon-defra.github.io/architecture/contribute/content-style/). | Prose checks (warnings) |
 | Accessible | WCAG 2.2 AA in light and dark mode. Every diagram needs `accTitle` and `accDescr`. Link text says where the link goes. | Accessibility test and tests |
 | Public repository | No secrets, internal hostnames, IP addresses, personal data, commercially sensitive detail or detailed security weaknesses. | Review |
-| Record every change | Add a line under `## [Unreleased]` in `CHANGELOG.md` and update [what's new](https://defra.github.io/architecture/about/changelog/). | Review |
+| Record every change | Add a line under `## [Unreleased]` in `CHANGELOG.md` and update [what's new](https://greg-solomon-defra.github.io/architecture/about/changelog/). | Review |
 
 Edit the YAML or front matter, never the generated output. Keep each pull request to one change so it can be reviewed quickly.
 
 ## Which file to edit
 
-The [common tasks](https://defra.github.io/architecture/contribute/#common-tasks) on the contribute page give the exact fields and templates for each of these.
+The [common tasks](https://greg-solomon-defra.github.io/architecture/contribute/#common-tasks) on the contribute page give the exact fields and templates for each of these.
 
 | To | Edit | Watch out for |
 | --- | --- | --- |
@@ -87,7 +87,7 @@ To change a Must, label the pull request `must-change` and do not merge it until
 ## From change to published site
 
 1. **Make the change on a branch**, or select **Edit this page**, which makes a branch for you. Add a line to `CHANGELOG.md` under `## [Unreleased]`.
-2. **Check it on your computer** if you can: install the tools, run `mkdocs serve` and open the page. Before you push, run `pytest` and `mkdocs build --strict`. The [checks](https://defra.github.io/architecture/contribute/#checks) table lists every command.
+2. **Check it on your computer** if you can: install the tools, run `mkdocs serve` and open the page. Before you push, run `pytest` and `mkdocs build --strict`. The [checks](https://greg-solomon-defra.github.io/architecture/contribute/#checks) table lists every command.
 3. **Open a pull request.** The template asks what changed and why. The checks run automatically and the right reviewer is asked for a review.
 4. **Review and merge.** Every pull request is triaged within 2 weeks. Changes to a Must wait for the Technical Design Authority and Technology Governance Board.
 5. **Publish.** Merging to `main` publishes the site within a few minutes. A maintainer makes a release by giving the `Unreleased` changes a version number. The release workflow then tags it and attaches the guardrails PDF.

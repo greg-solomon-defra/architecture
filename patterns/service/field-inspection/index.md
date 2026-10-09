@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/patterns/service/field-inspection/ | maturity: draft | site version 0.3.0 | generated from patterns/service/field-inspection.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/patterns/service/field-inspection/ | maturity: draft | site version 0.3.0 | generated from patterns/service/field-inspection.md -->
 
 # Field inspection (proposed)
 
@@ -9,7 +9,7 @@
 
 
 
-**Technology capability:** field work and inspection, under [Manufacturing & Delivery](https://defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery). Defra has **no Defra-wide answer yet**. **Typical business capabilities:** [05 Issue licences and permits](https://defra.github.io/architecture/handrail/business-capabilities/#bc05), [06 Enforce compliance](https://defra.github.io/architecture/handrail/business-capabilities/#bc06), [01 Act as a custodian of the environment](https://defra.github.io/architecture/handrail/business-capabilities/#bc01).
+**Technology capability:** field work and inspection, under [Manufacturing & Delivery](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery). Defra has **no Defra-wide answer yet**. **Typical business capabilities:** [05 Issue licences and permits](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/#bc05), [06 Enforce compliance](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/#bc06), [01 Act as a custodian of the environment](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/#bc01).
 
 ## Context
 
@@ -50,8 +50,8 @@ flowchart LR
 
 ## Guardrails to pay attention to
 
-- [GR-FE-05 Design for low bandwidth and rural users](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-05)
-- [GR-SEC-04 Encrypt in transit and at rest](https://defra.github.io/architecture/guardrails/security/#gr-sec-04), including on the device
-- [GR-API-06 Use events for change notifications](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-06)
-- [GR-TECH-01 Look for something to reuse first](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-01) - other government departments run field inspection services
+- [GR-FE-05 Design for low bandwidth and rural users](https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-05)
+- [GR-SEC-04 Encrypt in transit and at rest](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-04), including on the device
+- [GR-API-06 Use events for change notifications](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-06)
+- [GR-TECH-01 Look for something to reuse first](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-01) - other government departments run field inspection services
 

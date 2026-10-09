@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/front-end-and-accessibility/ | maturity: published | site version 0.3.0 | generated from guardrails/front-end-and-accessibility.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/ | maturity: published | site version 0.3.0 | generated from guardrails/front-end-and-accessibility.md -->
 
 # Front end and accessibility
 
@@ -6,14 +6,14 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [6. Outcomes and services over organisational structures](https://defra.github.io/architecture/principles/doctrine/#ddts-06), [7. Digital first where appropriate](https://defra.github.io/architecture/principles/doctrine/#ddts-07)  
-**Principles:** [2. Design for users](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-02), [8. Right tools, right place](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-08)
+**Doctrine:** [6. Outcomes and services over organisational structures](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-06), [7. Digital first where appropriate](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-07)  
+**Principles:** [2. Design for users](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-02), [8. Right tools, right place](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-08)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the front end and accessibility guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the front end and accessibility guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
 See the Defra Digital Service Manual for how to do this: [make sure everyone can use the service](https://digital.defra.gov.uk/accessibility), [components and patterns](https://digital.defra.gov.uk/design/components-and-patterns), [content design](https://digital.defra.gov.uk/content) and [Welsh language translation](https://digital.defra.gov.uk/content/welsh-language-translation). These guardrails cover the architecture choices that make it possible.
@@ -47,7 +47,7 @@ See the Defra Digital Service Manual for how to do this: [make sure everyone can
 
 ## GR-FE-04 Consider forms platforms first {#gr-fe-04}
 
-<span class="rfc rfc--should">Should</span> For form-based services, consider the forms options under [Customer Service](https://defra.github.io/architecture/handrail/technology-capabilities/#customer-service) before building a bespoke front end.
+<span class="rfc rfc--should">Should</span> For form-based services, consider the forms options under [Customer Service](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#customer-service) before building a bespoke front end.
 
 **In the Defra Digital Service Manual:** [Defra Forms](https://digital.defra.gov.uk/architecture-and-software-development/defra-forms).
 
@@ -78,9 +78,9 @@ See the Defra Digital Service Manual for how to do this: [make sure everyone can
 
 **How to meet it:**
 
-- With the developers, list each dependency that can fail or be slow, and decide what users see for each. This is the user-facing side of [GR-OPS-04](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-04), which designs the service to degrade gracefully.
+- With the developers, list each dependency that can fail or be slow, and decide what users see for each. This is the user-facing side of [GR-OPS-04](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-04), which designs the service to degrade gracefully.
 - Use the GOV.UK Design System [problem with the service pages](https://design-system.service.gov.uk/patterns/problem-with-the-service-pages/) and [service unavailable pages](https://design-system.service.gov.uk/patterns/service-unavailable-pages/), and say whether the user's answers are saved.
-- For work that is processed later, show a status and a realistic time, as in the [asynchronous submission](https://defra.github.io/architecture/patterns/async-submission/#content-to-design) pattern.
+- For work that is processed later, show a status and a realistic time, as in the [asynchronous submission](https://greg-solomon-defra.github.io/architecture/patterns/async-submission/#content-to-design) pattern.
 - Test these messages with users in alpha, and test the real failures in beta by switching dependencies off.
 
 This guardrail is a **draft** proposal. Comment on it by [opening an issue](https://github.com/DEFRA/architecture/issues).

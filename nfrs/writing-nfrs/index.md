@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/nfrs/writing-nfrs/ | maturity: published | site version 0.3.0 | generated from nfrs/writing-nfrs.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/nfrs/writing-nfrs/ | maturity: published | site version 0.3.0 | generated from nfrs/writing-nfrs.md -->
 
 # Writing good NFRs
 
@@ -22,7 +22,7 @@ Write each NFR as a statement anyone can check:
 - **Specific** - one quality per requirement
 - **Measurable** - a number, a threshold or a clear pass/fail
 - **Testable** - you know how you will prove it, ideally automatically
-- **Proportionate** - the target matches the [service tier](https://defra.github.io/architecture/nfrs/service-tiers/), not the highest possible
+- **Proportionate** - the target matches the [service tier](https://greg-solomon-defra.github.io/architecture/nfrs/service-tiers/), not the highest possible
 - **Owned** - someone is responsible for meeting and monitoring it
 - **Traceable** - it has an id and links to the user need, guardrail or policy behind it
 
@@ -30,11 +30,11 @@ Write each NFR as a statement anyone can check:
 
 | Topic | Guidance |
 | --- | --- |
-| Performance testing | [GOV.UK Service Manual: technology](https://www.gov.uk/service-manual/technology) and the [catalogue performance NFRs](https://defra.github.io/architecture/nfrs/catalogue/#nfr-prf) |
-| Accessibility | [Front end and accessibility guardrails](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/) and [GOV.UK: making your service accessible](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) |
-| Security | [Secure by Design in Defra](https://defra.github.io/architecture/security/secure-by-design/) and [threat modelling](https://defra.github.io/architecture/security/threat-modelling/) |
-| Resilience | [Hosting and platforms guardrails](https://defra.github.io/architecture/guardrails/hosting-and-platforms/) |
-| Monitoring | [Observability and operations guardrails](https://defra.github.io/architecture/guardrails/observability-and-operations/) |
+| Performance testing | [GOV.UK Service Manual: technology](https://www.gov.uk/service-manual/technology) and the [catalogue performance NFRs](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/#nfr-prf) |
+| Accessibility | [Front end and accessibility guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/) and [GOV.UK: making your service accessible](https://www.gov.uk/service-manual/helping-people-to-use-your-service/making-your-service-accessible-an-introduction) |
+| Security | [Secure by Design in Defra](https://greg-solomon-defra.github.io/architecture/security/secure-by-design/) and [threat modelling](https://greg-solomon-defra.github.io/architecture/security/threat-modelling/) |
+| Resilience | [Hosting and platforms guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/) |
+| Monitoring | [Observability and operations guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/) |
 | Engineering practice | [Defra software development standards](https://defra.github.io/software-development-standards/) |
 
 ## Useful resources
@@ -49,8 +49,8 @@ Write each NFR as a statement anyone can check:
 The catalogue changes through pull requests, like the rest of this site:
 
 1. Propose a new NFR or a change to a target by editing [`nfrs/catalogue.yaml`](https://github.com/DEFRA/architecture/blob/main/nfrs/catalogue.yaml), or [open an issue](https://github.com/DEFRA/architecture/issues) if you prefer.
-2. The architecture team reviews it. Changes to tier values or to targets that affect many services go to the [Technical Design Authority](https://defra.github.io/architecture/governance/tda/).
-3. Once merged, the change is published here and recorded in [what's new](https://defra.github.io/architecture/about/changelog/).
+2. The architecture team reviews it. Changes to tier values or to targets that affect many services go to the [Technical Design Authority](https://greg-solomon-defra.github.io/architecture/governance/tda/).
+3. Once merged, the change is published here and recorded in [what's new](https://greg-solomon-defra.github.io/architecture/about/changelog/).
 
 Never reuse or renumber an NFR id - other teams may reference it. Retire an NFR by marking it as retired in its description.
 

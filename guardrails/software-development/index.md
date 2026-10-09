@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/software-development/ | maturity: published | site version 0.3.0 | generated from guardrails/software-development.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/software-development/ | maturity: published | site version 0.3.0 | generated from guardrails/software-development.md -->
 
 # Software development
 
@@ -6,14 +6,14 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [1. Platforms before projects. Built as products](https://defra.github.io/architecture/principles/doctrine/#ddts-01), [2. Standards and guardrails before exceptions](https://defra.github.io/architecture/principles/doctrine/#ddts-02), [3. Reuse before buy](https://defra.github.io/architecture/principles/doctrine/#ddts-03)  
-**Principles:** [1. Delivery-focused architecture](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-01), [3. Maximise value, minimise waste](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-03)
+**Doctrine:** [1. Platforms before projects. Built as products](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-01), [2. Standards and guardrails before exceptions](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-02), [3. Reuse before buy](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-03)  
+**Principles:** [1. Delivery-focused architecture](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-01), [3. Maximise value, minimise waste](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-03)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the software development guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the software development guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
 !!! tip "Looking for detailed coding guidance?"
@@ -87,11 +87,11 @@ The list, and the reasons for each choice, are in [approved technologies and lan
 
 ## GR-DEV-09 Record significant decisions as ADRs {#gr-dev-09}
 
-<span class="rfc rfc--should">Should</span> Record significant architecture decisions as [architecture decision records](https://defra.github.io/architecture/governance/architecture-decision-records/) (ADRs), kept with the code or linked from the repository's README.
+<span class="rfc rfc--should">Should</span> Record significant architecture decisions as [architecture decision records](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/) (ADRs), kept with the code or linked from the repository's README.
 
 **Why:** the reasons behind a design are lost when people move on. ADRs let the next team, an assessor or a partner taking over the service understand what was decided and why, and change it safely.
 
-**How to meet it:** keep ADRs in a `docs/adr` folder in the service repository, using the [ADR template](https://defra.github.io/architecture/governance/templates/adr/). Write one when you make a decision that is hard to reverse, departs from a guardrail, or that someone will later ask "why did we do this?".
+**How to meet it:** keep ADRs in a `docs/adr` folder in the service repository, using the [ADR template](https://greg-solomon-defra.github.io/architecture/governance/templates/adr/). Write one when you make a decision that is hard to reverse, departs from a guardrail, or that someone will later ask "why did we do this?".
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DEV-09</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/technical-architect/">Technical architect</a></dd><dt>Evidence</dt><dd>ADR log in the repository or linked from its README</dd><dt>Automated check</dt><dd>Guardrail check (tools/guardrail-check): ADRs in docs/adr</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-01">1</a>, <a href="../../principles/doctrine/#ddts-02">2</a>, <a href="../../principles/doctrine/#ddts-03">3</a></dd><dt>Owner</dt><dd>Architecture team, last reviewed 2026-10-01, since v0.2.0</dd></dl></details>
 

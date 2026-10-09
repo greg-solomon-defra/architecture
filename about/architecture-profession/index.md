@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/about/architecture-profession/ | maturity: draft | site version 0.3.0 | generated from about/architecture-profession.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/about/architecture-profession/ | maturity: draft | site version 0.3.0 | generated from about/architecture-profession.md -->
 
 # Developing architecture at Defra
 
@@ -15,9 +15,9 @@ Architects at Defra work in three areas.
 
 | Area | Where it sits | What it does |
 | --- | --- | --- |
-| **Delivery Architecture** | Embedded in the delivery groups | Works with delivery teams to design their services, explains governance requirements and handles exceptions to the software development standards. Each delivery group has a principal architect. See [working with architects](https://defra.github.io/architecture/deliver/working-with-architects/). |
+| **Delivery Architecture** | Embedded in the delivery groups | Works with delivery teams to design their services, explains governance requirements and handles exceptions to the software development standards. Each delivery group has a principal architect. See [working with architects](https://greg-solomon-defra.github.io/architecture/deliver/working-with-architects/). |
 | **Technical Architecture** | Group Infrastructure and Operations (GIO) | Technical architects for Defra's infrastructure and operations. |
-| **Enterprise Architecture** | The CTO Office | Writes the [architecture principles](https://defra.github.io/architecture/principles/architecture-principles/), [guardrails](https://defra.github.io/architecture/guardrails/) and [service patterns](https://defra.github.io/architecture/patterns/service/) on this site, and supports the Architecture Community across Defra. |
+| **Enterprise Architecture** | The CTO Office | Writes the [architecture principles](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/), [guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/) and [service patterns](https://greg-solomon-defra.github.io/architecture/patterns/service/) on this site, and supports the Architecture Community across Defra. |
 
 ## Architecture roles and skills
 
@@ -27,7 +27,7 @@ Architecture roles in government are described in the Digital, Data and Technolo
 - plan your learning and talk about your development with your line manager
 - see how you could move into architecture from another role
 
-The areas Defra architects work in are on [the architecture team](https://defra.github.io/architecture/about/team/) page.
+The areas Defra architects work in are on [the architecture team](https://greg-solomon-defra.github.io/architecture/about/team/) page.
 
 ## The Architecture Community
 
@@ -49,5 +49,5 @@ You do not need to be an architect to take part. Designers, developers, analysts
 
 ## Contribute to this site
 
-Writing and improving guidance is a good way to develop. You can suggest a change to any page, or [open an issue](https://github.com/DEFRA/architecture/issues) with an idea. See [contribute](https://defra.github.io/architecture/contribute/).
+Writing and improving guidance is a good way to develop. You can suggest a change to any page, or [open an issue](https://github.com/DEFRA/architecture/issues) with an idea. See [contribute](https://greg-solomon-defra.github.io/architecture/contribute/).
 

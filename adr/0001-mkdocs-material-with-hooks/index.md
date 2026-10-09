@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/adr/0001-mkdocs-material-with-hooks/ | maturity: published | site version 0.3.0 | generated from adr/0001-mkdocs-material-with-hooks.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/adr/0001-mkdocs-material-with-hooks/ | maturity: published | site version 0.3.0 | generated from adr/0001-mkdocs-material-with-hooks.md -->
 
 # 0001. Build the site with MkDocs Material and generate lists with hooks
 

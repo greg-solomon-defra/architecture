@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/adr/0003-no-versioned-urls/ | maturity: published | site version 0.3.0 | generated from adr/0003-no-versioned-urls.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/adr/0003-no-versioned-urls/ | maturity: published | site version 0.3.0 | generated from adr/0003-no-versioned-urls.md -->
 
 # 0003. Release versions as tags and PDFs, not versioned URLs
 
@@ -22,6 +22,6 @@ We will tag each release, attach a PDF of every guardrail to a GitHub release, a
 
 ## Consequences
 
-- People cite a version as its tag plus the PDF. See [contracting with this site](https://defra.github.io/architecture/partners/contracting/#cite-a-fixed-version).
+- People cite a version as its tag plus the PDF. See [contracting with this site](https://greg-solomon-defra.github.io/architecture/partners/contracting/#cite-a-fixed-version).
 - If people need to browse old versions as a website, we will revisit this decision.
 

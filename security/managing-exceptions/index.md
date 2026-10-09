@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/security/managing-exceptions/ | maturity: draft | site version 0.3.0 | generated from security/managing-exceptions.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/security/managing-exceptions/ | maturity: draft | site version 0.3.0 | generated from security/managing-exceptions.md -->
 
 # Managing security exceptions
 
@@ -9,7 +9,7 @@
 
 
 
-Required by guardrail [GR-SEC-09](https://defra.github.io/architecture/guardrails/security/#gr-sec-09).
+Required by guardrail [GR-SEC-09](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-09).
 
 ## The process
 
@@ -44,7 +44,7 @@ flowchart LR
 
 ## Relationship to guardrail exceptions
 
-If the gap is also a **Must** guardrail, raise a [guardrail exception](https://defra.github.io/architecture/governance/exceptions/) with the TDA at the same time. One request, with the security risk record attached, covers both.
+If the gap is also a **Must** guardrail, raise a [guardrail exception](https://greg-solomon-defra.github.io/architecture/governance/exceptions/) with the TDA at the same time. One request, with the security risk record attached, covers both.
 
 ## What we do not accept
 

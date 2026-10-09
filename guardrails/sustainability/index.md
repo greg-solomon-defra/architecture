@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/sustainability/ | maturity: published | site version 0.3.0 | generated from guardrails/sustainability.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/sustainability/ | maturity: published | site version 0.3.0 | generated from guardrails/sustainability.md -->
 
 # Sustainability
 
@@ -6,14 +6,14 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [1. Platforms before projects. Built as products](https://defra.github.io/architecture/principles/doctrine/#ddts-01), [3. Reuse before buy](https://defra.github.io/architecture/principles/doctrine/#ddts-03)  
-**Principles:** [3. Maximise value, minimise waste](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-03)
+**Doctrine:** [1. Platforms before projects. Built as products](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-01), [3. Reuse before buy](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-03)  
+**Principles:** [3. Maximise value, minimise waste](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-03)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the sustainability guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the sustainability guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
 Relates to TCoP point 12.
@@ -45,7 +45,7 @@ Defra services must also meet a 15th point of the Service Standard, [deliver a s
 
 ## GR-SUS-04 Keep data and pages lean {#gr-sus-04}
 
-<span class="rfc rfc--should">Should</span> Store only the data you need, for as long as you need it, and keep page weight low - which also helps users on slow connections ([GR-FE-05](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-05)).
+<span class="rfc rfc--should">Should</span> Store only the data you need, for as long as you need it, and keep page weight low - which also helps users on slow connections ([GR-FE-05](https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-05)).
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-SUS-04</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/developer/">Developer</a>, <a href="../../deliver/roles/interaction-designer/">Interaction designer</a></dd><dt>Evidence</dt><dd>Data retention settings and page weight measurements</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make your technology sustainable">12</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-01">1</a>, <a href="../../principles/doctrine/#ddts-03">3</a></dd><dt>Owner</dt><dd>Architecture team, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>

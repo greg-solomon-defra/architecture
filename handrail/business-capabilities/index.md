@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/handrail/business-capabilities/ | maturity: published | site version 0.3.0 | generated from handrail/business-capabilities.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/ | maturity: published | site version 0.3.0 | generated from handrail/business-capabilities.md -->
 
 # Business capabilities
 
@@ -36,7 +36,7 @@ A useful test: if a reorganisation or a new system would change it, it is not a 
 
 Level 1 capabilities are agreed. **Level 2 capabilities are a draft** - informed by Gartner research on government and human services business capability models and other public sector reference models - and we want your help improving them.
 
-To see which [technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/) each business capability is likely to depend on, see [capability mapping](https://defra.github.io/architecture/handrail/capability-mapping/). That mapping is a draft.
+To see which [technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/) each business capability is likely to depend on, see [capability mapping](https://greg-solomon-defra.github.io/architecture/handrail/capability-mapping/). That mapping is a draft.
 
 ## Core capabilities
 
@@ -349,9 +349,9 @@ Provide the people, finance, commercial, digital, data and technology, estates, 
 
 Business capabilities are not services. A **service** is everything government provides to deliver an outcome for its users, such as getting a licence to do works by a river. A **capability** is what Defra does, such as "Issue licences and permits", whichever services, organisations and systems do it. One capability usually supports many services, and one service often draws on several capabilities.
 
-In Defra's service taxonomy, business capabilities are level 4, **common business capabilities**: below services and products, and above the components and data that realise them. See [services and capabilities](https://defra.github.io/architecture/handrail/services-and-capabilities/) for the taxonomy's definitions and how the handrail fits into it.
+In Defra's service taxonomy, business capabilities are level 4, **common business capabilities**: below services and products, and above the components and data that realise them. See [services and capabilities](https://greg-solomon-defra.github.io/architecture/handrail/services-and-capabilities/) for the taxonomy's definitions and how the handrail fits into it.
 
 ## Improving the model
 
-The model lives in [`capabilities/business-capabilities.yaml`](https://github.com/DEFRA/architecture/blob/main/capabilities/business-capabilities.yaml). To propose a change, open a pull request explaining which attribute it improves. Changes to level 1 capabilities are reviewed by the [Technical Design Authority](https://defra.github.io/architecture/governance/tda/) and approved by the [Technology Governance Board](https://defra.github.io/architecture/governance/tgb/).
+The model lives in [`capabilities/business-capabilities.yaml`](https://github.com/DEFRA/architecture/blob/main/capabilities/business-capabilities.yaml). To propose a change, open a pull request explaining which attribute it improves. Changes to level 1 capabilities are reviewed by the [Technical Design Authority](https://greg-solomon-defra.github.io/architecture/governance/tda/) and approved by the [Technology Governance Board](https://greg-solomon-defra.github.io/architecture/governance/tgb/).
 

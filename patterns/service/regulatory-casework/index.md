@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/patterns/service/regulatory-casework/ | maturity: draft | site version 0.3.0 | generated from patterns/service/regulatory-casework.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/patterns/service/regulatory-casework/ | maturity: draft | site version 0.3.0 | generated from patterns/service/regulatory-casework.md -->
 
 # Regulatory casework
 
@@ -9,7 +9,7 @@
 
 
 
-**Typical business capabilities:** [05 Issue licences and permits](https://defra.github.io/architecture/handrail/business-capabilities/#bc05), [06 Enforce compliance](https://defra.github.io/architecture/handrail/business-capabilities/#bc06).
+**Typical business capabilities:** [05 Issue licences and permits](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/#bc05), [06 Enforce compliance](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/#bc06).
 
 ## Context
 
@@ -67,16 +67,16 @@ flowchart TB
 
 | Concern | Default | Notes |
 | --- | --- | --- |
-| Case and workflow | Strategic case management capability ([Manufacturing & Delivery](https://defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery)) | Configure per regime; avoid new bespoke case systems |
-| Rules | Rules as code, versioned with the service ([Manufacturing & Delivery](https://defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery)) | Emerging - talk to the architecture team |
-| Documents | Records management with retention labels ([Communication & Collaboration](https://defra.github.io/architecture/handrail/technology-capabilities/#communication-and-collaboration)) | Apply retention schedules automatically |
-| Field inspection | No strategic answer yet ([Manufacturing & Delivery](https://defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery)) | Raise with the TDA - a cross-Defra need |
-| Staff access | Microsoft Entra ID with role-based access | [GR-IAM-02](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-02) |
+| Case and workflow | Strategic case management capability ([Manufacturing & Delivery](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery)) | Configure per regime; avoid new bespoke case systems |
+| Rules | Rules as code, versioned with the service ([Manufacturing & Delivery](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery)) | Emerging - talk to the architecture team |
+| Documents | Records management with retention labels ([Communication & Collaboration](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#communication-and-collaboration)) | Apply retention schedules automatically |
+| Field inspection | No strategic answer yet ([Manufacturing & Delivery](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery)) | Raise with the TDA - a cross-Defra need |
+| Staff access | Microsoft Entra ID with role-based access | [GR-IAM-02](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-02) |
 
 ## Key decisions to record
 
 - Which regimes share a case model and which need their own.
 - Where the authoritative record of a permit or licence lives.
 - How enforcement data is shared with other regulators and published.
-- How AI or automated risk scoring is overseen ([GR-AI-03](https://defra.github.io/architecture/guardrails/ai/#gr-ai-03)).
+- How AI or automated risk scoring is overseen ([GR-AI-03](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-03)).
 

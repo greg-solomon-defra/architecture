@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/handrail/services-and-capabilities/ | maturity: draft | site version 0.3.0 | generated from handrail/services-and-capabilities.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/handrail/services-and-capabilities/ | maturity: draft | site version 0.3.0 | generated from handrail/services-and-capabilities.md -->
 
 # Services and capabilities
 
@@ -17,7 +17,7 @@ Defra's service strategy and design colleagues are developing a **service taxono
 
 > "The model shows high-level groupings, not all the details within each layer. Different professions such as architecture or design may have their own ways of mapping. This is not intended to replace those, it's just a way of working together to create a shared understanding or view."
 
-This page uses the taxonomy's definitions and shows where the architecture view - the [business capability model](https://defra.github.io/architecture/handrail/business-capabilities/), [technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/) and [Defra on a page](https://defra.github.io/architecture/data/defra-on-a-page/) - fits into it. It does not create a separate vocabulary.
+This page uses the taxonomy's definitions and shows where the architecture view - the [business capability model](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/), [technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/) and [Defra on a page](https://greg-solomon-defra.github.io/architecture/data/defra-on-a-page/) - fits into it. It does not create a separate vocabulary.
 
 <div id="tbc-1"></div>
 
@@ -70,12 +70,12 @@ flowchart LR
 
 | Taxonomy level | Where it shows up on this site |
 | --- | --- |
-| 1 Outcomes | The [DDTS doctrine](https://defra.github.io/architecture/principles/doctrine/) and the outcomes that [business capabilities](https://defra.github.io/architecture/handrail/business-capabilities/) deliver |
-| 2 Whole services and services | [Service patterns](https://defra.github.io/architecture/patterns/service/) describe common shapes of service. Services are assessed against the [Service Standard](https://www.gov.uk/service-manual/service-standard). |
-| 3 Products | Most [guardrails](https://defra.github.io/architecture/guardrails/), the [Deliver a service](https://defra.github.io/architecture/deliver/) section and [ADRs](https://defra.github.io/architecture/governance/architecture-decision-records/) apply to products and the teams that build them |
-| 4 Common business capabilities | The [business capability model](https://defra.github.io/architecture/handrail/business-capabilities/) is Defra's architecture view of this level. [Technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/) describe what technology must do to enable them. |
-| 5 Components | The strategic options in each [technology capability](https://defra.github.io/architecture/handrail/technology-capabilities/), the [platforms](https://defra.github.io/architecture/deliver/platforms/) teams build on, and reusable building blocks in the [patterns](https://defra.github.io/architecture/patterns/) |
-| 6 Data | [Defra on a page](https://defra.github.io/architecture/data/defra-on-a-page/), [data standards](https://defra.github.io/architecture/data/data-standards/) and authoritative sources |
+| 1 Outcomes | The [DDTS doctrine](https://greg-solomon-defra.github.io/architecture/principles/doctrine/) and the outcomes that [business capabilities](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/) deliver |
+| 2 Whole services and services | [Service patterns](https://greg-solomon-defra.github.io/architecture/patterns/service/) describe common shapes of service. Services are assessed against the [Service Standard](https://www.gov.uk/service-manual/service-standard). |
+| 3 Products | Most [guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/), the [Deliver a service](https://greg-solomon-defra.github.io/architecture/deliver/) section and [ADRs](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/) apply to products and the teams that build them |
+| 4 Common business capabilities | The [business capability model](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/) is Defra's architecture view of this level. [Technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/) describe what technology must do to enable them. |
+| 5 Components | The strategic options in each [technology capability](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/), the [platforms](https://greg-solomon-defra.github.io/architecture/deliver/platforms/) teams build on, and reusable building blocks in the [patterns](https://greg-solomon-defra.github.io/architecture/patterns/) |
+| 6 Data | [Defra on a page](https://greg-solomon-defra.github.io/architecture/data/defra-on-a-page/), [data standards](https://greg-solomon-defra.github.io/architecture/data/data-standards/) and authoritative sources |
 
 ## Where architecture uses words differently
 
@@ -83,9 +83,9 @@ The taxonomy is deliberately high level. Architecture sometimes needs finer dist
 
 ### Business capability
 
-The taxonomy's common business capabilities include "a business activity or way of doing something". The architecture [business capability model](https://defra.github.io/architecture/handrail/business-capabilities/) is narrower: it describes **what** Defra does, independent of how it is done, who does it or which system supports it, so that it stays stable through reorganisations and system changes.
+The taxonomy's common business capabilities include "a business activity or way of doing something". The architecture [business capability model](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/) is narrower: it describes **what** Defra does, independent of how it is done, who does it or which system supports it, so that it stays stable through reorganisations and system changes.
 
-Colleagues applying the taxonomy in the Environment Agency found that "categorising and scaling capabilities is complicated. There are business, technical and scientific capabilities". On this site, business capabilities sit in the business capability model and technical ones in the [technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/).
+Colleagues applying the taxonomy in the Environment Agency found that "categorising and scaling capabilities is complicated. There are business, technical and scientific capabilities". On this site, business capabilities sit in the business capability model and technical ones in the [technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/).
 
 ### Technology capability
 
@@ -105,7 +105,7 @@ Developers often call a running piece of software - a microservice, an API or a 
 
 ## Using these definitions
 
-- **When you start a piece of work**, say which whole service and service it is part of, which products it changes, which [business capabilities](https://defra.github.io/architecture/handrail/business-capabilities/) it supports and which components it uses. The [discovery](https://defra.github.io/architecture/deliver/discovery/) page asks for this.
+- **When you start a piece of work**, say which whole service and service it is part of, which products it changes, which [business capabilities](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/) it supports and which components it uses. The [discovery](https://greg-solomon-defra.github.io/architecture/deliver/discovery/) page asks for this.
 - **In ADRs and assessments**, use capability ids (for example `BC05`) and say whether you mean a service, a product or a component.
 - **If a definition does not work in your context**, say how you are using the word, and [tell us](https://github.com/DEFRA/architecture/issues) so we can improve this page with the service design community.
 

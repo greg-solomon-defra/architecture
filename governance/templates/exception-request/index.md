@@ -1,8 +1,8 @@
-<!-- https://defra.github.io/architecture/governance/templates/exception-request/ | maturity: published | site version 0.3.0 | generated from governance/templates/exception-request.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/governance/templates/exception-request/ | maturity: published | site version 0.3.0 | generated from governance/templates/exception-request.md -->
 
 # Guardrail exception request template
 
-Use when you cannot meet a **Must** guardrail. See [exceptions to guardrails](https://defra.github.io/architecture/governance/exceptions/).
+Use when you cannot meet a **Must** guardrail. See [exceptions to guardrails](https://greg-solomon-defra.github.io/architecture/governance/exceptions/).
 
 ```markdown
 # Exception request: <guardrail id> for <service>

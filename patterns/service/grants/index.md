@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/patterns/service/grants/ | maturity: draft | site version 0.3.0 | generated from patterns/service/grants.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/patterns/service/grants/ | maturity: draft | site version 0.3.0 | generated from patterns/service/grants.md -->
 
 # Grants and schemes (proposed)
 
@@ -9,7 +9,7 @@
 
 
 
-**Technology capability:** grants and scheme management, under [Manufacturing & Delivery](https://defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery). Reusable grants components are still being established. **Typical business capability:** [07 Administer funds and grants](https://defra.github.io/architecture/handrail/business-capabilities/#bc07).
+**Technology capability:** grants and scheme management, under [Manufacturing & Delivery](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery). Reusable grants components are still being established. **Typical business capability:** [07 Administer funds and grants](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/#bc07).
 
 ## Context
 
@@ -45,8 +45,8 @@ flowchart LR
 
 ## Guardrails to pay attention to
 
-- [GR-TECH-01 Look for something to reuse first](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-01)
-- [GR-DATA-02 Use authoritative sources](https://defra.github.io/architecture/guardrails/data/#gr-data-02) for customers and land
-- [GR-DATA-08 Manage data quality](https://defra.github.io/architecture/guardrails/data/#gr-data-08) for data that feeds payments
-- [GR-AI-03 Keep a human accountable](https://defra.github.io/architecture/guardrails/ai/#gr-ai-03) where automation informs decisions
+- [GR-TECH-01 Look for something to reuse first](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-01)
+- [GR-DATA-02 Use authoritative sources](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) for customers and land
+- [GR-DATA-08 Manage data quality](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) for data that feeds payments
+- [GR-AI-03 Keep a human accountable](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-03) where automation informs decisions
 

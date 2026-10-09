@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/adr/0006-move-to-defra-github/ | maturity: published | site version 0.3.0 | generated from adr/0006-move-to-defra-github.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/adr/0006-move-to-defra-github/ | maturity: published | site version 0.3.0 | generated from adr/0006-move-to-defra-github.md -->
 
 # 0006. Move the site to DEFRA/architecture
 
@@ -9,7 +9,7 @@
 
 ## Context
 
-The site was built in howellsr/architecture, a personal fork of the existing `DEFRA/architecture` repository, and published at howellsr.github.io/architecture. [GR-DEV-02](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-02) asks for all code to be in a Defra-owned GitHub organisation, and the site is starting to be cited. Because `DEFRA/architecture` already exists, the personal repository cannot be transferred to that name.
+The site was built in howellsr/architecture, a personal fork of the existing `DEFRA/architecture` repository, and published at howellsr.github.io/architecture. [GR-DEV-02](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-02) asks for all code to be in a Defra-owned GitHub organisation, and the site is starting to be cited. Because `DEFRA/architecture` already exists, the personal repository cannot be transferred to that name.
 
 ## Options considered
 

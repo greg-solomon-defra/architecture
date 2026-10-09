@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/patterns/service/incident-response/ | maturity: draft | site version 0.3.0 | generated from patterns/service/incident-response.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/patterns/service/incident-response/ | maturity: draft | site version 0.3.0 | generated from patterns/service/incident-response.md -->
 
 # Incident response (proposed)
 
@@ -9,7 +9,7 @@
 
 
 
-**Technology capability:** incident and emergency management, under [Manufacturing & Delivery](https://defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery). Defra has **no Defra-wide answer yet**. **Typical business capability:** [08 Respond to incidents and crises](https://defra.github.io/architecture/handrail/business-capabilities/#bc08).
+**Technology capability:** incident and emergency management, under [Manufacturing & Delivery](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#manufacturing-and-delivery). Defra has **no Defra-wide answer yet**. **Typical business capability:** [08 Respond to incidents and crises](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/#bc08).
 
 ## Context
 
@@ -45,8 +45,8 @@ flowchart LR
 
 ## Guardrails to pay attention to
 
-- [GR-HOST-07 Design for the resilience the service needs](https://defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-07)
-- [GR-OPS-03 Define and measure service levels](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-03)
-- [GR-DATA-02 Use authoritative sources](https://defra.github.io/architecture/guardrails/data/#gr-data-02) for locations, holdings and species
-- [GR-API-06 Use events for change notifications](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-06)
+- [GR-HOST-07 Design for the resilience the service needs](https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-07)
+- [GR-OPS-03 Define and measure service levels](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-03)
+- [GR-DATA-02 Use authoritative sources](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) for locations, holdings and species
+- [GR-API-06 Use events for change notifications](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-06)
 

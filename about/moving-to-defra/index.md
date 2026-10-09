@@ -1,10 +1,10 @@
-<!-- https://defra.github.io/architecture/about/moving-to-defra/ | maturity: published | site version 0.3.0 | generated from about/moving-to-defra.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/about/moving-to-defra/ | maturity: published | site version 0.3.0 | generated from about/moving-to-defra.md -->
 
 # Moving this site to the DEFRA GitHub organisation
 
 <p class="lead">The site and its repository moved from a personal fork, howellsr/architecture, to <a href="https://github.com/DEFRA/architecture">DEFRA/architecture</a>, published at <a href="https://defra.github.io/architecture/">defra.github.io/architecture</a>. This page records how, and what keeps old links working.</p>
 
-The site was built in a personal fork while it was in alpha. It moved to the DEFRA GitHub organisation, where the Defra Digital Service Manual says code is stored - see [architecture](https://digital.defra.gov.uk/architecture) - in line with [GR-DEV-02](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-02). The decision is recorded in [ADR 0006](https://defra.github.io/architecture/adr/0006-move-to-defra-github/).
+The site was built in a personal fork while it was in alpha. It moved to the DEFRA GitHub organisation, where the Defra Digital Service Manual says code is stored - see [architecture](https://digital.defra.gov.uk/architecture) - in line with [GR-DEV-02](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-02). The decision is recorded in [ADR 0006](https://greg-solomon-defra.github.io/architecture/adr/0006-move-to-defra-github/).
 
 <div id="tbc-1"></div>
 

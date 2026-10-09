@@ -1,10 +1,10 @@
-<!-- https://defra.github.io/architecture/security/threat-modelling/ | maturity: published | site version 0.3.0 | generated from security/threat-modelling.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/security/threat-modelling/ | maturity: published | site version 0.3.0 | generated from security/threat-modelling.md -->
 
 # Threat modelling
 
 <p class="lead">Threat modelling is a structured conversation about what could go wrong with a service and what to do about it. Done by the team, early and often, it is the most cost-effective security activity there is.</p>
 
-Required by guardrail [GR-SEC-02](https://defra.github.io/architecture/guardrails/security/#gr-sec-02).
+Required by guardrail [GR-SEC-02](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-02).
 
 ## When
 
@@ -42,7 +42,7 @@ For services using AI, also consider prompt injection, training data poisoning, 
 
 ### 3. What are we going to do about it?
 
-For each threat: mitigate, accept, transfer or avoid. Put mitigations in the backlog as normal work items. Risks you propose to accept go through [managing security exceptions](https://defra.github.io/architecture/security/managing-exceptions/).
+For each threat: mitigate, accept, transfer or avoid. Put mitigations in the backlog as normal work items. Risks you propose to accept go through [managing security exceptions](https://greg-solomon-defra.github.io/architecture/security/managing-exceptions/).
 
 ### 4. Did we do a good enough job?
 
@@ -53,7 +53,7 @@ Check coverage, record assumptions, and set the next review date.
 - A whiteboard or online diagramming tool is enough to start
 - [OWASP Threat Dragon](https://owasp.org/www-project-threat-dragon/) for diagram-based models that can be stored as code
 - Example threat models and threat catalogues in the cross-government [Secure by Design artefact library](https://github.com/co-cddo/SbD)
-- The [threat model template](https://defra.github.io/architecture/governance/templates/threat-model/)
+- The [threat model template](https://greg-solomon-defra.github.io/architecture/governance/templates/threat-model/)
 
 ## Storing threat models
 

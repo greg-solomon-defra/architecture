@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/data/data-standards/ | maturity: published | site version 0.3.0 | generated from data/data-standards.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/data/data-standards/ | maturity: published | site version 0.3.0 | generated from data/data-standards.md -->
 
 # Data standards
 
@@ -48,5 +48,5 @@ These identifiers are widely used across Defra group. Use them, and validate the
 
 ## Proposing a new standard
 
-If you need a standard that is not listed, check the [Data Standards Authority](https://www.gov.uk/government/collections/data-standards-authority) first. If there is still a gap, raise an issue in this repository - the data architecture team will review it with the [TDA](https://defra.github.io/architecture/governance/tda/).
+If you need a standard that is not listed, check the [Data Standards Authority](https://www.gov.uk/government/collections/data-standards-authority) first. If there is still a gap, raise an issue in this repository - the data architecture team will review it with the [TDA](https://greg-solomon-defra.github.io/architecture/governance/tda/).
 

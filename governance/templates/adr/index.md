@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/governance/templates/adr/ | maturity: published | site version 0.3.0 | generated from governance/templates/adr.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/governance/templates/adr/ | maturity: published | site version 0.3.0 | generated from governance/templates/adr.md -->
 
 # Architecture decision record template
 
@@ -7,7 +7,7 @@ Save as `docs/adr/NNNN-short-title.md` in your repository.
 ```markdown
 # NNNN. Title in the form of a short decision
 
-- Status: Proposed | Accepted | Rejected | Superseded by [NNNN](https://defra.github.io/architecture/governance/templates/NNNN-title/) | Deprecated
+- Status: Proposed | Accepted | Rejected | Superseded by [NNNN](https://greg-solomon-defra.github.io/architecture/governance/templates/NNNN-title/) | Deprecated
 - Date: YYYY-MM-DD
 - Deciders: names or roles
 - Decided by: team | SDA name | TDA | TGB

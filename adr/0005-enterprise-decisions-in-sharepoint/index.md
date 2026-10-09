@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/adr/0005-enterprise-decisions-in-sharepoint/ | maturity: published | site version 0.3.0 | generated from adr/0005-enterprise-decisions-in-sharepoint.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/adr/0005-enterprise-decisions-in-sharepoint/ | maturity: published | site version 0.3.0 | generated from adr/0005-enterprise-decisions-in-sharepoint.md -->
 
 # 0005. Record enterprise decisions in a SharePoint register, not in this repository
 
@@ -9,7 +9,7 @@
 
 ## Context
 
-This site said that decisions taken by the Technical Design Authority (TDA) and Technology Governance Board (TGB) were recorded in this repository. Many people who bring decisions do not use GitHub. Some decisions include information that should not be public, and Defra records management applies to them. Team decisions are different: Defra's software development standards and [GR-DEV-09](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-09) expect them to live with the code.
+This site said that decisions taken by the Technical Design Authority (TDA) and Technology Governance Board (TGB) were recorded in this repository. Many people who bring decisions do not use GitHub. Some decisions include information that should not be public, and Defra records management applies to them. Team decisions are different: Defra's software development standards and [GR-DEV-09](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-09) expect them to live with the code.
 
 ## Options considered
 

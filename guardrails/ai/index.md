@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/ai/ | maturity: published | site version 0.3.0 | generated from guardrails/ai.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/ai/ | maturity: published | site version 0.3.0 | generated from guardrails/ai.md -->
 
 # Artificial intelligence
 
@@ -6,25 +6,25 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [4. Data is an enterprise asset](https://defra.github.io/architecture/principles/doctrine/#ddts-04), [5. Assume AI until proven otherwise](https://defra.github.io/architecture/principles/doctrine/#ddts-05)  
-**Principles:** [7. Empower to innovate](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-07), [4. Clean data, clear decisions](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-04)
+**Doctrine:** [4. Data is an enterprise asset](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-04), [5. Assume AI until proven otherwise](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-05)  
+**Principles:** [7. Empower to innovate](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-07), [4. Clean data, clear decisions](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-04)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the artificial intelligence guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the artificial intelligence guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
-Applies the DDTS doctrine [assume AI until proven otherwise](https://defra.github.io/architecture/principles/doctrine/#ddts-05), and builds on the [AI Playbook for the UK Government](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government).
+Applies the DDTS doctrine [assume AI until proven otherwise](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-05), and builds on the [AI Playbook for the UK Government](https://www.gov.uk/government/publications/ai-playbook-for-the-uk-government).
 
-For practical guidance - which tools teams use, what data you can put into them, keeping data safe, working with AI agents and reporting an AI incident - use the [AI digital toolkit](https://digital.defra.gov.uk/ai-toolkit) in the Defra Digital Service Manual, run by the AI Capability and Enablement (AICE) team. Contact details for AICE are on the toolkit's home page. These guardrails set the architecture boundaries; the toolkit tells you how. Technology capability [Artificial intelligence and machine learning](https://defra.github.io/architecture/handrail/technology-capabilities/#artificial-intelligence).
+For practical guidance - which tools teams use, what data you can put into them, keeping data safe, working with AI agents and reporting an AI incident - use the [AI digital toolkit](https://digital.defra.gov.uk/ai-toolkit) in the Defra Digital Service Manual, run by the AI Capability and Enablement (AICE) team. Contact details for AICE are on the toolkit's home page. These guardrails set the architecture boundaries; the toolkit tells you how. Technology capability [Artificial intelligence and machine learning](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#artificial-intelligence).
 
 ## GR-AI-01 Consider AI first {#gr-ai-01}
 
 <span class="rfc rfc--should">Should</span> When designing a service or process, actively explore whether AI can improve quality, productivity, user experience or outcomes before choosing a traditional approach, and record the reasoning either way.
 
-**Why:** the DDTS doctrine says [assume AI until proven otherwise](https://defra.github.io/architecture/principles/doctrine/#ddts-05). That does not mean AI everywhere; it means deliberately considering the opportunity before dismissing it.
+**Why:** the DDTS doctrine says [assume AI until proven otherwise](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-05). That does not mean AI everywhere; it means deliberately considering the opportunity before dismissing it.
 
 **How to meet it:** in discovery and alpha, look for repetitive tasks, triage, summarising, classification or decision support that AI could help with. Note in your ADR what you considered and why you did or did not use AI.
 
@@ -58,34 +58,34 @@ For practical guidance - which tools teams use, what data you can put into them,
 
 ## GR-AI-05 Evaluate, monitor and threat model {#gr-ai-05}
 
-<span class="rfc rfc--should">Should</span> Evaluate models for accuracy, bias and safety before release, monitor them in live, and include AI-specific threats (prompt injection, data leakage, model abuse) in your [threat model](https://defra.github.io/architecture/security/threat-modelling/).
+<span class="rfc rfc--should">Should</span> Evaluate models for accuracy, bias and safety before release, monitor them in live, and include AI-specific threats (prompt injection, data leakage, model abuse) in your [threat model](https://greg-solomon-defra.github.io/architecture/security/threat-modelling/).
 
 !!! tip "Cross-government AI tools"
-    OCTO's [AI technology enablement](https://architecture.cddo.cabinetoffice.gov.uk/psai-tech/index.html) resources include an AI risk management toolkit, an AI assurance questionnaire, the public sector AI governance operating model and a service assessment questions navigator. Use them to evidence [GR-AI-03](https://defra.github.io/architecture/guardrails/ai/#gr-ai-03), [GR-AI-04](https://defra.github.io/architecture/guardrails/ai/#gr-ai-04) and [GR-AI-05](https://defra.github.io/architecture/guardrails/ai/#gr-ai-05).
+    OCTO's [AI technology enablement](https://architecture.cddo.cabinetoffice.gov.uk/psai-tech/index.html) resources include an AI risk management toolkit, an AI assurance questionnaire, the public sector AI governance operating model and a service assessment questions navigator. Use them to evidence [GR-AI-03](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-03), [GR-AI-04](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-04) and [GR-AI-05](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-05).
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-AI-05</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/security-architect/">Security architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Alpha:</strong> Evaluation plan for accuracy, bias and safety, and AI-specific threats in the threat model</li><li><strong>Beta:</strong> Evaluation results for accuracy, bias and safety before release, and mitigations for AI threats tested</li><li><strong>Live:</strong> Monitoring of model performance and drift in live, with evaluation repeated when the model or data changes</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Create a secure service which protects users&#x27; privacy">9</abbr>; <a href="https://www.security.gov.uk/policy-and-guidance/secure-by-design/principles/">Secure by Design principles</a> <abbr title="Adopt a risk-driven approach">3</abbr>, <abbr title="Embed continuous assurance">9</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Architecture team, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
 ## GR-AI-06 Talk to the TDA about novel use {#gr-ai-06}
 
-<span class="rfc rfc--should">Should</span> Novel uses of AI, and any use of generative AI in decision making, are reviewed by the [Technical Design Authority](https://defra.github.io/architecture/governance/tda/).
+<span class="rfc rfc--should">Should</span> Novel uses of AI, and any use of generative AI in decision making, are reviewed by the [Technical Design Authority](https://greg-solomon-defra.github.io/architecture/governance/tda/).
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-AI-06</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha</dd><dt>Led by</dt><dd><a href="../../deliver/roles/technical-architect/">Technical architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Novel or generative AI use in decision making identified, and a conversation with the Technical Design Authority booked</li><li><strong>Alpha:</strong> Technical Design Authority review outcome recorded in the ADR</li><li><strong>Significant change:</strong> Technical Design Authority review of any new AI use introduced by the change</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Architecture team, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
 ## GR-AI-07 Suppliers use AI coding assistants openly and safely {#gr-ai-07}
 
-<span class="rfc rfc--should">Should</span> Delivery partners who use AI coding assistants on Defra work agree which tools they use with Defra, use them only under terms that meet [GR-AI-02](https://defra.github.io/architecture/guardrails/ai/#gr-ai-02), have a person review every change before it is merged, and say in pull requests or delivery reports where AI did significant work.
+<span class="rfc rfc--should">Should</span> Delivery partners who use AI coding assistants on Defra work agree which tools they use with Defra, use them only under terms that meet [GR-AI-02](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-02), have a person review every change before it is merged, and say in pull requests or delivery reports where AI did significant work.
 
 **Why:** AI coding assistants can speed up delivery, but they can also leak code, secrets or data to a third party, bring in code with unclear licences, and produce plausible but wrong code. Defra owns the code it pays for and must be able to trust it.
 
 **How to meet it:**
 
 - Follow [choosing a tool](https://digital.defra.gov.uk/ai-toolkit/guidance/choosing-a-tool) and [using data with AI](https://digital.defra.gov.uk/ai-toolkit/guidance/using-data-with-ai) in the AI digital toolkit: what matters is the data you put in, and privacy settings must be on.
-- Tell the Defra engagement lead which tools you use at [mobilisation](https://defra.github.io/architecture/partners/mobilisation/), and record them in the repository.
+- Tell the Defra engagement lead which tools you use at [mobilisation](https://greg-solomon-defra.github.io/architecture/partners/mobilisation/), and record them in the repository.
 - Follow [AI security](https://digital.defra.gov.uk/ai-toolkit/guidance/security) in the AI digital toolkit: AI-written code clears the same Defra security gates as any other code.
 - Never put secrets into prompts.
-- Review AI-generated code with the same care as any other code ([GR-DEV-03](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-03)), including licences of any suggested code.
+- Review AI-generated code with the same care as any other code ([GR-DEV-03](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-03)), including licences of any suggested code.
 
 This guardrail is a **draft** proposal. Comment on it by [opening an issue](https://github.com/DEFRA/architecture/issues).
 
@@ -94,13 +94,13 @@ This guardrail is a **draft** proposal. Comment on it by [opening an issue](http
 
 ## Agentic AI
 
-AI agents do more than answer questions: they plan steps and take actions through tools, such as updating records, sending messages or calling APIs. That makes them useful, and it makes mistakes and attacks more costly. For how to build agents in Defra - identity, connecting tools, evaluations and tracing, and which platforms are ready - see [working with AI agents](https://digital.defra.gov.uk/ai-toolkit/guidance/working-with-agents) in the AI digital toolkit, and talk to AICE before you choose a platform. These draft guardrails come from the [guardrail backlog](https://defra.github.io/architecture/about/roadmap/#guardrail-backlog) and apply on top of [GR-AI-02](https://defra.github.io/architecture/guardrails/ai/#gr-ai-02) to [GR-AI-06](https://defra.github.io/architecture/guardrails/ai/#gr-ai-06).
+AI agents do more than answer questions: they plan steps and take actions through tools, such as updating records, sending messages or calling APIs. That makes them useful, and it makes mistakes and attacks more costly. For how to build agents in Defra - identity, connecting tools, evaluations and tracing, and which platforms are ready - see [working with AI agents](https://digital.defra.gov.uk/ai-toolkit/guidance/working-with-agents) in the AI digital toolkit, and talk to AICE before you choose a platform. These draft guardrails come from the [guardrail backlog](https://greg-solomon-defra.github.io/architecture/about/roadmap/#guardrail-backlog) and apply on top of [GR-AI-02](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-02) to [GR-AI-06](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-06).
 
 ## GR-AI-08 Give agents the least privilege they need {#gr-ai-08}
 
 <span class="rfc rfc--should">Should</span> AI agents act under their own identity, with access only to the tools, data and actions their task needs, and never with a person's full permissions.
 
-**Why:** an agent can be tricked, or can be wrong. Limiting what it can reach limits the damage ([GR-IAM-03](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-03)).
+**Why:** an agent can be tricked, or can be wrong. Limiting what it can reach limits the damage ([GR-IAM-03](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-03)).
 
 **How to meet it:** list each agent's tools and permissions, grant them to a workload identity for the agent, and review them as you would a privileged user's.
 
@@ -113,7 +113,7 @@ AI agents do more than answer questions: they plan steps and take actions throug
 
 <span class="rfc rfc--should">Should</span> An agent does not take an action with legal, financial or significant effects on people, or one that cannot easily be undone, without approval from an accountable person.
 
-**Why:** [GR-AI-03](https://defra.github.io/architecture/guardrails/ai/#gr-ai-03) keeps a human accountable for decisions. Agents act faster than people can notice, so approval has to be designed in, not assumed.
+**Why:** [GR-AI-03](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-03) keeps a human accountable for decisions. Agents act faster than people can notice, so approval has to be designed in, not assumed.
 
 **How to meet it:** classify the agent's actions in alpha. Enforce approval in the tool layer, not only in the prompt, and test that the agent cannot bypass it.
 
@@ -128,7 +128,7 @@ AI agents do more than answer questions: they plan steps and take actions throug
 
 **Why:** without a full record, nobody can explain, challenge or reverse what an agent did.
 
-**How to meet it:** log at the tool layer with correlation ids ([GR-OPS-02](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-02)), and keep records for as long as the decisions they support.
+**How to meet it:** log at the tool layer with correlation ids ([GR-OPS-02](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-02)), and keep records for as long as the decisions they support.
 
 **In the AI digital toolkit:** [working with AI agents](https://digital.defra.gov.uk/ai-toolkit/guidance/working-with-agents).
 
@@ -141,7 +141,7 @@ AI agents do more than answer questions: they plan steps and take actions throug
 
 **Why:** prompt injection is the most common way to make an agent misuse its tools or leak data.
 
-**How to meet it:** include injection through every input in your [threat model](https://defra.github.io/architecture/security/threat-modelling/) ([GR-AI-05](https://defra.github.io/architecture/guardrails/ai/#gr-ai-05)), separate untrusted content from instructions, restrict tools as in GR-AI-08 and require approval as in GR-AI-09.
+**How to meet it:** include injection through every input in your [threat model](https://greg-solomon-defra.github.io/architecture/security/threat-modelling/) ([GR-AI-05](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-05)), separate untrusted content from instructions, restrict tools as in GR-AI-08 and require approval as in GR-AI-09.
 
 **In the AI digital toolkit:** [working with AI agents](https://digital.defra.gov.uk/ai-toolkit/guidance/working-with-agents).
 

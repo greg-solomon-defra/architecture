@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/data/ | maturity: published | site version 0.3.0 | generated from data/index.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/data/ | maturity: published | site version 0.3.0 | generated from data/index.md -->
 
 # Enterprise data architecture
 
@@ -6,25 +6,25 @@
 
 <div class="grid cards" markdown>
 
--   **[Defra on a page](https://defra.github.io/architecture/data/defra-on-a-page/)**
+-   **[Defra on a page](https://greg-solomon-defra.github.io/architecture/data/defra-on-a-page/)**
 
     ---
 
     The core things Defra cares about, how they relate, and where the authoritative data for each lives.
 
--   **[Data standards](https://defra.github.io/architecture/data/data-standards/)**
+-   **[Data standards](https://greg-solomon-defra.github.io/architecture/data/data-standards/)**
 
     ---
 
     The identifiers, formats and standards that let Defra data join up - within Defra and across government.
 
--   **[Data guardrails](https://defra.github.io/architecture/guardrails/data/)**
+-   **[Data guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/data/)**
 
     ---
 
     What every team must and should do with the data their service creates and uses.
 
--   **[Data and analytics service pattern](https://defra.github.io/architecture/patterns/service/data-and-analytics/)**
+-   **[Data and analytics service pattern](https://greg-solomon-defra.github.io/architecture/patterns/service/data-and-analytics/)**
 
     ---
 
@@ -46,5 +46,5 @@
 
 ## Why it matters for delivery teams
 
-Most Defra services touch the same core entities - a customer, a business, a holding, a piece of land, an animal or plant, a permit. When each service models these differently, users re-enter the same information, staff reconcile records by hand, and we cannot see the whole picture. Using [Defra on a page](https://defra.github.io/architecture/data/defra-on-a-page/) and the [data standards](https://defra.github.io/architecture/data/data-standards/) from the start avoids this.
+Most Defra services touch the same core entities - a customer, a business, a holding, a piece of land, an animal or plant, a permit. When each service models these differently, users re-enter the same information, staff reconcile records by hand, and we cannot see the whole picture. Using [Defra on a page](https://greg-solomon-defra.github.io/architecture/data/defra-on-a-page/) and the [data standards](https://greg-solomon-defra.github.io/architecture/data/data-standards/) from the start avoids this.
 

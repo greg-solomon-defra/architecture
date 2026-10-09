@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/patterns/acting-on-behalf/ | maturity: published | site version 0.3.0 | generated from patterns/acting-on-behalf.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/patterns/acting-on-behalf/ | maturity: published | site version 0.3.0 | generated from patterns/acting-on-behalf.md -->
 
 # Acting on behalf of an organisation or holding
 
@@ -30,7 +30,7 @@ flowchart LR
 
 How it works:
 
-1. The user signs in with [Defra Customer Identity](https://defra.github.io/architecture/deliver/platforms/#defra-id), which uses GOV.UK One Login and Government Gateway behind the scenes. The service never stores passwords or builds its own sign-in.
+1. The user signs in with [Defra Customer Identity](https://greg-solomon-defra.github.io/architecture/deliver/platforms/#defra-id), which uses GOV.UK One Login and Government Gateway behind the scenes. The service never stores passwords or builds its own sign-in.
 2. The service gets the organisations and holdings the user can act for, and their role for each, from the authoritative source - not from a local table that drifts. Defra Customer Identity stores users' organisation accounts and the relationships between them centrally, so start there.
 3. If the user can act for more than one, they choose which one they are acting for now, and the service shows it on every page.
 4. Before every action, an **authorisation component** checks the role against the action - for example "an agent can submit a claim but cannot change bank details". Keep these rules in code, readable and covered by tests.
@@ -72,11 +72,11 @@ Recruit agents, not only owners: their needs are often different, and their mist
 
 | Guardrail | Level | What the guardrail asks |
 | --- | --- | --- |
-| [GR-IAM-01](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-01) Use the strategic customer identity services | <span class="rfc rfc--must">Must</span> | Services for citizens, farmers and businesses use Defra Customer Identity (Defra ID), which uses GOV.UK One Login and Government Gateway as identity providers, for authentication. Services do not build their own sign-in. See Defra Customer Identity in the Defra Digital Service Manual. |
-| [GR-IAM-04](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-04) Separate authentication from authorisation | <span class="rfc rfc--should">Should</span> | Use the identity provider to establish who someone is; keep business authorisation rules (for example "can act for this holding") explicit, testable and in the right service. |
-| [GR-IAM-03](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-03) Authorise on least privilege | <span class="rfc rfc--must">Must</span> | Users, services and pipelines get only the permissions they need, granted through roles or groups, and reviewed regularly. |
-| [GR-DATA-02](https://defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | <span class="rfc rfc--should">Should</span> | Use the authoritative source for shared entities - customers, organisations, land parcels, holdings, locations, species - rather than creating local copies that drift. See Defra on a page. |
-| [GR-SEC-07](https://defra.github.io/architecture/guardrails/security/#gr-sec-07) Log for detection and response | <span class="rfc rfc--must">Must</span> | Send security-relevant events (authentication, authorisation failures, administrative actions, data exports) to the security operations centre. See GR-OPS-01. |
+| [GR-IAM-01](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-01) Use the strategic customer identity services | <span class="rfc rfc--must">Must</span> | Services for citizens, farmers and businesses use Defra Customer Identity (Defra ID), which uses GOV.UK One Login and Government Gateway as identity providers, for authentication. Services do not build their own sign-in. See Defra Customer Identity in the Defra Digital Service Manual. |
+| [GR-IAM-04](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-04) Separate authentication from authorisation | <span class="rfc rfc--should">Should</span> | Use the identity provider to establish who someone is; keep business authorisation rules (for example "can act for this holding") explicit, testable and in the right service. |
+| [GR-IAM-03](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-03) Authorise on least privilege | <span class="rfc rfc--must">Must</span> | Users, services and pipelines get only the permissions they need, granted through roles or groups, and reviewed regularly. |
+| [GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | <span class="rfc rfc--should">Should</span> | Use the authoritative source for shared entities - customers, organisations, land parcels, holdings, locations, species - rather than creating local copies that drift. See Defra on a page. |
+| [GR-SEC-07](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-07) Log for detection and response | <span class="rfc rfc--must">Must</span> | Send security-relevant events (authentication, authorisation failures, administrative actions, data exports) to the security operations centre. See GR-OPS-01. |
 
 
 ## Related Secure by Design artefacts
@@ -92,7 +92,7 @@ Threats to consider: a user changing an organisation id in a request to act for 
 ## When not to use it
 
 - **Users only ever act for themselves**, such as a member of the public reporting an incident. Authentication alone is enough.
-- **Staff-facing services.** Staff sign in with Microsoft Entra ID ([GR-IAM-02](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-02)) and get permissions through roles and groups.
+- **Staff-facing services.** Staff sign in with Microsoft Entra ID ([GR-IAM-02](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-02)) and get permissions through roles and groups.
 
 <div id="tbc-1"></div>
 
@@ -101,6 +101,6 @@ Threats to consider: a user changing an organisation id in a request to act for 
 
 ## Related
 
-- [Reading from an authoritative source](https://defra.github.io/architecture/patterns/authoritative-source/)
-- [Identity and access guardrails](https://defra.github.io/architecture/guardrails/identity-and-access/)
+- [Reading from an authoritative source](https://greg-solomon-defra.github.io/architecture/patterns/authoritative-source/)
+- [Identity and access guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/)
 

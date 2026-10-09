@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/open-source/ | maturity: published | site version 0.3.0 | generated from guardrails/open-source.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/open-source/ | maturity: published | site version 0.3.0 | generated from guardrails/open-source.md -->
 
 # Open source and working in the open
 
@@ -6,14 +6,14 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [1. Platforms before projects. Built as products](https://defra.github.io/architecture/principles/doctrine/#ddts-01), [3. Reuse before buy](https://defra.github.io/architecture/principles/doctrine/#ddts-03), [5. Assume AI until proven otherwise](https://defra.github.io/architecture/principles/doctrine/#ddts-05)  
-**Principles:** [3. Maximise value, minimise waste](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-03), [7. Empower to innovate](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-07)
+**Doctrine:** [1. Platforms before projects. Built as products](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-01), [3. Reuse before buy](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-03), [5. Assume AI until proven otherwise](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-05)  
+**Principles:** [3. Maximise value, minimise waste](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-03), [7. Empower to innovate](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-07)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the open source and working in the open guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the open source and working in the open guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
 Relates to Service Standard point 12 and TCoP point 3.

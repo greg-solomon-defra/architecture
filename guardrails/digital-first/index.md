@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/digital-first/ | maturity: published | site version 0.3.0 | generated from guardrails/digital-first.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/digital-first/ | maturity: published | site version 0.3.0 | generated from guardrails/digital-first.md -->
 
 # Digital first and end-to-end services
 
@@ -6,20 +6,20 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [6. Outcomes and services over organisational structures](https://defra.github.io/architecture/principles/doctrine/#ddts-06), [7. Digital first where appropriate](https://defra.github.io/architecture/principles/doctrine/#ddts-07)  
-**Principles:** [2. Design for users](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-02)
+**Doctrine:** [6. Outcomes and services over organisational structures](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-06), [7. Digital first where appropriate](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-07)  
+**Principles:** [2. Design for users](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-02)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the digital first and end-to-end services guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the digital first and end-to-end services guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
-Applies the DDTS doctrines [outcomes over structures](https://defra.github.io/architecture/principles/doctrine/#ddts-06) and [digital first](https://defra.github.io/architecture/principles/doctrine/#ddts-07). See the [Defra Digital Service Manual](https://digital.defra.gov.uk/service-manual) for design and research guidance.
+Applies the DDTS doctrines [outcomes over structures](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-06) and [digital first](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-07). See the [Defra Digital Service Manual](https://digital.defra.gov.uk/service-manual) for design and research guidance.
 
 !!! info "Draft guardrails"
-    These guardrails are new drafts from the [guardrail backlog](https://defra.github.io/architecture/about/roadmap/#guardrail-backlog). Comment on them by [opening an issue](https://github.com/DEFRA/architecture/issues).
+    These guardrails are new drafts from the [guardrail backlog](https://greg-solomon-defra.github.io/architecture/about/roadmap/#guardrail-backlog). Comment on them by [opening an issue](https://github.com/DEFRA/architecture/issues).
 
 ## GR-DIG-01 Challenge paper and manual processes {#gr-dig-01}
 

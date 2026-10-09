@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/field-working-and-devices/ | maturity: published | site version 0.3.0 | generated from guardrails/field-working-and-devices.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/field-working-and-devices/ | maturity: published | site version 0.3.0 | generated from guardrails/field-working-and-devices.md -->
 
 # Field working and devices
 
@@ -6,20 +6,20 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [7. Digital first where appropriate](https://defra.github.io/architecture/principles/doctrine/#ddts-07)  
-**Principles:** [8. Right tools, right place](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-08)
+**Doctrine:** [7. Digital first where appropriate](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-07)  
+**Principles:** [8. Right tools, right place](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-08)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the field working and devices guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the field working and devices guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
-Puts architecture principle [8. Right tools, right place](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-08) into practice. See also the proposed [field inspection](https://defra.github.io/architecture/patterns/service/field-inspection/) service pattern.
+Puts architecture principle [8. Right tools, right place](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-08) into practice. See also the proposed [field inspection](https://greg-solomon-defra.github.io/architecture/patterns/service/field-inspection/) service pattern.
 
 !!! info "Draft guardrails"
-    These guardrails are new drafts from the [guardrail backlog](https://defra.github.io/architecture/about/roadmap/#guardrail-backlog). Comment on them by [opening an issue](https://github.com/DEFRA/architecture/issues).
+    These guardrails are new drafts from the [guardrail backlog](https://greg-solomon-defra.github.io/architecture/about/roadmap/#guardrail-backlog). Comment on them by [opening an issue](https://github.com/DEFRA/architecture/issues).
 
 ## GR-FIELD-01 Choose devices that suit the job {#gr-field-01}
 

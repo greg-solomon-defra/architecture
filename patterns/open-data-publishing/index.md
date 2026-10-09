@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/patterns/open-data-publishing/ | maturity: published | site version 0.3.0 | generated from patterns/open-data-publishing.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/patterns/open-data-publishing/ | maturity: published | site version 0.3.0 | generated from patterns/open-data-publishing.md -->
 
 # Publishing open data with metadata
 
@@ -29,7 +29,7 @@ How it works:
 
 1. Confirm the data set has a named owner and is recorded in the information asset register.
 2. Check, automatically and on every run, that nothing personal, commercially sensitive or security-relevant is included. If the check fails, publish nothing and alert the owner.
-3. Validate against the [data standards](https://defra.github.io/architecture/data/data-standards/), so the data can be joined with other data sets.
+3. Validate against the [data standards](https://greg-solomon-defra.github.io/architecture/data/data-standards/), so the data can be joined with other data sets.
 4. Publish in open formats (such as CSV, GeoJSON or GeoPackage) under the [Open Government Licence](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
 5. Publish metadata in [UK GEMINI](https://www.agi.org.uk/why-uk-gemini/) for geospatial data or DCAT for other data, including quality, lineage, update frequency and contact.
 6. Keep stable URLs for each data set and version, so people can cite them.
@@ -53,12 +53,12 @@ To be written - see the box above.
 
 | Guardrail | Level | What the guardrail asks |
 | --- | --- | --- |
-| [GR-DATA-07](https://defra.github.io/architecture/guardrails/data/#gr-data-07) PUBLISH: Make your data open by default | <span class="rfc rfc--should">Should</span> | Publish non-personal, non-sensitive data as open data under the Open Government Licence, through the Defra Data Services Platform or data.gov.uk. |
-| [GR-DATA-05](https://defra.github.io/architecture/guardrails/data/#gr-data-05) DESCRIBE: Explain your data to users | <span class="rfc rfc--should">Should</span> | Publish metadata for data sets so they can be found and understood - UK GEMINI for geospatial data and DCAT for other data sets. |
-| [GR-DATA-03](https://defra.github.io/architecture/guardrails/data/#gr-data-03) STANDARDS: Use data standards identifiers | <span class="rfc rfc--should">Should</span> | Use the data standards for dates, addresses, locations, identifiers and code lists, so data can be joined across services. |
-| [GR-DATA-08](https://defra.github.io/architecture/guardrails/data/#gr-data-08) QUALITY: Define, measure & manage data quality | <span class="rfc rfc--should">Should</span> | Define, measure and report data quality using the Government Data Quality Framework, especially for data that feeds payments, regulatory decisions or official statistics. |
-| [GR-DATA-01](https://defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | <span class="rfc rfc--should">Should</span> | Each data set a service creates or holds has a named business owner (information asset owner) and is recorded in the information asset register. |
-| [GR-SEC-03](https://defra.github.io/architecture/guardrails/security/#gr-sec-03) Classify information | <span class="rfc rfc--must">Must</span> | Identify the government security classification and data types the service handles, and design controls to match. |
+| [GR-DATA-07](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) PUBLISH: Make your data open by default | <span class="rfc rfc--should">Should</span> | Publish non-personal, non-sensitive data as open data under the Open Government Licence, through the Defra Data Services Platform or data.gov.uk. |
+| [GR-DATA-05](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) DESCRIBE: Explain your data to users | <span class="rfc rfc--should">Should</span> | Publish metadata for data sets so they can be found and understood - UK GEMINI for geospatial data and DCAT for other data sets. |
+| [GR-DATA-03](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) STANDARDS: Use data standards identifiers | <span class="rfc rfc--should">Should</span> | Use the data standards for dates, addresses, locations, identifiers and code lists, so data can be joined across services. |
+| [GR-DATA-08](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) QUALITY: Define, measure & manage data quality | <span class="rfc rfc--should">Should</span> | Define, measure and report data quality using the Government Data Quality Framework, especially for data that feeds payments, regulatory decisions or official statistics. |
+| [GR-DATA-01](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | <span class="rfc rfc--should">Should</span> | Each data set a service creates or holds has a named business owner (information asset owner) and is recorded in the information asset register. |
+| [GR-SEC-03](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-03) Classify information | <span class="rfc rfc--must">Must</span> | Identify the government security classification and data types the service handles, and design controls to match. |
 
 
 ## Related Secure by Design artefacts
@@ -69,11 +69,11 @@ To be written - see the box above.
 
 ## When not to use it
 
-- **The data includes personal data** that cannot be safely aggregated or anonymised. Share it under a data sharing agreement instead ([GR-DATA-04](https://defra.github.io/architecture/guardrails/data/#gr-data-04)).
+- **The data includes personal data** that cannot be safely aggregated or anonymised. Share it under a data sharing agreement instead ([GR-DATA-04](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04)).
 - **Official statistics.** Follow the Code of Practice for Statistics and your statistics producers' release process, which this pattern does not replace.
 
 ## Related
 
-- [Data and analytics](https://defra.github.io/architecture/patterns/service/data-and-analytics/) service pattern
-- [Data guardrails](https://defra.github.io/architecture/guardrails/data/)
+- [Data and analytics](https://greg-solomon-defra.github.io/architecture/patterns/service/data-and-analytics/) service pattern
+- [Data guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/data/)
 

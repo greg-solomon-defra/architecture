@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/hosting-and-platforms/ | maturity: published | site version 0.3.0 | generated from guardrails/hosting-and-platforms.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/ | maturity: published | site version 0.3.0 | generated from guardrails/hosting-and-platforms.md -->
 
 # Hosting and platforms
 
@@ -6,17 +6,17 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [1. Platforms before projects. Built as products](https://defra.github.io/architecture/principles/doctrine/#ddts-01), [2. Standards and guardrails before exceptions](https://defra.github.io/architecture/principles/doctrine/#ddts-02), [3. Reuse before buy](https://defra.github.io/architecture/principles/doctrine/#ddts-03)  
-**Principles:** [3. Maximise value, minimise waste](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-03), [1. Delivery-focused architecture](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-01)
+**Doctrine:** [1. Platforms before projects. Built as products](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-01), [2. Standards and guardrails before exceptions](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-02), [3. Reuse before buy](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-03)  
+**Principles:** [3. Maximise value, minimise waste](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-03), [1. Delivery-focused architecture](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-01)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the hosting and platforms guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the hosting and platforms guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
-Technology capability [Enabling Platforms](https://defra.github.io/architecture/handrail/technology-capabilities/#enabling-platforms): application hosting and delivery platform.
+Technology capability [Enabling Platforms](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#enabling-platforms): application hosting and delivery platform.
 
 ## GR-HOST-01 Use Defra's strategic delivery platform by default {#gr-host-01}
 
@@ -24,9 +24,9 @@ Technology capability [Enabling Platforms](https://defra.github.io/architecture/
 
 **Why:** CDP provides secure-by-default hosting, CI/CD, observability, secrets management and protective monitoring once, for everyone. Each team that builds its own platform recreates this at its own cost and risk.
 
-**How to meet it:** In discovery or alpha, work with the Delivery Architecture team to decide whether CDP is right for your service - the expectation is that it will be - and engage the platform team. If CDP cannot meet a requirement (for example specialist compute, a SaaS product or a legacy migration), raise an [exception](https://defra.github.io/architecture/governance/exceptions/) early and tell the platform team - the gap may be something they should solve for everyone.
+**How to meet it:** In discovery or alpha, work with the Delivery Architecture team to decide whether CDP is right for your service - the expectation is that it will be - and engage the platform team. If CDP cannot meet a requirement (for example specialist compute, a SaaS product or a legacy migration), raise an [exception](https://greg-solomon-defra.github.io/architecture/governance/exceptions/) early and tell the platform team - the gap may be something they should solve for everyone.
 
-**In the Defra Digital Service Manual:** [Core Delivery Platform](https://digital.defra.gov.uk/architecture-and-software-development/core-delivery-platform). The manual says a service not on CDP is managed as an exception through the Delivery Architecture team's governance process; how that relates to exceptions on this site is [still being agreed](https://defra.github.io/architecture/governance/exceptions/#exceptions-to-the-software-development-standards).
+**In the Defra Digital Service Manual:** [Core Delivery Platform](https://digital.defra.gov.uk/architecture-and-software-development/core-delivery-platform). The manual says a service not on CDP is managed as an exception through the Delivery Architecture team's governance process; how that relates to exceptions on this site is [still being agreed](https://greg-solomon-defra.github.io/architecture/governance/exceptions/#exceptions-to-the-software-development-standards).
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-HOST-01</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/technical-architect/">Technical architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Platform team engaged, and any hosting needs the Core Delivery Platform might not meet identified</li><li><strong>Alpha:</strong> The design runs on the Core Delivery Platform, or an exception has been requested</li><li><strong>Beta:</strong> The service runs on the Core Delivery Platform, or under an approved exception</li><li><strong>Live:</strong> The service still runs on the platform, and any exception is reviewed before it expires</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Choose the right tools and technology">11</abbr>; <a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Use cloud first">5</abbr>, <abbr title="Share, reuse and collaborate">8</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-01">1</a>, <a href="../../principles/doctrine/#ddts-02">2</a>, <a href="../../principles/doctrine/#ddts-03">3</a></dd><dt>Owner</dt><dd>Architecture team, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>

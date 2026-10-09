@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/products-and-platforms/ | maturity: published | site version 0.3.0 | generated from guardrails/products-and-platforms.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/products-and-platforms/ | maturity: published | site version 0.3.0 | generated from guardrails/products-and-platforms.md -->
 
 # Products and platforms
 
@@ -6,20 +6,20 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [1. Platforms before projects. Built as products](https://defra.github.io/architecture/principles/doctrine/#ddts-01), [2. Standards and guardrails before exceptions](https://defra.github.io/architecture/principles/doctrine/#ddts-02), [3. Reuse before buy](https://defra.github.io/architecture/principles/doctrine/#ddts-03)  
-**Principles:** [1. Delivery-focused architecture](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-01), [3. Maximise value, minimise waste](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-03)
+**Doctrine:** [1. Platforms before projects. Built as products](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-01), [2. Standards and guardrails before exceptions](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-02), [3. Reuse before buy](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-03)  
+**Principles:** [1. Delivery-focused architecture](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-01), [3. Maximise value, minimise waste](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-03)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the products and platforms guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the products and platforms guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
-Applies the DDTS doctrine [platforms before projects](https://defra.github.io/architecture/principles/doctrine/#ddts-01).
+Applies the DDTS doctrine [platforms before projects](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-01).
 
 !!! info "Draft guardrails"
-    These guardrails are new drafts from the [guardrail backlog](https://defra.github.io/architecture/about/roadmap/#guardrail-backlog). Comment on them by [opening an issue](https://github.com/DEFRA/architecture/issues).
+    These guardrails are new drafts from the [guardrail backlog](https://greg-solomon-defra.github.io/architecture/about/roadmap/#guardrail-backlog). Comment on them by [opening an issue](https://github.com/DEFRA/architecture/issues).
 
 ## GR-PROD-01 Fund and run products, not projects {#gr-prod-01}
 
@@ -27,7 +27,7 @@ Applies the DDTS doctrine [platforms before projects](https://defra.github.io/ar
 
 **Why:** services are used for years. When the team that built a service disbands at launch, knowledge is lost, technical debt grows and the service slowly fails its users.
 
-**How to meet it:** plan funding and team continuity beyond go-live from the start. If a project model is unavoidable, agree before go-live which product team will own the service in live ([GR-OPS-05](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-05)).
+**How to meet it:** plan funding and team continuity beyond go-live from the start. If a project model is unavoidable, agree before go-live which product team will own the service in live ([GR-OPS-05](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-05)).
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-PROD-01</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd>A named, long-lived team responsible for the product, with a roadmap beyond the current funding period</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Have a multidisciplinary team">6</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-01">1</a>, <a href="../../principles/doctrine/#ddts-02">2</a>, <a href="../../principles/doctrine/#ddts-03">3</a></dd><dt>Owner</dt><dd>Architecture team, last reviewed 2026-10-01, since v0.2.0</dd></dl></details>
@@ -60,7 +60,7 @@ Applies the DDTS doctrine [platforms before projects](https://defra.github.io/ar
 
 **Why:** products that linger after they are replaced keep costing money and carrying risk.
 
-**How to meet it:** record the lifecycle stage in the service catalogue, and follow [retire a service](https://defra.github.io/architecture/deliver/retire/) when the time comes.
+**How to meet it:** record the lifecycle stage in the service catalogue, and follow [retire a service](https://greg-solomon-defra.github.io/architecture/deliver/retire/) when the time comes.
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-PROD-04</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd>Product lifecycle stage recorded, with a retirement plan for products being replaced</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Define your purchasing strategy">11</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-01">1</a>, <a href="../../principles/doctrine/#ddts-02">2</a>, <a href="../../principles/doctrine/#ddts-03">3</a></dd><dt>Owner</dt><dd>Architecture team, last reviewed 2026-10-01, since v0.2.0</dd></dl></details>
 

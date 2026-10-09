@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/security/ | maturity: published | site version 0.3.0 | generated from security/index.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/security/ | maturity: published | site version 0.3.0 | generated from security/index.md -->
 
 # Enterprise security architecture
 
@@ -6,25 +6,25 @@
 
 <div class="grid cards" markdown>
 
--   **[Secure by Design](https://defra.github.io/architecture/security/secure-by-design/)**
+-   **[Secure by Design](https://greg-solomon-defra.github.io/architecture/security/secure-by-design/)**
 
     ---
 
     How Defra applies the government Secure by Design approach and its ten principles across the delivery lifecycle.
 
--   **[Threat modelling](https://defra.github.io/architecture/security/threat-modelling/)**
+-   **[Threat modelling](https://greg-solomon-defra.github.io/architecture/security/threat-modelling/)**
 
     ---
 
     A lightweight, team-led way to find and fix security problems early.
 
--   **[Managing security exceptions](https://defra.github.io/architecture/security/managing-exceptions/)**
+-   **[Managing security exceptions](https://greg-solomon-defra.github.io/architecture/security/managing-exceptions/)**
 
     ---
 
     What to do when a control cannot be met, and who can accept the risk.
 
--   **[Security guardrails](https://defra.github.io/architecture/guardrails/security/)**
+-   **[Security guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/security/)**
 
     ---
 

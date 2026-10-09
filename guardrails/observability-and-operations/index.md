@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/observability-and-operations/ | maturity: published | site version 0.3.0 | generated from guardrails/observability-and-operations.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/ | maturity: published | site version 0.3.0 | generated from guardrails/observability-and-operations.md -->
 
 # Observability and operations
 
@@ -6,17 +6,17 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [1. Platforms before projects. Built as products](https://defra.github.io/architecture/principles/doctrine/#ddts-01), [2. Standards and guardrails before exceptions](https://defra.github.io/architecture/principles/doctrine/#ddts-02)  
-**Principles:** [1. Delivery-focused architecture](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-01)
+**Doctrine:** [1. Platforms before projects. Built as products](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-01), [2. Standards and guardrails before exceptions](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-02)  
+**Principles:** [1. Delivery-focused architecture](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-01)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the observability and operations guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the observability and operations guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
-Technology capability [Operations](https://defra.github.io/architecture/handrail/technology-capabilities/#operations): observability and security monitoring.
+Technology capability [Operations](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#operations): observability and security monitoring.
 
 ## GR-OPS-01 Use the platform's observability tooling {#gr-ops-01}
 

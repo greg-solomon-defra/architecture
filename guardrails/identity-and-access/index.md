@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/identity-and-access/ | maturity: published | site version 0.3.0 | generated from guardrails/identity-and-access.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/ | maturity: published | site version 0.3.0 | generated from guardrails/identity-and-access.md -->
 
 # Identity and access
 
@@ -6,17 +6,17 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [2. Standards and guardrails before exceptions](https://defra.github.io/architecture/principles/doctrine/#ddts-02), [4. Data is an enterprise asset](https://defra.github.io/architecture/principles/doctrine/#ddts-04), [6. Outcomes and services over organisational structures](https://defra.github.io/architecture/principles/doctrine/#ddts-06)  
-**Principles:** [5. Connect and collaborate](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-05), [6. Secure today, safe tomorrow](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-06)
+**Doctrine:** [2. Standards and guardrails before exceptions](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-02), [4. Data is an enterprise asset](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-04), [6. Outcomes and services over organisational structures](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-06)  
+**Principles:** [5. Connect and collaborate](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-05), [6. Secure today, safe tomorrow](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-06)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the identity and access guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the identity and access guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
-Technology capability [Security & Compliance](https://defra.github.io/architecture/handrail/technology-capabilities/#security-and-compliance): customer identity and access, and staff identity and access.
+Technology capability [Security & Compliance](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#security-and-compliance): customer identity and access, and staff identity and access.
 
 ## GR-IAM-01 Use the strategic customer identity services {#gr-iam-01}
 
@@ -56,7 +56,7 @@ Technology capability [Security & Compliance](https://defra.github.io/architectu
 
 <span class="rfc rfc--must">Must</span> Secrets, keys and credentials are held in a managed secrets store, rotated, and never committed to source control. Use workload identity in preference to long-lived keys.
 
-**How to meet it:** Enable secret scanning on every repository ([GR-OPEN-03](https://defra.github.io/architecture/guardrails/open-source/#gr-open-03)).
+**How to meet it:** Enable secret scanning on every repository ([GR-OPEN-03](https://greg-solomon-defra.github.io/architecture/guardrails/open-source/#gr-open-03)).
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-IAM-05</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/developer/">Developer</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Alpha:</strong> Secret scanning on from the first commit, and secrets held in a managed store from the start</li><li><strong>Beta:</strong> All secrets in a managed store with rotation, using workload identity where possible</li><li><strong>Live:</strong> Secrets rotated, and secret scanning alerts dealt with</li><li><strong>Retire:</strong> Secrets, keys and credentials revoked</li></ul></dd><dt>Automated check</dt><dd>GitHub secret scanning with push protection</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make things secure">6</abbr>; <a href="https://www.security.gov.uk/policy-and-guidance/secure-by-design/principles/">Secure by Design principles</a> <abbr title="Minimise the attack surface">7</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-02">2</a>, <a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-06">6</a></dd><dt>Owner</dt><dd>Architecture team, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>

@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/patterns/worked-example/adrs/ | maturity: published | site version 0.3.0 | generated from patterns/worked-example/adrs.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/patterns/worked-example/adrs/ | maturity: published | site version 0.3.0 | generated from patterns/worked-example/adrs.md -->
 
 # Sample ADRs: apply for a licence
 
@@ -35,7 +35,7 @@ We will host on the Core Delivery Platform because it meets every hosting need w
 ### Consequences
 
 - We use the platform's templates for infrastructure and pipelines.
-- We agreed with the platform team how file scanning will work (see the [file upload pattern](https://defra.github.io/architecture/patterns/file-upload/)).
+- We agreed with the platform team how file scanning will work (see the [file upload pattern](https://greg-solomon-defra.github.io/architecture/patterns/file-upload/)).
 - If the service later needs something the platform does not offer, we will raise it with the platform team before building around it.
 
 ## 0002. Accept applications asynchronously with an outbox {#adr-0002}
@@ -58,7 +58,7 @@ Applications must reach case management. Case management has planned downtime mo
 
 **Option 2: write directly to the case management database.** Pros: fast. Cons: breaks GR-API-05 and couples us to their schema.
 
-**Option 3: save the application and an outbox record together, and publish an event** ([asynchronous submission pattern](https://defra.github.io/architecture/patterns/async-submission/)). Pros: users can always submit; case management processes at its own pace; other consumers can subscribe later. Cons: more moving parts; the case reference arrives later.
+**Option 3: save the application and an outbox record together, and publish an event** ([asynchronous submission pattern](https://greg-solomon-defra.github.io/architecture/patterns/async-submission/)). Pros: users can always submit; case management processes at its own pace; other consumers can subscribe later. Cons: more moving parts; the case reference arrives later.
 
 ### Decision
 
@@ -86,7 +86,7 @@ About a third of applications are made by agents for landowners. Some agents act
 
 ### Options considered
 
-**Option 1: Defra ID for sign-in, relationships from the authoritative source, authorisation in our API** ([acting on behalf pattern](https://defra.github.io/architecture/patterns/acting-on-behalf/)). Pros: one sign-in across Defra services; relationships stay current; rules are explicit and testable. Cons: depends on the relationships source being available.
+**Option 1: Defra ID for sign-in, relationships from the authoritative source, authorisation in our API** ([acting on behalf pattern](https://greg-solomon-defra.github.io/architecture/patterns/acting-on-behalf/)). Pros: one sign-in across Defra services; relationships stay current; rules are explicit and testable. Cons: depends on the relationships source being available.
 
 **Option 2: our own table of which agent acts for which landowner.** Pros: no dependency. Cons: duplicates data Defra already holds, drifts, and breaks GR-DATA-02.
 

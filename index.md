@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/ | maturity: published | site version 0.3.0 | generated from index.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/ | maturity: published | site version 0.3.0 | generated from index.md -->
 
 <section class="da-section" aria-labelledby="start" markdown>
 <p class="da-kicker da-kicker--dark">Start here</p>
@@ -11,7 +11,7 @@
 
 <span class="da-route__tag">Deliver</span>
 
-### [Deliver a service, phase by phase](https://defra.github.io/architecture/deliver/){ .da-route__link }
+### [Deliver a service, phase by phase](https://greg-solomon-defra.github.io/architecture/deliver/){ .da-route__link }
 
 The guardrails, artefacts and evidence you need in discovery, alpha, beta and live, with printable checklists.
 
@@ -23,7 +23,7 @@ The guardrails, artefacts and evidence you need in discovery, alpha, beta and li
 
 <span class="da-route__tag">Decide</span>
 
-### [Check a design decision](https://defra.github.io/architecture/governance/decision-check/){ .da-route__link }
+### [Check a design decision](https://greg-solomon-defra.github.io/architecture/governance/decision-check/){ .da-route__link }
 
 Seven questions tell you whether your team can decide, needs advice, or should go to a design authority.
 
@@ -35,7 +35,7 @@ Seven questions tell you whether your team can decide, needs advice, or should g
 
 <span class="da-route__tag">Build</span>
 
-### [Find the guardrails](https://defra.github.io/architecture/guardrails/library/){ .da-route__link }
+### [Find the guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/library/){ .da-route__link }
 
 Search every Must, Should and Could by keyword, area or id, with the reason behind each one.
 
@@ -47,7 +47,7 @@ Search every Must, Should and Could by keyword, area or id, with the reason behi
 
 <span class="da-route__tag">Reuse</span>
 
-### [Find what already exists](https://defra.github.io/architecture/handrail/technology-capabilities/){ .da-route__link }
+### [Find what already exists](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/){ .da-route__link }
 
 Identity, payments, hosting, geospatial and more. Check the strategic option before you buy or build.
 
@@ -59,7 +59,7 @@ Identity, payments, hosting, geospatial and more. Check the strategic option bef
 
 <span class="da-route__tag">Onboard</span>
 
-### [Get onto Defra platforms](https://defra.github.io/architecture/deliver/platforms/){ .da-route__link }
+### [Get onto Defra platforms](https://greg-solomon-defra.github.io/architecture/deliver/platforms/){ .da-route__link }
 
 What the Core Delivery Platform, Defra ID, GOV.UK Notify, Pay and others give you, and how to get access.
 
@@ -71,7 +71,7 @@ What the Core Delivery Platform, Defra ID, GOV.UK Notify, Pay and others give yo
 
 <span class="da-route__tag">Engage</span>
 
-### [Get architecture support](https://defra.github.io/architecture/governance/){ .da-route__link }
+### [Get architecture support](https://greg-solomon-defra.github.io/architecture/governance/){ .da-route__link }
 
 How the TGB, the TDA and solution design authorities work, what to bring and how quickly you get an answer.
 
@@ -92,7 +92,7 @@ How the TGB, the TDA and solution design authorities work, what to bring and how
 <div class="da-cascade__step" markdown>
 <span class="da-cascade__n">7</span>
 
-### [DDTS doctrine](https://defra.github.io/architecture/principles/doctrine/)
+### [DDTS doctrine](https://greg-solomon-defra.github.io/architecture/principles/doctrine/)
 
 The draft non-negotiables, awaiting endorsement: platforms before projects, standards before exceptions, reuse before buy, data as an enterprise asset, assume AI, outcomes over structures, digital first.
 </div>
@@ -100,7 +100,7 @@ The draft non-negotiables, awaiting endorsement: platforms before projects, stan
 <div class="da-cascade__step" markdown>
 <span class="da-cascade__n">8</span>
 
-### [Architecture principles](https://defra.github.io/architecture/principles/architecture-principles/)
+### [Architecture principles](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/)
 
 How architecture applies the doctrine: delivery-focused, designed for users, maximum value, clean data, connected, secure, innovative, right tools.
 </div>
@@ -108,7 +108,7 @@ How architecture applies the doctrine: delivery-focused, designed for users, max
 <div class="da-cascade__step" markdown>
 <span class="da-cascade__n">104</span>
 
-### [Guardrails](https://defra.github.io/architecture/guardrails/library/)
+### [Guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/library/)
 
 Practical Must, Should and Could defaults. Stay inside them and your team decides.
 </div>
@@ -121,7 +121,7 @@ Practical Must, Should and Could defaults. Stay inside them and your team decide
 <p class="da-kicker">Light-touch governance</p>
 <h2 id="flow" class="da-h2">Most decisions belong to the team.</h2>
 <p>The closer a design stays to the guardrails and reuses what Defra already has, the lighter its governance. Boards look only at what is new, cross-cutting or outside the guardrails.</p>
-[Check a decision](https://defra.github.io/architecture/governance/decision-check/){ .md-button .da-button-lime } [How triage works](https://defra.github.io/architecture/governance/triage/){ .md-button .da-button-ghost }
+[Check a decision](https://greg-solomon-defra.github.io/architecture/governance/decision-check/){ .md-button .da-button-lime } [How triage works](https://greg-solomon-defra.github.io/architecture/governance/triage/){ .md-button .da-button-ghost }
 </div>
 <ol class="da-flow">
 <li><span>01</span><strong>Map</strong>Find the business capability your service supports</li>
@@ -156,26 +156,26 @@ Practical Must, Should and Could defaults. Stay inside them and your team decide
 <div class="da-area" markdown>
 <span class="da-area__tag">Business</span>
 
-- [Business capabilities](https://defra.github.io/architecture/handrail/business-capabilities/)
-- [Capability mapping](https://defra.github.io/architecture/handrail/capability-mapping/)
-- [Service patterns](https://defra.github.io/architecture/patterns/service/)
+- [Business capabilities](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/)
+- [Capability mapping](https://greg-solomon-defra.github.io/architecture/handrail/capability-mapping/)
+- [Service patterns](https://greg-solomon-defra.github.io/architecture/patterns/service/)
 
 </div>
 
 <div class="da-area" markdown>
 <span class="da-area__tag">Data</span>
 
-- [Defra on a page](https://defra.github.io/architecture/data/defra-on-a-page/)
-- [Data standards](https://defra.github.io/architecture/data/data-standards/)
-- [Data guardrails](https://defra.github.io/architecture/guardrails/data/)
+- [Defra on a page](https://greg-solomon-defra.github.io/architecture/data/defra-on-a-page/)
+- [Data standards](https://greg-solomon-defra.github.io/architecture/data/data-standards/)
+- [Data guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/data/)
 
 </div>
 
 <div class="da-area" markdown>
 <span class="da-area__tag">Applications</span>
 
-- [APIs and integration](https://defra.github.io/architecture/guardrails/apis-and-integration/)
-- [Software development](https://defra.github.io/architecture/guardrails/software-development/)
+- [APIs and integration](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/)
+- [Software development](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/)
 - [Coding standards](https://defra.github.io/software-development-standards/){ .da-ext }
 
 </div>
@@ -183,19 +183,19 @@ Practical Must, Should and Could defaults. Stay inside them and your team decide
 <div class="da-area" markdown>
 <span class="da-area__tag">Technology</span>
 
-- [Technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/)
-- [Hosting and platforms](https://defra.github.io/architecture/guardrails/hosting-and-platforms/)
-- [Choosing technology](https://defra.github.io/architecture/guardrails/choosing-technology/)
-- [Non-functional requirements](https://defra.github.io/architecture/nfrs/)
+- [Technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/)
+- [Hosting and platforms](https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/)
+- [Choosing technology](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/)
+- [Non-functional requirements](https://greg-solomon-defra.github.io/architecture/nfrs/)
 
 </div>
 
 <div class="da-area" markdown>
 <span class="da-area__tag">Security</span>
 
-- [Secure by Design](https://defra.github.io/architecture/security/secure-by-design/)
-- [Threat modelling](https://defra.github.io/architecture/security/threat-modelling/)
-- [Managing exceptions](https://defra.github.io/architecture/security/managing-exceptions/)
+- [Secure by Design](https://greg-solomon-defra.github.io/architecture/security/secure-by-design/)
+- [Threat modelling](https://greg-solomon-defra.github.io/architecture/security/threat-modelling/)
+- [Managing exceptions](https://greg-solomon-defra.github.io/architecture/security/managing-exceptions/)
 
 </div>
 
@@ -221,10 +221,10 @@ Practical Must, Should and Could defaults. Stay inside them and your team decide
 <p class="da-kicker da-kicker--dark">Working with us</p>
 <h3>Delivery partners welcome</h3>
 <p>Everything here is public, so you know what good looks like before you bid or start. Partners follow the same guardrails as Defra teams and can contribute to them.</p>
-[What to expect from us, and what we expect from you](https://defra.github.io/architecture/about/delivery-partners/)
+[What to expect from us, and what we expect from you](https://greg-solomon-defra.github.io/architecture/about/delivery-partners/)
 <h3>Help improve this site</h3>
 <p>Spotted a gap or something wrong? <a href="https://github.com/DEFRA/architecture/issues">Open an issue</a> or use the edit button on any page.</p>
-This site is in alpha. See the [roadmap](https://defra.github.io/architecture/about/roadmap/) and [what's new](https://defra.github.io/architecture/about/changelog/).
+This site is in alpha. See the [roadmap](https://greg-solomon-defra.github.io/architecture/about/roadmap/) and [what's new](https://greg-solomon-defra.github.io/architecture/about/changelog/).
 </div>
 </section>
 

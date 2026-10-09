@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/data/ | maturity: published | site version 0.3.0 | generated from guardrails/data.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/data/ | maturity: published | site version 0.3.0 | generated from guardrails/data.md -->
 
 # Data
 
@@ -6,29 +6,29 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [4. Data is an enterprise asset](https://defra.github.io/architecture/principles/doctrine/#ddts-04), [5. Assume AI until proven otherwise](https://defra.github.io/architecture/principles/doctrine/#ddts-05)  
-**Principles:** [4. Clean data, clear decisions](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-04)
+**Doctrine:** [4. Data is an enterprise asset](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-04), [5. Assume AI until proven otherwise](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-05)  
+**Principles:** [4. Clean data, clear decisions](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-04)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the data guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the data guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
-See also [enterprise data architecture](https://defra.github.io/architecture/data/).
+See also [enterprise data architecture](https://greg-solomon-defra.github.io/architecture/data/).
 
 <hr>
 
 ## Narrative
 
-Data architecture begins with a [DESIGN](https://defra.github.io/architecture/guardrails/data/#gr-data-12) phase, and with agreeing [OWNERSHIP](https://defra.github.io/architecture/guardrails/data/#gr-data-01) of the proposed data assets.
+Data architecture begins with a [DESIGN](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) phase, and with agreeing [OWNERSHIP](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) of the proposed data assets.
 
-Bring data into the solution architecture through [RE-USE](https://defra.github.io/architecture/guardrails/data/#gr-data-02) of authoritative data sources (customers, organisations, land parcels, etc) and ensure [COMPLIANCE](https://defra.github.io/architecture/guardrails/data/#gr-data-10) in the acquisition of any new data. Seek to [SHARE](https://defra.github.io/architecture/guardrails/data/#gr-data-04) data wherever it is appropriate to do so, but to classify and [PROTECT](https://defra.github.io/architecture/guardrails/data/#gr-data-06) all sensitive data.
+Bring data into the solution architecture through [RE-USE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) of authoritative data sources (customers, organisations, land parcels, etc) and ensure [COMPLIANCE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) in the acquisition of any new data. Seek to [SHARE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04) data wherever it is appropriate to do so, but to classify and [PROTECT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) all sensitive data.
 
-Create data assets that comply with agreed [STANDARDS](https://defra.github.io/architecture/guardrails/data/#gr-data-03), so that you can [PUBLISH](https://defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://defra.github.io/architecture/guardrails/data/#gr-data-05) datasets of known [QUALITY](https://defra.github.io/architecture/guardrails/data/#gr-data-08). Be open about the [LINEAGE](https://defra.github.io/architecture/guardrails/data/#gr-data-13) of your data, and ensure [DISPOSAL](https://defra.github.io/architecture/guardrails/data/#gr-data-09) of it in line with regulation, policy and guidance.
+Create data assets that comply with agreed [STANDARDS](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03), so that you can [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) datasets of known [QUALITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08). Be open about the [LINEAGE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13) of your data, and ensure [DISPOSAL](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09) of it in line with regulation, policy and guidance.
 
-Protect [ANONYMITY](https://defra.github.io/architecture/guardrails/data/#gr-data-11) by avoiding the use of real personal data in any non-production systems.
+Protect [ANONYMITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-11) by avoiding the use of real personal data in any non-production systems.
 
 <hr>
 
@@ -38,8 +38,8 @@ Each guardrail has an identifier, a level, a short rationale and a way to show y
 
 | Level | Means | If you cannot meet it |
 | --- | --- | --- |
-| <span class="rfc rfc--must">Must</span> | A requirement from law or mandatory government policy, a baseline security control, or a [DDTS doctrine](https://defra.github.io/architecture/principles/doctrine/) non-negotiable. We keep these few. | You need an approved [exception](https://defra.github.io/architecture/governance/exceptions/) from the Technical Design Authority. |
-| <span class="rfc rfc--should">Should</span> | The strong default. There may be good reasons to differ. | Record why in an [architecture decision record](https://defra.github.io/architecture/governance/architecture-decision-records/) and share it with your solution design authority. |
+| <span class="rfc rfc--must">Must</span> | A requirement from law or mandatory government policy, a baseline security control, or a [DDTS doctrine](https://greg-solomon-defra.github.io/architecture/principles/doctrine/) non-negotiable. We keep these few. | You need an approved [exception](https://greg-solomon-defra.github.io/architecture/governance/exceptions/) from the Technical Design Authority. |
+| <span class="rfc rfc--should">Should</span> | The strong default. There may be good reasons to differ. | Record why in an [architecture decision record](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/) and share it with your solution design authority. |
 | <span class="rfc rfc--could">Could</span> | Recommended good practice. | No action needed, but we would like to know what worked better. |
 
 ## GR-DATA-12 DESIGN: Align with the enterprise data model {#gr-data-12}
@@ -62,7 +62,7 @@ Each guardrail has an identifier, a level, a short rationale and a way to show y
 
 ## GR-DATA-02 DATA RE-USE: Use authoritative data sources {#gr-data-02}
 
-<span class="rfc rfc--should">Should</span> Use the authoritative source for shared entities - customers, organisations, land parcels, holdings, locations, species - rather than creating local copies that drift. See [Defra on a page](https://defra.github.io/architecture/data/defra-on-a-page/).
+<span class="rfc rfc--should">Should</span> Use the authoritative source for shared entities - customers, organisations, land parcels, holdings, locations, species - rather than creating local copies that drift. See [Defra on a page](https://greg-solomon-defra.github.io/architecture/data/defra-on-a-page/).
 
 **How to meet it:** If you must cache or replicate, record the source, refresh frequency and how you handle changes.
 
@@ -79,8 +79,8 @@ Each guardrail has an identifier, a level, a short rationale and a way to show y
 
 - Get informed consent before each session, using the templates in the manual's [standards and guidance](https://digital.defra.gov.uk/user-research/standards-and-guidance).
 - Store recordings and notes only where the manual's participant data storage and retention guidance says, and set a deletion date when you collect them.
-- Use only the manual's [approved research tools](https://digital.defra.gov.uk/user-research/tools), and check a tool can hold the data you plan to collect. Assess any new tool before using it ([GR-TECH-04](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-04)).
-- Screen the research for a DPIA ([GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06)), especially for new tools, sensitive topics or recordings of people's homes or farms.
+- Use only the manual's [approved research tools](https://digital.defra.gov.uk/user-research/tools), and check a tool can hold the data you plan to collect. Assess any new tool before using it ([GR-TECH-04](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-04)).
+- Screen the research for a DPIA ([GR-DATA-06](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06)), especially for new tools, sensitive topics or recordings of people's homes or farms.
 - Do not put recordings or transcripts into AI tools except as the [AI digital toolkit](https://digital.defra.gov.uk/ai-toolkit/guidance/keeping-data-safe) allows.
 
 This guardrail is a **draft** proposal. Comment on it by [opening an issue](https://github.com/DEFRA/architecture/issues).
@@ -108,7 +108,7 @@ This guardrail is a **draft** proposal. Comment on it by [opening an issue](http
 
 ## GR-DATA-03 STANDARDS: Use data standards identifiers {#gr-data-03}
 
-<span class="rfc rfc--should">Should</span> Use the [data standards](https://defra.github.io/architecture/data/data-standards/) for dates, addresses, locations, identifiers and code lists, so data can be joined across services.
+<span class="rfc rfc--should">Should</span> Use the [data standards](https://greg-solomon-defra.github.io/architecture/data/data-standards/) for dates, addresses, locations, identifiers and code lists, so data can be joined across services.
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-03</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Alpha:</strong> Data model using the agreed data standards and identifiers</li><li><strong>Beta:</strong> Data stored and exchanged using the agreed standards, checked in testing</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Use and contribute to open standards, common components and patterns">13</abbr>; <a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make use of open standards">4</abbr>, <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
@@ -143,10 +143,10 @@ This guardrail is a **draft** proposal. Comment on it by [opening an issue](http
 **How to meet it:**
 
 - Identify the decisions the service makes or supports, and the data each one depends on.
-- Take that data from authoritative sources ([GR-DATA-02](https://defra.github.io/architecture/guardrails/data/#gr-data-02)) and record the version or time of each extract.
+- Take that data from authoritative sources ([GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02)) and record the version or time of each extract.
 - Capture lineage automatically in pipelines rather than in documents written by hand.
-- Record the rule or model version used for each decision, alongside the data quality measures for its inputs ([GR-DATA-08](https://defra.github.io/architecture/guardrails/data/#gr-data-08)).
-- Keep lineage records for as long as the decision records they support ([GR-DATA-09](https://defra.github.io/architecture/guardrails/data/#gr-data-09)).
+- Record the rule or model version used for each decision, alongside the data quality measures for its inputs ([GR-DATA-08](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08)).
+- Keep lineage records for as long as the decision records they support ([GR-DATA-09](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09)).
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-13</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Alpha:</strong> Decisions the service makes or supports identified, with the data each one depends on and its authoritative source</li><li><strong>Beta:</strong> Lineage captured automatically from source to decision, including transformations, rules and model versions</li><li><strong>Live:</strong> Lineage kept current when sources, rules or models change, and used to explain or reproduce past decisions</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.4.0</dd></dl></details>
@@ -164,7 +164,7 @@ This guardrail is a **draft** proposal. Comment on it by [opening an issue](http
 
 **Why:** Prototypes are shared widely, hosted on less protected platforms and shown to participants. Real data in them can be seen by people who should not see it.
 
-**How to meet it:** make up realistic names, addresses, holdings and reference numbers. Tell participants not to enter their own real details into a prototype unless the research plan allows it and the data is handled under [GR-DATA-10](https://defra.github.io/architecture/guardrails/data/#gr-data-10). If a test genuinely needs real data, agree it through a DPIA first.
+**How to meet it:** make up realistic names, addresses, holdings and reference numbers. Tell participants not to enter their own real details into a prototype unless the research plan allows it and the data is handled under [GR-DATA-10](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10). If a test genuinely needs real data, agree it through a DPIA first.
 
 This guardrail is a **draft** proposal. Comment on it by [opening an issue](https://github.com/DEFRA/architecture/issues).
 

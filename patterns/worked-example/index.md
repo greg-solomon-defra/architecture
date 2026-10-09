@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/patterns/worked-example/ | maturity: published | site version 0.3.0 | generated from patterns/worked-example/index.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/patterns/worked-example/ | maturity: published | site version 0.3.0 | generated from patterns/worked-example/index.md -->
 
 # Worked example: apply for a licence
 
@@ -15,10 +15,10 @@ Landowners, farmers and contractors need a licence before doing certain works ne
 | --- | --- |
 | Users | Landowners, farmers, contractors and agents; assessing staff |
 | Volume | Around 5,000 applications a year, with peaks in spring |
-| Business capability | [05 Issue licences and permits](https://defra.github.io/architecture/handrail/business-capabilities/#bc05) |
-| Starting point | [Transactional digital service](https://defra.github.io/architecture/patterns/service/transactional-service/) service pattern |
-| Service tier | T3 Standard - see [service tiers](https://defra.github.io/architecture/nfrs/service-tiers/) |
-| Patterns used | [Asynchronous submission](https://defra.github.io/architecture/patterns/async-submission/), [acting on behalf](https://defra.github.io/architecture/patterns/acting-on-behalf/), [file upload with malware scanning](https://defra.github.io/architecture/patterns/file-upload/), [authoritative source](https://defra.github.io/architecture/patterns/authoritative-source/) |
+| Business capability | [05 Issue licences and permits](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/#bc05) |
+| Starting point | [Transactional digital service](https://greg-solomon-defra.github.io/architecture/patterns/service/transactional-service/) service pattern |
+| Service tier | T3 Standard - see [service tiers](https://greg-solomon-defra.github.io/architecture/nfrs/service-tiers/) |
+| Patterns used | [Asynchronous submission](https://greg-solomon-defra.github.io/architecture/patterns/async-submission/), [acting on behalf](https://greg-solomon-defra.github.io/architecture/patterns/acting-on-behalf/), [file upload with malware scanning](https://greg-solomon-defra.github.io/architecture/patterns/file-upload/), [authoritative source](https://greg-solomon-defra.github.io/architecture/patterns/authoritative-source/) |
 
 ## C4 system context
 
@@ -80,11 +80,11 @@ flowchart LR
 
 The journey follows the patterns it uses, from a user's point of view:
 
-1. **Sign in** with Defra Customer Identity. An agent then chooses which landowner they are applying for; a landowner applying for themselves goes straight on ([acting on behalf](https://defra.github.io/architecture/patterns/acting-on-behalf/#what-users-see)).
+1. **Sign in** with Defra Customer Identity. An agent then chooses which landowner they are applying for; a landowner applying for themselves goes straight on ([acting on behalf](https://greg-solomon-defra.github.io/architecture/patterns/acting-on-behalf/#what-users-see)).
 2. **Answer questions about the works and the site**, one thing per page, saving as they go so they can come back.
-3. **Upload a site plan and photos**, with the accepted types and sizes stated up front and each file's status shown while it is checked ([file upload](https://defra.github.io/architecture/patterns/file-upload/#what-users-see)).
+3. **Upload a site plan and photos**, with the accepted types and sizes stated up front and each file's status shown while it is checked ([file upload](https://greg-solomon-defra.github.io/architecture/patterns/file-upload/#what-users-see)).
 4. **Check their answers and pay the fee** with GOV.UK Pay.
-5. **See a confirmation page** with a reference number and how long a decision takes, and get the same in an email ([asynchronous submission](https://defra.github.io/architecture/patterns/async-submission/#what-users-see)). Agents also see the landowner's name.
+5. **See a confirmation page** with a reference number and how long a decision takes, and get the same in an email ([asynchronous submission](https://greg-solomon-defra.github.io/architecture/patterns/async-submission/#what-users-see)). Agents also see the landowner's name.
 6. **Come back to check the status**, and get an email when a decision is made.
 
 Assessing staff see the application, its files and its status in case management, and only files that have passed the malware scan.
@@ -109,21 +109,21 @@ In alpha, the team tested with landowners, farmers, contractors and agents, incl
 - what users did when told a file could not be uploaded
 - whether the fee and what it pays for were clear before they started
 
-These findings shaped [ADR 0003](https://defra.github.io/architecture/patterns/worked-example/adrs/#adr-0003), which uses the authoritative relationships so agents only see landowners they act for.
+These findings shaped [ADR 0003](https://greg-solomon-defra.github.io/architecture/patterns/worked-example/adrs/#adr-0003), which uses the authoritative relationships so agents only see landowners they act for.
 
 ## Decisions
 
-The team recorded its significant decisions as ADRs ([GR-DEV-09](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-09)). Three are shown in full on the [sample ADRs](https://defra.github.io/architecture/patterns/worked-example/adrs/) page:
+The team recorded its significant decisions as ADRs ([GR-DEV-09](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-09)). Three are shown in full on the [sample ADRs](https://greg-solomon-defra.github.io/architecture/patterns/worked-example/adrs/) page:
 
 | ADR | Decision | Guardrails |
 | --- | --- | --- |
-| [0001](https://defra.github.io/architecture/patterns/worked-example/adrs/#adr-0001) | Host on the Core Delivery Platform | `GR-HOST-01`, `GR-TECH-01` |
-| [0002](https://defra.github.io/architecture/patterns/worked-example/adrs/#adr-0002) | Accept applications asynchronously with an outbox | `GR-API-05`, `GR-API-06`, `GR-OPS-04` |
-| [0003](https://defra.github.io/architecture/patterns/worked-example/adrs/#adr-0003) | Use Defra ID and the authoritative relationships for agents | `GR-IAM-01`, `GR-IAM-04`, `GR-DATA-02` |
+| [0001](https://greg-solomon-defra.github.io/architecture/patterns/worked-example/adrs/#adr-0001) | Host on the Core Delivery Platform | `GR-HOST-01`, `GR-TECH-01` |
+| [0002](https://greg-solomon-defra.github.io/architecture/patterns/worked-example/adrs/#adr-0002) | Accept applications asynchronously with an outbox | `GR-API-05`, `GR-API-06`, `GR-OPS-04` |
+| [0003](https://greg-solomon-defra.github.io/architecture/patterns/worked-example/adrs/#adr-0003) | Use Defra ID and the authoritative relationships for agents | `GR-IAM-01`, `GR-IAM-04`, `GR-DATA-02` |
 
 ## Threats
 
-The team ran a STRIDE threat model in alpha. An excerpt is on the [threat model excerpt](https://defra.github.io/architecture/patterns/worked-example/threat-model/) page.
+The team ran a STRIDE threat model in alpha. An excerpt is on the [threat model excerpt](https://greg-solomon-defra.github.io/architecture/patterns/worked-example/threat-model/) page.
 
 ## How it lines up with the guardrails
 
@@ -138,5 +138,5 @@ The team ran a STRIDE threat model in alpha. An excerpt is on the [threat model 
 | Front end | GOV.UK Frontend, server-rendered, works without JavaScript | `GR-FE-02`, `GR-FE-03` |
 | Operations | Platform observability; runbooks before public beta | `GR-OPS-01`, `GR-OPS-05` |
 
-Use the [alpha](https://defra.github.io/architecture/deliver/alpha/) and [beta](https://defra.github.io/architecture/deliver/beta/) pages to see what the team needed at each phase.
+Use the [alpha](https://greg-solomon-defra.github.io/architecture/deliver/alpha/) and [beta](https://greg-solomon-defra.github.io/architecture/deliver/beta/) pages to see what the team needed at each phase.
 

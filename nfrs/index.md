@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/nfrs/ | maturity: published | site version 0.3.0 | generated from nfrs/index.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/nfrs/ | maturity: published | site version 0.3.0 | generated from nfrs/index.md -->
 
 # Non-functional requirements
 
@@ -32,13 +32,13 @@ NFRs are not a document written once. They shape design, build, testing, service
 
 ## Start here
 
-- **[Service tiers](https://defra.github.io/architecture/nfrs/service-tiers/)**  
+- **[Service tiers](https://greg-solomon-defra.github.io/architecture/nfrs/service-tiers/)**  
   Understand how service criticality informs availability, recovery and support targets. Confirm the applicable tier using the internal DDTS page.
 
-- **[NFR catalogue](https://defra.github.io/architecture/nfrs/catalogue/)**  
+- **[NFR catalogue](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/)**  
   Browse the public, reusable view of NFRs and their evidence. Confirm the current requirement and tier target in the internal DDTS catalogue before adoption.
 
-- **[Writing good NFRs](https://defra.github.io/architecture/nfrs/writing-nfrs/)**  
+- **[Writing good NFRs](https://greg-solomon-defra.github.io/architecture/nfrs/writing-nfrs/)**  
   Draft requirements that are specific, measurable, testable and focused on outcomes rather than solutions.
 
 ## Apply NFRs throughout delivery
@@ -66,15 +66,15 @@ The categories below provide a public navigation view. The internal DDTS catalog
 
 | Category | What it covers |
 | --- | --- |
-| [Availability and resilience](https://defra.github.io/architecture/nfrs/catalogue/#nfr-avl) | The service is available when users need it and can recover from failure. |
-| [Performance and capacity](https://defra.github.io/architecture/nfrs/catalogue/#nfr-prf) | The service responds in time and can handle expected demand and peaks. |
-| [Security](https://defra.github.io/architecture/nfrs/catalogue/#nfr-sec) | The service protects its users, data and Defra. |
-| [Accessibility and usability](https://defra.github.io/architecture/nfrs/catalogue/#nfr-acc) | People who need the service can use it. |
-| [Observability and supportability](https://defra.github.io/architecture/nfrs/catalogue/#nfr-ops) | The service can be monitored, supported and restored by the teams responsible for it. |
-| [Maintainability and testability](https://defra.github.io/architecture/nfrs/catalogue/#nfr-mnt) | The service can be changed and verified safely. |
-| [Interoperability](https://defra.github.io/architecture/nfrs/catalogue/#nfr-int) | The service works with other Defra services and relevant partners. |
-| [Data and compliance](https://defra.github.io/architecture/nfrs/catalogue/#nfr-dat) | Data is managed, protected and retained appropriately. |
-| [Sustainability](https://defra.github.io/architecture/nfrs/catalogue/#nfr-sus) | The service uses energy and resources responsibly. |
+| [Availability and resilience](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/#nfr-avl) | The service is available when users need it and can recover from failure. |
+| [Performance and capacity](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/#nfr-prf) | The service responds in time and can handle expected demand and peaks. |
+| [Security](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/#nfr-sec) | The service protects its users, data and Defra. |
+| [Accessibility and usability](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/#nfr-acc) | People who need the service can use it. |
+| [Observability and supportability](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/#nfr-ops) | The service can be monitored, supported and restored by the teams responsible for it. |
+| [Maintainability and testability](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/#nfr-mnt) | The service can be changed and verified safely. |
+| [Interoperability](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/#nfr-int) | The service works with other Defra services and relevant partners. |
+| [Data and compliance](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/#nfr-dat) | Data is managed, protected and retained appropriately. |
+| [Sustainability](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/#nfr-sus) | The service uses energy and resources responsibly. |
 
 ## Write requirements that can be evidenced
 
@@ -100,7 +100,7 @@ Before accepting a requirement, ask:
 - Does it describe an outcome rather than a solution?
 - Would different readers interpret it consistently?
 
-See [writing good NFRs](https://defra.github.io/architecture/nfrs/writing-nfrs/) for examples.
+See [writing good NFRs](https://greg-solomon-defra.github.io/architecture/nfrs/writing-nfrs/) for examples.
 
 ## When a requirement will not be met
 
@@ -117,7 +117,7 @@ Follow the current exception, waiver and assurance route described on the [inter
 
 ## How NFRs relate to guardrails
 
-[Guardrails](https://defra.github.io/architecture/guardrails/) describe approved boundaries and approaches for building services. NFRs describe the outcomes and qualities a service must achieve. Use both: guardrails help teams make consistent design choices, while NFR evidence shows whether the required service outcome has been achieved.
+[Guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/) describe approved boundaries and approaches for building services. NFRs describe the outcomes and qualities a service must achieve. Use both: guardrails help teams make consistent design choices, while NFR evidence shows whether the required service outcome has been achieved.
 
 ## Machine-readable catalogue
 

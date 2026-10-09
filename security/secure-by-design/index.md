@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/security/secure-by-design/ | maturity: published | site version 0.3.0 | generated from security/secure-by-design.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/security/secure-by-design/ | maturity: published | site version 0.3.0 | generated from security/secure-by-design.md -->
 
 # Secure by Design in Defra
 
@@ -8,16 +8,16 @@
 
 | Secure by Design principle | What it means in Defra | Where to start |
 | --- | --- | --- |
-| **Create responsibility for cyber security risk** | Each service has a named risk owner (normally the service owner or SRO) who understands and owns its security risk. | [Who does what](https://defra.github.io/architecture/security/#who-does-what) |
-| **Source secure technology products** | Assess suppliers and products before purchase; prefer strategic platforms that are already assured. | [GR-TECH-04](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-04), [GR-SEC-08](https://defra.github.io/architecture/guardrails/security/#gr-sec-08) |
-| **Adopt a risk-driven approach** | Understand what you are protecting and from whom, then choose proportionate controls. | [Threat modelling](https://defra.github.io/architecture/security/threat-modelling/) |
-| **Design usable security controls** | Security that gets in the way gets worked around. Test controls with users. | [GR-IAM-01](https://defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-01) |
-| **Build in detect and respond security** | Log what matters and send it to the SOC; plan how you will respond. | [GR-SEC-07](https://defra.github.io/architecture/guardrails/security/#gr-sec-07), [GR-OPS-01](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-01) |
-| **Design flexible architectures** | Loosely coupled components that can be patched, replaced or isolated. | [GR-PRIN-01](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-01) |
-| **Minimise the attack surface** | Expose only what is needed; remove unused features, ports, accounts and dependencies. | [GR-API-07](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-07) |
-| **Defend in depth** | Layer controls so that one failure does not mean a breach. | [Security guardrails](https://defra.github.io/architecture/guardrails/security/) |
-| **Embed continuous assurance** | Automate scanning and testing in pipelines; review the threat model as the service changes. | [GR-SEC-05](https://defra.github.io/architecture/guardrails/security/#gr-sec-05) |
-| **Make changes securely** | Small, reviewed, automated changes through pipelines; no manual production changes. | [GR-HOST-03](https://defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-03), [GR-DEV-04](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-04) |
+| **Create responsibility for cyber security risk** | Each service has a named risk owner (normally the service owner or SRO) who understands and owns its security risk. | [Who does what](https://greg-solomon-defra.github.io/architecture/security/#who-does-what) |
+| **Source secure technology products** | Assess suppliers and products before purchase; prefer strategic platforms that are already assured. | [GR-TECH-04](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-04), [GR-SEC-08](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-08) |
+| **Adopt a risk-driven approach** | Understand what you are protecting and from whom, then choose proportionate controls. | [Threat modelling](https://greg-solomon-defra.github.io/architecture/security/threat-modelling/) |
+| **Design usable security controls** | Security that gets in the way gets worked around. Test controls with users. | [GR-IAM-01](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/#gr-iam-01) |
+| **Build in detect and respond security** | Log what matters and send it to the SOC; plan how you will respond. | [GR-SEC-07](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-07), [GR-OPS-01](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-01) |
+| **Design flexible architectures** | Loosely coupled components that can be patched, replaced or isolated. | [GR-PRIN-01](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-01) |
+| **Minimise the attack surface** | Expose only what is needed; remove unused features, ports, accounts and dependencies. | [GR-API-07](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-07) |
+| **Defend in depth** | Layer controls so that one failure does not mean a breach. | [Security guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/security/) |
+| **Embed continuous assurance** | Automate scanning and testing in pipelines; review the threat model as the service changes. | [GR-SEC-05](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-05) |
+| **Make changes securely** | Small, reviewed, automated changes through pipelines; no manual production changes. | [GR-HOST-03](https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-03), [GR-DEV-04](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-04) |
 
 ## Security through the delivery lifecycle
 
@@ -53,11 +53,11 @@ Before designing a control from scratch, check the cross-government [Secure by D
 
 | Domain | Useful for |
 | --- | --- |
-| Access control and authentication | Identity patterns alongside [GR-IAM guardrails](https://defra.github.io/architecture/guardrails/identity-and-access/) |
-| Artificial intelligence | Securing AI services, alongside [GR-AI guardrails](https://defra.github.io/architecture/guardrails/ai/) |
-| Business continuity and disaster recovery | Resilience designs for your [service tier](https://defra.github.io/architecture/nfrs/service-tiers/) |
+| Access control and authentication | Identity patterns alongside [GR-IAM guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/identity-and-access/) |
+| Artificial intelligence | Securing AI services, alongside [GR-AI guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/ai/) |
+| Business continuity and disaster recovery | Resilience designs for your [service tier](https://greg-solomon-defra.github.io/architecture/nfrs/service-tiers/) |
 | Cloud | Secure cloud configuration and hosting patterns |
-| Operations, risks and threats | Example [threat models](https://defra.github.io/architecture/security/threat-modelling/) and monitoring patterns |
+| Operations, risks and threats | Example [threat models](https://greg-solomon-defra.github.io/architecture/security/threat-modelling/) and monitoring patterns |
 | Security architecture and governance | Reference designs and assurance approaches |
 
 The library is in alpha and run in the open. If your team builds something reusable, propose it through the library's GitHub issues so other departments benefit too. Never put sensitive information in a public issue.

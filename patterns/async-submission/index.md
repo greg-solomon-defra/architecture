@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/patterns/async-submission/ | maturity: published | site version 0.3.0 | generated from patterns/async-submission.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/patterns/async-submission/ | maturity: published | site version 0.3.0 | generated from patterns/async-submission.md -->
 
 # Asynchronous submission with an outbox
 
@@ -83,11 +83,11 @@ Test the delay and duplicate journeys in a prototype; they are easy to miss in r
 
 | Guardrail | Level | What the guardrail asks |
 | --- | --- | --- |
-| [GR-API-05](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-05) No integration through shared databases | <span class="rfc rfc--should">Should</span> | Services do not read or write another service's database directly. Integrate through APIs, events or governed data products. |
-| [GR-API-06](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-06) Use events for change notifications | <span class="rfc rfc--should">Should</span> | Use asynchronous messages or events when other services need to react to something that happened (an application submitted, a permit issued), rather than polling. |
-| [GR-API-02](https://defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-02) Describe APIs with open specifications | <span class="rfc rfc--should">Should</span> | Synchronous APIs are described with OpenAPI 3, and asynchronous/event interfaces with AsyncAPI, kept in the same repository as the code. |
-| [GR-OPS-04](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-04) Health checks and graceful degradation | <span class="rfc rfc--should">Should</span> | Expose health endpoints, set timeouts and retries on dependencies, and degrade gracefully (for example save progress and tell the user) when a dependency fails. |
-| [GR-OPS-02](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-02) Log in a structured, safe way | <span class="rfc rfc--should">Should</span> | Use structured (JSON) logs with correlation identifiers across service boundaries. Never log secrets, tokens or unnecessary personal data. |
+| [GR-API-05](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-05) No integration through shared databases | <span class="rfc rfc--should">Should</span> | Services do not read or write another service's database directly. Integrate through APIs, events or governed data products. |
+| [GR-API-06](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-06) Use events for change notifications | <span class="rfc rfc--should">Should</span> | Use asynchronous messages or events when other services need to react to something that happened (an application submitted, a permit issued), rather than polling. |
+| [GR-API-02](https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/#gr-api-02) Describe APIs with open specifications | <span class="rfc rfc--should">Should</span> | Synchronous APIs are described with OpenAPI 3, and asynchronous/event interfaces with AsyncAPI, kept in the same repository as the code. |
+| [GR-OPS-04](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-04) Health checks and graceful degradation | <span class="rfc rfc--should">Should</span> | Expose health endpoints, set timeouts and retries on dependencies, and degrade gracefully (for example save progress and tell the user) when a dependency fails. |
+| [GR-OPS-02](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-02) Log in a structured, safe way | <span class="rfc rfc--should">Should</span> | Use structured (JSON) logs with correlation identifiers across service boundaries. Never log secrets, tokens or unnecessary personal data. |
 
 
 ## Related Secure by Design artefacts
@@ -97,7 +97,7 @@ Test the delay and duplicate journeys in a prototype; they are easy to miss in r
 - The whole [Secure by Design artefact library](https://github.com/co-cddo/SbD)
 
 
-Threats to consider in your [threat model](https://defra.github.io/architecture/security/threat-modelling/): spoofed or tampered events, replayed messages, personal data in messages and logs, and an attacker filling the queue. Authenticate publishers and consumers, and encrypt messages in transit and at rest.
+Threats to consider in your [threat model](https://greg-solomon-defra.github.io/architecture/security/threat-modelling/): spoofed or tampered events, replayed messages, personal data in messages and logs, and an attacker filling the queue. Authenticate publishers and consumers, and encrypt messages in transit and at rest.
 
 ## When not to use it
 
@@ -107,6 +107,6 @@ Threats to consider in your [threat model](https://defra.github.io/architecture/
 
 ## Related
 
-- [Transactional digital service](https://defra.github.io/architecture/patterns/service/transactional-service/) service pattern
-- [Worked example: apply for a licence](https://defra.github.io/architecture/patterns/worked-example/), which uses this pattern
+- [Transactional digital service](https://greg-solomon-defra.github.io/architecture/patterns/service/transactional-service/) service pattern
+- [Worked example: apply for a licence](https://greg-solomon-defra.github.io/architecture/patterns/worked-example/), which uses this pattern
 

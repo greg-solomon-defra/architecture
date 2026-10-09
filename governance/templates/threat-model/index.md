@@ -1,8 +1,8 @@
-<!-- https://defra.github.io/architecture/governance/templates/threat-model/ | maturity: published | site version 0.3.0 | generated from governance/templates/threat-model.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/governance/templates/threat-model/ | maturity: published | site version 0.3.0 | generated from governance/templates/threat-model.md -->
 
 # Threat model template
 
-See [threat modelling](https://defra.github.io/architecture/security/threat-modelling/) for guidance, and the [Secure by Design artefact library](https://github.com/co-cddo/SbD) for example threat models. Keep it in your repository (or in a private location if it contains sensitive detail) and update it with every significant change.
+See [threat modelling](https://greg-solomon-defra.github.io/architecture/security/threat-modelling/) for guidance, and the [Secure by Design artefact library](https://github.com/co-cddo/SbD) for example threat models. Keep it in your repository (or in a private location if it contains sensitive detail) and update it with every significant change.
 
 ```markdown
 # Threat model: <service>

@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/governance/tda/ | maturity: draft | site version 0.3.0 | generated from governance/tda.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/governance/tda/ | maturity: draft | site version 0.3.0 | generated from governance/tda.md -->
 
 # Technical Design Authority (TDA)
 
@@ -11,13 +11,13 @@
 
 ## When to come to the TDA
 
-Use [which route do I take?](https://defra.github.io/architecture/governance/triage/). In short, come to the TDA when your work:
+Use [which route do I take?](https://greg-solomon-defra.github.io/architecture/governance/triage/). In short, come to the TDA when your work:
 
 - is **novel** for Defra - new technology, pattern or use of AI
 - is **cross-cutting** - other services, teams or arm's length bodies will depend on it or be affected by it
 - needs an **exception to a Must guardrail**
-- fills a **gap** in the [technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/)
-- is escalated by a [solution design authority](https://defra.github.io/architecture/governance/solution-design-authorities/)
+- fills a **gap** in the [technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/)
+- is escalated by a [solution design authority](https://greg-solomon-defra.github.io/architecture/governance/solution-design-authorities/)
 
 Come **early**. The best time is the end of discovery or early alpha, when changing direction is cheap. You can come more than once.
 
@@ -27,7 +27,7 @@ Come **early**. The best time is the end of discovery or early alpha, when chang
 - Approves or declines time-limited exceptions to Must guardrails
 - Identifies reuse opportunities between teams
 - Feeds lessons into the guardrails and handrail
-- Recommends items to the [TGB](https://defra.github.io/architecture/governance/tgb/)
+- Recommends items to the [TGB](https://greg-solomon-defra.github.io/architecture/governance/tgb/)
 
 ## Membership
 
@@ -38,9 +38,9 @@ Chaired by the Chief Architect or a delegate, with enterprise, solution, data an
 | Step | What happens | Timing |
 | --- | --- | --- |
 | 1. Talk to us | An informal conversation with an architect to shape the submission | Any time |
-| 2. Submit | Complete the [TDA submission template](https://defra.github.io/architecture/governance/templates/tda-submission/) and email it with any ADRs and diagrams - see [raise a decision for review](https://defra.github.io/architecture/governance/architecture-decision-records/#raise-a-decision-for-review) | 5 working days before the meeting |
+| 2. Submit | Complete the [TDA submission template](https://greg-solomon-defra.github.io/architecture/governance/templates/tda-submission/) and email it with any ADRs and diagrams - see [raise a decision for review](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/#raise-a-decision-for-review) | 5 working days before the meeting |
 | 3. Review | 30-minute slot: 10 minutes to present, 20 minutes discussion | Fortnightly |
-| 4. Outcome | Recorded in the [architecture decision register](https://defra.github.io/architecture/governance/architecture-decision-records/#enterprise-decisions-in-the-architecture-decision-register) and shared within 3 working days | |
+| 4. Outcome | Recorded in the [architecture decision register](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/#enterprise-decisions-in-the-architecture-decision-register) and shared within 3 working days | |
 
 ## Outcomes
 
@@ -49,11 +49,11 @@ Chaired by the Chief Architect or a delegate, with enterprise, solution, data an
 | **Endorsed** | Proceed. |
 | **Endorsed with conditions** | Proceed, meeting named conditions by a named date. |
 | **Not endorsed** | Rework and come back. The TDA explains why and offers support. |
-| **Escalated** | The decision needs the [TGB](https://defra.github.io/architecture/governance/tgb/). |
+| **Escalated** | The decision needs the [TGB](https://greg-solomon-defra.github.io/architecture/governance/tgb/). |
 
 ## What good looks like in a submission
 
-- The **problem and outcome** in plain English, and the [business capabilities](https://defra.github.io/architecture/handrail/business-capabilities/) affected
+- The **problem and outcome** in plain English, and the [business capabilities](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/) affected
 - The **options considered**, including the strategic options from the handrail, and why you prefer one
 - A **context diagram** and a container-level diagram (the [C4 model](https://c4model.com/) works well)
 - Which **guardrails** you meet and which you do not

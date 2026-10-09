@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/adr/0004-musts-only-where-required/ | maturity: published | site version 0.3.0 | generated from adr/0004-musts-only-where-required.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/adr/0004-musts-only-where-required/ | maturity: published | site version 0.3.0 | generated from adr/0004-musts-only-where-required.md -->
 
 # 0004. Keep Must guardrails to what is required
 
@@ -30,6 +30,6 @@ Everything else is a Should. We changed 26 Musts to Shoulds and kept 29.
 
 - Departing from a Should needs a recorded reason in an ADR, not an exception, so governance is lighter.
 - Guardrail ids, statements and evidence did not change. Only the level changed.
-- We will make a guardrail a Must again when feedback, exceptions or incidents show teams need it - through [how guardrails change](https://defra.github.io/architecture/guardrails/#how-guardrails-change).
+- We will make a guardrail a Must again when feedback, exceptions or incidents show teams need it - through [how guardrails change](https://greg-solomon-defra.github.io/architecture/guardrails/#how-guardrails-change).
 - New guardrails start as Shoulds unless one of the three tests above applies.
 

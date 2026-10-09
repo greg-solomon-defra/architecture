@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/deliver/checklists/alpha/ | maturity: prototype | site version 0.3.0 | generated from deliver/checklists/alpha.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/deliver/checklists/alpha/ | maturity: prototype | site version 0.3.0 | generated from deliver/checklists/alpha.md -->
 
 # Alpha evidence checklist
 
@@ -9,7 +9,7 @@
 
 
 
-Tick what you have, link to where it lives, and bring it to your solution design authority or assessment. Where you cannot meet a Must, record the approved [exception](https://defra.github.io/architecture/governance/exceptions/).
+Tick what you have, link to where it lives, and bring it to your solution design authority or assessment. Where you cannot meet a Must, record the approved [exception](https://greg-solomon-defra.github.io/architecture/governance/exceptions/).
 
 <p class="dl-print"><button type="button" class="md-button" data-print>Print this checklist</button></p>
 
@@ -126,6 +126,6 @@ Tick what you have, link to where it lives, and bring it to your solution design
 | Solution design authority | |
 | Exceptions or departures (guardrail ids) | |
 
-Read more on the [alpha page](https://defra.github.io/architecture/deliver/alpha/).
+Read more on the [alpha page](https://greg-solomon-defra.github.io/architecture/deliver/alpha/).
 
 

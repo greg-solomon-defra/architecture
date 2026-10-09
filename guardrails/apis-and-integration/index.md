@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/guardrails/apis-and-integration/ | maturity: published | site version 0.3.0 | generated from guardrails/apis-and-integration.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/guardrails/apis-and-integration/ | maturity: published | site version 0.3.0 | generated from guardrails/apis-and-integration.md -->
 
 # APIs and integration
 
@@ -6,17 +6,17 @@
 
 <div class="da-trace" markdown>
 
-**Doctrine:** [4. Data is an enterprise asset](https://defra.github.io/architecture/principles/doctrine/#ddts-04), [6. Outcomes and services over organisational structures](https://defra.github.io/architecture/principles/doctrine/#ddts-06)  
-**Principles:** [5. Connect and collaborate](https://defra.github.io/architecture/principles/architecture-principles/#gr-prin-05)
+**Doctrine:** [4. Data is an enterprise asset](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-04), [6. Outcomes and services over organisational structures](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-06)  
+**Principles:** [5. Connect and collaborate](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/#gr-prin-05)
 
 </div>
 
 
 !!! info "Who these guardrails apply to"
-    The core department. Whether the APIs and integration guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://defra.github.io/architecture/guardrails/#arms-length-bodies).
+    The core department. Whether the APIs and integration guardrails also apply to Defra's arm's length bodies is [still to be confirmed](https://greg-solomon-defra.github.io/architecture/guardrails/#arms-length-bodies).
 
 
-Technology capability [Enabling Platforms](https://defra.github.io/architecture/handrail/technology-capabilities/#enabling-platforms): aPI management and integration.
+Technology capability [Enabling Platforms](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/#enabling-platforms): aPI management and integration.
 
 ## GR-API-01 API first {#gr-api-01}
 
@@ -36,7 +36,7 @@ Technology capability [Enabling Platforms](https://defra.github.io/architecture/
 
 ## GR-API-03 Follow government API standards {#gr-api-03}
 
-<span class="rfc rfc--should">Should</span> Follow the [API technical and data standards](https://www.gov.uk/guidance/gds-api-technical-and-data-standards): RESTful resources, JSON, HTTPS only, consistent error formats and standard identifiers from the [data standards](https://defra.github.io/architecture/data/data-standards/).
+<span class="rfc rfc--should">Should</span> Follow the [API technical and data standards](https://www.gov.uk/guidance/gds-api-technical-and-data-standards): RESTful resources, JSON, HTTPS only, consistent error formats and standard identifiers from the [data standards](https://greg-solomon-defra.github.io/architecture/data/data-standards/).
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-API-03</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/developer/">Developer</a>, <a href="../../deliver/roles/technical-architect/">Technical architect</a></dd><dt>Evidence</dt><dd>API design reviewed against the GDS API technical and data standards</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Use and contribute to open standards, common components and patterns">13</abbr>; <a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make use of open standards">4</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-06">6</a></dd><dt>Owner</dt><dd>Architecture team, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>

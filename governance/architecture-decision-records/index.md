@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/governance/architecture-decision-records/ | maturity: published | site version 0.3.0 | generated from governance/architecture-decision-records.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/ | maturity: published | site version 0.3.0 | generated from governance/architecture-decision-records.md -->
 
 # Architecture decision records
 
@@ -23,11 +23,11 @@ Where an ADR lives depends on who makes the decision.
 | Decision | Made by | Where it is kept |
 | --- | --- | --- |
 | A decision about one service or product | The team, or its solution design authority (SDA) | In the service repository, in `docs/adr/` |
-| A decision that affects other teams, departs from a guardrail or sets direction for Defra | The [Technical Design Authority (TDA)](https://defra.github.io/architecture/governance/tda/) or the [Technology Governance Board (TGB)](https://defra.github.io/architecture/governance/tgb/) | In the architecture decision register, a SharePoint list on the Defra architecture SharePoint site |
+| A decision that affects other teams, departs from a guardrail or sets direction for Defra | The [Technical Design Authority (TDA)](https://greg-solomon-defra.github.io/architecture/governance/tda/) or the [Technology Governance Board (TGB)](https://greg-solomon-defra.github.io/architecture/governance/tgb/) | In the architecture decision register, a SharePoint list on the Defra architecture SharePoint site |
 
 ### Team decisions: in your repository
 
-Keep ADRs as Markdown in your service repository, in `docs/adr/`, numbered in order (`0001-use-defra-id-for-sign-in.md`). They then live with the code, are reviewed through pull requests and are public by default ([GR-OPEN-01](https://defra.github.io/architecture/guardrails/open-source/#gr-open-01)).
+Keep ADRs as Markdown in your service repository, in `docs/adr/`, numbered in order (`0001-use-defra-id-for-sign-in.md`). They then live with the code, are reviewed through pull requests and are public by default ([GR-OPEN-01](https://greg-solomon-defra.github.io/architecture/guardrails/open-source/#gr-open-01)).
 
 ### Enterprise decisions: in the architecture decision register
 
@@ -42,7 +42,7 @@ Decisions taken by the TDA and TGB are recorded in the architecture decision reg
 
 If your decision needs the TDA or TGB, send it to them by email. You do not need a GitHub account or access to the SharePoint site.
 
-1. Write the decision using the [ADR template](https://defra.github.io/architecture/governance/templates/adr/), with status **Proposed**. For a TDA item, also complete the [TDA submission template](https://defra.github.io/architecture/governance/templates/tda-submission/).
+1. Write the decision using the [ADR template](https://greg-solomon-defra.github.io/architecture/governance/templates/adr/), with status **Proposed**. For a TDA item, also complete the [TDA submission template](https://greg-solomon-defra.github.io/architecture/governance/templates/tda-submission/).
 2. Email it to [StrategicEnterpriseArchitecture@defra.gov.uk](mailto:StrategicEnterpriseArchitecture@defra.gov.uk), with "ADR:" and the decision title as the subject.
 3. An automated flow adds it to the register as **Proposed** and tells the architecture team.
 4. An architect triages it: it goes to the TDA, to the TGB, or back to your team or SDA if it does not need either.
@@ -67,20 +67,20 @@ flowchart LR
     G --> H["Team told the outcome"]
 ```
 
-This site does not hold a copy of the register. Decisions about this site itself are in [decisions about this site](https://defra.github.io/architecture/adr/).
+This site does not hold a copy of the register. Decisions about this site itself are in [decisions about this site](https://greg-solomon-defra.github.io/architecture/adr/).
 
 ## How to write a good ADR
 
 - **One decision per record.** Short is good - a page is usually enough.
 - **Make the context clear** for someone who was not in the room.
-- **Show real options**, including the strategic option from the [handrail](https://defra.github.io/architecture/handrail/technology-capabilities/).
+- **Show real options**, including the strategic option from the [handrail](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/).
 - **Reference guardrail and capability ids** (for example `GR-HOST-01`, `BC05`) and technology capabilities by name so decisions can be searched across Defra.
 - **Be honest about consequences**, including the downsides.
 - **Never edit an accepted ADR's decision.** Supersede it with a new one and link the two.
 
 ## Template
 
-Copy the [ADR template](https://defra.github.io/architecture/governance/templates/adr/).
+Copy the [ADR template](https://greg-solomon-defra.github.io/architecture/governance/templates/adr/).
 
 ## Lifecycle
 

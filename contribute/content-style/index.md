@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/contribute/content-style/ | maturity: draft | site version 0.3.0 | generated from contribute/content-style.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/contribute/content-style/ | maturity: draft | site version 0.3.0 | generated from contribute/content-style.md -->
 
 # Content style
 
@@ -16,17 +16,17 @@ We follow the [GOV.UK style guide](https://www.gov.uk/guidance/style-guide) and 
 - **Lead with what the reader needs to do.** Put the action first and the background after.
 - **Plain English, short sentences, active voice.** "The TDA reviews it", not "it is reviewed by the TDA".
 - **Sentence case for every heading, title and button**, including page titles and table headings. Keep capitals for proper nouns, such as Defra, GOV.UK and Core Delivery Platform.
-- **Expand an abbreviation the first time you use it on a page**, for example "Technical Design Authority (TDA)", and add it to `includes/abbreviations.md` - see [add an abbreviation](https://defra.github.io/architecture/contribute/#add-an-abbreviation).
-- **Never guess a Defra fact.** If you do not know a name, contact, address, lead time, approval or product name, write a "To be confirmed" box instead - see [flag a fact that is not confirmed](https://defra.github.io/architecture/contribute/#flag-a-fact-that-is-not-confirmed). Every box is listed on the [open questions](https://defra.github.io/architecture/about/open-questions/) page.
-- **Link, do not repeat.** If the [Defra Digital Service Manual](https://digital.defra.gov.uk/) or GOV.UK already says it, link to it. See [where things live](https://defra.github.io/architecture/contribute/where-things-live/).
-- **Descriptive link text.** Say where the link goes ("see [service tiers](https://defra.github.io/architecture/nfrs/service-tiers/)"), never `click here` or `read more`.
+- **Expand an abbreviation the first time you use it on a page**, for example "Technical Design Authority (TDA)", and add it to `includes/abbreviations.md` - see [add an abbreviation](https://greg-solomon-defra.github.io/architecture/contribute/#add-an-abbreviation).
+- **Never guess a Defra fact.** If you do not know a name, contact, address, lead time, approval or product name, write a "To be confirmed" box instead - see [flag a fact that is not confirmed](https://greg-solomon-defra.github.io/architecture/contribute/#flag-a-fact-that-is-not-confirmed). Every box is listed on the [open questions](https://greg-solomon-defra.github.io/architecture/about/open-questions/) page.
+- **Link, do not repeat.** If the [Defra Digital Service Manual](https://digital.defra.gov.uk/) or GOV.UK already says it, link to it. See [where things live](https://greg-solomon-defra.github.io/architecture/contribute/where-things-live/).
+- **Descriptive link text.** Say where the link goes ("see [service tiers](https://greg-solomon-defra.github.io/architecture/nfrs/service-tiers/)"), never `click here` or `read more`.
 - **Dates and numbers:** write dates as "2 October 2026", use numerals for numbers, and "to" rather than a dash in ranges ("10 to 15 days").
 - **No `please`, `simply`, `just` or `obviously`**, and avoid `e.g.` and `i.e.` - write "for example" and "that is".
-- **Must, Should and Could** have the meanings in [how to read a guardrail](https://defra.github.io/architecture/guardrails/#how-to-read-a-guardrail). Do not use them loosely elsewhere.
+- **Must, Should and Could** have the meanings in [how to read a guardrail](https://greg-solomon-defra.github.io/architecture/guardrails/#how-to-read-a-guardrail). Do not use them loosely elsewhere.
 
 ## How to write a guardrail
 
-The mechanics - front matter, ids and metadata - are in [add or change a guardrail](https://defra.github.io/architecture/contribute/#add-or-change-a-guardrail). For the words:
+The mechanics - front matter, ids and metadata - are in [add or change a guardrail](https://greg-solomon-defra.github.io/architecture/contribute/#add-or-change-a-guardrail). For the words:
 
 - **Title:** a short instruction in sentence case, starting with a verb where you can - "Protect the main branch", not "Main branch protection".
 - **Statement:** one or two sentences saying what a team does, in the active voice, that a team could show it has met. Avoid "should" in a Must, and "must" in a Should.
@@ -37,7 +37,7 @@ The mechanics - front matter, ids and metadata - are in [add or change a guardra
 
 ## How to write a pattern
 
-Follow [add a pattern](https://defra.github.io/architecture/contribute/#add-a-pattern). A pattern describes a proven technical solution, so:
+Follow [add a pattern](https://greg-solomon-defra.github.io/architecture/contribute/#add-a-pattern). A pattern describes a proven technical solution, so:
 
 - **Context:** the problem, in a Defra setting, in two or three short paragraphs.
 - **Solution:** one diagram and numbered steps a team can follow.
@@ -54,23 +54,23 @@ Follow [add a pattern](https://defra.github.io/architecture/contribute/#add-a-pa
 
 ## Glossary
 
-Terms we use with a specific meaning on this site. Definitions of services and capabilities are still being agreed, so they live on [services and capabilities](https://defra.github.io/architecture/handrail/services-and-capabilities/), which uses Defra's service taxonomy.
+Terms we use with a specific meaning on this site. Definitions of services and capabilities are still being agreed, so they live on [services and capabilities](https://greg-solomon-defra.github.io/architecture/handrail/services-and-capabilities/), which uses Defra's service taxonomy.
 
 | Term | Meaning on this site |
 | --- | --- |
-| **DDTS doctrine** | The non-negotiables that guide all Digital, Data and Technology Services work - see [DDTS doctrine](https://defra.github.io/architecture/principles/doctrine/) |
-| **Architecture principle** | How the doctrine applies to technology change - see [architecture principles](https://defra.github.io/architecture/principles/architecture-principles/) |
+| **DDTS doctrine** | The non-negotiables that guide all Digital, Data and Technology Services work - see [DDTS doctrine](https://greg-solomon-defra.github.io/architecture/principles/doctrine/) |
+| **Architecture principle** | How the doctrine applies to technology change - see [architecture principles](https://greg-solomon-defra.github.io/architecture/principles/architecture-principles/) |
 | **Guardrail** | A default every team follows, labelled Must, Should or Could, with a stable id such as GR-HOST-01 |
-| **Handrail** | The capability models that help teams find what already exists - see [the handrail](https://defra.github.io/architecture/handrail/) |
-| **Business capability** | What Defra does, independent of how - see [business capabilities](https://defra.github.io/architecture/handrail/business-capabilities/) |
-| **Technology capability** | The technology that supports business capabilities, with Defra's strategic option for each - see [technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/) |
-| **Service pattern** | The shape of a whole kind of service and how its building blocks connect - see [service patterns](https://defra.github.io/architecture/patterns/service/) |
-| **Solution pattern** | A reusable solution to one recurring technical problem inside a service - see [patterns](https://defra.github.io/architecture/patterns/). Not the same as the design patterns in the Defra Digital Service Manual. |
-| **Architecture decision record (ADR)** | A short record of one significant decision, its options and consequences - see [architecture decision records](https://defra.github.io/architecture/governance/architecture-decision-records/) |
-| **Exception** | An agreed, time-limited departure from a Must guardrail - see [exceptions](https://defra.github.io/architecture/governance/exceptions/) |
-| **Solution design authority (SDA)** | Where a principal architect assures decisions for a delivery group, with authority from the TDA - see [solution design authorities](https://defra.github.io/architecture/governance/solution-design-authorities/) |
-| **Service tier** | How critical a service is, which sets its non-functional requirements - see [service tiers](https://defra.github.io/architecture/nfrs/service-tiers/) |
-| **Open question** | A fact we do not know yet, shown in a "To be confirmed" box and listed on [open questions](https://defra.github.io/architecture/about/open-questions/) |
+| **Handrail** | The capability models that help teams find what already exists - see [the handrail](https://greg-solomon-defra.github.io/architecture/handrail/) |
+| **Business capability** | What Defra does, independent of how - see [business capabilities](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/) |
+| **Technology capability** | The technology that supports business capabilities, with Defra's strategic option for each - see [technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/) |
+| **Service pattern** | The shape of a whole kind of service and how its building blocks connect - see [service patterns](https://greg-solomon-defra.github.io/architecture/patterns/service/) |
+| **Solution pattern** | A reusable solution to one recurring technical problem inside a service - see [patterns](https://greg-solomon-defra.github.io/architecture/patterns/). Not the same as the design patterns in the Defra Digital Service Manual. |
+| **Architecture decision record (ADR)** | A short record of one significant decision, its options and consequences - see [architecture decision records](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/) |
+| **Exception** | An agreed, time-limited departure from a Must guardrail - see [exceptions](https://greg-solomon-defra.github.io/architecture/governance/exceptions/) |
+| **Solution design authority (SDA)** | Where a principal architect assures decisions for a delivery group, with authority from the TDA - see [solution design authorities](https://greg-solomon-defra.github.io/architecture/governance/solution-design-authorities/) |
+| **Service tier** | How critical a service is, which sets its non-functional requirements - see [service tiers](https://greg-solomon-defra.github.io/architecture/nfrs/service-tiers/) |
+| **Open question** | A fact we do not know yet, shown in a "To be confirmed" box and listed on [open questions](https://greg-solomon-defra.github.io/architecture/about/open-questions/) |
 
 ## Prose checks
 

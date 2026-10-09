@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/handrail/reference-architecture/ | maturity: draft | site version 0.3.0 | generated from handrail/reference-architecture.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/handrail/reference-architecture/ | maturity: draft | site version 0.3.0 | generated from handrail/reference-architecture.md -->
 
 # Reference architecture
 
@@ -16,6 +16,6 @@
 
 Until then:
 
-- the [technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/) map shows what technology must do, in Technology Business Management (TBM) level 1 and level 2 areas
-- the [service patterns](https://defra.github.io/architecture/patterns/service/) show early, exploratory shapes for common kinds of Defra service
+- the [technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/) map shows what technology must do, in Technology Business Management (TBM) level 1 and level 2 areas
+- the [service patterns](https://greg-solomon-defra.github.io/architecture/patterns/service/) show early, exploratory shapes for common kinds of Defra service
 

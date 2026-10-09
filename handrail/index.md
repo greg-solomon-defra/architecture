@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/handrail/ | maturity: published | site version 0.3.0 | generated from handrail/index.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/handrail/ | maturity: published | site version 0.3.0 | generated from handrail/index.md -->
 
 # The architecture handrail
 
@@ -8,31 +8,31 @@
 
 <div class="grid cards" markdown>
 
--   **[Services and capabilities](https://defra.github.io/architecture/handrail/services-and-capabilities/)**
+-   **[Services and capabilities](https://greg-solomon-defra.github.io/architecture/handrail/services-and-capabilities/)**
 
     ---
 
     Defra's service taxonomy - outcomes, services, products, capabilities, components and data - and how the handrail fits into it. Draft.
 
--   **[Business capabilities](https://defra.github.io/architecture/handrail/business-capabilities/)**
+-   **[Business capabilities](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/)**
 
     ---
 
     *What* Defra does - nine core and two supporting capabilities, independent of organisation and technology.
 
--   **[Technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/)**
+-   **[Technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/)**
 
     ---
 
     What technology does to enable the business, in Technology Business Management (TBM) level 1 and level 2 areas.
 
--   **[Capability mapping](https://defra.github.io/architecture/handrail/capability-mapping/)**
+-   **[Capability mapping](https://greg-solomon-defra.github.io/architecture/handrail/capability-mapping/)**
 
     ---
 
     Which technology capabilities each business capability depends on - and where the biggest reuse opportunities are.
 
--   **[Reference architecture](https://defra.github.io/architecture/handrail/reference-architecture/)**
+-   **[Reference architecture](https://greg-solomon-defra.github.io/architecture/handrail/reference-architecture/)**
 
     ---
 
@@ -55,7 +55,7 @@ flowchart TB
     S -.->|"deliver"| O
 ```
 
-These layers line up with Defra's service taxonomy - see [services and capabilities](https://defra.github.io/architecture/handrail/services-and-capabilities/) for definitions and how they connect.
+These layers line up with Defra's service taxonomy - see [services and capabilities](https://greg-solomon-defra.github.io/architecture/handrail/services-and-capabilities/) for definitions and how they connect.
 
 Business capabilities change slowly. Products and services change quickly. Mapping one to the other lets us:
 
@@ -66,11 +66,11 @@ Business capabilities change slowly. Products and services change quickly. Mappi
 
 ## Using the handrail on your project
 
-1. **Find your business capability.** Which of the [eleven capabilities](https://defra.github.io/architecture/handrail/business-capabilities/) does your service support? Most services support one or two.
-2. **Check the technology capabilities it needs.** The [capability mapping](https://defra.github.io/architecture/handrail/capability-mapping/) shows which [technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/) each business capability typically depends on.
+1. **Find your business capability.** Which of the [eleven capabilities](https://greg-solomon-defra.github.io/architecture/handrail/business-capabilities/) does your service support? Most services support one or two.
+2. **Check the technology capabilities it needs.** The [capability mapping](https://greg-solomon-defra.github.io/architecture/handrail/capability-mapping/) shows which [technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/) each business capability typically depends on.
 3. **Use the strategic options first.** Each technology capability lists what to use. If it is marked *gap*, talk to the TDA so we solve it once.
 4. **Start from a service pattern** if one fits.
-5. **Record your choices** in an [ADR](https://defra.github.io/architecture/governance/architecture-decision-records/), naming business capability ids (for example `BC05`) and technology capabilities (for example Enabling Platforms) so decisions can be found later.
+5. **Record your choices** in an [ADR](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/), naming business capability ids (for example `BC05`) and technology capabilities (for example Enabling Platforms) so decisions can be found later.
 
 ## Technology radars
 
@@ -81,7 +81,7 @@ Two radars sit alongside the handrail.
 
 | Radar | What it tells you | Use it to |
 | --- | --- | --- |
-| [Tools radar](https://eaflood.atlassian.net/jira/software/projects/TR/boards/630?filter=&groupBy=epic) (Defra device or VPN) | The software tools approved for use in Defra | Check whether a tool is already approved before you buy or adopt one ([GR-TECH-01](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-01), [GR-TECH-04](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-04)) |
+| [Tools radar](https://eaflood.atlassian.net/jira/software/projects/TR/boards/630?filter=&groupBy=epic) (Defra device or VPN) | The software tools approved for use in Defra | Check whether a tool is already approved before you buy or adopt one ([GR-TECH-01](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-01), [GR-TECH-04](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-04)) |
 | [Emerging Technology Radar 2026](https://defrati-my.sharepoint.com/personal/jan_murdoch_defrati_co_uk/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fjan%5Fmurdoch%5Fdefrati%5Fco%5Fuk%2FDocuments%2FDefra%20DDTS%20%2D%20Emerging%20Technologies%20Radar%202026%20%2Epdf&parent=%2Fpersonal%2Fjan%5Fmurdoch%5Fdefrati%5Fco%5Fuk%2FDocuments&ga=1) (Defra device or VPN) | The emerging technologies Defra is watching, what is ready to use now, what is on the horizon and what still needs time to mature | Spot opportunities early, and find out whether a technology is mature enough before you build on it |
 
 The Emerging Technology Radar is published each year, and the 2026 edition added 28 technologies. It is organised around four themes that match where Defra group priorities are heading:
@@ -91,7 +91,7 @@ The Emerging Technology Radar is published each year, and the 2026 edition added
 - **Sustainable digital operations and leadership** - such as energy-efficient compute, green software practice, circular IT asset management and lower-carbon cloud options
 - **Cybersecurity and operational resilience** - such as secure multiparty computation, homomorphic encryption, post-quantum cryptography and AI-supported cyber defence
 
-The emerging technology radar is not a list of approved technology. Before adopting an emerging technology, check the [technology capabilities](https://defra.github.io/architecture/handrail/technology-capabilities/) and the [guardrails](https://defra.github.io/architecture/guardrails/), and talk to the architecture team - novel use of AI goes to the [Technical Design Authority](https://defra.github.io/architecture/governance/tda/) ([GR-AI-06](https://defra.github.io/architecture/guardrails/ai/#gr-ai-06)).
+The emerging technology radar is not a list of approved technology. Before adopting an emerging technology, check the [technology capabilities](https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/) and the [guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/), and talk to the architecture team - novel use of AI goes to the [Technical Design Authority](https://greg-solomon-defra.github.io/architecture/governance/tda/) ([GR-AI-06](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-06)).
 
 ## Machine-readable model
 

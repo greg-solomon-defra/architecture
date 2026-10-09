@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/deliver/ | maturity: prototype | site version 0.3.0 | generated from deliver/index.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/deliver/ | maturity: prototype | site version 0.3.0 | generated from deliver/index.md -->
 
 # Deliver a service
 
@@ -37,25 +37,25 @@ flowchart LR
 
 | Phase | Guardrails | Must | Key artefacts | Checklist |
 | --- | ---: | ---: | --- | --- |
-| [Discovery](https://defra.github.io/architecture/deliver/discovery/) | 25 | 9 | Architecture decision record (ADR) log, C4 system context diagram, Service tier, Data protection impact assessment (DPIA) | [Checklist](https://defra.github.io/architecture/deliver/checklists/discovery/) |
-| [Alpha](https://defra.github.io/architecture/deliver/alpha/) | 75 | 18 | Architecture decision record (ADR) log, C4 system context diagram, C4 container diagram, Threat model | [Checklist](https://defra.github.io/architecture/deliver/checklists/alpha/) |
-| [Beta](https://defra.github.io/architecture/deliver/beta/) | 86 | 25 | Architecture decision record (ADR) log, C4 container diagram, Threat model, Data protection impact assessment (DPIA) | [Checklist](https://defra.github.io/architecture/deliver/checklists/beta/) |
-| [Live](https://defra.github.io/architecture/deliver/live/) | 79 | 25 | Architecture decision record (ADR) log, C4 container diagram, Threat model, Runbooks and support model | [Checklist](https://defra.github.io/architecture/deliver/checklists/live/) |
-| [Significant change](https://defra.github.io/architecture/deliver/significant-change/) | 12 | 7 | Architecture decision record (ADR) log, C4 container diagram, Threat model, Data protection impact assessment (DPIA) | [Checklist](https://defra.github.io/architecture/deliver/checklists/significant-change/) |
-| [Retire a service](https://defra.github.io/architecture/deliver/retire/) | 9 | 5 | Architecture decision record (ADR) log, Exit plan, Runbooks and support model, Data protection impact assessment (DPIA) | [Checklist](https://defra.github.io/architecture/deliver/checklists/retire/) |
+| [Discovery](https://greg-solomon-defra.github.io/architecture/deliver/discovery/) | 25 | 9 | Architecture decision record (ADR) log, C4 system context diagram, Service tier, Data protection impact assessment (DPIA) | [Checklist](https://greg-solomon-defra.github.io/architecture/deliver/checklists/discovery/) |
+| [Alpha](https://greg-solomon-defra.github.io/architecture/deliver/alpha/) | 75 | 18 | Architecture decision record (ADR) log, C4 system context diagram, C4 container diagram, Threat model | [Checklist](https://greg-solomon-defra.github.io/architecture/deliver/checklists/alpha/) |
+| [Beta](https://greg-solomon-defra.github.io/architecture/deliver/beta/) | 86 | 25 | Architecture decision record (ADR) log, C4 container diagram, Threat model, Data protection impact assessment (DPIA) | [Checklist](https://greg-solomon-defra.github.io/architecture/deliver/checklists/beta/) |
+| [Live](https://greg-solomon-defra.github.io/architecture/deliver/live/) | 79 | 25 | Architecture decision record (ADR) log, C4 container diagram, Threat model, Runbooks and support model | [Checklist](https://greg-solomon-defra.github.io/architecture/deliver/checklists/live/) |
+| [Significant change](https://greg-solomon-defra.github.io/architecture/deliver/significant-change/) | 12 | 7 | Architecture decision record (ADR) log, C4 container diagram, Threat model, Data protection impact assessment (DPIA) | [Checklist](https://greg-solomon-defra.github.io/architecture/deliver/checklists/significant-change/) |
+| [Retire a service](https://greg-solomon-defra.github.io/architecture/deliver/retire/) | 9 | 5 | Architecture decision record (ADR) log, Exit plan, Runbooks and support model, Data protection impact assessment (DPIA) | [Checklist](https://greg-solomon-defra.github.io/architecture/deliver/checklists/retire/) |
 
 
-Each phase has a printable **assessment evidence checklist**, built from the same guardrail data as the [guardrail library](https://defra.github.io/architecture/guardrails/library/), so they never disagree.
+Each phase has a printable **assessment evidence checklist**, built from the same guardrail data as the [guardrail library](https://greg-solomon-defra.github.io/architecture/guardrails/library/), so they never disagree.
 
 ## Before you start
 
-- [Working with architects](https://defra.github.io/architecture/deliver/working-with-architects/): for designers and researchers - when to involve an architect, what to bring and what to expect.
-- [Guardrails by role](https://defra.github.io/architecture/deliver/roles/): the guardrails each role leads, phase by phase - for product managers, designers, researchers, developers, architects and analysts.
-- [Getting onto Defra platforms](https://defra.github.io/architecture/deliver/platforms/): what the shared platforms give you, and how to get access.
-- [Check your repository automatically](https://defra.github.io/architecture/deliver/guardrail-check/) against the guardrails a tool can check.
-- [Check a decision](https://defra.github.io/architecture/governance/decision-check/) to find your governance route.
-- [Service patterns](https://defra.github.io/architecture/patterns/service/) to start from a known-good shape.
-- [Service tiers](https://defra.github.io/architecture/nfrs/service-tiers/) and the [NFR catalogue](https://defra.github.io/architecture/nfrs/catalogue/) to set your quality targets.
+- [Working with architects](https://greg-solomon-defra.github.io/architecture/deliver/working-with-architects/): for designers and researchers - when to involve an architect, what to bring and what to expect.
+- [Guardrails by role](https://greg-solomon-defra.github.io/architecture/deliver/roles/): the guardrails each role leads, phase by phase - for product managers, designers, researchers, developers, architects and analysts.
+- [Getting onto Defra platforms](https://greg-solomon-defra.github.io/architecture/deliver/platforms/): what the shared platforms give you, and how to get access.
+- [Check your repository automatically](https://greg-solomon-defra.github.io/architecture/deliver/guardrail-check/) against the guardrails a tool can check.
+- [Check a decision](https://greg-solomon-defra.github.io/architecture/governance/decision-check/) to find your governance route.
+- [Service patterns](https://greg-solomon-defra.github.io/architecture/patterns/service/) to start from a known-good shape.
+- [Service tiers](https://greg-solomon-defra.github.io/architecture/nfrs/service-tiers/) and the [NFR catalogue](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/) to set your quality targets.
 
 ## The architecture artefacts
 
@@ -63,11 +63,11 @@ The same small set of artefacts carries through every phase. Start them light an
 
 | Artefact | Why |
 | --- | --- |
-| [Architecture decision record (ADR) log](https://defra.github.io/architecture/governance/architecture-decision-records/) | Shows what you decided and why ([GR-DEV-09](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-09)) |
+| [Architecture decision record (ADR) log](https://greg-solomon-defra.github.io/architecture/governance/architecture-decision-records/) | Shows what you decided and why ([GR-DEV-09](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-09)) |
 | C4 context and container diagrams | Show the service, its users, dependencies and building blocks. See the [C4 model](https://c4model.com/). |
-| [Threat model](https://defra.github.io/architecture/security/threat-modelling/) | Shows what can go wrong and what you are doing about it ([GR-SEC-02](https://defra.github.io/architecture/guardrails/security/#gr-sec-02)) |
-| Data protection impact assessment (DPIA) | Shows personal data is handled lawfully ([GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06)) |
-| [Service tier](https://defra.github.io/architecture/nfrs/service-tiers/) and [NFRs](https://defra.github.io/architecture/nfrs/catalogue/) | Set how reliable, fast and recoverable the service must be |
-| Exit plan | Shows how Defra could change product or supplier ([GR-TECH-03](https://defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-03)) |
-| Runbooks and support model | Show the service can be run by people who did not build it ([GR-OPS-05](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-05)) |
+| [Threat model](https://greg-solomon-defra.github.io/architecture/security/threat-modelling/) | Shows what can go wrong and what you are doing about it ([GR-SEC-02](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-02)) |
+| Data protection impact assessment (DPIA) | Shows personal data is handled lawfully ([GR-DATA-06](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06)) |
+| [Service tier](https://greg-solomon-defra.github.io/architecture/nfrs/service-tiers/) and [NFRs](https://greg-solomon-defra.github.io/architecture/nfrs/catalogue/) | Set how reliable, fast and recoverable the service must be |
+| Exit plan | Shows how Defra could change product or supplier ([GR-TECH-03](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-03)) |
+| Runbooks and support model | Show the service can be run by people who did not build it ([GR-OPS-05](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-05)) |
 

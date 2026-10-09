@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/contribute/site-design/ | maturity: draft | site version 0.3.0 | generated from contribute/site-design.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/contribute/site-design/ | maturity: draft | site version 0.3.0 | generated from contribute/site-design.md -->
 
 # Site design
 
@@ -18,7 +18,7 @@
 
 ## How a page is built
 
-The site uses [MkDocs](https://www.mkdocs.org/) with the [Material](https://squidfunk.github.io/mkdocs-material/) theme - see [ADR 0001](https://defra.github.io/architecture/adr/0001-mkdocs-material-with-hooks/). When a page is built:
+The site uses [MkDocs](https://www.mkdocs.org/) with the [Material](https://squidfunk.github.io/mkdocs-material/) theme - see [ADR 0001](https://greg-solomon-defra.github.io/architecture/adr/0001-mkdocs-material-with-hooks/). When a page is built:
 
 1. Markdown in `docs/` is read, with `includes/abbreviations.md` appended so abbreviations get tooltips.
 2. **Hooks** in `hooks/` load and validate the data, then replace markers such as `<div class="gl" data-guardrail-library>
@@ -86,7 +86,7 @@ Other conventions the stylesheet keeps:
 | **Information and notes** | Any page | `!!! info` for who something applies to or where to go instead, `!!! note` for context. Keep them short. |
 | **Lead paragraph** | Top of every page | `<p class="lead">` - one or two sentences saying what the page is for |
 | **Route cards and cascade** | Home page | Defined in `docs/index.md`. The whole card is clickable through its heading link. |
-| **Diagrams** | Any page | Mermaid, with `accTitle` and `accDescr` - see [content style](https://defra.github.io/architecture/contribute/content-style/#diagrams) |
+| **Diagrams** | Any page | Mermaid, with `accTitle` and `accDescr` - see [content style](https://greg-solomon-defra.github.io/architecture/contribute/content-style/#diagrams) |
 
 ## Interactive tools
 
@@ -99,5 +99,5 @@ Other conventions the stylesheet keeps:
 
 ## Publishing
 
-Merges to `main` are built and published to GitHub Pages once every check passes. CSS and JavaScript addresses include a hash of their content, so browsers never mix an old stylesheet with new pages. Releases are tagged and get a PDF of every guardrail - see [releases and versions](https://defra.github.io/architecture/about/releases/).
+Merges to `main` are built and published to GitHub Pages once every check passes. CSS and JavaScript addresses include a hash of their content, so browsers never mix an old stylesheet with new pages. Releases are tagged and get a PDF of every guardrail - see [releases and versions](https://greg-solomon-defra.github.io/architecture/about/releases/).
 

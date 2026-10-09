@@ -1,8 +1,8 @@
-<!-- https://defra.github.io/architecture/governance/templates/tda-submission/ | maturity: published | site version 0.3.0 | generated from governance/templates/tda-submission.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/governance/templates/tda-submission/ | maturity: published | site version 0.3.0 | generated from governance/templates/tda-submission.md -->
 
 # TDA submission template
 
-Send to the [Technical Design Authority](https://defra.github.io/architecture/governance/tda/) at least 5 working days before the meeting. Aim for no more than five pages.
+Send to the [Technical Design Authority](https://greg-solomon-defra.github.io/architecture/governance/tda/) at least 5 working days before the meeting. Aim for no more than five pages.
 
 ```markdown
 # TDA submission: <title>

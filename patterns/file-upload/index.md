@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/patterns/file-upload/ | maturity: published | site version 0.3.0 | generated from patterns/file-upload.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/patterns/file-upload/ | maturity: published | site version 0.3.0 | generated from patterns/file-upload.md -->
 
 # File upload with malware scanning
 
@@ -63,19 +63,19 @@ The sizes and types above are examples. Agree the real limits with the developer
 - Do users **understand the wait** while a file is checked, or do they think it has frozen and upload again?
 - When a file is **rejected**, do they understand what to do next without being alarmed?
 - Can users with **assistive technology** hear the upload status change, and reach the remove and add buttons?
-- On a **slow or rural connection**, how long do uploads take, and what happens if the connection drops ([GR-FE-05](https://defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-05))?
+- On a **slow or rural connection**, how long do uploads take, and what happens if the connection drops ([GR-FE-05](https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-05))?
 - Do agents and businesses uploading **several files** keep track of which ones they have added?
 
 ## Guardrails it helps you meet
 
 | Guardrail | Level | What the guardrail asks |
 | --- | --- | --- |
-| [GR-SEC-04](https://defra.github.io/architecture/guardrails/security/#gr-sec-04) Encrypt in transit and at rest | <span class="rfc rfc--must">Must</span> | Use TLS 1.2 or higher for all traffic, internal and external, and encrypt data at rest using platform-managed or customer-managed keys. |
-| [GR-SEC-07](https://defra.github.io/architecture/guardrails/security/#gr-sec-07) Log for detection and response | <span class="rfc rfc--must">Must</span> | Send security-relevant events (authentication, authorisation failures, administrative actions, data exports) to the security operations centre. See GR-OPS-01. |
-| [GR-HOST-06](https://defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-06) Host data in the UK | <span class="rfc rfc--should">Should</span> | Data classified OFFICIAL is held in UK regions unless an assessed and approved exception exists. |
-| [GR-DATA-06](https://defra.github.io/architecture/guardrails/data/#gr-data-06) PROTECT: Protect sensitive data by design | <span class="rfc rfc--must">Must</span> | Complete a data protection impact assessment (DPIA) before processing personal data, minimise what you collect, and apply retention and deletion automatically. |
-| [GR-DATA-09](https://defra.github.io/architecture/guardrails/data/#gr-data-09) DISPOSAL: Retain and dispose of records properly | <span class="rfc rfc--must">Must</span> | Apply Defra's retention schedules. Records of permanent value are identified for transfer to The National Archives. |
-| [GR-OPS-04](https://defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-04) Health checks and graceful degradation | <span class="rfc rfc--should">Should</span> | Expose health endpoints, set timeouts and retries on dependencies, and degrade gracefully (for example save progress and tell the user) when a dependency fails. |
+| [GR-SEC-04](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-04) Encrypt in transit and at rest | <span class="rfc rfc--must">Must</span> | Use TLS 1.2 or higher for all traffic, internal and external, and encrypt data at rest using platform-managed or customer-managed keys. |
+| [GR-SEC-07](https://greg-solomon-defra.github.io/architecture/guardrails/security/#gr-sec-07) Log for detection and response | <span class="rfc rfc--must">Must</span> | Send security-relevant events (authentication, authorisation failures, administrative actions, data exports) to the security operations centre. See GR-OPS-01. |
+| [GR-HOST-06](https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-06) Host data in the UK | <span class="rfc rfc--should">Should</span> | Data classified OFFICIAL is held in UK regions unless an assessed and approved exception exists. |
+| [GR-DATA-06](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) PROTECT: Protect sensitive data by design | <span class="rfc rfc--must">Must</span> | Complete a data protection impact assessment (DPIA) before processing personal data, minimise what you collect, and apply retention and deletion automatically. |
+| [GR-DATA-09](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09) DISPOSAL: Retain and dispose of records properly | <span class="rfc rfc--must">Must</span> | Apply Defra's retention schedules. Records of permanent value are identified for transfer to The National Archives. |
+| [GR-OPS-04](https://greg-solomon-defra.github.io/architecture/guardrails/observability-and-operations/#gr-ops-04) Health checks and graceful degradation | <span class="rfc rfc--should">Should</span> | Expose health endpoints, set timeouts and retries on dependencies, and degrade gracefully (for example save progress and tell the user) when a dependency fails. |
 
 
 ## Related Secure by Design artefacts
@@ -98,6 +98,6 @@ The sizes and types above are examples. Agree the real limits with the developer
 
 ## Related
 
-- [Worked example: apply for a licence](https://defra.github.io/architecture/patterns/worked-example/)
-- [Security guardrails](https://defra.github.io/architecture/guardrails/security/)
+- [Worked example: apply for a licence](https://greg-solomon-defra.github.io/architecture/patterns/worked-example/)
+- [Security guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/security/)
 

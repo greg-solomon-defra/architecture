@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/handrail/technology-capabilities/ | maturity: draft | site version 0.3.0 | generated from handrail/technology-capabilities.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/handrail/technology-capabilities/ | maturity: draft | site version 0.3.0 | generated from handrail/technology-capabilities.md -->
 
 # Technology capabilities
 
@@ -16,7 +16,7 @@ Use technology capabilities to:
 - find strengths, gaps and investment priorities for strategies and roadmaps
 - discuss technology choices in the same language across teams and organisations
 
-Technology capabilities describe what technology must do. [Guardrails](https://defra.github.io/architecture/guardrails/) describe how we expect it to be done.
+Technology capabilities describe what technology must do. [Guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/) describe how we expect it to be done.
 
 ## The capability map
 

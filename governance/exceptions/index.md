@@ -1,4 +1,4 @@
-<!-- https://defra.github.io/architecture/governance/exceptions/ | maturity: draft | site version 0.3.0 | generated from governance/exceptions.md -->
+<!-- https://greg-solomon-defra.github.io/architecture/governance/exceptions/ | maturity: draft | site version 0.3.0 | generated from governance/exceptions.md -->
 
 # Exceptions to guardrails
 
@@ -14,13 +14,13 @@
 | You cannot meet... | Route | Record |
 | --- | --- | --- |
 | A **Could** guardrail | No process needed | Optional |
-| A **Should** guardrail | Your [solution design authority](https://defra.github.io/architecture/governance/solution-design-authorities/) | An ADR |
-| A **Must** guardrail | The [Technical Design Authority](https://defra.github.io/architecture/governance/tda/) | An [exception request](https://defra.github.io/architecture/governance/templates/exception-request/) and an ADR |
-| A **security control** | The [security exception process](https://defra.github.io/architecture/security/managing-exceptions/), alongside the above | A security risk record |
+| A **Should** guardrail | Your [solution design authority](https://greg-solomon-defra.github.io/architecture/governance/solution-design-authorities/) | An ADR |
+| A **Must** guardrail | The [Technical Design Authority](https://greg-solomon-defra.github.io/architecture/governance/tda/) | An [exception request](https://greg-solomon-defra.github.io/architecture/governance/templates/exception-request/) and an ADR |
+| A **security control** | The [security exception process](https://greg-solomon-defra.github.io/architecture/security/managing-exceptions/), alongside the above | A security risk record |
 
 ## Exceptions to the software development standards
 
-The [Defra software development standards](https://defra.github.io/software-development-standards/) are mandatory, and the Delivery Architecture team handles exceptions to them through its own governance process - see [software development](https://digital.defra.gov.uk/software-development) in the Defra Digital Service Manual. Some guardrails, such as [GR-DEV-01](https://defra.github.io/architecture/guardrails/software-development/#gr-dev-01) and [GR-HOST-01](https://defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-01), cover the same ground.
+The [Defra software development standards](https://defra.github.io/software-development-standards/) are mandatory, and the Delivery Architecture team handles exceptions to them through its own governance process - see [software development](https://digital.defra.gov.uk/software-development) in the Defra Digital Service Manual. Some guardrails, such as [GR-DEV-01](https://greg-solomon-defra.github.io/architecture/guardrails/software-development/#gr-dev-01) and [GR-HOST-01](https://greg-solomon-defra.github.io/architecture/guardrails/hosting-and-platforms/#gr-host-01), cover the same ground.
 
 <div id="tbc-1"></div>
 
