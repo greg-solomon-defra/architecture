@@ -18,6 +18,8 @@
 
 See also [enterprise data architecture](https://greg-solomon-defra.github.io/architecture/data/).
 
+These guardrails are a **draft** proposal. Comment on them by [opening an issue](https://github.com/DEFRA/architecture/issues).
+
 <hr>
 
 ## Narrative
@@ -46,7 +48,8 @@ Each guardrail has an identifier, a level, a short rationale and a way to show y
 
 <span class="rfc rfc--should">Should</span> Design should begin with the enterprise data model, to ensure that an enterprise view of stakeholders, IT systems, and data designs is taken into sufficient consideration.
 
-**Why:** All of the data guardrails apply to the enterprise context, and the enterprise data model ensures a written record of that can be used in common across Defra.
+??? "The why and how of GR-DATA-12"
+    **Why:** All of the data guardrails apply to the enterprise context, and the enterprise data model ensures a written record of that can be used in common across Defra.
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-12</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd>Data model which complies with the data modelling standards</dd><dt>Automated check</dt><dd>Manual</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
@@ -55,7 +58,8 @@ Each guardrail has an identifier, a level, a short rationale and a way to show y
 
 <span class="rfc rfc--should">Should</span> Each data set a service creates or holds has a named business owner (information asset owner) and is recorded in the information asset register.
 
-**Why:** Data without an owner is not maintained, not trusted and not deleted when it should be.
+??? "The why and how of GR-DATA-01"
+    **Why:** Data without an owner is not maintained, not trusted and not deleted when it should be.
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-01</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Alpha:</strong> Each data set the service will create or hold identified, with a proposed information asset owner</li><li><strong>Beta:</strong> Information asset register entries with a named owner for each data set</li><li><strong>Live:</strong> Register entries and owners kept current</li><li><strong>Retire:</strong> Information asset register updated to show what happened to each data set</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
@@ -64,26 +68,26 @@ Each guardrail has an identifier, a level, a short rationale and a way to show y
 
 <span class="rfc rfc--should">Should</span> Use the authoritative source for shared entities - customers, organisations, land parcels, holdings, locations, species - rather than creating local copies that drift. See [Defra on a page](https://greg-solomon-defra.github.io/architecture/data/defra-on-a-page/).
 
-**How to meet it:** If you must cache or replicate, record the source, refresh frequency and how you handle changes.
+??? "The why and how of GR-DATA-02"
+    **How to meet it:** If you must cache or replicate, record the source, refresh frequency and how you handle changes.
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-02</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Shared entities the service needs identified, with their authoritative sources</li><li><strong>Alpha:</strong> Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed</li><li><strong>Beta:</strong> The service reads from the authoritative sources as designed, tested with the source owners</li><li><strong>Live:</strong> Copies and refresh arrangements reviewed when sources change</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
 ## GR-DATA-10 COMPLIANCE: Acquire new data safely {#gr-data-10}
 
-<span class="rfc rfc--should">Should</span> User research often collects personal data: recordings, notes, contact details and what participants type into prototypes. How to do this is set out in the user research [standards and guidance](https://digital.defra.gov.uk/user-research/standards-and-guidance) (consent, participant data handling, and storage and retention) and [tools](https://digital.defra.gov.uk/user-research/tools) in the Defra Digital Service Manual. These guardrails cover the architecture side. Collect research data only with informed consent, store recordings and notes only in Defra-approved places, delete them when they are no longer needed, use only Defra-approved research tools, and screen research for a DPIA.
+<span class="rfc rfc--should">Should</span> Collect research data only with informed consent, store recordings and notes only in Defra-approved places, delete them when they are no longer needed, use only Defra-approved research tools, and screen research for a DPIA.
 
-**Why:** Research recordings and notes are personal data about real people. Keeping them in personal accounts, unapproved tools or for longer than needed puts participants at risk and breaks data protection law.
+??? "The why and how of GR-DATA-10"
+    **Why:** User research often collects personal data: recordings, notes, contact details and what participants type into prototypes. How to do this is set out in the user research [standards and guidance](https://digital.defra.gov.uk/user-research/standards-and-guidance) (consent, participant data handling, and storage and retention) and [tools](https://digital.defra.gov.uk/user-research/tools) in the Defra Digital Service Manual. Research recordings and notes are personal data about real people. Keeping them in personal accounts, unapproved tools or for longer than needed puts participants at risk and breaks data protection law.
 
-**How to meet it:**
+    **How to meet it:**
 
-- Get informed consent before each session, using the templates in the manual's [standards and guidance](https://digital.defra.gov.uk/user-research/standards-and-guidance).
-- Store recordings and notes only where the manual's participant data storage and retention guidance says, and set a deletion date when you collect them.
-- Use only the manual's [approved research tools](https://digital.defra.gov.uk/user-research/tools), and check a tool can hold the data you plan to collect. Assess any new tool before using it ([GR-TECH-04](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-04)).
-- Screen the research for a DPIA ([GR-DATA-06](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06)), especially for new tools, sensitive topics or recordings of people's homes or farms.
-- Do not put recordings or transcripts into AI tools except as the [AI digital toolkit](https://digital.defra.gov.uk/ai-toolkit/guidance/keeping-data-safe) allows.
-
-This guardrail is a **draft** proposal. Comment on it by [opening an issue](https://github.com/DEFRA/architecture/issues).
+    - Get informed consent before each session, using the templates in the manual's [standards and guidance](https://digital.defra.gov.uk/user-research/standards-and-guidance).
+    - Store recordings and notes only where the manual's participant data storage and retention guidance says, and set a deletion date when you collect them.
+    - Use only the manual's [approved research tools](https://digital.defra.gov.uk/user-research/tools), and check a tool can hold the data you plan to collect. Assess any new tool before using it ([GR-TECH-04](https://greg-solomon-defra.github.io/architecture/guardrails/choosing-technology/#gr-tech-04)).
+    - Screen the research for a DPIA ([GR-DATA-06](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06)), especially for new tools, sensitive topics or recordings of people's homes or farms.
+    - Do not put recordings or transcripts into AI tools except as the [AI digital toolkit](https://digital.defra.gov.uk/ai-toolkit/guidance/keeping-data-safe) allows.
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-10</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/user-researcher/">User researcher</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Consent forms and privacy notice in use, recordings and notes stored only in approved places, and a deletion date set</li><li><strong>Alpha:</strong> The same for alpha research, with DPIA screening done for the research and any new research tool assessed</li><li><strong>Beta:</strong> Research data from earlier phases deleted on schedule, and the same controls for beta research</li><li><strong>Live:</strong> Research data handled the same way for ongoing research, and deletion checked</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.3.0</dd></dl></details>
@@ -99,9 +103,8 @@ This guardrail is a **draft** proposal. Comment on it by [opening an issue](http
 
 <span class="rfc rfc--must">Must</span> Complete a data protection impact assessment (DPIA) before processing personal data, minimise what you collect, and apply retention and deletion automatically.
 
-**Why:** UK GDPR and the Data Protection Act 2018; TCoP point 7.
-
-##
+??? "The why and how of GR-DATA-06"
+    **Why:** UK GDPR and the Data Protection Act 2018; TCoP point 7.
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-06</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> DPIA screening completed, showing whether personal data is involved</li><li><strong>Alpha:</strong> Draft DPIA, with data minimisation and retention designed in</li><li><strong>Beta:</strong> Approved DPIA, and retention and deletion built and tested</li><li><strong>Live:</strong> DPIA reviewed when processing changes, and deletion running as designed</li><li><strong>Significant change:</strong> DPIA updated for any change in how personal data is processed</li><li><strong>Retire:</strong> Personal data deleted or transferred lawfully, as set out in the DPIA</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Create a secure service which protects users&#x27; privacy">9</abbr>; <a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make privacy integral">7</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
@@ -138,15 +141,16 @@ This guardrail is a **draft** proposal. Comment on it by [opening an issue](http
 
 <span class="rfc rfc--should">Should</span> Record where the data behind each decision comes from, how it was transformed and which rules or models were applied, so any decision can be traced back to trusted sources.
 
-**Why:** Payments, regulatory decisions and official statistics must be explainable and open to challenge. Without lineage you cannot show why a decision was made, correct it when a source turns out to be wrong, or reproduce it later.
+??? "The why and how of GR-DATA-13"
+    **Why:** Payments, regulatory decisions and official statistics must be explainable and open to challenge. Without lineage you cannot show why a decision was made, correct it when a source turns out to be wrong, or reproduce it later.
 
-**How to meet it:**
+    **How to meet it:**
 
-- Identify the decisions the service makes or supports, and the data each one depends on.
-- Take that data from authoritative sources ([GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02)) and record the version or time of each extract.
-- Capture lineage automatically in pipelines rather than in documents written by hand.
-- Record the rule or model version used for each decision, alongside the data quality measures for its inputs ([GR-DATA-08](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08)).
-- Keep lineage records for as long as the decision records they support ([GR-DATA-09](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09)).
+    - Identify the decisions the service makes or supports, and the data each one depends on.
+    - Take that data from authoritative sources ([GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02)) and record the version or time of each extract.
+    - Capture lineage automatically in pipelines rather than in documents written by hand.
+    - Record the rule or model version used for each decision, alongside the data quality measures for its inputs ([GR-DATA-08](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08)).
+    - Keep lineage records for as long as the decision records they support ([GR-DATA-09](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09)).
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-13</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Alpha:</strong> Decisions the service makes or supports identified, with the data each one depends on and its authoritative source</li><li><strong>Beta:</strong> Lineage captured automatically from source to decision, including transformations, rules and model versions</li><li><strong>Live:</strong> Lineage kept current when sources, rules or models change, and used to explain or reproduce past decisions</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.4.0</dd></dl></details>
@@ -162,12 +166,10 @@ This guardrail is a **draft** proposal. Comment on it by [opening an issue](http
 
 <span class="rfc rfc--should">Should</span> Prototypes, research materials and test environments use made-up or anonymised data, never real personal data copied from a live service or spreadsheet.
 
-**Why:** Prototypes are shared widely, hosted on less protected platforms and shown to participants. Real data in them can be seen by people who should not see it.
+??? "The why and how of GR-DATA-11"
+    **Why:** Prototypes are shared widely, hosted on less protected platforms and shown to participants. Real data in them can be seen by people who should not see it.
 
-**How to meet it:** make up realistic names, addresses, holdings and reference numbers. Tell participants not to enter their own real details into a prototype unless the research plan allows it and the data is handled under [GR-DATA-10](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10). If a test genuinely needs real data, agree it through a DPIA first.
-
-This guardrail is a **draft** proposal. Comment on it by [opening an issue](https://github.com/DEFRA/architecture/issues).
-
+    **How to meet it:** make up realistic names, addresses, holdings and reference numbers. Tell participants not to enter their own real details into a prototype unless the research plan allows it and the data is handled under [GR-DATA-10](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10). If a test genuinely needs real data, agree it through a DPIA first.
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-11</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta</dd><dt>Led by</dt><dd><a href="../../deliver/roles/interaction-designer/">Interaction designer</a>, <a href="../../deliver/roles/user-researcher/">User researcher</a>, <a href="../../deliver/roles/developer/">Developer</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Any prototype uses made-up data</li><li><strong>Alpha:</strong> Prototypes and research materials use made-up data, including data a participant types in during a session</li><li><strong>Beta:</strong> Test and research environments use synthetic or anonymised data; any exception agreed through a DPIA</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.3.0</dd></dl></details>
 
 

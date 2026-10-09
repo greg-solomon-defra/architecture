@@ -2672,17 +2672,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#gr-data-03" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -5350,17 +5339,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#gr-data-03" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -5474,6 +5452,7 @@
 <p>The core department. Whether the data guardrails also apply to Defra's arm's length bodies is <a href="../#arms-length-bodies">still to be confirmed</a>.</p>
 </div>
 <p>See also <a href="../../data/">enterprise data architecture</a>.</p>
+<p>These guardrails are a <strong>draft</strong> proposal. Comment on them by <a href="https://github.com/DEFRA/architecture/issues">opening an issue</a>.</p>
 <hr>
 
 <h2 id="narrative">Narrative<a class="headerlink" href="#narrative" title="Permanent link">&para;</a></h2>
@@ -5513,22 +5492,33 @@
 </table>
 <h2 id="gr-data-12">GR-DATA-12 DESIGN: Align with the enterprise data model<a class="headerlink" href="#gr-data-12" title="Permanent link">&para;</a></h2>
 <p><span class="rfc rfc--should">Should</span> Design should begin with the enterprise data model, to ensure that an enterprise view of stakeholders, IT systems, and data designs is taken into sufficient consideration.</p>
+<details>
+<summary>The why and how of GR-DATA-12</summary>
 <p><strong>Why:</strong> All of the data guardrails apply to the enterprise context, and the enterprise data model ensures a written record of that can be used in common across Defra.</p>
+</details>
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-12</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd>Data model which complies with the data modelling standards</dd><dt>Automated check</dt><dd>Manual</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
 <h2 id="gr-data-01">GR-DATA-01 OWNERSHIP: Assign an accountable owner to your data assets<a class="headerlink" href="#gr-data-01" title="Permanent link">&para;</a></h2>
 <p><span class="rfc rfc--should">Should</span> Each data set a service creates or holds has a named business owner (information asset owner) and is recorded in the information asset register.</p>
+<details>
+<summary>The why and how of GR-DATA-01</summary>
 <p><strong>Why:</strong> Data without an owner is not maintained, not trusted and not deleted when it should be.</p>
+</details>
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-01</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Alpha:</strong> Each data set the service will create or hold identified, with a proposed information asset owner</li><li><strong>Beta:</strong> Information asset register entries with a named owner for each data set</li><li><strong>Live:</strong> Register entries and owners kept current</li><li><strong>Retire:</strong> Information asset register updated to show what happened to each data set</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
 <h2 id="gr-data-02">GR-DATA-02 DATA RE-USE: Use authoritative data sources<a class="headerlink" href="#gr-data-02" title="Permanent link">&para;</a></h2>
 <p><span class="rfc rfc--should">Should</span> Use the authoritative source for shared entities - customers, organisations, land parcels, holdings, locations, species - rather than creating local copies that drift. See <a href="../../data/defra-on-a-page/">Defra on a page</a>.</p>
+<details>
+<summary>The why and how of GR-DATA-02</summary>
 <p><strong>How to meet it:</strong> If you must cache or replicate, record the source, refresh frequency and how you handle changes.</p>
+</details>
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-02</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Shared entities the service needs identified, with their authoritative sources</li><li><strong>Alpha:</strong> Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed</li><li><strong>Beta:</strong> The service reads from the authoritative sources as designed, tested with the source owners</li><li><strong>Live:</strong> Copies and refresh arrangements reviewed when sources change</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
 <h2 id="gr-data-10">GR-DATA-10 COMPLIANCE: Acquire new data safely<a class="headerlink" href="#gr-data-10" title="Permanent link">&para;</a></h2>
-<p><span class="rfc rfc--should">Should</span> User research often collects personal data: recordings, notes, contact details and what participants type into prototypes. How to do this is set out in the user research <a href="https://digital.defra.gov.uk/user-research/standards-and-guidance">standards and guidance</a> (consent, participant data handling, and storage and retention) and <a href="https://digital.defra.gov.uk/user-research/tools">tools</a> in the Defra Digital Service Manual. These guardrails cover the architecture side. Collect research data only with informed consent, store recordings and notes only in Defra-approved places, delete them when they are no longer needed, use only Defra-approved research tools, and screen research for a <abbr title="Data protection impact assessment">DPIA</abbr>.</p>
-<p><strong>Why:</strong> Research recordings and notes are personal data about real people. Keeping them in personal accounts, unapproved tools or for longer than needed puts participants at risk and breaks data protection law.</p>
+<p><span class="rfc rfc--should">Should</span> Collect research data only with informed consent, store recordings and notes only in Defra-approved places, delete them when they are no longer needed, use only Defra-approved research tools, and screen research for a <abbr title="Data protection impact assessment">DPIA</abbr>.</p>
+<details>
+<summary>The why and how of GR-DATA-10</summary>
+<p><strong>Why:</strong> User research often collects personal data: recordings, notes, contact details and what participants type into prototypes. How to do this is set out in the user research <a href="https://digital.defra.gov.uk/user-research/standards-and-guidance">standards and guidance</a> (consent, participant data handling, and storage and retention) and <a href="https://digital.defra.gov.uk/user-research/tools">tools</a> in the Defra Digital Service Manual. Research recordings and notes are personal data about real people. Keeping them in personal accounts, unapproved tools or for longer than needed puts participants at risk and breaks data protection law.</p>
 <p><strong>How to meet it:</strong></p>
 <ul>
 <li>Get informed consent before each session, using the templates in the manual's <a href="https://digital.defra.gov.uk/user-research/standards-and-guidance">standards and guidance</a>.</li>
@@ -5537,7 +5527,7 @@
 <li>Screen the research for a <abbr title="Data protection impact assessment">DPIA</abbr> (<a href="#gr-data-06">GR-DATA-06</a>), especially for new tools, sensitive topics or recordings of people's homes or farms.</li>
 <li>Do not put recordings or transcripts into AI tools except as the <a href="https://digital.defra.gov.uk/ai-toolkit/guidance/keeping-data-safe">AI digital toolkit</a> allows.</li>
 </ul>
-<p>This guardrail is a <strong>draft</strong> proposal. Comment on it by <a href="https://github.com/DEFRA/architecture/issues">opening an issue</a>.</p>
+</details>
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-10</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/user-researcher/">User researcher</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Consent forms and privacy notice in use, recordings and notes stored only in approved places, and a deletion date set</li><li><strong>Alpha:</strong> The same for alpha research, with DPIA screening done for the research and any new research tool assessed</li><li><strong>Beta:</strong> Research data from earlier phases deleted on schedule, and the same controls for beta research</li><li><strong>Live:</strong> Research data handled the same way for ongoing research, and deletion checked</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.3.0</dd></dl></details>
 
 <h2 id="gr-data-04">GR-DATA-04 SHARE: Collect once, share safely<a class="headerlink" href="#gr-data-04" title="Permanent link">&para;</a></h2>
@@ -5546,8 +5536,10 @@
 
 <h2 id="gr-data-06">GR-DATA-06 PROTECT: Protect sensitive data by design<a class="headerlink" href="#gr-data-06" title="Permanent link">&para;</a></h2>
 <p><span class="rfc rfc--must">Must</span> Complete a data protection impact assessment (DPIA) before processing personal data, minimise what you collect, and apply retention and deletion automatically.</p>
+<details>
+<summary>The why and how of GR-DATA-06</summary>
 <p><strong>Why:</strong> UK GDPR and the Data Protection Act 2018; <abbr title="Technology Code of Practice">TCoP</abbr> point 7.</p>
-<h2 id="_1"><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h2>
+</details>
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-06</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> DPIA screening completed, showing whether personal data is involved</li><li><strong>Alpha:</strong> Draft DPIA, with data minimisation and retention designed in</li><li><strong>Beta:</strong> Approved DPIA, and retention and deletion built and tested</li><li><strong>Live:</strong> DPIA reviewed when processing changes, and deletion running as designed</li><li><strong>Significant change:</strong> DPIA updated for any change in how personal data is processed</li><li><strong>Retire:</strong> Personal data deleted or transferred lawfully, as set out in the DPIA</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Create a secure service which protects users&#x27; privacy">9</abbr>; <a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make privacy integral">7</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
 <h2 id="gr-data-03">GR-DATA-03 STANDARDS: Use data standards identifiers<a class="headerlink" href="#gr-data-03" title="Permanent link">&para;</a></h2>
@@ -5568,6 +5560,8 @@
 
 <h2 id="gr-data-13">GR-DATA-13 LINEAGE: Trace decisions to trusted data<a class="headerlink" href="#gr-data-13" title="Permanent link">&para;</a></h2>
 <p><span class="rfc rfc--should">Should</span> Record where the data behind each decision comes from, how it was transformed and which rules or models were applied, so any decision can be traced back to trusted sources.</p>
+<details>
+<summary>The why and how of GR-DATA-13</summary>
 <p><strong>Why:</strong> Payments, regulatory decisions and official statistics must be explainable and open to challenge. Without lineage you cannot show why a decision was made, correct it when a source turns out to be wrong, or reproduce it later.</p>
 <p><strong>How to meet it:</strong></p>
 <ul>
@@ -5577,6 +5571,7 @@
 <li>Record the rule or model version used for each decision, alongside the data quality measures for its inputs (<a href="#gr-data-08">GR-DATA-08</a>).</li>
 <li>Keep lineage records for as long as the decision records they support (<a href="#gr-data-09">GR-DATA-09</a>).</li>
 </ul>
+</details>
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-13</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Alpha:</strong> Decisions the service makes or supports identified, with the data each one depends on and its authoritative source</li><li><strong>Beta:</strong> Lineage captured automatically from source to decision, including transformations, rules and model versions</li><li><strong>Live:</strong> Lineage kept current when sources, rules or models change, and used to explain or reproduce past decisions</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.4.0</dd></dl></details>
 
 <h2 id="gr-data-09">GR-DATA-09 DISPOSAL: Retain and dispose of records properly<a class="headerlink" href="#gr-data-09" title="Permanent link">&para;</a></h2>
@@ -5585,9 +5580,11 @@
 
 <h2 id="gr-data-11">GR-DATA-11 ANONYMITY: No real personal data in prototypes<a class="headerlink" href="#gr-data-11" title="Permanent link">&para;</a></h2>
 <p><span class="rfc rfc--should">Should</span> Prototypes, research materials and test environments use made-up or anonymised data, never real personal data copied from a live service or spreadsheet.</p>
+<details>
+<summary>The why and how of GR-DATA-11</summary>
 <p><strong>Why:</strong> Prototypes are shared widely, hosted on less protected platforms and shown to participants. Real data in them can be seen by people who should not see it.</p>
 <p><strong>How to meet it:</strong> make up realistic names, addresses, holdings and reference numbers. Tell participants not to enter their own real details into a prototype unless the research plan allows it and the data is handled under <a href="#gr-data-10">GR-DATA-10</a>. If a test genuinely needs real data, agree it through a <abbr title="Data protection impact assessment">DPIA</abbr> first.</p>
-<p>This guardrail is a <strong>draft</strong> proposal. Comment on it by <a href="https://github.com/DEFRA/architecture/issues">opening an issue</a>.</p>
+</details>
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-11</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta</dd><dt>Led by</dt><dd><a href="../../deliver/roles/interaction-designer/">Interaction designer</a>, <a href="../../deliver/roles/user-researcher/">User researcher</a>, <a href="../../deliver/roles/developer/">Developer</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Any prototype uses made-up data</li><li><strong>Alpha:</strong> Prototypes and research materials use made-up data, including data a participant types in during a session</li><li><strong>Beta:</strong> Test and research environments use synthetic or anonymised data; any exception agreed through a DPIA</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.3.0</dd></dl></details>
 
 
