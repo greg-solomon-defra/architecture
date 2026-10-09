@@ -24,15 +24,17 @@ These guardrails are a **draft** proposal. Comment on them by [opening an issue]
 
 ## Narrative
 
-These guardrails help services create, acquire, use and share trusted data as an asset for the whole Defra group and its data users.
+These guardrails help services create, acquire, use and share trusted data as an asset for the whole Defra group and its data users, by advising the following
 
-Use [CONTEXT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) and [OWNERSHIP](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) to align the proposed data assets with Defra's enterprise data. Establish the [STANDARDS](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) which the data will meet, and the levels of [QUALITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) it will achieve.
-
-[PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) data assets, seeking to [SHARE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04) new and existing data wherever appropriate. Classify and [PROTECT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) all sensitive data. 
-
-[RE-USE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) authoritative data sources, such as those for customers, organisations and land parcels, wherever possible. Make data [LINEAGE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13) transparent, and enforce data [DISPOSAL](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09) in accordance with legislation, policy and guidance. Protect [ANONYMITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-11) by avoiding the use of real personal data in any non-production systems.  
-
-Conduct user [RESEARCH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) in ways that respect the people, organisations and other sources from which the data originates.
+* Use [CONTEXT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) and [OWNERSHIP](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) to align proposed data assets with Defra's enterprise data
+* Establish which [STANDARDS](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) the data will meet, and the levels of [QUALITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) it will achieve
+* [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) data assets
+* [SHARE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04) new and existing data by default, but classify and [PROTECT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) sensitive data
+* [RE-USE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) authoritative data sources, such as customers, organisations and land parcels
+* Make data [LINEAGE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13) transparent so that data-driven decisions can be attributed to source
+* Enforce data [DISPOSAL](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09) in accordance with legislation, policy and guidance
+* Protect [ANONYMITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-11) by avoiding the use of real personal data in non-production systems
+* Conduct user [RESEARCH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) in ways that respect people, organisations and other sources
 
 <hr>
 
