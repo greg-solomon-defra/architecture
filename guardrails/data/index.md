@@ -24,7 +24,7 @@ These guardrails are a **draft** proposal. Comment on them by [opening an issue]
 
 ## Overview
 
-These guardrails exist to help services create, acquire, use and share trusted data, and to [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) data assets that drive business outcomes.
+These guardrails exist to help teams create, acquire, use and share trusted data, in order to deliver services and to [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) data assets that drive ambitious outcomes.
 
 They focus on the following:
 
