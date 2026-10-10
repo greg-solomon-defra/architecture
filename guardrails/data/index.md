@@ -24,7 +24,7 @@ These guardrails are a **draft** proposal. Comment on them by [opening an issue]
 
 ## Overview
 
-These guardrails help services create, acquire, use and share trusted data as an asset for the whole Defra group and its data users, by advising on the following:
+These guardrails help services create, acquire, use and share trusted data as an asset for the whole Defra group and its data users, by focusing on the following:
 
 * Use [CONTEXT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) and [OWNERSHIP](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) to align proposed data assets with Defra's enterprise data
 * Establish which [STANDARDS](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) the data will meet, and the levels of [QUALITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) it will achieve

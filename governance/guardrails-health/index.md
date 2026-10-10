@@ -6,7 +6,7 @@
 
 Repeated exceptions are a signal that a guardrail is wrong, or that a platform is missing something. The [Technical Design Authority](https://greg-solomon-defra.github.io/architecture/governance/tda/) reviews this page each quarter and proposes changes through [how guardrails change](https://greg-solomon-defra.github.io/architecture/guardrails/#how-guardrails-change).
 
-Figures for **2026 Q4**, built on 9 October 2026.
+Figures for **2026 Q4**, built on 10 October 2026.
 
 | Measure | Now |
 | --- | ---: |
