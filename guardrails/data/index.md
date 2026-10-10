@@ -31,9 +31,9 @@ They focus on the following:
 * Use [CONTEXT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) and [OWNERSHIP](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) to align proposed data assets with Defra's enterprise data
 * Establish which [STANDARDS](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) the data will meet, and the levels of [QUALITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) it will achieve
 * [RE-USE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) authoritative data sources, such as customers, organisations and land parcels
-* [SHARE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04) new and existing data by default, but classify and [PROTECT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) sensitive data
+* [SHARE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04) new and existing data by default, but classify and [PROTECT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) all sensitive data
 * Make data [LINEAGE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13) transparent so that data-driven decisions can be attributed to source
-* Enforce data [DISPOSAL](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09) in accordance with legislation, policy and guidance
+* Enforce data [DISPOSAL](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09) in accordance with relevant legislation, policy and guidance
 * Protect [ANONYMITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-11) by avoiding the use of real personal data in non-production systems
 * Ensure data protection of all personal data gathered or received during [USER RESEARCH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10)
 
