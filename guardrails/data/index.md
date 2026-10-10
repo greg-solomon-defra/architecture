@@ -24,17 +24,17 @@ These guardrails are a **draft** proposal. Comment on them by [opening an issue]
 
 ## Overview
 
-These guardrails help services create, acquire, use and share trusted data as an asset for the whole Defra group and its data users, by focusing on the following:
+These guardrails exist to help services create, acquire, use and share trusted data, and to [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) data assets that drive business outcomes.
+
+They focus on the following:
 
 * Use [CONTEXT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) and [OWNERSHIP](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) to align proposed data assets with Defra's enterprise data
 * Establish which [STANDARDS](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) the data will meet, and the levels of [QUALITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) it will achieve
-* [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) data assets
-* [SHARE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04) new and existing data by default, but classify and [PROTECT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) sensitive data
 * [RE-USE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) authoritative data sources, such as customers, organisations and land parcels
+* [SHARE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04) new and existing data by default, but classify and [PROTECT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) sensitive data
 * Make data [LINEAGE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13) transparent so that data-driven decisions can be attributed to source
 * Enforce data [DISPOSAL](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09) in accordance with legislation, policy and guidance
 * Protect [ANONYMITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-11) by avoiding the use of real personal data in non-production systems
-* Conduct user [RESEARCH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) in ways that respect people, organisations and other sources
 
 <hr>
 
@@ -82,19 +82,15 @@ Each guardrail has an identifier, a level, a short rationale and a way to show y
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-08</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/performance-analyst/">Performance analyst</a></dd><dt>Evidence</dt><dd>Data quality measures and regular reports</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
-## GR-DATA-07 PUBLISH: Make your data open by default {#gr-data-07}
+## GR-DATA-02 DATA RE-USE: Use authoritative data sources {#gr-data-02}
 
-<span class="rfc rfc--should">Should</span> Publish non-personal, non-sensitive data as open data under the Open Government Licence, through the [Defra Data Services Platform](https://environment.data.gov.uk/) or [data.gov.uk](https://www.data.gov.uk/).
+<span class="rfc rfc--should">Should</span> Use the authoritative source for shared entities - customers, organisations, land parcels, holdings, locations, species - rather than creating local copies that drift. See [Defra on a page](https://greg-solomon-defra.github.io/architecture/data/defra-on-a-page/).
 
-
-<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-07</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd>Link to the published open data and its licence</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
-
-## GR-DATA-05 DESCRIBE: Explain your data to users {#gr-data-05}
-
-<span class="rfc rfc--should">Should</span> Publish metadata for data sets so they can be found and understood - [UK GEMINI](https://www.agi.org.uk/why-uk-gemini/) for geospatial data and [DCAT](https://www.w3.org/TR/vocab-dcat-3/) for other data sets.
+??? "The why and how of GR-DATA-02"
+    **How to meet it:** If you must cache or replicate, record the source, refresh frequency and how you handle changes.
 
 
-<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-05</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd>Published metadata records in UK GEMINI or DCAT</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
+<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-02</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Shared entities the service needs identified, with their authoritative sources</li><li><strong>Alpha:</strong> Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed</li><li><strong>Beta:</strong> The service reads from the authoritative sources as designed, tested with the source owners</li><li><strong>Live:</strong> Copies and refresh arrangements reviewed when sources change</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
 ## GR-DATA-04 SHARE: Collect once, share safely {#gr-data-04}
 
@@ -112,6 +108,20 @@ Each guardrail has an identifier, a level, a short rationale and a way to show y
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-06</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> DPIA screening completed, showing whether personal data is involved</li><li><strong>Alpha:</strong> Draft DPIA, with data minimisation and retention designed in</li><li><strong>Beta:</strong> Approved DPIA, and retention and deletion built and tested</li><li><strong>Live:</strong> DPIA reviewed when processing changes, and deletion running as designed</li><li><strong>Significant change:</strong> DPIA updated for any change in how personal data is processed</li><li><strong>Retire:</strong> Personal data deleted or transferred lawfully, as set out in the DPIA</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/service-manual/service-standard">Service Standard</a> <abbr title="Create a secure service which protects users&#x27; privacy">9</abbr>; <a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make privacy integral">7</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
+
+## GR-DATA-07 PUBLISH: Make your data open by default {#gr-data-07}
+
+<span class="rfc rfc--should">Should</span> Publish non-personal, non-sensitive data as open data under the Open Government Licence, through the [Defra Data Services Platform](https://environment.data.gov.uk/) or [data.gov.uk](https://www.data.gov.uk/).
+
+
+<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-07</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a>, <a href="../../deliver/roles/product-manager/">Product manager</a></dd><dt>Evidence</dt><dd>Link to the published open data and its licence</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
+
+## GR-DATA-05 DESCRIBE: Explain your data to users {#gr-data-05}
+
+<span class="rfc rfc--should">Should</span> Publish metadata for data sets so they can be found and understood - [UK GEMINI](https://www.agi.org.uk/why-uk-gemini/) for geospatial data and [DCAT](https://www.w3.org/TR/vocab-dcat-3/) for other data sets.
+
+
+<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-05</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd>Published metadata records in UK GEMINI or DCAT</dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
 ## GR-DATA-13 LINEAGE: Trace decisions to trusted data {#gr-data-13}
 
@@ -149,16 +159,6 @@ Each guardrail has an identifier, a level, a short rationale and a way to show y
 
 
 <details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-11</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta</dd><dt>Led by</dt><dd><a href="../../deliver/roles/interaction-designer/">Interaction designer</a>, <a href="../../deliver/roles/user-researcher/">User researcher</a>, <a href="../../deliver/roles/developer/">Developer</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Any prototype uses made-up data</li><li><strong>Alpha:</strong> Prototypes and research materials use made-up data, including data a participant types in during a session</li><li><strong>Beta:</strong> Test and research environments use synthetic or anonymised data; any exception agreed through a DPIA</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.3.0</dd></dl></details>
-
-## GR-DATA-02 DATA RE-USE: Use authoritative data sources {#gr-data-02}
-
-<span class="rfc rfc--should">Should</span> Use the authoritative source for shared entities - customers, organisations, land parcels, holdings, locations, species - rather than creating local copies that drift. See [Defra on a page](https://greg-solomon-defra.github.io/architecture/data/defra-on-a-page/).
-
-??? "The why and how of GR-DATA-02"
-    **How to meet it:** If you must cache or replicate, record the source, refresh frequency and how you handle changes.
-
-
-<details class="gr-meta"><summary>Phases, evidence and status for GR-DATA-02</summary><dl><dt>Status</dt><dd><span class="gr-status gr-status--draft">Draft</span></dd><dt>Phases</dt><dd>Discovery, Alpha, Beta, Live</dd><dt>Led by</dt><dd><a href="../../deliver/roles/data-architect/">Data architect</a></dd><dt>Evidence</dt><dd><ul class="gr-meta__phases"><li><strong>Discovery:</strong> Shared entities the service needs identified, with their authoritative sources</li><li><strong>Alpha:</strong> Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed</li><li><strong>Beta:</strong> The service reads from the authoritative sources as designed, tested with the source owners</li><li><strong>Live:</strong> Copies and refresh arrangements reviewed when sources change</li></ul></dd><dt>Automated check</dt><dd>Manual</dd><dt>Maps to</dt><dd><a href="https://www.gov.uk/guidance/the-technology-code-of-practice">Technology Code of Practice</a> <abbr title="Make better use of data">10</abbr></dd><dt>DDTS doctrine</dt><dd><a href="../../principles/doctrine/#ddts-04">4</a>, <a href="../../principles/doctrine/#ddts-05">5</a></dd><dt>Owner</dt><dd>Enterprise data architecture, last reviewed 2026-10-01, since v0.1.0</dd></dl></details>
 
 ## GR-DATA-10 RESEARCH: Manage research data safely {#gr-data-10}
 

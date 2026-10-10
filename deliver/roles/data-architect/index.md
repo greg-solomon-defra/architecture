@@ -36,8 +36,8 @@ More on the [discovery page](https://greg-solomon-defra.github.io/architecture/d
 | [GR-DATA-12](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) CONTEXT: Align with the enterprise data model | Should | Data model which complies with the data modelling standards |
 | [GR-DATA-01](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | Should | Each data set the service will create or hold identified, with a proposed information asset owner |
 | [GR-DATA-03](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) STANDARDS: Use agreed data standards and identifiers | Should | Data model using the agreed data standards and identifiers |
-| [GR-DATA-13](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13) LINEAGE: Trace decisions to trusted data | Should | Decisions the service makes or supports identified, with the data each one depends on and its authoritative source |
 | [GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Should | Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed |
+| [GR-DATA-13](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13) LINEAGE: Trace decisions to trusted data | Should | Decisions the service makes or supports identified, with the data each one depends on and its authoritative source |
 
 More on the [alpha page](https://greg-solomon-defra.github.io/architecture/deliver/alpha/).
 
@@ -52,10 +52,10 @@ More on the [alpha page](https://greg-solomon-defra.github.io/architecture/deliv
 | [GR-DATA-01](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | Should | Information asset register entries with a named owner for each data set |
 | [GR-DATA-03](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) STANDARDS: Use agreed data standards and identifiers | Should | Data stored and exchanged using the agreed standards, checked in testing |
 | [GR-DATA-08](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) QUALITY: Define, measure & manage data quality | Should | Data quality measures and regular reports |
+| [GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Should | The service reads from the authoritative sources as designed, tested with the source owners |
 | [GR-DATA-07](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) PUBLISH: Make your data open by default | Should | Link to the published open data and its licence |
 | [GR-DATA-05](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) DESCRIBE: Explain your data to users | Should | Published metadata records in UK GEMINI or DCAT |
 | [GR-DATA-13](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13) LINEAGE: Trace decisions to trusted data | Should | Lineage captured automatically from source to decision, including transformations, rules and model versions |
-| [GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Should | The service reads from the authoritative sources as designed, tested with the source owners |
 
 More on the [beta page](https://greg-solomon-defra.github.io/architecture/deliver/beta/).
 
@@ -69,10 +69,10 @@ More on the [beta page](https://greg-solomon-defra.github.io/architecture/delive
 | [GR-DATA-12](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) CONTEXT: Align with the enterprise data model | Should | Data model which complies with the data modelling standards |
 | [GR-DATA-01](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) OWNERSHIP: Assign an accountable owner to your data assets | Should | Register entries and owners kept current |
 | [GR-DATA-08](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) QUALITY: Define, measure & manage data quality | Should | Data quality measures and regular reports |
+| [GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Should | Copies and refresh arrangements reviewed when sources change |
 | [GR-DATA-07](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) PUBLISH: Make your data open by default | Should | Link to the published open data and its licence |
 | [GR-DATA-05](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) DESCRIBE: Explain your data to users | Should | Published metadata records in UK GEMINI or DCAT |
 | [GR-DATA-13](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13) LINEAGE: Trace decisions to trusted data | Should | Lineage kept current when sources, rules or models change, and used to explain or reproduce past decisions |
-| [GR-DATA-02](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) DATA RE-USE: Use authoritative data sources | Should | Copies and refresh arrangements reviewed when sources change |
 
 More on the [live page](https://greg-solomon-defra.github.io/architecture/deliver/live/).
 
