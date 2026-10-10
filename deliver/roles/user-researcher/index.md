@@ -20,7 +20,7 @@ You lead **8 guardrails**, often with other roles. Leading means making sure the
 | Guardrail | Level | What to show |
 | --- | --- | --- |
 | [GR-DATA-11](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-11) ANONYMITY: No real personal data in prototypes | Should | Any prototype uses made-up data |
-| [GR-DATA-10](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) RESEARCH: Manage research data safely | Should | Consent forms and privacy notice in use, recordings and notes stored only in approved places, and a deletion date set |
+| [GR-DATA-10](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) USER RESEARCH: Protect user data | Should | Consent forms and privacy notice in use, recordings and notes stored only in approved places, and a deletion date set |
 | [GR-DIG-01](https://greg-solomon-defra.github.io/architecture/guardrails/digital-first/#gr-dig-01) Challenge paper and manual processes | Should | Discovery findings showing paper, email and manual steps in the current process and how the new design removes or justifies each one |
 | [GR-FIELD-01](https://greg-solomon-defra.github.io/architecture/guardrails/field-working-and-devices/#gr-field-01) Choose devices that suit the job | Should | User research on the working environment, and the device choice recorded in an ADR |
 | [GR-FIELD-04](https://greg-solomon-defra.github.io/architecture/guardrails/field-working-and-devices/#gr-field-04) Check connectivity before you design | Could | Connectivity in the places the service will be used checked, and the approach recorded |
@@ -33,7 +33,7 @@ More on the [discovery page](https://greg-solomon-defra.github.io/architecture/d
 | --- | --- | --- |
 | [GR-AI-03](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-03) Keep a human accountable | Must | Design of the human oversight and challenge route for decisions with significant effects, tested with users in prototypes |
 | [GR-DATA-11](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-11) ANONYMITY: No real personal data in prototypes | Should | Prototypes and research materials use made-up data, including data a participant types in during a session |
-| [GR-DATA-10](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) RESEARCH: Manage research data safely | Should | The same for alpha research, with DPIA screening done for the research and any new research tool assessed |
+| [GR-DATA-10](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) USER RESEARCH: Protect user data | Should | The same for alpha research, with DPIA screening done for the research and any new research tool assessed |
 | [GR-DIG-01](https://greg-solomon-defra.github.io/architecture/guardrails/digital-first/#gr-dig-01) Challenge paper and manual processes | Should | Discovery findings showing paper, email and manual steps in the current process and how the new design removes or justifies each one |
 | [GR-DIG-03](https://greg-solomon-defra.github.io/architecture/guardrails/digital-first/#gr-dig-03) Provide assisted digital and offline routes | Should | Assisted digital and offline routes designed and tested with users who need them |
 | [GR-FIELD-01](https://greg-solomon-defra.github.io/architecture/guardrails/field-working-and-devices/#gr-field-01) Choose devices that suit the job | Should | User research on the working environment, and the device choice recorded in an ADR |
@@ -48,7 +48,7 @@ More on the [alpha page](https://greg-solomon-defra.github.io/architecture/deliv
 | --- | --- | --- |
 | [GR-AI-03](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-03) Keep a human accountable | Must | Human review and challenge built into the service and tested with users and staff |
 | [GR-DATA-11](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-11) ANONYMITY: No real personal data in prototypes | Should | Test and research environments use synthetic or anonymised data; any exception agreed through a DPIA |
-| [GR-DATA-10](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) RESEARCH: Manage research data safely | Should | Research data from earlier phases deleted on schedule, and the same controls for beta research |
+| [GR-DATA-10](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) USER RESEARCH: Protect user data | Should | Research data from earlier phases deleted on schedule, and the same controls for beta research |
 | [GR-DIG-03](https://greg-solomon-defra.github.io/architecture/guardrails/digital-first/#gr-dig-03) Provide assisted digital and offline routes | Should | Assisted digital and offline routes designed and tested with users who need them |
 | [GR-FE-05](https://greg-solomon-defra.github.io/architecture/guardrails/front-end-and-accessibility/#gr-fe-05) Design for low bandwidth and rural users | Should | Page weight budget, save-progress design and testing on slow connections |
 
@@ -59,7 +59,7 @@ More on the [beta page](https://greg-solomon-defra.github.io/architecture/delive
 | Guardrail | Level | What to show |
 | --- | --- | --- |
 | [GR-AI-03](https://greg-solomon-defra.github.io/architecture/guardrails/ai/#gr-ai-03) Keep a human accountable | Must | Records of human review, challenges raised and their outcomes, reviewed regularly |
-| [GR-DATA-10](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) RESEARCH: Manage research data safely | Should | Research data handled the same way for ongoing research, and deletion checked |
+| [GR-DATA-10](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10) USER RESEARCH: Protect user data | Should | Research data handled the same way for ongoing research, and deletion checked |
 | [GR-DIG-03](https://greg-solomon-defra.github.io/architecture/guardrails/digital-first/#gr-dig-03) Provide assisted digital and offline routes | Should | Assisted digital and offline routes designed and tested with users who need them |
 
 More on the [live page](https://greg-solomon-defra.github.io/architecture/deliver/live/).
