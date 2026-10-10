@@ -24,18 +24,22 @@ These guardrails are a **draft** proposal. Comment on them by [opening an issue]
 
 ## Overview
 
-These guardrails exist to help Defra to create, acquire, use and share <span style="color:#69C88F">trusted data</span> that will enable <span style="color:#69C88F">reliable delivery</span> of our <span style="color:#69C88F">essential services</span>, and to [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) usable data assets that will <span style="color:#69C88F">drive and measure</span> the achievement of our <span style="color:#69C88F">ambitious outcomes</span>.
+These guardrails exist to help Defra to create, acquire, use and share <span style="color:#69C88F">trusted data</span> that will enable <span style="color:#69C88F">reliable delivery</span> of our <span style="color:#69C88F">essential services</span>, and to build usable data assets that will <span style="color:#69C88F">drive and measure</span> the achievement of our <span style="color:#69C88F">ambitious outcomes</span>. They divide into three key areas:
 
-The guardrails focus on the following:
-
+#### 1. Defining scope
 * Use [CONTEXT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) and [OWNERSHIP](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) to align proposed data assets with Defra's enterprise data
 * Establish which [STANDARDS](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) the data will meet, and the levels of [QUALITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) it will achieve
+
+#### 2. Sourcing data
 * [RE-USE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) authoritative data sources, such as customers, organisations and land parcels
 * [SHARE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04) new and existing data by default, but classify and [PROTECT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) all sensitive data
-* Make data [LINEAGE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13) transparent so that data-driven decisions can be attributed to source
-* Enforce data [DISPOSAL](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09) in accordance with relevant legislation, policy and guidance
+* Keep data [LINEAGE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13) transparent so that data-driven decisions can be attributed to source
+
+#### 3. Delivering data assets
+* [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) data assets to add value to Defra's enterprise data
 * Protect [ANONYMITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-11) by avoiding the use of real personal data in non-production systems
 * Ensure data protection of all personal data gathered or received during [USER RESEARCH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10)
+* Enforce data [DISPOSAL](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09) in accordance with relevant legislation, policy and guidance
 
 <hr>
 
