@@ -24,7 +24,7 @@ These guardrails are a **draft** proposal. Comment on them by [opening an issue]
 
 ## Overview
 
-These guardrails exist to help teams to create, acquire, use and share <span style="color:#69C88F">TRUSTED DATA</span> that will enable reliable delivery of Defra's essential services, and to help them [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) usable data assets that will drive and measure the achievement of Defra's ambitious outcomes.
+These guardrails exist to help Defra to create, acquire, use and share <span style="color:#69C88F">trusted data</span> that will enable <span style="color:#69C88F">reliable delivery</span> of our <span style="color:#69C88F">essential services</span>, and to [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) usable data assets that will <span style="color:#69C88F">drive and measure</span> the achievement of our <span style="color:#69C88F">ambitious outcomes</span>.
 
 The guardrails focus on the following:
 
