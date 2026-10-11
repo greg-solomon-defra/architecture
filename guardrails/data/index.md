@@ -28,7 +28,7 @@ These guardrails exist to help Defra to create, acquire, use and share <span sty
 
 They divide into three key areas:
 
-**1. Defining and validating the scope of any proposed services or assets**
+**1. Defining and validating the scope of the proposed services and assets**
 
 * Use [CONTEXT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) and [OWNERSHIP](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) to align proposed data assets with Defra's enterprise data
 * Establish which [STANDARDS](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) the data will meet, and the levels of [QUALITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) it will achieve
@@ -39,7 +39,7 @@ They divide into three key areas:
 * [SHARE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04) new and existing data by default, but classify and [PROTECT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) all sensitive data
 * Keep data [LINEAGE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13) transparent so that data-driven decisions can be attributed to source
 
-**3. Delivering high-value data assets for Defra**
+**3. Delivering high-value data assets to drive and measure outcomes**
 
 * [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) data assets that add value to Defra's enterprise data estate
 * Protect [ANONYMITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-11) by avoiding the use of real personal data in non-production systems
