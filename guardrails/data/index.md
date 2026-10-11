@@ -24,7 +24,7 @@ These guardrails are a **draft** proposal. Comment on them by [opening an issue]
 
 ## Overview
 
-These guardrails exist to help Defra to create, acquire, use and share <span style="color:#69C88F">**trusted data**</span> that will enable <span style="color:#69C88F">**reliable delivery**</span> of our <span style="color:#69C88F">**essential services**</span>, and to define and build <span style="color:#69C88F">**usable data assets**</span> that will <span style="color:#69C88F">**drive and measure**</span> the achievement of our <span style="color:#69C88F">**ambitious outcomes**</span>. 
+The data guardrails exist to help Defra to create, acquire, use and share <span style="color:#69C88F">**trusted data**</span> that will enable <span style="color:#69C88F">**reliable delivery**</span> of our <span style="color:#69C88F">**essential services**</span>, and to define and build <span style="color:#69C88F">**usable data assets**</span> that will <span style="color:#69C88F">**drive and measure**</span> the achievement of our <span style="color:#69C88F">**ambitious outcomes**</span>. 
 
 They divide into three key areas:
 
