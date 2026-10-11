@@ -41,7 +41,7 @@ They divide into three key areas:
 
 **3. Delivering high-value data assets for Defra**
 
-* [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) data assets to add value to Defra's enterprise data estate
+* [PUBLISH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07) and [DESCRIBE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05) data assets that add value to Defra's enterprise data estate
 * Protect [ANONYMITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-11) by avoiding the use of real personal data in non-production systems
 * Ensure data protection of all personal data gathered or received during [USER RESEARCH](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10)
 * Enforce data [DISPOSAL](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09) in accordance with the relevant legislation, policy and guidance
