@@ -24,16 +24,16 @@ These guardrails are a **draft** proposal. Comment on them by [opening an issue]
 
 ## Overview
 
-These guardrails exist to help Defra to create, acquire, use and share <span style="color:#69C88F">**trusted data**</span> that will enable <span style="color:#69C88F">**reliable delivery**</span> of our <span style="color:#69C88F">**essential services**</span>, and to build <span style="color:#69C88F">**usable data assets**</span> that will <span style="color:#69C88F">**drive and measure**</span> the achievement of our <span style="color:#69C88F">**ambitious outcomes**</span>. 
+These guardrails exist to help Defra to create, acquire, use and share <span style="color:#69C88F">**trusted data**</span> that will enable <span style="color:#69C88F">**reliable delivery**</span> of our <span style="color:#69C88F">**essential services**</span>, and to define and build <span style="color:#69C88F">**usable data assets**</span> that will <span style="color:#69C88F">**drive and measure**</span> the achievement of our <span style="color:#69C88F">**ambitious outcomes**</span>. 
 
 They divide into three key areas:
 
-**1. Defining and validating your data scope**
+**1. Defining and validating the scope of any proposed services or assets**
 
 * Use [CONTEXT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) and [OWNERSHIP](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) to align proposed data assets with Defra's enterprise data
 * Establish which [STANDARDS](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) the data will meet, and the levels of [QUALITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) it will achieve
 
-**2. Sourcing the right data to deliver your service**
+**2. Sourcing the right data to deliver great services**
 
 * [RE-USE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) authoritative data sources, such as customers, organisations and land parcels
 * [SHARE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04) new and existing data by default, but classify and [PROTECT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) all sensitive data
