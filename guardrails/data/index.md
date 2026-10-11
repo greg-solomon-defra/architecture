@@ -28,12 +28,12 @@ These guardrails exist to help Defra to create, acquire, use and share <span sty
 
 They divide into three key areas:
 
-**1. Defining the scope**
+**1. Defining and validating your data scope**
 
 * Use [CONTEXT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12) and [OWNERSHIP](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01) to align proposed data assets with Defra's enterprise data
 * Establish which [STANDARDS](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03) the data will meet, and the levels of [QUALITY](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08) it will achieve
 
-**2. Sourcing the right data**
+**2. Sourcing the right data to deliver your service**
 
 * [RE-USE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02) authoritative data sources, such as customers, organisations and land parcels
 * [SHARE](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04) new and existing data by default, but classify and [PROTECT](https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06) all sensitive data
