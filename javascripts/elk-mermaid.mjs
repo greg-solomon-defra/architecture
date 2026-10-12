@@ -3,3 +3,4 @@ import elkLayouts from 'https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0.1.
 
 mermaid.registerLayoutLoaders(elkLayouts);
 window.mermaid = mermaid;
+

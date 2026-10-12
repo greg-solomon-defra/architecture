@@ -21,71 +21,87 @@ The relationships in the model are indicative examples. They are not intended to
 config:
   layout: elk
   elk:
+    forceNodeModelOrder: true
     considerModelOrder: NODES_AND_EDGES
 ---
 flowchart TB
-  accTitle: Defra on a page enterprise conceptual data model
-  accDescr: Enterprise conceptual entities and their relationships.
 
-  Control[Control]
+    %% Entity declarations: retain this order when editing.
 
-  Facility[Facility]
-  Asset[Asset]
-  Product[Product]
-  Agreement[Agreement]
+    Agreement["Agreement"]
 
-  Location[Location]
-  Party[Party]
-  Finance[Finance]
-  Document[Document]
+    Finance["Finance"]
+    Communication["Communication"]
 
-  Territory[Territory]
-  Address[Address]
-  Service[Service]
+    Product["Product"]
+    Event["Event"]
+    Facility["Facility"]
+    Control["Control"]
+    Case["Case"]
+    Time["Time"]
+    Party["Party"]
 
-  Event[Event]
-  Activity[Activity]
-  Request[Request]
-  Case[Case]
+    Territory["Territory"]
+    Asset["Asset"]
+    Activity["Activity"]
+    Address["Address"]
+    Request["Request"]
 
-  Time[Time]
-  Assessment[Assessment]
-  Communication[Communication]
+    Location["Location"]
+    Assessment["Assessment"]
+    Service["Service"]
+    Document["Document"]
 
-  Control ---|influences| Activity
-  Agreement ---|requires| Activity
-  Agreement ---|pricing| Finance
-  Document ---|recorded in| Agreement
+    %% Agreements and communication
 
-  Asset ---|located at| Location
-  Facility ---|uses| Asset
-  Facility ---|located at| Location
-  Facility ---|supports| Activity
-  Product ---|defines| Asset
+    Agreement ---|pricing| Finance
+    Agreement ---|requires| Activity
+    Agreement ---|enters| Party
+    Agreement ---|recorded in| Document
 
-  Party ---|responsible for| Activity
-  Party ---|contacted at| Address
-  Agreement ---|enters| Party
-  Party -->|makes| Request
-  Finance ---|relates to| Party
+    Finance ---|relates to| Party
 
-  Activity ---|happens at| Facility
-  Activity ---|results in| Event
-  Activity ---|produces| Assessment
-  Activity ---|recorded in| Document
-  Assessment ---|influences| Activity
+    Communication ---|between| Party
+    Communication ---|recorded in| Document
 
-  Communication ---|between| Party
-  Communication ---|recorded in| Document
-  Case ---|requires| Activity
+    %% Products, events and facilities
 
-  Request ---|for| Service
-  Service ---|provided by| Party
+    Product ---|defines| Asset
 
-  Territory ---|defines an area at| Location
-  Event ---|happens at| Location
-  Event ---|leads to| Activity
-  Time ---|relates to| Activity
+    Event ---|results in| Activity
+    Event ---|leads to| Activity
+    Event ---|happens at| Location
+
+    Facility ---|uses| Asset
+    Facility ---|supports| Activity
+    Facility ---|happens at| Activity
+    Facility ---|located at| Location
+
+    %% Activity context
+
+    Control ---|influences| Activity
+    Case ---|requires| Activity
+    Time ---|relates to| Activity
+
+    %% Parties
+
+    Party ---|responsible for| Activity
+    Party ---|contacted at| Address
+    Party ---|makes| Request
+    Party ---|provided by| Service
+
+    %% Geography and assets
+
+    Territory ---|defines an area at| Location
+    Asset ---|located at| Location
+
+    %% Activity outputs and requests
+
+    Activity ---|influences| Assessment
+    Activity ---|produces| Assessment
+    Activity ---|recorded in| Document
+
+    Request ---|for| Service
 ```
 
 The diagram is a simplified, accessible representation of the indicative relationships in the source model. Use the entity definitions below as the authoritative description of scope.
