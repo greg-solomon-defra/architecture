@@ -5677,58 +5677,75 @@
 <p>A conceptual data entity is a singular, identifiable and discrete object of significance to Defra about which information needs to be kept to support business operations. The entities are independent of platforms and implementation choices.</p>
 <p>The relationships in the model are indicative examples. They are not intended to be comprehensive. In principle, any entity may relate to any other entity. More detailed domain data models expand these relationships and show cardinality.</p>
 <h2 id="enterprise-conceptual-data-model">Enterprise conceptual data model<a class="headerlink" href="#enterprise-conceptual-data-model" title="Permanent link">&para;</a></h2>
-<pre class="mermaid"><code>flowchart TB
+<pre class="mermaid"><code>---
+config:
+  layout: elk
+  elk:
+    considerModelOrder: NODES_AND_EDGES
+---
+flowchart TB
   accTitle: Defra on a page enterprise conceptual data model
-  accDescr: High-level view of Defra's enterprise conceptual data entities and examples of how they relate.
+  accDescr: Enterprise conceptual entities and their relationships.
 
   Control[Control]
-  Agreement[Agreement]
-  Asset[Asset]
+
   Facility[Facility]
+  Asset[Asset]
+  Product[Product]
+  Agreement[Agreement]
+
   Location[Location]
   Party[Party]
   Finance[Finance]
   Document[Document]
-  Time[Time]
+
+  Territory[Territory]
+  Address[Address]
+  Service[Service]
+
+  Event[Event]
   Activity[Activity]
+  Request[Request]
+  Case[Case]
+
+  Time[Time]
   Assessment[Assessment]
   Communication[Communication]
-  Case[Case]
-  Address[Address]
-  Request[Request]
-  Service[Service]
-  Territory[Territory]
-  Event[Event]
-  Product[Product]
 
-  Control --&gt;|influences| Activity
-  Agreement --&gt;|requires| Activity
-  Agreement --&gt;|pricing| Finance
-  Agreement --&gt;|recorded in| Document
-  Asset --&gt;|located at| Location
-  Asset --&gt;|used by| Facility
-  Facility --&gt;|located at| Location
-  Facility --&gt;|supports| Activity
-  Party --&gt;|responsible for| Activity
-  Party --&gt;|contacted at| Address
-  Party --&gt;|enters| Agreement
+  Control ---|influences| Activity
+  Agreement ---|requires| Activity
+  Agreement ---|pricing| Finance
+  Document ---|recorded in| Agreement
+
+  Asset ---|located at| Location
+  Facility ---|uses| Asset
+  Facility ---|located at| Location
+  Facility ---|supports| Activity
+  Product ---|defines| Asset
+
+  Party ---|responsible for| Activity
+  Party ---|contacted at| Address
+  Agreement ---|enters| Party
   Party --&gt;|makes| Request
-  Activity --&gt;|happens at| Facility
-  Activity --&gt;|results in| Event
-  Activity --&gt;|produces| Assessment
-  Activity --&gt;|recorded in| Document
-  Assessment --&gt;|influences| Activity
-  Communication --&gt;|between| Party
-  Communication --&gt;|recorded in| Document
-  Case --&gt;|requires| Activity
-  Request --&gt;|for| Service
-  Service --&gt;|provided by| Party
-  Territory --&gt;|defines an area at| Location
-  Event --&gt;|happens at| Location
-  Event --&gt;|leads to| Activity
-  Product --&gt;|defines| Asset
-  Finance --&gt;|relates to| Party
-  Time --&gt;|relates to| Activity</code></pre>
+  Finance ---|relates to| Party
+
+  Activity ---|happens at| Facility
+  Activity ---|results in| Event
+  Activity ---|produces| Assessment
+  Activity ---|recorded in| Document
+  Assessment ---|influences| Activity
+
+  Communication ---|between| Party
+  Communication ---|recorded in| Document
+  Case ---|requires| Activity
+
+  Request ---|for| Service
+  Service ---|provided by| Party
+
+  Territory ---|defines an area at| Location
+  Event ---|happens at| Location
+  Event ---|leads to| Activity
+  Time ---|relates to| Activity</code></pre>
 <p>The diagram is a simplified, accessible representation of the indicative relationships in the source model. Use the entity definitions below as the authoritative description of scope.</p>
 <h2 id="conceptual-data-entities">Conceptual data entities<a class="headerlink" href="#conceptual-data-entities" title="Permanent link">&para;</a></h2>
 <h3 id="activity">Activity<a class="headerlink" href="#activity" title="Permanent link">&para;</a></h3>
@@ -5987,6 +6004,8 @@
       <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
         <script src="../../javascripts/site.js?v=54b154d6f2"></script>
+      
+        <script src="../../javascripts/elk-mermaid.mjs?v=95ff8c8963" type="module"></script>
       
     
   </body>
