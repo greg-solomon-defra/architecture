@@ -1255,106 +1255,6 @@
       "why": "Architecture questions raised at the end of a procurement are expensive to answer."
     },
     {
-      "id": "GR-DATA-07",
-      "title": "PUBLISH: Make your data open by default",
-      "level": "should",
-      "statement": "Publish non-personal, non-sensitive data as open data under the Open Government Licence, through the Defra Data Services Platform or data.gov.uk.",
-      "area": "Data",
-      "page": "guardrails/data.md",
-      "status": "draft",
-      "phases": [
-        "beta",
-        "live"
-      ],
-      "evidence": "Link to the published open data and its licence",
-      "lead_roles": [
-        "data-architect",
-        "product-manager"
-      ],
-      "evidence_by_phase": {},
-      "automated_check": "manual",
-      "service_standard_points": [],
-      "tcop_points": [
-        10
-      ],
-      "sbd_principles": [],
-      "doctrine": [
-        "ddts-04",
-        "ddts-05"
-      ],
-      "owner": "Enterprise data architecture",
-      "last_reviewed": "2026-10-01",
-      "since_version": "0.1.0",
-      "replaced_by": null,
-      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07"
-    },
-    {
-      "id": "GR-DATA-05",
-      "title": "DESCRIBE: Explain your data to users",
-      "level": "should",
-      "statement": "Publish metadata for data sets so they can be found and understood - UK GEMINI for geospatial data and DCAT for other data sets.",
-      "area": "Data",
-      "page": "guardrails/data.md",
-      "status": "draft",
-      "phases": [
-        "beta",
-        "live"
-      ],
-      "evidence": "Published metadata records in UK GEMINI or DCAT",
-      "lead_roles": [
-        "data-architect"
-      ],
-      "evidence_by_phase": {},
-      "automated_check": "manual",
-      "service_standard_points": [],
-      "tcop_points": [
-        10
-      ],
-      "sbd_principles": [],
-      "doctrine": [
-        "ddts-04",
-        "ddts-05"
-      ],
-      "owner": "Enterprise data architecture",
-      "last_reviewed": "2026-10-01",
-      "since_version": "0.1.0",
-      "replaced_by": null,
-      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05"
-    },
-    {
-      "id": "GR-DATA-12",
-      "title": "CONTEXT: Align with the enterprise data model",
-      "level": "should",
-      "statement": "Design should begin with the enterprise data model, to ensure that an enterprise view of stakeholders, IT systems, and data designs is taken into sufficient consideration.",
-      "area": "Data",
-      "page": "guardrails/data.md",
-      "status": "draft",
-      "phases": [
-        "discovery",
-        "alpha",
-        "beta",
-        "live"
-      ],
-      "evidence": "Data model which complies with the data modelling standards",
-      "lead_roles": [
-        "data-architect"
-      ],
-      "evidence_by_phase": {},
-      "automated_check": "manual",
-      "service_standard_points": [],
-      "tcop_points": [],
-      "sbd_principles": [],
-      "doctrine": [
-        "ddts-04",
-        "ddts-05"
-      ],
-      "owner": "Enterprise data architecture",
-      "last_reviewed": "2026-10-01",
-      "since_version": "0.1.0",
-      "replaced_by": null,
-      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12"
-    },
-    {
       "id": "GR-DATA-01",
       "title": "OWNERSHIP: Assign each data asset to an accountable owner",
       "level": "should",
@@ -1393,79 +1293,6 @@
       "since_version": "0.1.0",
       "replaced_by": null,
       "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-01"
-    },
-    {
-      "id": "GR-DATA-03",
-      "title": "STANDARDS: Use data standards and identifiers",
-      "level": "should",
-      "statement": "Use the data standards for dates, addresses, locations, identifiers and code lists, so data can be joined across services.",
-      "area": "Data",
-      "page": "guardrails/data.md",
-      "status": "draft",
-      "phases": [
-        "alpha",
-        "beta"
-      ],
-      "evidence": "Data model that uses the agreed data standards and identifiers",
-      "lead_roles": [
-        "data-architect"
-      ],
-      "evidence_by_phase": {
-        "alpha": "Data model using the agreed data standards and identifiers",
-        "beta": "Data stored and exchanged using the agreed standards, checked in testing"
-      },
-      "automated_check": "manual",
-      "service_standard_points": [
-        13
-      ],
-      "tcop_points": [
-        4,
-        10
-      ],
-      "sbd_principles": [],
-      "doctrine": [
-        "ddts-04",
-        "ddts-05"
-      ],
-      "owner": "Enterprise data architecture",
-      "last_reviewed": "2026-10-01",
-      "since_version": "0.1.0",
-      "replaced_by": null,
-      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03"
-    },
-    {
-      "id": "GR-DATA-08",
-      "title": "QUALITY: Define, measure & manage data quality",
-      "level": "should",
-      "statement": "Define, measure and report data quality using the Government Data Quality Framework, especially for data that feeds payments, regulatory decisions or official statistics.",
-      "area": "Data",
-      "page": "guardrails/data.md",
-      "status": "draft",
-      "phases": [
-        "beta",
-        "live"
-      ],
-      "evidence": "Data quality measures and regular reports",
-      "lead_roles": [
-        "data-architect",
-        "performance-analyst"
-      ],
-      "evidence_by_phase": {},
-      "automated_check": "manual",
-      "service_standard_points": [],
-      "tcop_points": [
-        10
-      ],
-      "sbd_principles": [],
-      "doctrine": [
-        "ddts-04",
-        "ddts-05"
-      ],
-      "owner": "Enterprise data architecture",
-      "last_reviewed": "2026-10-01",
-      "since_version": "0.1.0",
-      "replaced_by": null,
-      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08"
     },
     {
       "id": "GR-DATA-02",
@@ -1508,6 +1335,45 @@
       "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-02"
     },
     {
+      "id": "GR-DATA-03",
+      "title": "STANDARDS: Use data standards and identifiers",
+      "level": "should",
+      "statement": "Use the data standards for dates, addresses, locations, identifiers and code lists, so data can be joined across services.",
+      "area": "Data",
+      "page": "guardrails/data.md",
+      "status": "draft",
+      "phases": [
+        "alpha",
+        "beta"
+      ],
+      "evidence": "Data model that uses the agreed data standards and identifiers",
+      "lead_roles": [
+        "data-architect"
+      ],
+      "evidence_by_phase": {
+        "alpha": "Data model using the agreed data standards and identifiers",
+        "beta": "Data stored and exchanged using the agreed standards, checked in testing"
+      },
+      "automated_check": "manual",
+      "service_standard_points": [
+        13
+      ],
+      "tcop_points": [
+        4,
+        10
+      ],
+      "sbd_principles": [],
+      "doctrine": [
+        "ddts-04",
+        "ddts-05"
+      ],
+      "owner": "Enterprise data architecture",
+      "last_reviewed": "2026-10-01",
+      "since_version": "0.1.0",
+      "replaced_by": null,
+      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-03"
+    },
+    {
       "id": "GR-DATA-04",
       "title": "SHARE: Collect once, share safely",
       "level": "should",
@@ -1540,6 +1406,39 @@
       "since_version": "0.1.0",
       "replaced_by": null,
       "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-04"
+    },
+    {
+      "id": "GR-DATA-05",
+      "title": "DESCRIBE: Explain your data to users",
+      "level": "should",
+      "statement": "Publish metadata for data sets so they can be found and understood - UK GEMINI for geospatial data and DCAT for other data sets.",
+      "area": "Data",
+      "page": "guardrails/data.md",
+      "status": "draft",
+      "phases": [
+        "beta",
+        "live"
+      ],
+      "evidence": "Published metadata records in UK GEMINI or DCAT",
+      "lead_roles": [
+        "data-architect"
+      ],
+      "evidence_by_phase": {},
+      "automated_check": "manual",
+      "service_standard_points": [],
+      "tcop_points": [
+        10
+      ],
+      "sbd_principles": [],
+      "doctrine": [
+        "ddts-04",
+        "ddts-05"
+      ],
+      "owner": "Enterprise data architecture",
+      "last_reviewed": "2026-10-01",
+      "since_version": "0.1.0",
+      "replaced_by": null,
+      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-05"
     },
     {
       "id": "GR-DATA-06",
@@ -1587,27 +1486,23 @@
       "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-06"
     },
     {
-      "id": "GR-DATA-13",
-      "title": "LINEAGE: Trace decisions to trusted data",
+      "id": "GR-DATA-07",
+      "title": "PUBLISH: Make your data open by default",
       "level": "should",
-      "statement": "Record where the data behind each decision comes from, how it was transformed and which rules or models were applied, so any decision can be traced back to trusted sources.",
+      "statement": "Publish non-personal, non-sensitive data as open data under the Open Government Licence, through the Defra Data Services Platform or data.gov.uk.",
       "area": "Data",
       "page": "guardrails/data.md",
       "status": "draft",
       "phases": [
-        "alpha",
         "beta",
         "live"
       ],
-      "evidence": "Lineage records showing the source data, transformations and versions behind each decision the service makes or supports",
+      "evidence": "Link to the published open data and its licence",
       "lead_roles": [
-        "data-architect"
+        "data-architect",
+        "product-manager"
       ],
-      "evidence_by_phase": {
-        "alpha": "Decisions the service makes or supports identified, with the data each one depends on and its authoritative source",
-        "beta": "Lineage captured automatically from source to decision, including transformations, rules and model versions",
-        "live": "Lineage kept current when sources, rules or models change, and used to explain or reproduce past decisions"
-      },
+      "evidence_by_phase": {},
       "automated_check": "manual",
       "service_standard_points": [],
       "tcop_points": [
@@ -1620,9 +1515,43 @@
       ],
       "owner": "Enterprise data architecture",
       "last_reviewed": "2026-10-01",
-      "since_version": "0.4.0",
+      "since_version": "0.1.0",
       "replaced_by": null,
-      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13"
+      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-07"
+    },
+    {
+      "id": "GR-DATA-08",
+      "title": "QUALITY: Define, measure & manage data quality",
+      "level": "should",
+      "statement": "Define, measure and report data quality using the Government Data Quality Framework, especially for data that feeds payments, regulatory decisions or official statistics.",
+      "area": "Data",
+      "page": "guardrails/data.md",
+      "status": "draft",
+      "phases": [
+        "beta",
+        "live"
+      ],
+      "evidence": "Data quality measures and regular reports",
+      "lead_roles": [
+        "data-architect",
+        "performance-analyst"
+      ],
+      "evidence_by_phase": {},
+      "automated_check": "manual",
+      "service_standard_points": [],
+      "tcop_points": [
+        10
+      ],
+      "sbd_principles": [],
+      "doctrine": [
+        "ddts-04",
+        "ddts-05"
+      ],
+      "owner": "Enterprise data architecture",
+      "last_reviewed": "2026-10-01",
+      "since_version": "0.1.0",
+      "replaced_by": null,
+      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-08"
     },
     {
       "id": "GR-DATA-09",
@@ -1658,6 +1587,44 @@
       "since_version": "0.1.0",
       "replaced_by": null,
       "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-09"
+    },
+    {
+      "id": "GR-DATA-10",
+      "title": "USER RESEARCH: Protect user data",
+      "level": "should",
+      "statement": "Collect research data only with informed consent, store recordings and notes only in Defra-approved places, delete them when they are no longer needed, use only Defra-approved research tools, and screen research for a DPIA.",
+      "area": "Data",
+      "page": "guardrails/data.md",
+      "status": "draft",
+      "phases": [
+        "discovery",
+        "alpha",
+        "beta",
+        "live"
+      ],
+      "evidence": "Research plan showing consent, where recordings and notes are stored, when they are deleted, the approved tools used and DPIA screening",
+      "lead_roles": [
+        "user-researcher"
+      ],
+      "evidence_by_phase": {
+        "discovery": "Consent forms and privacy notice in use, recordings and notes stored only in approved places, and a deletion date set",
+        "alpha": "The same for alpha research, with DPIA screening done for the research and any new research tool assessed",
+        "beta": "Research data from earlier phases deleted on schedule, and the same controls for beta research",
+        "live": "Research data handled the same way for ongoing research, and deletion checked"
+      },
+      "automated_check": "manual",
+      "service_standard_points": [],
+      "tcop_points": [],
+      "sbd_principles": [],
+      "doctrine": [
+        "ddts-04",
+        "ddts-05"
+      ],
+      "owner": "Enterprise data architecture",
+      "last_reviewed": "2026-10-01",
+      "since_version": "0.3.0",
+      "replaced_by": null,
+      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10"
     },
     {
       "id": "GR-DATA-11",
@@ -1698,10 +1665,10 @@
       "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-11"
     },
     {
-      "id": "GR-DATA-10",
-      "title": "USER RESEARCH: Protect user data",
+      "id": "GR-DATA-12",
+      "title": "CONTEXT: Align with the enterprise data model",
       "level": "should",
-      "statement": "Collect research data only with informed consent, store recordings and notes only in Defra-approved places, delete them when they are no longer needed, use only Defra-approved research tools, and screen research for a DPIA.",
+      "statement": "Design should begin with the enterprise data model, to ensure that an enterprise view of stakeholders, IT systems, and data designs is taken into sufficient consideration.",
       "area": "Data",
       "page": "guardrails/data.md",
       "status": "draft",
@@ -1711,16 +1678,11 @@
         "beta",
         "live"
       ],
-      "evidence": "Research plan showing consent, where recordings and notes are stored, when they are deleted, the approved tools used and DPIA screening",
+      "evidence": "Data model which complies with the data modelling standards",
       "lead_roles": [
-        "user-researcher"
+        "data-architect"
       ],
-      "evidence_by_phase": {
-        "discovery": "Consent forms and privacy notice in use, recordings and notes stored only in approved places, and a deletion date set",
-        "alpha": "The same for alpha research, with DPIA screening done for the research and any new research tool assessed",
-        "beta": "Research data from earlier phases deleted on schedule, and the same controls for beta research",
-        "live": "Research data handled the same way for ongoing research, and deletion checked"
-      },
+      "evidence_by_phase": {},
       "automated_check": "manual",
       "service_standard_points": [],
       "tcop_points": [],
@@ -1731,9 +1693,47 @@
       ],
       "owner": "Enterprise data architecture",
       "last_reviewed": "2026-10-01",
-      "since_version": "0.3.0",
+      "since_version": "0.1.0",
       "replaced_by": null,
-      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-10"
+      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-12"
+    },
+    {
+      "id": "GR-DATA-13",
+      "title": "LINEAGE: Trace decisions to trusted data",
+      "level": "should",
+      "statement": "Record where the data behind each decision comes from, how it was transformed and which rules or models were applied, so any decision can be traced back to trusted sources.",
+      "area": "Data",
+      "page": "guardrails/data.md",
+      "status": "draft",
+      "phases": [
+        "alpha",
+        "beta",
+        "live"
+      ],
+      "evidence": "Lineage records showing the source data, transformations and versions behind each decision the service makes or supports",
+      "lead_roles": [
+        "data-architect"
+      ],
+      "evidence_by_phase": {
+        "alpha": "Decisions the service makes or supports identified, with the data each one depends on and its authoritative source",
+        "beta": "Lineage captured automatically from source to decision, including transformations, rules and model versions",
+        "live": "Lineage kept current when sources, rules or models change, and used to explain or reproduce past decisions"
+      },
+      "automated_check": "manual",
+      "service_standard_points": [],
+      "tcop_points": [
+        10
+      ],
+      "sbd_principles": [],
+      "doctrine": [
+        "ddts-04",
+        "ddts-05"
+      ],
+      "owner": "Enterprise data architecture",
+      "last_reviewed": "2026-10-01",
+      "since_version": "0.4.0",
+      "replaced_by": null,
+      "url": "https://greg-solomon-defra.github.io/architecture/guardrails/data/#gr-data-13"
     },
     {
       "id": "GR-DIG-01",

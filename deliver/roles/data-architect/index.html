@@ -5346,14 +5346,14 @@
 <td>Security classification and the types of data the service will handle identified</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-12">GR-DATA-12</a> CONTEXT: Align with the enterprise data model</td>
-<td>Should</td>
-<td>Data model which complies with the data modelling standards</td>
-</tr>
-<tr>
 <td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
 <td>Should</td>
 <td>Shared entities the service needs identified, with their authoritative sources</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-12">GR-DATA-12</a> CONTEXT: Align with the enterprise data model</td>
+<td>Should</td>
+<td>Data model which complies with the data modelling standards</td>
 </tr>
 </tbody>
 </table>
@@ -5384,14 +5384,14 @@
 <td>Evaluation plan for accuracy, bias and safety, and AI-specific threats in the threat model</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-12">GR-DATA-12</a> CONTEXT: Align with the enterprise data model</td>
-<td>Should</td>
-<td>Data model which complies with the data modelling standards</td>
-</tr>
-<tr>
 <td><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> OWNERSHIP: Assign each data asset to an accountable owner</td>
 <td>Should</td>
 <td>Each data set the service will create or hold identified, with a proposed information asset owner</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
+<td>Should</td>
+<td>Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed</td>
 </tr>
 <tr>
 <td><a href="../../../guardrails/data/#gr-data-03">GR-DATA-03</a> STANDARDS: Use data standards and identifiers</td>
@@ -5399,9 +5399,9 @@
 <td>Data model using the agreed data standards and identifiers</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
+<td><a href="../../../guardrails/data/#gr-data-12">GR-DATA-12</a> CONTEXT: Align with the enterprise data model</td>
 <td>Should</td>
-<td>Data flow diagram naming the authoritative source for each shared entity, and how any copies are refreshed</td>
+<td>Data model which complies with the data modelling standards</td>
 </tr>
 <tr>
 <td><a href="../../../guardrails/data/#gr-data-13">GR-DATA-13</a> LINEAGE: Trace decisions to trusted data</td>
@@ -5437,24 +5437,14 @@
 <td>Evaluation results for accuracy, bias and safety before release, and mitigations for AI threats tested</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-07">GR-DATA-07</a> PUBLISH: Make your data open by default</td>
-<td>Should</td>
-<td>Link to the published open data and its licence</td>
-</tr>
-<tr>
-<td><a href="../../../guardrails/data/#gr-data-05">GR-DATA-05</a> DESCRIBE: Explain your data to users</td>
-<td>Should</td>
-<td>Published metadata records in UK GEMINI or DCAT</td>
-</tr>
-<tr>
-<td><a href="../../../guardrails/data/#gr-data-12">GR-DATA-12</a> CONTEXT: Align with the enterprise data model</td>
-<td>Should</td>
-<td>Data model which complies with the data modelling standards</td>
-</tr>
-<tr>
 <td><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> OWNERSHIP: Assign each data asset to an accountable owner</td>
 <td>Should</td>
 <td>Information asset register entries with a named owner for each data set</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
+<td>Should</td>
+<td>The service reads from the authoritative sources as designed, tested with the source owners</td>
 </tr>
 <tr>
 <td><a href="../../../guardrails/data/#gr-data-03">GR-DATA-03</a> STANDARDS: Use data standards and identifiers</td>
@@ -5462,14 +5452,24 @@
 <td>Data stored and exchanged using the agreed standards, checked in testing</td>
 </tr>
 <tr>
+<td><a href="../../../guardrails/data/#gr-data-05">GR-DATA-05</a> DESCRIBE: Explain your data to users</td>
+<td>Should</td>
+<td>Published metadata records in UK GEMINI or DCAT</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-07">GR-DATA-07</a> PUBLISH: Make your data open by default</td>
+<td>Should</td>
+<td>Link to the published open data and its licence</td>
+</tr>
+<tr>
 <td><a href="../../../guardrails/data/#gr-data-08">GR-DATA-08</a> QUALITY: Define, measure &amp; manage data quality</td>
 <td>Should</td>
 <td>Data quality measures and regular reports</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
+<td><a href="../../../guardrails/data/#gr-data-12">GR-DATA-12</a> CONTEXT: Align with the enterprise data model</td>
 <td>Should</td>
-<td>The service reads from the authoritative sources as designed, tested with the source owners</td>
+<td>Data model which complies with the data modelling standards</td>
 </tr>
 <tr>
 <td><a href="../../../guardrails/data/#gr-data-13">GR-DATA-13</a> LINEAGE: Trace decisions to trusted data</td>
@@ -5505,9 +5505,14 @@
 <td>Monitoring of model performance and drift in live, with evaluation repeated when the model or data changes</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-07">GR-DATA-07</a> PUBLISH: Make your data open by default</td>
+<td><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> OWNERSHIP: Assign each data asset to an accountable owner</td>
 <td>Should</td>
-<td>Link to the published open data and its licence</td>
+<td>Register entries and owners kept current</td>
+</tr>
+<tr>
+<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
+<td>Should</td>
+<td>Copies and refresh arrangements reviewed when sources change</td>
 </tr>
 <tr>
 <td><a href="../../../guardrails/data/#gr-data-05">GR-DATA-05</a> DESCRIBE: Explain your data to users</td>
@@ -5515,14 +5520,9 @@
 <td>Published metadata records in UK GEMINI or DCAT</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-12">GR-DATA-12</a> CONTEXT: Align with the enterprise data model</td>
+<td><a href="../../../guardrails/data/#gr-data-07">GR-DATA-07</a> PUBLISH: Make your data open by default</td>
 <td>Should</td>
-<td>Data model which complies with the data modelling standards</td>
-</tr>
-<tr>
-<td><a href="../../../guardrails/data/#gr-data-01">GR-DATA-01</a> OWNERSHIP: Assign each data asset to an accountable owner</td>
-<td>Should</td>
-<td>Register entries and owners kept current</td>
+<td>Link to the published open data and its licence</td>
 </tr>
 <tr>
 <td><a href="../../../guardrails/data/#gr-data-08">GR-DATA-08</a> QUALITY: Define, measure &amp; manage data quality</td>
@@ -5530,9 +5530,9 @@
 <td>Data quality measures and regular reports</td>
 </tr>
 <tr>
-<td><a href="../../../guardrails/data/#gr-data-02">GR-DATA-02</a> DATA RE-USE: Use authoritative data sources</td>
+<td><a href="../../../guardrails/data/#gr-data-12">GR-DATA-12</a> CONTEXT: Align with the enterprise data model</td>
 <td>Should</td>
-<td>Copies and refresh arrangements reviewed when sources change</td>
+<td>Data model which complies with the data modelling standards</td>
 </tr>
 <tr>
 <td><a href="../../../guardrails/data/#gr-data-13">GR-DATA-13</a> LINEAGE: Trace decisions to trusted data</td>
