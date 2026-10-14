@@ -243,32 +243,11 @@ Examples include:
 
 A point in time measured in the context of day, week, month and year. Where a time of day is recorded, use the 24-hour clock and the ISO 8601 format `T[hh]:[mm]:[ss]`. Consult ISO 8601 where more complex time or elapsed-time representations are needed.
 
-## Relationship notation
-
-Detailed domain models use UML multiplicity notation to show how many instances of one entity may relate to an instance of another:
-
-- `0..*` means zero to many
-- `1..*` means one to many
-- `1..1` means exactly one
-- `0..1` means zero or one
-
-For example, a customer may be sent zero to many invoices, while each invoice must be sent to exactly one customer.
-
-```mermaid
-classDiagram
-  accTitle: Customer and invoice relationship example
-  accDescr: Demonstrates UML cardinality notation where a customer may be sent zero to many invoices and each invoice is sent to exactly one customer.
-
-  class Customer
-  class Invoice
-  Customer "1" --> "0..*" Invoice : is sent
-```
-
 ## Using Defra on a page
 
 Use this model to:
 
-- establish a common vocabulary across Defra
+- establish common vocabularies across Defra
 - identify the enterprise concepts relevant to a service or domain
 - provide a starting point for domain conceptual and logical data models
 - make relationships between business concepts explicit

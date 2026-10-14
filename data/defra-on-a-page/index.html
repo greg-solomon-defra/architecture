@@ -4477,17 +4477,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#relationship-notation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Relationship notation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#using-defra-on-a-page" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -5612,17 +5601,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#relationship-notation" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Relationship notation
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#using-defra-on-a-page" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -5852,26 +5830,10 @@ flowchart TB
 </ul>
 <h3 id="time">Time<a class="headerlink" href="#time" title="Permanent link">&para;</a></h3>
 <p>A point in time measured in the context of day, week, month and year. Where a time of day is recorded, use the 24-hour clock and the ISO 8601 format <code>T[hh]:[mm]:[ss]</code>. Consult ISO 8601 where more complex time or elapsed-time representations are needed.</p>
-<h2 id="relationship-notation">Relationship notation<a class="headerlink" href="#relationship-notation" title="Permanent link">&para;</a></h2>
-<p>Detailed domain models use UML multiplicity notation to show how many instances of one entity may relate to an instance of another:</p>
-<ul>
-<li><code>0..*</code> means zero to many</li>
-<li><code>1..*</code> means one to many</li>
-<li><code>1..1</code> means exactly one</li>
-<li><code>0..1</code> means zero or one</li>
-</ul>
-<p>For example, a customer may be sent zero to many invoices, while each invoice must be sent to exactly one customer.</p>
-<pre class="mermaid"><code>classDiagram
-  accTitle: Customer and invoice relationship example
-  accDescr: Demonstrates UML cardinality notation where a customer may be sent zero to many invoices and each invoice is sent to exactly one customer.
-
-  class Customer
-  class Invoice
-  Customer "1" --&gt; "0..*" Invoice : is sent</code></pre>
 <h2 id="using-defra-on-a-page">Using Defra on a page<a class="headerlink" href="#using-defra-on-a-page" title="Permanent link">&para;</a></h2>
 <p>Use this model to:</p>
 <ul>
-<li>establish a common vocabulary across Defra</li>
+<li>establish common vocabularies across Defra</li>
 <li>identify the enterprise concepts relevant to a service or domain</li>
 <li>provide a starting point for domain conceptual and logical data models</li>
 <li>make relationships between business concepts explicit</li>
