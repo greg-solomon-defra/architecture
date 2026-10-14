@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#defra-on-a-page" class="md-skip">
+        <a href="#overview" class="md-skip">
           Skip to content
         </a>
       
@@ -4229,10 +4229,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#about-the-model" class="md-nav__link">
+  <a href="#using-defra-on-a-page" class="md-nav__link">
     <span class="md-ellipsis">
       
-        About the model
+        Using Defra on a Page
       
     </span>
   </a>
@@ -4240,10 +4240,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#enterprise-conceptual-data-model" class="md-nav__link">
+  <a href="#source-and-status" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Enterprise conceptual data model
+        Source and status
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defra-on-a-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defra on a Page
       
     </span>
   </a>
@@ -4473,28 +4484,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#using-defra-on-a-page" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Using Defra on a page
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#source-and-status" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Source and status
-      
-    </span>
-  </a>
   
 </li>
       
@@ -5353,10 +5342,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#about-the-model" class="md-nav__link">
+  <a href="#using-defra-on-a-page" class="md-nav__link">
     <span class="md-ellipsis">
       
-        About the model
+        Using Defra on a Page
       
     </span>
   </a>
@@ -5364,10 +5353,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#enterprise-conceptual-data-model" class="md-nav__link">
+  <a href="#source-and-status" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Enterprise conceptual data model
+        Source and status
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#defra-on-a-page" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defra on a Page
       
     </span>
   </a>
@@ -5600,28 +5600,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#using-defra-on-a-page" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Using Defra on a page
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#source-and-status" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Source and status
-      
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -5647,13 +5625,23 @@
   
 
 
-<h1 id="defra-on-a-page">Defra on a page<a class="headerlink" href="#defra-on-a-page" title="Permanent link">&para;</a></h1>
+<h1 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h1>
 <p>Defra on a page (DoaP) is a <span style="color:#69C88F"><strong>high-level conceptual data model</strong></span> showing the enterprise conceptual data entities that underpin Defra's business data concepts.</p>
 <p>It is important to think of this diagram as <span style="color:#69C88F"><strong>"the cookie cutter, rather than the cookie"</strong></span>. </p>
 <p>Much of our physical data architecture has resemblances to this diagram, but different entities and terminology will be used in many cases. One way to use the diagram is as an enabler of <span style="color:#69C88F"><strong>common understanding</strong></span> of similarities and differences.</p>
-<h2 id="about-the-model">About the model<a class="headerlink" href="#about-the-model" title="Permanent link">&para;</a></h2>
-<p>A conceptual data model shows conceptual data entities and their relationships. It is the most abstract form of data model and is intended to enable clearer communications with business stakeholders.</p>
-<h2 id="enterprise-conceptual-data-model">Enterprise conceptual data model<a class="headerlink" href="#enterprise-conceptual-data-model" title="Permanent link">&para;</a></h2>
+<h2 id="using-defra-on-a-page">Using Defra on a Page<a class="headerlink" href="#using-defra-on-a-page" title="Permanent link">&para;</a></h2>
+<p>Use this model to:</p>
+<ul>
+<li>establish common vocabularies across Defra</li>
+<li>identify the enterprise concepts relevant to a service or domain</li>
+<li>provide a starting point for domain conceptual and logical data models</li>
+<li>make relationships between business concepts explicit</li>
+<li>avoid embedding platform or implementation choices too early</li>
+</ul>
+<p>When developing a more detailed model, retain these enterprise concepts where they apply, add domain-specific concepts and relationships, and show cardinality at the appropriate level of detail.</p>
+<h2 id="source-and-status">Source and status<a class="headerlink" href="#source-and-status" title="Permanent link">&para;</a></h2>
+<p>This page is a web representation of <em>Defra on a Page (DoaP)</em>, document version 1.1, updated 15 March 2023. The document describes the package status as proposed. The source PDF remains available on <a href="https://defra.sharepoint.com/:b:/r/teams/Team3221/Published%20Architecture%20Documents/Data%20Architecture/Defra%20on%20a%20Page%20-%20(DoaP).pdf?d=wd6f38d7f0519422b8d1eea2c2bb3a645&amp;csf=1&amp;web=1&amp;e=zG82TF">Defra SharePoint - Defra on a Page</a>.</p>
+<h2 id="defra-on-a-page">Defra on a Page<a class="headerlink" href="#defra-on-a-page" title="Permanent link">&para;</a></h2>
 <pre class="mermaid"><code>---
 config:
   layout: elk
@@ -5739,7 +5727,7 @@ flowchart TB
     Activity ---|recorded in| Document
 
     Request ---|for| Service</code></pre>
-<p>The diagram is a simplified, accessible representation of the indicative relationships in the source model. Use the entity definitions below as the authoritative description of scope.</p>
+<p>This diagram is a simplified, accessible representation of the source model. </p>
 <h2 id="conceptual-data-entities">Conceptual data entities<a class="headerlink" href="#conceptual-data-entities" title="Permanent link">&para;</a></h2>
 <h3 id="activity">Activity<a class="headerlink" href="#activity" title="Permanent link">&para;</a></h3>
 <p>A deliberate action carried out by a party, or by an automaton acting on behalf of a party. An activity may have happened in the past or be planned for the future.</p>
@@ -5830,18 +5818,6 @@ flowchart TB
 </ul>
 <h3 id="time">Time<a class="headerlink" href="#time" title="Permanent link">&para;</a></h3>
 <p>A point in time measured in the context of day, week, month and year. Where a time of day is recorded, use the 24-hour clock and the ISO 8601 format <code>T[hh]:[mm]:[ss]</code>. Consult ISO 8601 where more complex time or elapsed-time representations are needed.</p>
-<h2 id="using-defra-on-a-page">Using Defra on a page<a class="headerlink" href="#using-defra-on-a-page" title="Permanent link">&para;</a></h2>
-<p>Use this model to:</p>
-<ul>
-<li>establish common vocabularies across Defra</li>
-<li>identify the enterprise concepts relevant to a service or domain</li>
-<li>provide a starting point for domain conceptual and logical data models</li>
-<li>make relationships between business concepts explicit</li>
-<li>avoid embedding platform or implementation choices too early</li>
-</ul>
-<p>When developing a more detailed model, retain these enterprise concepts where they apply, add domain-specific concepts and relationships, and show cardinality at the appropriate level of detail.</p>
-<h2 id="source-and-status">Source and status<a class="headerlink" href="#source-and-status" title="Permanent link">&para;</a></h2>
-<p>This page is a web representation of <em>Defra on a Page (DoaP)</em>, document version 1.1, updated 15 March 2023. The document describes the package status as proposed. The source PDF remains available on <a href="https://defra.sharepoint.com/:b:/r/teams/Team3221/Published%20Architecture%20Documents/Data%20Architecture/Defra%20on%20a%20Page%20-%20(DoaP).pdf?d=wd6f38d7f0519422b8d1eea2c2bb3a645&amp;csf=1&amp;web=1&amp;e=zG82TF">Defra SharePoint</a>.</p>
 
 
 

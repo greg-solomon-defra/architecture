@@ -1,6 +1,6 @@
 <!-- https://greg-solomon-defra.github.io/architecture/data/defra-on-a-page/ | maturity: published | site version 0.3.0 | generated from data/defra-on-a-page.md -->
 
-# Defra on a page
+# Overview
 
 Defra on a page (DoaP) is a <span style="color:#69C88F">**high-level conceptual data model**</span> showing the enterprise conceptual data entities that underpin Defra's business data concepts.
 
@@ -8,11 +8,23 @@ It is important to think of this diagram as <span style="color:#69C88F">**"the c
 
 Much of our physical data architecture has resemblances to this diagram, but different entities and terminology will be used in many cases. One way to use the diagram is as an enabler of <span style="color:#69C88F">**common understanding**</span> of similarities and differences.
 
-## About the model
+## Using Defra on a Page
 
-A conceptual data model shows conceptual data entities and their relationships. It is the most abstract form of data model and is intended to enable clearer communications with business stakeholders.
+Use this model to:
 
-## Enterprise conceptual data model
+- establish common vocabularies across Defra
+- identify the enterprise concepts relevant to a service or domain
+- provide a starting point for domain conceptual and logical data models
+- make relationships between business concepts explicit
+- avoid embedding platform or implementation choices too early
+
+When developing a more detailed model, retain these enterprise concepts where they apply, add domain-specific concepts and relationships, and show cardinality at the appropriate level of detail.
+
+## Source and status
+
+This page is a web representation of *Defra on a Page (DoaP)*, document version 1.1, updated 15 March 2023. The document describes the package status as proposed. The source PDF remains available on [Defra SharePoint - Defra on a Page](https://defra.sharepoint.com/:b:/r/teams/Team3221/Published%20Architecture%20Documents/Data%20Architecture/Defra%20on%20a%20Page%20-%20(DoaP).pdf?d=wd6f38d7f0519422b8d1eea2c2bb3a645&csf=1&web=1&e=zG82TF).
+
+## Defra on a Page
 
 ```mermaid
 ---
@@ -102,7 +114,7 @@ flowchart TB
     Request ---|for| Service
 ```
 
-The diagram is a simplified, accessible representation of the indicative relationships in the source model. Use the entity definitions below as the authoritative description of scope.
+This diagram is a simplified, accessible representation of the source model. 
 
 ## Conceptual data entities
 
@@ -242,20 +254,3 @@ Examples include:
 ### Time
 
 A point in time measured in the context of day, week, month and year. Where a time of day is recorded, use the 24-hour clock and the ISO 8601 format `T[hh]:[mm]:[ss]`. Consult ISO 8601 where more complex time or elapsed-time representations are needed.
-
-## Using Defra on a page
-
-Use this model to:
-
-- establish common vocabularies across Defra
-- identify the enterprise concepts relevant to a service or domain
-- provide a starting point for domain conceptual and logical data models
-- make relationships between business concepts explicit
-- avoid embedding platform or implementation choices too early
-
-When developing a more detailed model, retain these enterprise concepts where they apply, add domain-specific concepts and relationships, and show cardinality at the appropriate level of detail.
-
-## Source and status
-
-This page is a web representation of *Defra on a Page (DoaP)*, document version 1.1, updated 15 March 2023. The document describes the package status as proposed. The source PDF remains available on [Defra SharePoint](https://defra.sharepoint.com/:b:/r/teams/Team3221/Published%20Architecture%20Documents/Data%20Architecture/Defra%20on%20a%20Page%20-%20(DoaP).pdf?d=wd6f38d7f0519422b8d1eea2c2bb3a645&csf=1&web=1&e=zG82TF).
-
