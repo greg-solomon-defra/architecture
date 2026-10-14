@@ -22,7 +22,7 @@ When developing a more detailed model, retain these enterprise concepts where th
 
 ## Source and status
 
-This page is a web representation of *Defra on a Page (DoaP)*, document version 1.1, updated 15 March 2023. The document describes the package status as proposed. The source PDF remains available on [Defra SharePoint - Defra on a Page](https://defra.sharepoint.com/:b:/r/teams/Team3221/Published%20Architecture%20Documents/Data%20Architecture/Defra%20on%20a%20Page%20-%20(DoaP).pdf?d=wd6f38d7f0519422b8d1eea2c2bb3a645&csf=1&web=1&e=zG82TF).
+This page is a web representation of *Defra on a Page (DoaP)*, document version 1.1, updated 15 March 2023. The document describes the package status as proposed. The source PDF remains available on <a href="https://defra.sharepoint.com/:b:/r/teams/Team3221/Published%20Architecture%20Documents/Data%20Architecture/Defra%20on%20a%20Page%20-%20(DoaP).pdf?d=wd6f38d7f0519422b8d1eea2c2bb3a645&csf=1&web=1&e=zG82TF" target="_blank">Defra SharePoint - Defra on a Page</a>.
 
 ## Defra on a Page
 
