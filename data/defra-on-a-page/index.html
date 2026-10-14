@@ -414,7 +414,7 @@
           This site is an alpha version and is still being developed in the open -
           your <a href="https://github.com/DEFRA/architecture/issues">feedback</a> will help us improve it.
           See the <a href="../../about/roadmap/">roadmap</a>.
-          Last updated: <strong>8 October 2026</strong>.
+          Last updated: <strong>14 October 2026</strong>.
         </p>
         <p class="da-phase__text da-phase__version">
           Version in force:
@@ -5626,9 +5626,9 @@
 
 
 <h1 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">&para;</a></h1>
-<p>Defra on a page (DoaP) is a <span style="color:#69C88F"><strong>high-level conceptual data model</strong></span> showing the enterprise conceptual data entities that underpin Defra's business data concepts.</p>
-<p>It is important to think of this diagram as <span style="color:#69C88F"><strong>"the cookie cutter, rather than the cookie"</strong></span>. </p>
-<p>Much of our physical data architecture has resemblances to this diagram, but different entities and terminology will be used in many cases. One way to use the diagram is as an enabler of <span style="color:#69C88F"><strong>common understanding</strong></span> of similarities and differences.</p>
+<p>Defra on a page (DoaP) is a <strong>high-level conceptual data model</strong> showing the enterprise conceptual data entities that underpin Defra's business data concepts.</p>
+<p>It is important to think of this diagram as <strong>"the cookie cutter, rather than the cookie"</strong>. </p>
+<p>Much of our physical data architecture has resemblances to this diagram, but different entities and terminology will be used in many cases. One way to use the diagram is as an enabler of <strong>common understanding</strong> of similarities and differences.</p>
 <h2 id="using-defra-on-a-page">Using Defra on a Page<a class="headerlink" href="#using-defra-on-a-page" title="Permanent link">&para;</a></h2>
 <p>Use this model to:</p>
 <ul>
@@ -5650,6 +5650,8 @@ config:
     considerModelOrder: NODES_AND_EDGES
 ---
 flowchart TB
+    accTitle: Defra on a page
+    accDescr: Conceptual data model showing 19 interconnected entities: Agreement, Finance, Communication, Product, Event, Facility, Case, Time, Control, Party, Territory, Asset, Activity, Address, Request, Location, Assessment, Service and Document.
 
     %% Entity declarations: retain this order when editing.
 
@@ -5958,7 +5960,7 @@ flowchart TB
       
         <script src="../../javascripts/site.js?v=54b154d6f2"></script>
       
-        <script src="../../javascripts/elk-mermaid.mjs?v=7651bf778a" type="module"></script>
+        <script src="../../javascripts/elk-mermaid.mjs?v=b473706d5a" type="module"></script>
       
     
   </body>

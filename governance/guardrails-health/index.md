@@ -10,9 +10,9 @@ Figures for **2026 Q4**, built on 14 October 2026.
 
 | Measure | Now |
 | --- | ---: |
-| Guardrails | 104 |
+| Guardrails | 102 |
 | Endorsed | 0 |
-| Draft | 104 |
+| Draft | 102 |
 | Deprecated | 0 |
 | Active exceptions | 0 |
 | Guardrails with an active exception | 0 |
@@ -29,7 +29,7 @@ No exceptions expire in this period.
 
 - **Repeated exceptions** (3 or more active): none
 - **Not reviewed for over a year**: none
-- **Still in draft**: 104 guardrails. Endorsing or changing them is the main work for the Technical Design Authority and Technology Governance Board - see the [approval status](https://greg-solomon-defra.github.io/architecture/about/approval-status/).
+- **Still in draft**: 102 guardrails. Endorsing or changing them is the main work for the Technical Design Authority and Technology Governance Board - see the [approval status](https://greg-solomon-defra.github.io/architecture/about/approval-status/).
 
 
 Built from the [exception register](https://greg-solomon-defra.github.io/architecture/governance/exception-register/) and the guardrail metadata each time the site is published.

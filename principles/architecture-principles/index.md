@@ -98,7 +98,7 @@ The principles apply the [DDTS doctrine](https://greg-solomon-defra.github.io/ar
 
 **Applies doctrine:** [4. Data is an enterprise asset](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-04), [5. Assume AI until proven otherwise](https://greg-solomon-defra.github.io/architecture/principles/doctrine/#ddts-05)
 
-**Guardrails:** [Artificial intelligence](https://greg-solomon-defra.github.io/architecture/guardrails/ai/) (11), [Data](https://greg-solomon-defra.github.io/architecture/guardrails/data/) (13)
+**Guardrails:** [Artificial intelligence](https://greg-solomon-defra.github.io/architecture/guardrails/ai/) (11), [Data](https://greg-solomon-defra.github.io/architecture/guardrails/data/) (11)
 
 
 **See also:** [data guardrails](https://greg-solomon-defra.github.io/architecture/guardrails/data/), [Defra on a page](https://greg-solomon-defra.github.io/architecture/data/defra-on-a-page/), [data standards](https://greg-solomon-defra.github.io/architecture/data/data-standards/), [artificial intelligence](https://greg-solomon-defra.github.io/architecture/guardrails/ai/).
