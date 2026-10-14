@@ -2,13 +2,13 @@
 
 # Defra on a page
 
-Defra on a page (DoaP) is a high-level conceptual data model showing the enterprise conceptual data entities that underpin Defra's business data concepts.
+Defra on a page (DoaP) is a <span style="color:#69C88F">high-level conceptual data model</span> showing the enterprise conceptual data entities that underpin Defra's business data concepts.
 
-It is important to think of this diagram as "the cookie cutter, rather than the cookie". None of our physical data architecture has an exact correspondence to this diagram, but most of it has a strong resemblance. Different terminology will be used in many cases, and one way to use the diagram is as an enabler of common understandingsm of similarities and differences.
+It is important to think of this diagram as <span style="color:#69C88F">"the cookie cutter, rather than the cookie"</span>. None of our physical data architecture has an exact correspondence to this diagram, but most of it has a strong resemblance. Different terminology will be used in many cases, and one way to use the diagram is as an enabler of <span style="color:#69C88F">common understanding</span> of similarities and differences.
 
 ## About the model
 
-A conceptual data model shows conceptual data entities and their relationships. It is the most abstract form of data model and is intended to enable clearer communications with business stakeholders.
+A conceptual data model shows <span style="color:#69C88F">conceptual data entities and their relationships</span>. It is the most abstract form of data model and is intended to <span style="color:#69C88F">enable clearer communications</span> with business stakeholders.
 
 ## Enterprise conceptual data model
 
